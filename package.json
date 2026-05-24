@@ -1,0 +1,16 @@
+{
+  "name": "githubagent",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "agent": "tsx scripts/run-agent.ts"
+  },
+  "dependencies": {
+    "@cursor/sdk": "^1.0.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}

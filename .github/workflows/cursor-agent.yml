@@ -1,0 +1,33 @@
+name: Cursor Agent
+
+on:
+  workflow_dispatch:
+    inputs:
+      prompt:
+        description: Prompt to send to the Cursor agent
+        required: true
+        default: Summarize what this repository does based on the README and project structure.
+
+jobs:
+  cursor-agent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Cursor agent
+        env:
+          CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
+          AGENT_PROMPT: ${{ github.event.inputs.prompt }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_REF_NAME: ${{ github.ref_name }}
+        run: npm run agent
