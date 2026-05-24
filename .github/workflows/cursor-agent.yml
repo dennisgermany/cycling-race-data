@@ -7,6 +7,14 @@ on:
         description: Prompt to send to the Cursor agent
         required: true
         default: Summarize what this repository does based on the README and project structure.
+      runtime:
+        description: Agent runtime (local runs on the runner, cloud runs on Cursor VMs)
+        required: true
+        default: local
+        type: choice
+        options:
+          - local
+          - cloud
 
 jobs:
   cursor-agent:
@@ -28,6 +36,7 @@ jobs:
         env:
           CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
           AGENT_PROMPT: ${{ github.event.inputs.prompt }}
+          AGENT_RUNTIME: ${{ github.event.inputs.runtime }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_REF_NAME: ${{ github.ref_name }}
         run: npm run agent
