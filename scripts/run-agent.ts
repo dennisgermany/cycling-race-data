@@ -25,9 +25,19 @@ function buildAgentOptions(): AgentOptions {
       process.exit(1);
     }
 
-    const startingRef = process.env.GITHUB_REF_NAME ?? "main";
+    const repoUrl = `https://github.com/${repository}`;
+    const startingRef =
+      process.env.AGENT_REF?.trim() ||
+      process.env.GITHUB_SHA ||
+      process.env.GITHUB_DEFAULT_BRANCH ||
+      process.env.GITHUB_REF_NAME ||
+      "main";
+
+    console.log(`Cloud repo: ${repoUrl}`);
+    console.log(`Cloud startingRef: ${startingRef}`);
+
     options.cloud = {
-      repos: [{ url: `https://github.com/${repository}`, startingRef }],
+      repos: [{ url: repoUrl, startingRef }],
       skipReviewerRequest: true,
     };
   } else {
@@ -57,7 +67,19 @@ try {
 } catch (err) {
   if (err instanceof CursorAgentError) {
     console.error(`Agent startup failed: ${err.message}`);
-    if (err.message.includes("Storage mode is disabled")) {
+    if (err.message.includes("Failed to verify existence of branch")) {
+      console.error(`
+Cursor could not verify the branch/ref against GitHub. The branch may be wrong, but this
+often means your Cursor account cannot access the repo via the GitHub integration.
+
+Fix:
+1. Open https://cursor.com/dashboard → connect GitHub (install the Cursor GitHub App)
+2. Grant access to "${process.env.GITHUB_REPOSITORY ?? "this repository"}"
+3. Re-run the workflow (optional: set the "ref" input to a branch name or leave empty to use the commit SHA)
+
+Docs: https://cursor.com/docs/cloud-agent/setup
+`);
+    } else if (err.message.includes("Storage mode is disabled")) {
       if (runtime === "cloud") {
         console.error(`
 Cloud agents require Cursor storage to be enabled on your account.
