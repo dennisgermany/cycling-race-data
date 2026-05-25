@@ -1,0 +1,383 @@
+/**
+ * Giro d'Italia 2026 — categorised climbs (GPM) from stage profile graphics.
+ * Source: `giro-d-italia-2026-profile-climbs.js` (profile JPEGs: cyclingstage.com).
+ * Intermediate sprints are not consistently labelled on the profiles; omitted unless present.
+ */
+
+export const giroItalia2026RouteFeaturesByStageId = {
+  'stage-1':   [
+    {
+      "id": "stage-1-climb-1",
+      "name": "BURGAS LAKE",
+      "kind": "climb",
+      "distanceKm": 61.4,
+      "category": 4
+    }
+  ],
+  'stage-2':   [
+    {
+      "id": "stage-2-climb-1",
+      "name": "BYALA PASS",
+      "kind": "climb",
+      "distanceKm": 117.4,
+      "category": 3
+    },
+    {
+      "id": "stage-2-climb-2",
+      "name": "VRATNIK PASS",
+      "kind": "climb",
+      "distanceKm": 135.2,
+      "category": 3
+    },
+    {
+      "id": "stage-2-climb-3",
+      "name": "LYASKOVETS MONASTERY PASS",
+      "kind": "climb",
+      "distanceKm": 211.7,
+      "category": 3
+    }
+  ],
+  'stage-3':   [
+    {
+      "id": "stage-3-climb-1",
+      "name": "BOROVEC PASS",
+      "kind": "climb",
+      "distanceKm": 102.9,
+      "category": 2
+    }
+  ],
+  'stage-4':   [
+    {
+      "id": "stage-4-climb-1",
+      "name": "COZZO TUNNO",
+      "kind": "climb",
+      "distanceKm": 101,
+      "category": 2
+    }
+  ],
+  'stage-5':   [
+    {
+      "id": "stage-5-climb-1",
+      "name": "PRESTIERI",
+      "kind": "climb",
+      "distanceKm": 27.3,
+      "category": 3
+    },
+    {
+      "id": "stage-5-climb-2",
+      "name": "MONTAGNA GRANDE DI VIGGIANO",
+      "kind": "climb",
+      "distanceKm": 154.2,
+      "category": 2
+    }
+  ],
+  'stage-6':   [
+    {
+      "id": "stage-6-climb-1",
+      "name": "FUORIGROTTA",
+      "kind": "climb",
+      "distanceKm": 153.7,
+      "category": 4
+    }
+  ],
+  'stage-7':   [
+    {
+      "id": "stage-7-climb-1",
+      "name": "ROCCARASO",
+      "kind": "climb",
+      "distanceKm": 168.3,
+      "category": 2
+    },
+    {
+      "id": "stage-7-climb-2",
+      "name": "BLOCKHAUS",
+      "kind": "climb",
+      "distanceKm": 246,
+      "category": 1
+    }
+  ],
+  'stage-8':   [
+    {
+      "id": "stage-8-climb-1",
+      "name": "MONTEFIORE D'ASO",
+      "kind": "climb",
+      "distanceKm": 108.4,
+      "category": 3
+    },
+    {
+      "id": "stage-8-climb-2",
+      "name": "MONTERUBBIANO",
+      "kind": "climb",
+      "distanceKm": 120.3,
+      "category": 4
+    },
+    {
+      "id": "stage-8-climb-3",
+      "name": "CAPODARCO",
+      "kind": "climb",
+      "distanceKm": 152,
+      "category": 4
+    },
+    {
+      "id": "stage-8-climb-4",
+      "name": "FERMO",
+      "kind": "climb",
+      "distanceKm": 159,
+      "category": 4
+    }
+  ],
+  'stage-9':   [
+    {
+      "id": "stage-9-climb-1",
+      "name": "QUERCIOLA",
+      "kind": "climb",
+      "distanceKm": 167.5,
+      "category": 3
+    },
+    {
+      "id": "stage-9-climb-2",
+      "name": "CORNO ALLE SCALE",
+      "kind": "climb",
+      "distanceKm": 184,
+      "category": 1
+    }
+  ],
+  'stage-10':   [],
+  'stage-11':   [
+    {
+      "id": "stage-11-climb-1",
+      "name": "PASSO DEL TERMINE",
+      "kind": "climb",
+      "distanceKm": 113.3,
+      "category": 3
+    },
+    {
+      "id": "stage-11-climb-2",
+      "name": "COLLE DI GUAITAROLA",
+      "kind": "climb",
+      "distanceKm": 133.1,
+      "category": 2
+    },
+    {
+      "id": "stage-11-climb-3",
+      "name": "SAN BARTOLOMEO",
+      "kind": "climb",
+      "distanceKm": 169,
+      "category": 3
+    }
+  ],
+  'stage-12':   [
+    {
+      "id": "stage-12-climb-1",
+      "name": "COLLE GIOVO",
+      "kind": "climb",
+      "distanceKm": 107.8,
+      "category": 3
+    },
+    {
+      "id": "stage-12-climb-2",
+      "name": "BRIC BERTON",
+      "kind": "climb",
+      "distanceKm": 123.2,
+      "category": 3
+    }
+  ],
+  'stage-13':   [
+    {
+      "id": "stage-13-climb-1",
+      "name": "BIENO",
+      "kind": "climb",
+      "distanceKm": 164.9,
+      "category": 4
+    },
+    {
+      "id": "stage-13-climb-2",
+      "name": "UNGIASCA",
+      "kind": "climb",
+      "distanceKm": 172.9,
+      "category": 3
+    }
+  ],
+  'stage-14':   [
+    {
+      "id": "stage-14-climb-1",
+      "name": "SAINT-BARTHÉLÉMY",
+      "kind": "climb",
+      "distanceKm": 20.3,
+      "category": 1
+    },
+    {
+      "id": "stage-14-climb-2",
+      "name": "DOUES",
+      "kind": "climb",
+      "distanceKm": 61.8,
+      "category": 3
+    },
+    {
+      "id": "stage-14-climb-3",
+      "name": "LIN NOIR",
+      "kind": "climb",
+      "distanceKm": 82.3,
+      "category": 1
+    },
+    {
+      "id": "stage-14-climb-4",
+      "name": "VERRONGNE",
+      "kind": "climb",
+      "distanceKm": 92.1,
+      "category": 2
+    },
+    {
+      "id": "stage-14-climb-5",
+      "name": "PILA",
+      "kind": "climb",
+      "distanceKm": 133,
+      "category": 1
+    }
+  ],
+  'stage-15':   [],
+  'stage-16':   [
+    {
+      "id": "stage-16-climb-1",
+      "name": "TORRE",
+      "kind": "climb",
+      "distanceKm": 32.2,
+      "category": 3
+    },
+    {
+      "id": "stage-16-climb-2",
+      "name": "LEONTICA",
+      "kind": "climb",
+      "distanceKm": 43.5,
+      "category": 2
+    },
+    {
+      "id": "stage-16-climb-3",
+      "name": "TORRE",
+      "kind": "climb",
+      "distanceKm": 54.2,
+      "category": 3
+    },
+    {
+      "id": "stage-16-climb-4",
+      "name": "LEONTICA",
+      "kind": "climb",
+      "distanceKm": 65.5,
+      "category": 2
+    },
+    {
+      "id": "stage-16-climb-5",
+      "name": "CARÌ",
+      "kind": "climb",
+      "distanceKm": 113,
+      "category": 1
+    }
+  ],
+  'stage-17':   [
+    {
+      "id": "stage-17-climb-1",
+      "name": "PASSO DEI TRE TERMINI",
+      "kind": "climb",
+      "distanceKm": 62.4,
+      "category": 3
+    },
+    {
+      "id": "stage-17-climb-2",
+      "name": "COCCA DI LODRINO",
+      "kind": "climb",
+      "distanceKm": 86.6,
+      "category": 3
+    },
+    {
+      "id": "stage-17-climb-3",
+      "name": "ANDALO",
+      "kind": "climb",
+      "distanceKm": 200,
+      "category": 3
+    }
+  ],
+  'stage-18':   [
+    {
+      "id": "stage-18-climb-1",
+      "name": "FASTRO",
+      "kind": "climb",
+      "distanceKm": 83.4,
+      "category": 3
+    },
+    {
+      "id": "stage-18-climb-2",
+      "name": "MURO DI CA' DEL POGGIO",
+      "kind": "climb",
+      "distanceKm": 156.7,
+      "category": 4
+    }
+  ],
+  'stage-19':   [
+    {
+      "id": "stage-19-climb-1",
+      "name": "PASSO DURAN",
+      "kind": "climb",
+      "distanceKm": 58.7,
+      "category": 1
+    },
+    {
+      "id": "stage-19-climb-2",
+      "name": "COI",
+      "kind": "climb",
+      "distanceKm": 72.9,
+      "category": 2
+    },
+    {
+      "id": "stage-19-climb-3",
+      "name": "FORCELLA STAULANZA",
+      "kind": "climb",
+      "distanceKm": 82,
+      "category": 2
+    },
+    {
+      "id": "stage-19-climb-4",
+      "name": "PASSO GIAU",
+      "kind": "climb",
+      "distanceKm": 101.6,
+      "category": 1
+    },
+    {
+      "id": "stage-19-climb-5",
+      "name": "PASSO FALZAREGO",
+      "kind": "climb",
+      "distanceKm": 122.2,
+      "category": 2
+    },
+    {
+      "id": "stage-19-climb-6",
+      "name": "PIANI DI PEZZÈ",
+      "kind": "climb",
+      "distanceKm": 151,
+      "category": 2
+    }
+  ],
+  'stage-20':   [
+    {
+      "id": "stage-20-climb-1",
+      "name": "CLAUZETTO",
+      "kind": "climb",
+      "distanceKm": 84.9,
+      "category": 3
+    },
+    {
+      "id": "stage-20-climb-2",
+      "name": "PIANCAVALLO",
+      "kind": "climb",
+      "distanceKm": 146.3,
+      "category": 1
+    },
+    {
+      "id": "stage-20-climb-3",
+      "name": "PIANCAVALLO",
+      "kind": "climb",
+      "distanceKm": 199,
+      "category": 1
+    }
+  ],
+  'stage-21':   [],
+};

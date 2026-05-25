@@ -1,3 +1,5 @@
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { Agent, CursorAgentError, type AgentOptions } from "@cursor/sdk";
 
 const apiKey = process.env.CURSOR_API_KEY;
@@ -6,51 +8,38 @@ if (!apiKey) {
   process.exit(1);
 }
 
-const prompt =
-  process.env.AGENT_PROMPT?.trim() ||
-  "Summarize what this repository does based on the README and project structure.";
+const defaultPromptPath = join(
+  process.cwd(),
+  "prompts",
+  "update-giro-2026.md",
+);
 
-const runtime = process.env.AGENT_RUNTIME === "cloud" ? "cloud" : "local";
+function loadPrompt(): string {
+  const fromEnv = process.env.AGENT_PROMPT?.trim();
+  if (fromEnv) return fromEnv;
 
-function buildAgentOptions(): AgentOptions {
-  const options: AgentOptions = {
-    apiKey,
-    model: { id: "composer-2.5" },
-  };
-
-  if (runtime === "cloud") {
-    const repository = process.env.GITHUB_REPOSITORY;
-    if (!repository) {
-      console.error("GITHUB_REPOSITORY is required for cloud runtime");
-      process.exit(1);
-    }
-
-    const repoUrl = `https://github.com/${repository}`;
-    const startingRef =
-      process.env.AGENT_REF?.trim() ||
-      process.env.GITHUB_SHA ||
-      process.env.GITHUB_DEFAULT_BRANCH ||
-      process.env.GITHUB_REF_NAME ||
-      "main";
-
-    console.log(`Cloud repo: ${repoUrl}`);
-    console.log(`Cloud startingRef: ${startingRef}`);
-
-    options.cloud = {
-      repos: [{ url: repoUrl, startingRef }],
-      skipReviewerRequest: true,
-    };
-  } else {
-    options.local = {
-      cwd: process.cwd(),
-      settingSources: [],
-    };
+  try {
+    return readFileSync(defaultPromptPath, "utf8").trim();
+  } catch {
+    console.error(`Failed to read default prompt at ${defaultPromptPath}`);
+    process.exit(1);
   }
-
-  return options;
 }
 
-console.log(`Using ${runtime} runtime`);
+const prompt = loadPrompt();
+
+function buildAgentOptions(): AgentOptions {
+  return {
+    apiKey,
+    model: { id: "composer-2.5" },
+    local: {
+      cwd: process.cwd(),
+      settingSources: ["agents"],
+    },
+  };
+}
+
+console.log("Using local runtime");
 
 try {
   const result = await Agent.prompt(prompt, buildAgentOptions());
@@ -67,41 +56,13 @@ try {
 } catch (err) {
   if (err instanceof CursorAgentError) {
     console.error(`Agent startup failed: ${err.message}`);
-    if (err.message.includes("Failed to verify existence of branch")) {
+    if (err.message.includes("Storage mode is disabled")) {
       console.error(`
-Cursor could not verify the branch/ref against GitHub. The branch may be wrong, but this
-often means your Cursor account cannot access the repo via the GitHub integration.
-
-Fix:
-1. Open https://cursor.com/dashboard → connect GitHub (install the Cursor GitHub App)
-2. Grant access to "${process.env.GITHUB_REPOSITORY ?? "this repository"}"
-3. Re-run the workflow (optional: set the "ref" input to a branch name or leave empty to use the commit SHA)
-
-Docs: https://cursor.com/docs/cloud-agent/setup
-`);
-    } else if (err.message.includes("Storage mode is disabled")) {
-      if (runtime === "cloud") {
-        console.error(`
-Cloud agents require Cursor storage to be enabled on your account.
-
-Fix:
-1. Open Cursor → Settings → Privacy (or Advanced)
-2. Switch away from "Privacy Mode (Legacy)" / "Ghost Mode" / "No-Storage Mode"
-3. Use regular Privacy Mode (temporary storage for agent runs is allowed)
-4. Restart Cursor, then re-run this workflow
-
-Or re-run with runtime=local to use the local SDK agent instead.
-
-Docs: https://cursor.com/docs/cloud-agent
-`);
-      } else {
-        console.error(`
-Your account may block API agent usage globally. Try enabling regular Privacy Mode
-(not Legacy/Ghost) in Cursor → Settings → Privacy, then re-run this workflow.
+Your account may block API agent usage. Try enabling regular Privacy Mode
+(not Legacy/Ghost) in Cursor → Settings → Privacy, then re-run.
 
 Docs: https://cursor.com/docs/sdk/typescript
 `);
-      }
     }
     process.exit(1);
   }
