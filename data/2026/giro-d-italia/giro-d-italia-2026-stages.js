@@ -137,7 +137,7 @@ export const giroItalia2026Stages = [
     startLocation: 'Porcari',
     finishLocation: 'Chiavari',
     currentStage: 'Stage 11 — 178 km (Porcari → Chiavari), hilly',
-    status: 'live',
+    status: 'finished',
     gpxUrl: '/gpx/giro-d-italia-2026/stage-11-route.gpx',
   },
   {
@@ -149,7 +149,7 @@ export const giroItalia2026Stages = [
     startLocation: 'Imperia',
     finishLocation: 'Novi Ligure',
     currentStage: 'Stage 12 — 177 km (Imperia → Novi Ligure), flat',
-    status: 'upcoming',
+    status: 'finished',
     gpxUrl: '/gpx/giro-d-italia-2026/stage-12-route.gpx',
   },
   {
@@ -161,7 +161,7 @@ export const giroItalia2026Stages = [
     startLocation: 'Alessandria',
     finishLocation: 'Verbania',
     currentStage: 'Stage 13 — 186 km (Alessandria → Verbania), hilly',
-    status: 'upcoming',
+    status: 'finished',
     gpxUrl: '/gpx/giro-d-italia-2026/stage-13-route.gpx',
   },
   {
@@ -173,7 +173,7 @@ export const giroItalia2026Stages = [
     startLocation: 'Aosta',
     finishLocation: 'Pila',
     currentStage: 'Stage 14 — 133 km (Aosta → Pila), mountain',
-    status: 'upcoming',
+    status: 'finished',
     gpxUrl: '/gpx/giro-d-italia-2026/stage-14-route.gpx',
   },
   {
@@ -185,7 +185,7 @@ export const giroItalia2026Stages = [
     startLocation: 'Voghera',
     finishLocation: 'Milan',
     currentStage: 'Stage 15 — 136 km (Voghera → Milan), flat',
-    status: 'upcoming',
+    status: 'finished',
     gpxUrl: '/gpx/giro-d-italia-2026/stage-15-route.gpx',
   },
   {
