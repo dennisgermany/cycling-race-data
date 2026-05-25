@@ -34,7 +34,7 @@ function buildAgentOptions(): AgentOptions {
     model: { id: "composer-2.5" },
     local: {
       cwd: process.cwd(),
-      settingSources: ["agents"],
+      settingSources: ["project"],
     },
   };
 }
