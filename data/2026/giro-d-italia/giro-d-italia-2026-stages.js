@@ -233,7 +233,7 @@ export const giroItalia2026Stages = [
     startLocation: 'Feltre',
     finishLocation: 'Alleghe',
     currentStage: 'Stage 19 — 151 km (Feltre → Alleghe), mountain',
-    status: 'upcoming',
+    status: 'finished',
     gpxUrl: '/gpx/giro-d-italia-2026/stage-19-route.gpx',
   },
   {
