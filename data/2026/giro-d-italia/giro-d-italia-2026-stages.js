@@ -245,7 +245,7 @@ export const giroItalia2026Stages = [
     startLocation: 'Gemona del Friuli',
     finishLocation: 'Piancavallo',
     currentStage: 'Stage 20 — 199 km (Gemona del Friuli → Piancavallo), mountain',
-    status: 'upcoming',
+    status: 'finished',
     gpxUrl: '/gpx/giro-d-italia-2026/stage-20-route.gpx',
   },
   {
