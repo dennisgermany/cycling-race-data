@@ -257,7 +257,7 @@ export const giroItalia2026Stages = [
     startLocation: 'Rome',
     finishLocation: 'Rome',
     currentStage: 'Stage 21 — 131 km (Rome → Rome), flat',
-    status: 'upcoming',
+    status: 'finished',
     gpxUrl: '/gpx/giro-d-italia-2026/stage-21-route.gpx',
   },
 ];

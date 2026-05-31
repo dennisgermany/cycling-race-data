@@ -1,10 +1,10 @@
 /**
- * Men Elite results — 2026 Giro d'Italia (stages 1–20).
+ * Men Elite results — 2026 Giro d'Italia (stages 1–21).
  * Top 25 per stage; row shape matches other multi-stage seeds.
- * Sources: https://bikeraceinfo.com/giro/giro2026.html (stage 20, 30 May 2026); team labels match giro-d-italia-2026-teams.js.
+ * Sources: https://bikeraceinfo.com/giro/giro2026.html (stage 21, 31 May 2026); team labels match giro-d-italia-2026-teams.js.
  */
 export const giroItalia2026ProvisionalGcRiderResults = [
-  { rank: 1, bib: 171, name: 'Jonas Vingegaard', nationality: 'Denmark', team: 'Team Visma | Lease a Bike', time: '80:17:01' },
+  { rank: 1, bib: 171, name: 'Jonas Vingegaard', nationality: 'Denmark', team: 'Team Visma | Lease a Bike', time: '83:22:51' },
   { rank: 2, bib: 31, name: 'Felix Gall', nationality: 'Austria', team: 'Decathlon CMA CGM Team', time: '+5:22' },
   { rank: 3, bib: 121, name: 'Jai Hindley', nationality: 'Australia', team: 'Red Bull - BORA - hansgrohe', time: '+6:25' },
   { rank: 4, bib: 92, name: 'Thymen Arensman', nationality: 'Netherlands', team: 'Netcompany INEOS Cycling Team', time: '+7:02' },
@@ -22,9 +22,9 @@ export const giroItalia2026ProvisionalGcRiderResults = [
   { rank: 16, bib: 141, name: 'Ben O\'Connor', nationality: 'Australia', team: 'Team Jayco AlUla', time: '+24:12' },
   { rank: 17, bib: 116, name: 'Chris Harper', nationality: 'Australia', team: 'Pinarello Q36.5 Pro Cycling Team', time: '+30:43' },
   { rank: 18, bib: 214, name: 'Johannes Kulset', nationality: 'Norway', team: 'Uno-X Mobility', time: '+34:26' },
-  { rank: 19, bib: 192, name: 'Igor Arrieta', nationality: 'Spain', team: 'UAE Team Emirates - XRG', time: '+55:56' },
+  { rank: 19, bib: 192, name: 'Igor Arrieta', nationality: 'Spain', team: 'UAE Team Emirates - XRG', time: '+55:50' },
   { rank: 20, bib: 61, name: 'Giulio Ciccone', nationality: 'Italy', team: 'Lidl - Trek', time: '+56:40' },
-  { rank: 21, bib: 125, name: 'Giulio Pellizzari', nationality: 'Italy', team: 'Red Bull - BORA - hansgrohe', time: '+56:53' },
+  { rank: 21, bib: 125, name: 'Giulio Pellizzari', nationality: 'Italy', team: 'Red Bull - BORA - hansgrohe', time: '+58:16' },
   { rank: 22, bib: 207, name: 'Wout Poels', nationality: 'Netherlands', team: 'Unibet Rose Rockets', time: '+1:02:10' },
   { rank: 23, bib: 88, name: 'Einer Rubio', nationality: 'Spain', team: 'Movistar Team', time: '+1:04:26' },
   { rank: 24, bib: 96, name: 'Embret Svestad-Bårdseng', nationality: 'Norway', team: 'Netcompany INEOS Cycling Team', time: '+1:13:39' },
@@ -571,5 +571,32 @@ export const giroItalia2026StageRiderResultsByStageId = {
   { rank: 23, bib: 214, name: 'Johannes Kulset', nationality: 'Norway', team: 'Uno-X Mobility', time: '+6:58' },
   { rank: 24, bib: 133, name: 'Gianmarco Garofoli', nationality: 'Italy', team: 'Soudal Quick-Step', time: 's.t.' },
   { rank: 25, bib: 182, name: 'William Barta', nationality: 'United States', team: 'Tudor Pro Cycling Team', time: 's.t.' },
+  ],
+  'stage-21': [
+  { rank: 1, bib: 65, name: 'Jonathan Milan', nationality: 'Italy', team: 'Lidl - Trek', time: '3:05:50' },
+  { rank: 2, bib: 163, name: 'Giovanni Lonardi', nationality: 'Italy', team: 'Team Polti VisitMalta', time: 's.t.' },
+  { rank: 3, bib: 56, name: 'Paul Penhoët', nationality: 'France', team: 'Groupama - FDJ United', time: 's.t.' },
+  { rank: 4, bib: 201, name: 'Dylan Groenewegen', nationality: 'Netherlands', team: 'Unibet Rose Rockets', time: 's.t.' },
+  { rank: 5, bib: 44, name: 'Madis Mihkels', nationality: 'Estonia', team: 'EF Education - EasyPost', time: 's.t.' },
+  { rank: 6, bib: 6, name: 'Jensen Plowright', nationality: 'Australia', team: 'Alpecin-Premier Tech', time: 's.t.' },
+  { rank: 7, bib: 32, name: 'Tobias Lund Andresen', nationality: 'Denmark', team: 'Decathlon CMA CGM Team', time: 's.t.' },
+  { rank: 8, bib: 107, name: 'Corbin Strong', nationality: 'New Zealand', team: 'NSN Cycling Team', time: 's.t.' },
+  { rank: 9, bib: 72, name: 'Toon Aerts', nationality: 'Belgium', team: 'Lotto - Intermarché', time: 's.t.' },
+  { rank: 10, bib: 185, name: 'Luca Mozzato', nationality: 'Italy', team: 'Tudor Pro Cycling Team', time: 's.t.' },
+  { rank: 11, bib: 131, name: 'Paul Magnier', nationality: 'France', team: 'Soudal Quick-Step', time: 's.t.' },
+  { rank: 12, bib: 225, name: 'Matteo Malucelli', nationality: 'Italy', team: 'XDS Astana Team', time: 's.t.' },
+  { rank: 13, bib: 217, name: 'Sakarias Koller Løland', nationality: 'Norway', team: 'Uno-X Mobility', time: 's.t.' },
+  { rank: 14, bib: 18, name: 'Edoardo Zambanini', nationality: 'Italy', team: 'Bahrain Victorious', time: 's.t.' },
+  { rank: 15, bib: 82, name: 'Orluis Aular', nationality: 'Venezuela', team: 'Movistar Team', time: 's.t.' },
+  { rank: 16, bib: 16, name: 'Alec Segaert', nationality: 'Belgium', team: 'Bahrain Victorious', time: 's.t.' },
+  { rank: 17, bib: 22, name: 'Martin Marcellusi', nationality: 'Italy', team: 'Bardiani - CSF 7 Saber', time: 's.t.' },
+  { rank: 18, bib: 83, name: 'Iván García Cortina', nationality: 'Spain', team: 'Movistar Team', time: 's.t.' },
+  { rank: 19, bib: 144, name: 'Robert Donaldson', nationality: 'Australia', team: 'Team Jayco AlUla', time: 's.t.' },
+  { rank: 20, bib: 227, name: 'Thomas Silva', nationality: 'Argentina', team: 'XDS Astana Team', time: 's.t.' },
+  { rank: 21, bib: 158, name: 'Casper van Uden', nationality: 'Netherlands', team: 'Team Picnic PostNL', time: 's.t.' },
+  { rank: 22, bib: 197, name: 'António Morgado', nationality: 'Portugal', team: 'UAE Team Emirates - XRG', time: 's.t.' },
+  { rank: 23, bib: 115, name: 'David González', nationality: 'Spain', team: 'Pinarello Q36.5 Pro Cycling Team', time: 's.t.' },
+  { rank: 24, bib: 126, name: 'Mick van Dijke', nationality: 'Netherlands', team: 'Red Bull - BORA - hansgrohe', time: 's.t.' },
+  { rank: 25, bib: 223, name: 'Arjen Livyns', nationality: 'Belgium', team: 'XDS Astana Team', time: 's.t.' },
   ],
 };
