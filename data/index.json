@@ -1,0 +1,12 @@
+{
+  "updatedAt": "2026-06-23",
+  "races": [
+    {
+      "year": 2026,
+      "slug": "giro-d-italia",
+      "name": "Giro d'Italia",
+      "path": "2026/giro-d-italia",
+      "status": "finished"
+    }
+  ]
+}

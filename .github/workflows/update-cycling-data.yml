@@ -12,7 +12,28 @@ on:
         default: ""
 
 jobs:
+  check-active-races:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check index.json for active races
+        id: check
+        run: |
+          should_run="$(bash scripts/should-run-agent.sh)"
+          echo "should_run=${should_run}" >> "${GITHUB_OUTPUT}"
+          if [[ "${should_run}" == "true" ]]; then
+            echo "At least one race is not finished — agent will run."
+          else
+            echo "All races are finished (or index empty) — scheduled run will be skipped."
+          fi
+
   update-giro-data:
+    needs: check-active-races
+    if: needs.check-active-races.outputs.should_run == 'true' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     permissions:
       contents: write

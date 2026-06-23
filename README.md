@@ -4,8 +4,8 @@ Daily [Cursor SDK](https://cursor.com/docs/sdk/typescript) agent (local runtime 
 
 ## Schedule
 
-- **Automatic:** once daily at **18:00 UTC** (= 20:00 CEST in summer; 19:00 CET in winter)
-- **Manual:** Actions → *Update cycling data* → *Run workflow* (optional prompt override)
+- **Automatic:** once daily at **18:00 UTC** (= 20:00 CEST in summer; 19:00 CET in winter), **only when** [`data/index.json`](data/index.json) lists at least one race with `status` other than `finished` (`upcoming` or `live`)
+- **Manual:** Actions → *Update cycling data* → *Run workflow* (optional prompt override; always runs, even if all races are `finished`)
 
 ## Setup
 
@@ -20,6 +20,7 @@ Daily [Cursor SDK](https://cursor.com/docs/sdk/typescript) agent (local runtime 
 
 | File | Content |
 |------|---------|
+| `data/index.json` | Race catalog and aggregated race `status` |
 | `giro-d-italia-2026-stages.js` | Stage `status` |
 | `giro-d-italia-2026-results.js` | Per-stage top 25, provisional GC |
 | `giro-d-italia-2026-gc-by-stage.js` | GC snapshot after each stage |
@@ -50,4 +51,4 @@ Logs (thinking, tools, status, steps) go to **stderr**. Streaming text is **buff
 
 ## Future races
 
-Data lives under `data/{year}/{race-slug}/`. Extend prompts and `AGENTS.md` when adding more events.
+Data lives under `data/{year}/{race-slug}/`. [`data/index.json`](data/index.json) is the entry point for consumers that need a list of available races and each race's `status` (`upcoming`, `live`, or `finished`). Extend prompts and `AGENTS.md` when adding more events.
