@@ -2,15 +2,44 @@
 
 Daily [Cursor SDK](https://cursor.com/docs/sdk/typescript) agent (local runtime on GitHub Actions) that updates **Giro d'Italia 2026** results under [`data/2026/giro-d-italia/`](data/2026/giro-d-italia/) when stages finish. Changes land on `main` via an automated pull request that the workflow merges when GitHub allows it.
 
+Race data is stored as **JSON files** under `data/`. The same files are served as a read-only REST API on GitHub Pages.
+
+## REST API
+
+After enabling GitHub Pages (Settings → Pages → branch `main`, folder `/ (root)`):
+
+| Resource | URL |
+|----------|-----|
+| API docs (Swagger UI) | `https://<owner>.github.io/cycling-race-data/docs/` |
+| OpenAPI spec | `https://<owner>.github.io/cycling-race-data/openapi.yaml` |
+| Race catalog | `https://<owner>.github.io/cycling-race-data/data/index.json` |
+| Giro stages | `https://<owner>.github.io/cycling-race-data/data/2026/giro-d-italia/stages.json` |
+| Results + GC | `https://<owner>.github.io/cycling-race-data/data/2026/giro-d-italia/results.json` |
+
+Example:
+
+```bash
+curl https://<owner>.github.io/cycling-race-data/data/index.json
+curl https://<owner>.github.io/cycling-race-data/data/2026/giro-d-italia/stages.json
+```
+
+See [`openapi.yaml`](openapi.yaml) for the full endpoint list and JSON schemas.
+
+Validate JSON locally:
+
+```bash
+npm run validate:json
+```
+
 ## Create a new race
 
 Actions → **Create race** → *Run workflow* → enter the display name (e.g. `Tour de France`). The workflow:
 
-1. Derives `year` (current UTC calendar year), `slug`, and file/export names via [`scripts/race-ids.mjs`](scripts/race-ids.mjs)
+1. Derives `year` (current UTC calendar year), `slug`, and file names via [`scripts/race-ids.mjs`](scripts/race-ids.mjs)
 2. Runs the Cursor agent with [`prompts/create-race.md`](prompts/create-race.md) and [`AGENTS-create-race.md`](AGENTS-create-race.md)
 3. Opens a pull request on `bot/create-{slug}-{year}` for **manual review** (no auto-merge)
 
-Scaffolded files match the Giro layout: stages, teams, profile climbs, route features, GPX (when available), empty results/GC stubs, and an `index.json` entry.
+Scaffolded files match the Giro layout: `stages.json`, `teams.json`, `profile-climbs.json`, `route-features.json`, GPX (when available), empty `results.json` / GC stubs, and an `index.json` entry.
 
 Local run:
 
@@ -35,16 +64,18 @@ AGENT_PROMPT_FILE=/tmp/create-race-prompt.md npm run agent
 
    If branch protection requires reviews or checks, allow the `github-actions[bot]` to bypass or merge when checks pass; otherwise the workflow pushes the branch and logs a manual merge link.
 
+3. **GitHub Pages:** Settings → Pages → deploy from branch `main`, folder **`/ (root)`**. Add `.nojekyll` at the repo root (already present) so Jekyll does not interfere.
+
 ## What gets updated
 
 | File | Content |
 |------|---------|
 | `data/index.json` | Race catalog and aggregated race `status` |
-| `giro-d-italia-2026-stages.js` | Stage `status` |
-| `giro-d-italia-2026-results.js` | Per-stage top 25, provisional GC |
-| `giro-d-italia-2026-gc-by-stage.js` | GC snapshot after each stage |
+| `stages.json` | Stage `status` |
+| `results.json` | Per-stage top 25, provisional GC |
+| `gc/after-stage-{n}.json` | GC snapshot after each stage |
 
-Static assets (GPX, teams, climbs, route features) are not updated by the bot. See [`AGENTS.md`](AGENTS.md) and [`prompts/update-giro-2026.md`](prompts/update-giro-2026.md).
+Static assets (`teams.json`, `profile-climbs.json`, `route-features.json`, GPX) are not updated by the daily bot. See [`AGENTS.md`](AGENTS.md) and [`prompts/update-giro-2026.md`](prompts/update-giro-2026.md).
 
 ## Pull requests
 
@@ -77,3 +108,20 @@ Logs (thinking, tools, status, steps) go to **stderr**. Streaming text is **buff
 ## Future races
 
 Data lives under `data/{year}/{race-slug}/`. [`data/index.json`](data/index.json) is the entry point for consumers that need a list of available races and each race's `status` (`upcoming`, `live`, or `finished`). Use the **Create race** workflow to scaffold new events; extend the daily update prompt when adding automated results updates for additional races.
+
+## Data layout
+
+```
+data/
+├── index.json
+└── {year}/{race-slug}/
+    ├── stages.json
+    ├── teams.json
+    ├── results.json
+    ├── profile-climbs.json
+    ├── route-features.json
+    ├── gc/
+    │   └── after-stage-{n}.json
+    └── gpx/
+        └── stage-{n}-route.gpx
+```

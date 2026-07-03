@@ -7,7 +7,7 @@
  *   node scripts/race-ids.mjs "Giro d'Italia" 2026 --pretty
  */
 
-function toSlug(raceName) {
+export function toSlug(raceName) {
   return raceName
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
@@ -18,21 +18,7 @@ function toSlug(raceName) {
     .replace(/-+/g, "-");
 }
 
-function toExportPrefix(slug, year) {
-  const segments = slug.split("-").filter((s) => s.length > 1);
-  if (segments.length === 0) {
-    throw new Error(`Cannot derive export prefix from slug: ${slug}`);
-  }
-  const camel =
-    segments[0] +
-    segments
-      .slice(1)
-      .map((s) => s.charAt(0).toUpperCase() + s.slice(1))
-      .join("");
-  return `${camel}${year}`;
-}
-
-function deriveRaceIds(raceName, year) {
+export function deriveRaceIds(raceName, year) {
   const yearNum = Number(year);
   if (!Number.isInteger(yearNum) || yearNum < 1900 || yearNum > 2100) {
     throw new Error(`Invalid year: ${year}`);
@@ -43,38 +29,28 @@ function deriveRaceIds(raceName, year) {
     throw new Error(`Cannot derive slug from race name: ${raceName}`);
   }
 
-  const exportPrefix = toExportPrefix(slug, yearNum);
   const filePrefix = `${slug}-${yearNum}`;
   const dataPath = `${yearNum}/${slug}`;
   const dataDir = `data/${dataPath}`;
-  const gpxWebPrefix = `/gpx/${slug}-${yearNum}`;
+  const gpxWebPrefix = `/data/${dataPath}/gpx`;
 
   return {
     raceName: raceName.trim(),
     year: yearNum,
     slug,
     filePrefix,
-    exportPrefix,
     dataPath,
     dataDir,
     gpxWebPrefix,
     botBranch: `bot/create-${slug}-${yearNum}`,
     files: {
-      stages: `${filePrefix}-stages.js`,
-      teams: `${filePrefix}-teams.js`,
-      results: `${filePrefix}-results.js`,
-      gcByStage: `${filePrefix}-gc-by-stage.js`,
-      profileClimbs: `${filePrefix}-profile-climbs.js`,
-      routeFeatures: `${filePrefix}-route-features.js`,
-    },
-    exports: {
-      stages: `${exportPrefix}Stages`,
-      teams: `${exportPrefix}Teams`,
-      provisionalGc: `${exportPrefix}ProvisionalGcRiderResults`,
-      stageResults: `${exportPrefix}StageRiderResultsByStageId`,
-      profileClimbs: `${exportPrefix}ProfileClimbsByStageNum`,
-      routeFeatures: `${exportPrefix}RouteFeaturesByStageId`,
-      gcAfterStage: (n) => `${exportPrefix}GcAfterStage${n}`,
+      stages: "stages.json",
+      teams: "teams.json",
+      results: "results.json",
+      profileClimbs: "profile-climbs.json",
+      routeFeatures: "route-features.json",
+      gcDir: "gc",
+      gcAfterStage: (n) => `gc/after-stage-${n}.json`,
     },
   };
 }

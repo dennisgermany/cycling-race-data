@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 14,
+    "name": "Afonso Eulalio",
+    "nationality": "Portugal",
+    "team": "Bahrain Victorious",
+    "time": "39:40:34"
+  },
+  {
+    "rank": 2,
+    "bib": 171,
+    "name": "Jonas Vingegaard",
+    "nationality": "Denmark",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+0:27"
+  },
+  {
+    "rank": 3,
+    "bib": 92,
+    "name": "Thymen Arensman",
+    "nationality": "Netherlands",
+    "team": "Netcompany INEOS Cycling Team",
+    "time": "+1:57"
+  },
+  {
+    "rank": 4,
+    "bib": 31,
+    "name": "Felix Gall",
+    "nationality": "Austria",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+2:24"
+  },
+  {
+    "rank": 5,
+    "bib": 141,
+    "name": "Ben O'Connor",
+    "nationality": "Australia",
+    "team": "Team Jayco AlUla",
+    "time": "+2:48"
+  },
+  {
+    "rank": 6,
+    "bib": 121,
+    "name": "Jai Hindley",
+    "nationality": "Australia",
+    "team": "Red Bull - BORA - hansgrohe",
+    "time": "+3:06"
+  },
+  {
+    "rank": 7,
+    "bib": 181,
+    "name": "Michael Storer",
+    "nationality": "Australia",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+3:28"
+  },
+  {
+    "rank": 8,
+    "bib": 63,
+    "name": "Derek Gee-West",
+    "nationality": "Canada",
+    "team": "Lidl - Trek",
+    "time": "+3:34"
+  },
+  {
+    "rank": 9,
+    "bib": 125,
+    "name": "Giulio Pellizzari",
+    "nationality": "Italy",
+    "team": "Red Bull - BORA - hansgrohe",
+    "time": "+3:36"
+  },
+  {
+    "rank": 10,
+    "bib": 43,
+    "name": "Markel Beloki",
+    "nationality": "Spain",
+    "team": "EF Education - EasyPost",
+    "time": "+4:16"
+  },
+  {
+    "rank": 11,
+    "bib": 186,
+    "name": "Mathys Rondel",
+    "nationality": "France",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+4:45"
+  },
+  {
+    "rank": 12,
+    "bib": 177,
+    "name": "Davide Piganzoli",
+    "nationality": "Italy",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+5:27"
+  },
+  {
+    "rank": 13,
+    "bib": 91,
+    "name": "Egan Bernal",
+    "nationality": "Colombia",
+    "team": "Netcompany INEOS Cycling Team",
+    "time": "+5:39"
+  },
+  {
+    "rank": 14,
+    "bib": 12,
+    "name": "Damiano Caruso",
+    "nationality": "Italy",
+    "team": "Bahrain Victorious",
+    "time": "+6:11"
+  },
+  {
+    "rank": 15,
+    "bib": 113,
+    "name": "David de la Cruz",
+    "nationality": "Spain",
+    "team": "Pinarello Q36.5 Pro Cycling Team",
+    "time": "+6:37"
+  },
+  {
+    "rank": 16,
+    "bib": 226,
+    "name": "Christian Scaroni",
+    "nationality": "Italy",
+    "team": "XDS Astana Team",
+    "time": "+6:59"
+  },
+  {
+    "rank": 17,
+    "bib": 116,
+    "name": "Chris Harper",
+    "nationality": "Australia",
+    "team": "Pinarello Q36.5 Pro Cycling Team",
+    "time": "+7:22"
+  },
+  {
+    "rank": 18,
+    "bib": 102,
+    "name": "Jan Hirt",
+    "nationality": "Czech Republic",
+    "team": "NSN Cycling Team",
+    "time": "+7:47"
+  },
+  {
+    "rank": 19,
+    "bib": 78,
+    "name": "Lennert Van Eetvelt",
+    "nationality": "Belgium",
+    "team": "Lotto - Intermarché",
+    "time": "+8:00"
+  },
+  {
+    "rank": 20,
+    "bib": 175,
+    "name": "Sepp Kuss",
+    "nationality": "United States",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+8:53"
+  },
+  {
+    "rank": 21,
+    "bib": 192,
+    "name": "Igor Arrieta",
+    "nationality": "Spain",
+    "team": "UAE Team Emirates - XRG",
+    "time": "+9:08"
+  },
+  {
+    "rank": 22,
+    "bib": 224,
+    "name": "Martin López",
+    "nationality": "Guatemala",
+    "team": "XDS Astana Team",
+    "time": "+9:43"
+  },
+  {
+    "rank": 23,
+    "bib": 214,
+    "name": "Johannes Kulset",
+    "nationality": "Norway",
+    "team": "Uno-X Mobility",
+    "time": "+10:00"
+  },
+  {
+    "rank": 24,
+    "bib": 34,
+    "name": "Gregor Mühlberger",
+    "nationality": "Austria",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+10:18"
+  },
+  {
+    "rank": 25,
+    "bib": 61,
+    "name": "Giulio Ciccone",
+    "nationality": "Italy",
+    "team": "Lidl - Trek",
+    "time": "+11:45"
+  }
+]

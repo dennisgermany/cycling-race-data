@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 131,
+    "name": "Paul Magnier",
+    "nationality": "France",
+    "team": "Soudal Quick-Step",
+    "time": "3:20:58"
+  },
+  {
+    "rank": 2,
+    "bib": 32,
+    "name": "Tobias Lund Andresen",
+    "nationality": "Denmark",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+0:04"
+  },
+  {
+    "rank": 3,
+    "bib": 25,
+    "name": "Manuele Tarozzi",
+    "nationality": "Italy",
+    "team": "Bardiani - CSF 7 Saber",
+    "time": "s.t."
+  },
+  {
+    "rank": 4,
+    "bib": 109,
+    "name": "Ethan Vernon",
+    "nationality": "United Kingdom",
+    "team": "NSN Cycling Team",
+    "time": "+0:06"
+  },
+  {
+    "rank": 5,
+    "bib": 167,
+    "name": "Diego Sevilla",
+    "nationality": "Spain",
+    "team": "Team Polti VisitMalta",
+    "time": "s.t."
+  },
+  {
+    "rank": 6,
+    "bib": 197,
+    "name": "António Morgado",
+    "nationality": "Portugal",
+    "team": "UAE Team Emirates - XRG",
+    "time": "+0:08"
+  },
+  {
+    "rank": 7,
+    "bib": 65,
+    "name": "Jonathan Milan",
+    "nationality": "Italy",
+    "team": "Lidl - Trek",
+    "time": "+0:10"
+  },
+  {
+    "rank": 8,
+    "bib": 44,
+    "name": "Madis Mihkels",
+    "nationality": "Estonia",
+    "team": "EF Education - EasyPost",
+    "time": "s.t."
+  },
+  {
+    "rank": 9,
+    "bib": 163,
+    "name": "Giovanni Lonardi",
+    "nationality": "Italy",
+    "team": "Team Polti VisitMalta",
+    "time": "s.t."
+  },
+  {
+    "rank": 10,
+    "bib": 142,
+    "name": "Pascal Ackermann",
+    "nationality": "Germany",
+    "team": "Team Jayco AlUla",
+    "time": "s.t."
+  },
+  {
+    "rank": 11,
+    "bib": 33,
+    "name": "Tord Gudmestad",
+    "nationality": "Norway",
+    "team": "Decathlon CMA CGM Team",
+    "time": "s.t."
+  },
+  {
+    "rank": 12,
+    "bib": 68,
+    "name": "Max Walscheid",
+    "nationality": "Germany",
+    "team": "Lidl - Trek",
+    "time": "s.t."
+  },
+  {
+    "rank": 13,
+    "bib": 137,
+    "name": "Dries van Gestel",
+    "nationality": "Belgium",
+    "team": "Soudal Quick-Step",
+    "time": "s.t."
+  },
+  {
+    "rank": 14,
+    "bib": 135,
+    "name": "Jasper Stuyven",
+    "nationality": "Belgium",
+    "team": "Soudal Quick-Step",
+    "time": "s.t."
+  },
+  {
+    "rank": 15,
+    "bib": 196,
+    "name": "Marc Soler",
+    "nationality": "Spain",
+    "team": "UAE Team Emirates - XRG",
+    "time": "s.t."
+  },
+  {
+    "rank": 16,
+    "bib": 21,
+    "name": "Filippo Magli",
+    "nationality": "Italy",
+    "team": "Bardiani - CSF 7 Saber",
+    "time": "s.t."
+  },
+  {
+    "rank": 17,
+    "bib": 17,
+    "name": "Robert Stannard",
+    "nationality": "Australia",
+    "team": "Bahrain Victorious",
+    "time": "s.t."
+  },
+  {
+    "rank": 18,
+    "bib": 28,
+    "name": "Enrico Zanoncello",
+    "nationality": "Italy",
+    "team": "Bardiani - CSF 7 Saber",
+    "time": "s.t."
+  },
+  {
+    "rank": 19,
+    "bib": 127,
+    "name": "Aleksandr Vlasov",
+    "nationality": "Russia",
+    "team": "Red Bull - BORA - hansgrohe",
+    "time": "s.t."
+  },
+  {
+    "rank": 20,
+    "bib": 158,
+    "name": "Casper van Uden",
+    "nationality": "Netherlands",
+    "team": "Team Picnic PostNL",
+    "time": "s.t."
+  },
+  {
+    "rank": 21,
+    "bib": 98,
+    "name": "Ben Turner",
+    "nationality": "United Kingdom",
+    "team": "Netcompany INEOS Cycling Team",
+    "time": "s.t."
+  },
+  {
+    "rank": 22,
+    "bib": 77,
+    "name": "Jonas Rutsch",
+    "nationality": "Germany",
+    "team": "Lotto - Intermarché",
+    "time": "s.t."
+  },
+  {
+    "rank": 23,
+    "bib": 62,
+    "name": "Simone Consonni",
+    "nationality": "Italy",
+    "team": "Lidl - Trek",
+    "time": "s.t."
+  },
+  {
+    "rank": 24,
+    "bib": 71,
+    "name": "Arnaud De Lie",
+    "nationality": "Belgium",
+    "team": "Lotto - Intermarché",
+    "time": "s.t."
+  },
+  {
+    "rank": 25,
+    "bib": 214,
+    "name": "Johannes Kulset",
+    "nationality": "Norway",
+    "team": "Uno-X Mobility",
+    "time": "s.t."
+  }
+]

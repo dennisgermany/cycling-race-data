@@ -1,0 +1,399 @@
+openapi: 3.1.0
+info:
+  title: Cycling Race Data API
+  description: |
+    Read-only REST API for professional cycling race data. All endpoints are static JSON
+    (or GPX) files served from GitHub Pages. There is no write API.
+
+    **Client-side lookups:** filter `stages.json` by stage id, or read
+    `results.json` → `stageResults["stage-1"]` for per-stage results.
+  version: 1.0.0
+  license:
+    name: MIT
+
+servers:
+  - url: https://{owner}.github.io/cycling-race-data
+    description: GitHub Pages (replace `{owner}` with the repository owner)
+    variables:
+      owner:
+        default: YOUR_GITHUB_OWNER
+
+tags:
+  - name: Races
+    description: Race catalog
+  - name: Stages
+    description: Stage list and metadata
+  - name: Teams
+    description: Start lists
+  - name: Results
+    description: Stage results and provisional GC
+  - name: GC
+    description: General classification snapshots
+  - name: Route
+    description: Climbs and GPX routes
+
+paths:
+  /data/index.json:
+    get:
+      tags: [Races]
+      summary: List races
+      description: Race catalog with aggregated status per race.
+      operationId: listRaces
+      responses:
+        "200":
+          description: Race catalog
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RaceIndex"
+
+  /data/{year}/{slug}/stages.json:
+    get:
+      tags: [Stages]
+      summary: List stages
+      operationId: listStages
+      parameters:
+        - $ref: "#/components/parameters/year"
+        - $ref: "#/components/parameters/slug"
+      responses:
+        "200":
+          description: All stages for the race
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Stage"
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /data/{year}/{slug}/teams.json:
+    get:
+      tags: [Teams]
+      summary: List teams
+      operationId: listTeams
+      parameters:
+        - $ref: "#/components/parameters/year"
+        - $ref: "#/components/parameters/slug"
+      responses:
+        "200":
+          description: Start list
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Team"
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /data/{year}/{slug}/results.json:
+    get:
+      tags: [Results]
+      summary: Stage results and provisional GC
+      operationId: getResults
+      parameters:
+        - $ref: "#/components/parameters/year"
+        - $ref: "#/components/parameters/slug"
+      responses:
+        "200":
+          description: Provisional GC and per-stage top-25 results
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Results"
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /data/{year}/{slug}/gc/after-stage-{stageNumber}.json:
+    get:
+      tags: [GC]
+      summary: GC after stage N
+      operationId: getGcAfterStage
+      parameters:
+        - $ref: "#/components/parameters/year"
+        - $ref: "#/components/parameters/slug"
+        - name: stageNumber
+          in: path
+          required: true
+          schema:
+            type: integer
+            minimum: 1
+          description: Stage number (1-based)
+      responses:
+        "200":
+          description: Top 25 riders in GC after the given stage
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/RiderResult"
+        "404":
+          description: File not found (stage not finished or not yet published)
+
+  /data/{year}/{slug}/profile-climbs.json:
+    get:
+      tags: [Route]
+      summary: Profile climbs by stage number
+      operationId: getProfileClimbs
+      parameters:
+        - $ref: "#/components/parameters/year"
+        - $ref: "#/components/parameters/slug"
+      responses:
+        "200":
+          description: Categorised climbs keyed by stage number (string keys)
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties:
+                  type: array
+                  items:
+                    $ref: "#/components/schemas/ProfileClimb"
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /data/{year}/{slug}/route-features.json:
+    get:
+      tags: [Route]
+      summary: Route features by stage id
+      operationId: getRouteFeatures
+      parameters:
+        - $ref: "#/components/parameters/year"
+        - $ref: "#/components/parameters/slug"
+      responses:
+        "200":
+          description: Route features keyed by stage id (e.g. `stage-1`)
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties:
+                  type: array
+                  items:
+                    $ref: "#/components/schemas/RouteFeature"
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /data/{year}/{slug}/gpx/stage-{stageNumber}-route.gpx:
+    get:
+      tags: [Route]
+      summary: Stage route GPX
+      operationId: getStageGpx
+      parameters:
+        - $ref: "#/components/parameters/year"
+        - $ref: "#/components/parameters/slug"
+        - name: stageNumber
+          in: path
+          required: true
+          schema:
+            type: integer
+            minimum: 1
+      responses:
+        "200":
+          description: GPX 1.0 route file
+          content:
+            application/gpx+xml:
+              schema:
+                type: string
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+components:
+  parameters:
+    year:
+      name: year
+      in: path
+      required: true
+      schema:
+        type: integer
+        example: 2026
+    slug:
+      name: slug
+      in: path
+      required: true
+      schema:
+        type: string
+        example: giro-d-italia
+
+  responses:
+    NotFound:
+      description: Resource not found
+
+  schemas:
+    RaceIndex:
+      type: object
+      required: [updatedAt, races]
+      properties:
+        updatedAt:
+          type: string
+          format: date
+          example: "2026-06-23"
+        races:
+          type: array
+          items:
+            $ref: "#/components/schemas/Race"
+
+    Race:
+      type: object
+      required: [year, slug, name, path, status]
+      properties:
+        year:
+          type: integer
+          example: 2026
+        slug:
+          type: string
+          example: giro-d-italia
+        name:
+          type: string
+          example: Giro d'Italia
+        path:
+          type: string
+          description: Relative path under `data/`
+          example: 2026/giro-d-italia
+        status:
+          type: string
+          enum: [upcoming, live, finished]
+
+    Stage:
+      type: object
+      required:
+        - id
+        - number
+        - name
+        - date
+        - distanceKm
+        - startLocation
+        - finishLocation
+        - currentStage
+        - status
+        - gpxUrl
+      properties:
+        id:
+          type: string
+          example: stage-1
+        number:
+          type: integer
+          minimum: 1
+        name:
+          type: string
+          example: Nessebar — Burgas
+        date:
+          type: string
+          format: date
+        distanceKm:
+          type: integer
+        startLocation:
+          type: string
+        finishLocation:
+          type: string
+        currentStage:
+          type: string
+        status:
+          type: string
+          enum: [upcoming, live, finished]
+        gpxUrl:
+          type: string
+          format: uri-reference
+          example: /data/2026/giro-d-italia/gpx/stage-1-route.gpx
+
+    Team:
+      type: object
+      required: [name, uciCategory, riders]
+      properties:
+        name:
+          type: string
+        uciCategory:
+          type: string
+          enum: [WT, PRT, CT]
+        riders:
+          type: array
+          items:
+            $ref: "#/components/schemas/Rider"
+
+    Rider:
+      type: object
+      required: [bib, name, nationality]
+      properties:
+        bib:
+          type: integer
+        name:
+          type: string
+        nationality:
+          type: string
+
+    RiderResult:
+      type: object
+      required: [rank, bib, name, nationality, team, time]
+      properties:
+        rank:
+          type: integer
+          minimum: 1
+          maximum: 25
+        bib:
+          type: integer
+        name:
+          type: string
+        nationality:
+          type: string
+        team:
+          type: string
+        time:
+          type: string
+          description: Winner clock time, `s.t.`, or gap like `+0:27`
+          example: "3:21:08"
+
+    Results:
+      type: object
+      required: [provisionalGc, stageResults]
+      properties:
+        provisionalGc:
+          type: array
+          items:
+            $ref: "#/components/schemas/RiderResult"
+        stageResults:
+          type: object
+          additionalProperties:
+            type: array
+            items:
+              $ref: "#/components/schemas/RiderResult"
+          example:
+            stage-1:
+              - rank: 1
+                bib: 11
+                name: Example Rider
+                nationality: Italy
+                team: Example Team
+                time: "3:21:08"
+
+    ProfileClimb:
+      type: object
+      required: [name, distanceKm, category]
+      properties:
+        name:
+          type: string
+        distanceKm:
+          type: number
+        category:
+          type: integer
+          minimum: 1
+          maximum: 4
+
+    RouteFeature:
+      type: object
+      required: [id, name, kind, distanceKm, category]
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        kind:
+          type: string
+          enum: [climb]
+        distanceKm:
+          type: number
+        category:
+          type: integer
+          minimum: 1
+          maximum: 4

@@ -17,7 +17,7 @@ Read and follow **`AGENTS-create-race.md`** for full schema rules, allowed sourc
 
 ## Steps
 
-1. **Verify identifiers** — confirm `dataDir`, `filePrefix`, `exportPrefix`, and `slug` from the JSON above.
+1. **Verify identifiers** — confirm `dataDir`, `dataPath`, `filePrefix`, `gpxWebPrefix`, and `slug` from the JSON above.
 
 2. **Existence check** — if `{dataDir}/` exists or `data/index.json` already has this `year` + `slug`, stop without editing any files.
 
@@ -27,33 +27,31 @@ Read and follow **`AGENTS-create-race.md`** for full schema rules, allowed sourc
    - One-day race: single `stage-1`
    - Set `status` to `upcoming` unless a stage has officially finished
 
-4. **Write `{dataDir}/{filePrefix}-stages.js`**
-   - Export `{exportPrefix}Stages`
+4. **Write `{dataDir}/stages.json`**
+   - JSON array of stage objects
    - Set `gpxUrl` to `{gpxWebPrefix}/stage-N-route.gpx` for each stage
-   - Header comment: sources and stage count
 
 5. **Research the start list**
    - Official list, BikeRaceInfo, or cyclingstage.com
    - If no start list is published: **stop** and explain in your summary (do not invent riders)
 
-6. **Write `{dataDir}/{filePrefix}-teams.js`**
-   - Export `{exportPrefix}Teams`
+6. **Write `{dataDir}/teams.json`**
+   - JSON array of team objects
    - Bib blocks of 10 per team; exact team name spelling
 
 7. **Research stage profiles** (cyclingstage.com profile pages or official PDFs)
-   - Write `{dataDir}/{filePrefix}-profile-climbs.js` (`{exportPrefix}ProfileClimbsByStageNum`)
-   - Write `{dataDir}/{filePrefix}-route-features.js` (`{exportPrefix}RouteFeaturesByStageId`) derived from profile-climbs
+   - Write `{dataDir}/profile-climbs.json`
+   - Write `{dataDir}/route-features.json` derived from profile-climbs
 
 8. **Download GPX files**
    - Save to `{dataDir}/gpx/stage-N-route.gpx` (cyclingstage.com GPX CDN or official source)
-   - If unavailable for a stage, omit the file and note it in the stages header
+   - If unavailable for a stage, omit the file and note it in your summary
 
 9. **Write results stubs**
-   - `{dataDir}/{filePrefix}-results.js`:
-     - `{exportPrefix}ProvisionalGcRiderResults = []`
-     - `{exportPrefix}StageRiderResultsByStageId = {}`
+   - `{dataDir}/results.json`:
+     - `{ "provisionalGc": [], "stageResults": {} }`
    - If any stages are already `finished`, add verified top-25 results and provisional GC
-   - `{dataDir}/{filePrefix}-gc-by-stage.js`: header only, or `{exportPrefix}GcAfterStageN` for each finished stage
+   - Write `{dataDir}/gc/after-stage-N.json` for each finished stage (array of top 25)
 
 10. **Update `data/index.json`**
     - Add entry with `name: "{{RACE_NAME}}"`, derived `status`, sorted races list, `updatedAt` = today

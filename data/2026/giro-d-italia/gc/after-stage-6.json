@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 14,
+    "name": "Afonso Eulalio",
+    "nationality": "Portugal",
+    "team": "Bahrain Victorious",
+    "time": "24:47:13"
+  },
+  {
+    "rank": 2,
+    "bib": 192,
+    "name": "Igor Arrieta",
+    "nationality": "Spain",
+    "team": "UAE Team Emirates - XRG",
+    "time": "+2:51"
+  },
+  {
+    "rank": 3,
+    "bib": 226,
+    "name": "Christian Scaroni",
+    "nationality": "Italy",
+    "team": "XDS Astana Team",
+    "time": "+3:34"
+  },
+  {
+    "rank": 4,
+    "bib": 134,
+    "name": "Andrea Raccagni Noviero",
+    "nationality": "Italy",
+    "team": "Soudal Quick-Step",
+    "time": "+3:39"
+  },
+  {
+    "rank": 5,
+    "bib": 214,
+    "name": "Johannes Kulset",
+    "nationality": "Norway",
+    "team": "Uno-X Mobility",
+    "time": "+5:17"
+  },
+  {
+    "rank": 6,
+    "bib": 61,
+    "name": "Giulio Ciccone",
+    "nationality": "Italy",
+    "team": "Lidl - Trek",
+    "time": "+6:12"
+  },
+  {
+    "rank": 7,
+    "bib": 194,
+    "name": "Jan Christen",
+    "nationality": "Switzerland",
+    "team": "UAE Team Emirates - XRG",
+    "time": "+6:16"
+  },
+  {
+    "rank": 8,
+    "bib": 187,
+    "name": "Florian Stork",
+    "nationality": "Germany",
+    "team": "Tudor Pro Cycling Team",
+    "time": "s.t."
+  },
+  {
+    "rank": 9,
+    "bib": 91,
+    "name": "Egan Bernal",
+    "nationality": "Colombia",
+    "team": "Netcompany INEOS Cycling Team",
+    "time": "s.t."
+  },
+  {
+    "rank": 10,
+    "bib": 92,
+    "name": "Thymen Arensman",
+    "nationality": "Netherlands",
+    "team": "Netcompany INEOS Cycling Team",
+    "time": "+6:18"
+  },
+  {
+    "rank": 11,
+    "bib": 125,
+    "name": "Giulio Pellizzari",
+    "nationality": "Italy",
+    "team": "Red Bull - BORA - hansgrohe",
+    "time": "s.t."
+  },
+  {
+    "rank": 12,
+    "bib": 78,
+    "name": "Lennert Van Eetvelt",
+    "nationality": "Belgium",
+    "team": "Lotto - Intermarché",
+    "time": "+6:20"
+  },
+  {
+    "rank": 13,
+    "bib": 81,
+    "name": "Enric Mas",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+6:22"
+  },
+  {
+    "rank": 14,
+    "bib": 41,
+    "name": "Alexander Cepeda",
+    "nationality": "Colombia",
+    "team": "EF Education - EasyPost",
+    "time": "s.t."
+  },
+  {
+    "rank": 15,
+    "bib": 171,
+    "name": "Jonas Vingegaard",
+    "nationality": "Denmark",
+    "team": "Team Visma | Lease a Bike",
+    "time": "s.t."
+  },
+  {
+    "rank": 16,
+    "bib": 12,
+    "name": "Damiano Caruso",
+    "nationality": "Italy",
+    "team": "Bahrain Victorious",
+    "time": "s.t."
+  },
+  {
+    "rank": 17,
+    "bib": 141,
+    "name": "Ben O'Connor",
+    "nationality": "Australia",
+    "team": "Team Jayco AlUla",
+    "time": "s.t."
+  },
+  {
+    "rank": 18,
+    "bib": 43,
+    "name": "Markel Beloki",
+    "nationality": "Spain",
+    "team": "EF Education - EasyPost",
+    "time": "s.t."
+  },
+  {
+    "rank": 19,
+    "bib": 102,
+    "name": "Jan Hirt",
+    "nationality": "Czech Republic",
+    "team": "NSN Cycling Team",
+    "time": "s.t."
+  },
+  {
+    "rank": 20,
+    "bib": 121,
+    "name": "Jai Hindley",
+    "nationality": "Australia",
+    "team": "Red Bull - BORA - hansgrohe",
+    "time": "s.t."
+  },
+  {
+    "rank": 21,
+    "bib": 177,
+    "name": "Davide Piganzoli",
+    "nationality": "Italy",
+    "team": "Team Visma | Lease a Bike",
+    "time": "s.t."
+  },
+  {
+    "rank": 22,
+    "bib": 186,
+    "name": "Mathys Rondel",
+    "nationality": "France",
+    "team": "Tudor Pro Cycling Team",
+    "time": "s.t."
+  },
+  {
+    "rank": 23,
+    "bib": 181,
+    "name": "Michael Storer",
+    "nationality": "Australia",
+    "team": "Tudor Pro Cycling Team",
+    "time": "s.t."
+  },
+  {
+    "rank": 24,
+    "bib": 31,
+    "name": "Felix Gall",
+    "nationality": "Austria",
+    "team": "Decathlon CMA CGM Team",
+    "time": "s.t."
+  },
+  {
+    "rank": 25,
+    "bib": 122,
+    "name": "Giovanni Aleotti",
+    "nationality": "Italy",
+    "team": "Red Bull - BORA - hansgrohe",
+    "time": "s.t."
+  }
+]

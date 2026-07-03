@@ -7,12 +7,12 @@ PR_TITLE="Giro d'Italia 2026 — data update"
 PR_BODY_BASE="$(cat <<'EOF'
 ## Summary
 
-Automated update of Giro d'Italia 2026 data under `data/2026/giro-d-italia/` (stages, stage results, provisional GC, GC-by-stage snapshots).
+Automated update of Giro d'Italia 2026 data under `data/2026/giro-d-italia/` (stages.json, results.json, gc/after-stage-{n}.json).
 
 ## Test plan
 
 - [ ] Review diff for newly finished stages only
-- [ ] Confirm team names match `giro-d-italia-2026-teams.js`
+- [ ] Confirm team names match `teams.json`
 - [ ] Spot-check stage results and GC against [BikeRaceInfo](https://bikeraceinfo.com) or official Giro results
 
 EOF
@@ -30,8 +30,8 @@ git config user.name "github-actions[bot]"
 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
 STAGE_NOTE=""
-if [[ -f data/2026/giro-d-italia/giro-d-italia-2026-stages.js ]]; then
-  LAST=$(grep -c "status: 'finished'" data/2026/giro-d-italia/giro-d-italia-2026-stages.js || true)
+if [[ -f data/2026/giro-d-italia/stages.json ]]; then
+  LAST=$(grep -c '"status": "finished"' data/2026/giro-d-italia/stages.json || true)
   if [[ -n "${LAST}" && "${LAST}" != "0" ]]; then
     STAGE_NOTE=" through stage ${LAST}"
   fi
