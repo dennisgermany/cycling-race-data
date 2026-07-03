@@ -1,6 +1,12 @@
-import { readFileSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { Agent, CursorAgentError, type AgentOptions, type Run } from "@cursor/sdk";
+import {
+  Agent,
+  CursorAgentError,
+  type AgentOptions,
+  type Run,
+  type RunResult,
+} from "@cursor/sdk";
 import {
   flushStreamLogs,
   logConversationStep,
@@ -66,6 +72,29 @@ function buildAgentOptions(): AgentOptions {
   };
 }
 
+const metricsPath =
+  process.env.AGENT_METRICS_FILE?.trim() ||
+  join(process.cwd(), "run-metrics", "latest.json");
+
+function writeRunMetrics(result: RunResult, agentId: string): void {
+  const metrics = {
+    runId: result.id,
+    agentId,
+    durationMs: result.durationMs ?? null,
+    usage: result.usage ?? null,
+    model: result.model?.id ?? null,
+    status: result.status,
+    finishedAt: new Date().toISOString(),
+    githubRunId: process.env.GITHUB_RUN_ID ?? null,
+    githubWorkflow: process.env.GITHUB_WORKFLOW ?? null,
+  };
+
+  mkdirSync(join(metricsPath, ".."), { recursive: true });
+  writeFileSync(metricsPath, `${JSON.stringify(metrics, null, 2)}\n`);
+  logInfo("run", "Wrote run metrics", { path: metricsPath });
+  console.log(`AGENT_RUN_METRICS_JSON=${JSON.stringify(metrics)}`);
+}
+
 async function consumeStream(run: Run): Promise<void> {
   if (!run.supports("stream")) {
     logWarn(
@@ -111,7 +140,10 @@ try {
   logInfo("run", `Run finished: ${result.id}`, {
     status: result.status,
     durationMs: result.durationMs,
+    usage: result.usage,
   });
+
+  writeRunMetrics(result, agent.agentId);
 
   if (result.result) {
     console.log("\n--- Agent response ---\n");

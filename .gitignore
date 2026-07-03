@@ -1,2 +1,4 @@
 node_modules/
 .idea
+run-metrics/latest.json
+run-metrics/prev-cumulative.json

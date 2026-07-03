@@ -50,6 +50,8 @@ Static assets (GPX, teams, climbs, route features) are not updated by the bot. S
 
 Each run commits to `bot/giro-d-italia-2026`, opens a PR if needed, then **merges** it into the default branch and deletes the bot branch (`gh pr merge --merge --admin --delete-branch`). The next run creates a fresh branch from `main`.
 
+Pull request bodies include an **Agent costs** section (token usage, duration, cumulative totals across re-runs on the same bot branch). Dollar amounts are not provided by the Cursor SDK; optional estimates use `CURSOR_COST_PER_MTOK_INPUT` / `CURSOR_COST_PER_MTOK_OUTPUT` env vars.
+
 ## Local run
 
 ```bash
@@ -64,6 +66,9 @@ Optional environment variables:
 |----------|---------|---------|
 | `AGENT_PROMPT` | (file) | Override prompt text entirely |
 | `AGENT_PROMPT_FILE` | `prompts/update-giro-2026.md` | Read prompt from file (`AGENT_PROMPT` takes precedence) |
+| `AGENT_METRICS_FILE` | `run-metrics/latest.json` | Where run-agent writes token/duration metrics |
+| `CURSOR_COST_PER_MTOK_INPUT` | (unset) | Optional USD estimate in PR (per million input tokens) |
+| `CURSOR_COST_PER_MTOK_OUTPUT` | (unset) | Optional USD estimate in PR (per million output tokens) |
 | `AGENT_LOG_LEVEL` | `info` | `error` · `warn` · `info` · `debug` |
 | `AGENT_LOG_FORMAT` | text | Set to `json` for JSON lines on stderr |
 

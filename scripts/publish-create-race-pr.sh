@@ -7,6 +7,9 @@ PR_TITLE="${PR_TITLE:?PR_TITLE is required}"
 COMMIT_MSG="${COMMIT_MSG:?COMMIT_MSG is required}"
 PR_BODY="${PR_BODY:-}"
 
+# shellcheck source=agent-pr-costs.sh
+source "$(dirname "$0")/agent-pr-costs.sh"
+
 if git diff --quiet -- "${DATA_DIR}" && git diff --cached --quiet -- "${DATA_DIR}"; then
   echo "No changes under ${DATA_DIR}; skipping PR publish."
   exit 0
@@ -15,12 +18,19 @@ fi
 git config user.name "github-actions[bot]"
 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+prepare_cumulative_metrics
+
 git checkout -B "${BOT_BRANCH}"
 git add -- "${DATA_DIR}"
+if [[ -f run-metrics/cumulative.json ]]; then
+  git add -- run-metrics/cumulative.json
+fi
 git commit -m "${COMMIT_MSG}"
 
 git push -u origin "${BOT_BRANCH}"
 echo "Pushed ${BOT_BRANCH} to origin."
+
+FULL_PR_BODY="$(append_costs_to_pr_body "${PR_BODY}")"
 
 pr_url() {
   if [[ -n "${GITHUB_SERVER_URL:-}" && -n "${GITHUB_REPOSITORY:-}" ]]; then
@@ -39,8 +49,8 @@ open_pr_count() {
 }
 
 create_pr() {
-  if [[ -n "${PR_BODY}" ]]; then
-    gh pr create --head "${BOT_BRANCH}" --title "${PR_TITLE}" --body "${PR_BODY}"
+  if [[ -n "${FULL_PR_BODY}" ]]; then
+    gh pr create --head "${BOT_BRANCH}" --title "${PR_TITLE}" --body "${FULL_PR_BODY}"
   else
     gh pr create --head "${BOT_BRANCH}" --title "${PR_TITLE}" --body "Automated race scaffold — please review before merging."
   fi
@@ -49,6 +59,7 @@ create_pr() {
 ensure_pr() {
   if [[ "$(open_pr_count)" != "0" ]]; then
     echo "Open pull request already exists for ${BOT_BRANCH}; push updated it."
+    update_open_pr_body "${FULL_PR_BODY}"
     return 0
   fi
 

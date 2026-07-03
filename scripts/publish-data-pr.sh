@@ -4,6 +4,22 @@ set -euo pipefail
 BOT_BRANCH="${BOT_BRANCH:-bot/giro-d-italia-2026}"
 DATA_DIR="data"
 PR_TITLE="Giro d'Italia 2026 — data update"
+PR_BODY_BASE="$(cat <<'EOF'
+## Summary
+
+Automated update of Giro d'Italia 2026 data under `data/2026/giro-d-italia/` (stages, stage results, provisional GC, GC-by-stage snapshots).
+
+## Test plan
+
+- [ ] Review diff for newly finished stages only
+- [ ] Confirm team names match `giro-d-italia-2026-teams.js`
+- [ ] Spot-check stage results and GC against [BikeRaceInfo](https://bikeraceinfo.com) or official Giro results
+
+EOF
+)"
+
+# shellcheck source=agent-pr-costs.sh
+source "$(dirname "$0")/agent-pr-costs.sh"
 
 if git diff --quiet -- "${DATA_DIR}" && git diff --cached --quiet -- "${DATA_DIR}"; then
   echo "No changes under ${DATA_DIR}; skipping PR publish."
@@ -23,12 +39,19 @@ fi
 
 COMMIT_MSG="chore(data): giro 2026 results${STAGE_NOTE}"
 
+prepare_cumulative_metrics
+
 git checkout -B "${BOT_BRANCH}"
 git add -- "${DATA_DIR}"
+if [[ -f run-metrics/cumulative.json ]]; then
+  git add -- run-metrics/cumulative.json
+fi
 git commit -m "${COMMIT_MSG}"
 
 git push -u origin "${BOT_BRANCH}"
 echo "Pushed ${BOT_BRANCH} to origin."
+
+FULL_PR_BODY="$(append_costs_to_pr_body "${PR_BODY_BASE}")"
 
 pr_url() {
   if [[ -n "${GITHUB_SERVER_URL:-}" && -n "${GITHUB_REPOSITORY:-}" ]]; then
@@ -50,24 +73,13 @@ create_pr() {
   gh pr create \
     --head "${BOT_BRANCH}" \
     --title "${PR_TITLE}" \
-    --body "$(cat <<'EOF'
-## Summary
-
-Automated update of Giro d'Italia 2026 data under `data/2026/giro-d-italia/` (stages, stage results, provisional GC, GC-by-stage snapshots).
-
-## Test plan
-
-- [ ] Review diff for newly finished stages only
-- [ ] Confirm team names match `giro-d-italia-2026-teams.js`
-- [ ] Spot-check stage results and GC against [BikeRaceInfo](https://bikeraceinfo.com) or official Giro results
-
-EOF
-)"
+    --body "${FULL_PR_BODY}"
 }
 
 ensure_pr() {
   if [[ "$(open_pr_count)" != "0" ]]; then
     echo "Open pull request already exists for ${BOT_BRANCH}; push updated it."
+    update_open_pr_body "${FULL_PR_BODY}"
     return 0
   fi
 
