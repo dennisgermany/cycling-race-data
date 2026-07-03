@@ -71,3 +71,9 @@ Do not use paywalled or user-generated wikis as primary sources for numeric resu
 - Add stages **in order** (do not skip stage numbers in results/GC exports).
 - If the repo is already up to date, **make no file changes**.
 - Keep edits minimal: no formatting-only churn, no unrelated refactors.
+
+## Race creation
+
+A separate **Create race** workflow scaffolds a new race for the current calendar year from a single `race_name` input. See [`AGENTS-create-race.md`](AGENTS-create-race.md), [`prompts/create-race.md`](prompts/create-race.md), and [`.github/workflows/create-race.yml`](.github/workflows/create-race.yml).
+
+The create agent may write all files under `data/{year}/{race-slug}/` (stages, teams, results stubs, climbs, route features, GPX) plus `data/index.json`. It does not modify existing races.

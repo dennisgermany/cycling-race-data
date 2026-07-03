@@ -25,19 +25,35 @@ const defaultPromptPath = join(
   "update-giro-2026.md",
 );
 
-function loadPrompt(): string {
-  const fromEnv = process.env.AGENT_PROMPT?.trim();
-  if (fromEnv) return fromEnv;
+function resolvePromptPath(): string {
+  const fromFile = process.env.AGENT_PROMPT_FILE?.trim();
+  if (fromFile) {
+    return fromFile.startsWith("/") ? fromFile : join(process.cwd(), fromFile);
+  }
+  return defaultPromptPath;
+}
 
+function loadPrompt(): { text: string; source: string } {
+  const fromEnv = process.env.AGENT_PROMPT?.trim();
+  if (fromEnv) {
+    return { text: fromEnv, source: "AGENT_PROMPT" };
+  }
+
+  const promptPath = resolvePromptPath();
   try {
-    return readFileSync(defaultPromptPath, "utf8").trim();
+    return {
+      text: readFileSync(promptPath, "utf8").trim(),
+      source: process.env.AGENT_PROMPT_FILE?.trim()
+        ? `AGENT_PROMPT_FILE (${promptPath})`
+        : promptPath,
+    };
   } catch {
-    console.error(`Failed to read default prompt at ${defaultPromptPath}`);
+    console.error(`Failed to read prompt at ${promptPath}`);
     process.exit(1);
   }
 }
 
-const prompt = loadPrompt();
+const { text: prompt, source: promptSource } = loadPrompt();
 
 function buildAgentOptions(): AgentOptions {
   return {
@@ -69,7 +85,7 @@ async function consumeStream(run: Run): Promise<void> {
 }
 
 logInfo("agent", "Using local runtime");
-logInfo("agent", `Prompt source: ${process.env.AGENT_PROMPT?.trim() ? "AGENT_PROMPT" : defaultPromptPath}`);
+logInfo("agent", `Prompt source: ${promptSource}`);
 logDebug("agent", `Prompt length: ${prompt.length} characters`);
 
 try {
