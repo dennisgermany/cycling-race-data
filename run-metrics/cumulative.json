@@ -1,0 +1,26 @@
+{
+  "runCount": 1,
+  "durationMs": 585320,
+  "usage": null,
+  "lastRun": {
+    "runId": "run-9633b9b3-daff-472c-9e8b-856bc104ad96",
+    "agentId": "agent-5b488618-eac3-4ab3-b914-29149def827f",
+    "durationMs": 585320,
+    "usage": null,
+    "model": "composer-2.5",
+    "status": "finished",
+    "finishedAt": "2026-07-03T13:17:11.831Z",
+    "githubRunId": "28662556085",
+    "githubWorkflow": "Create race"
+  },
+  "runs": [
+    {
+      "runId": "run-9633b9b3-daff-472c-9e8b-856bc104ad96",
+      "finishedAt": "2026-07-03T13:17:11.831Z",
+      "durationMs": 585320,
+      "usage": null,
+      "status": "finished",
+      "githubRunId": "28662556085"
+    }
+  ]
+}

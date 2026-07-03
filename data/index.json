@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23",
+  "updatedAt": "2026-07-03",
   "races": [
     {
       "year": 2026,
@@ -7,6 +7,13 @@
       "name": "Giro d'Italia",
       "path": "2026/giro-d-italia",
       "status": "finished"
+    },
+    {
+      "year": 2026,
+      "slug": "tour-de-france",
+      "name": "Tour de France",
+      "path": "2026/tour-de-france",
+      "status": "upcoming"
     }
   ]
 }
