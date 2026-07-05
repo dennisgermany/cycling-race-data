@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 11,
+    "name": "Jonas Vingegaard",
+    "nationality": "Denmark",
+    "team": "Team Visma | Lease a Bike",
+    "time": "21:47"
+  },
+  {
+    "rank": 2,
+    "bib": 84,
+    "name": "Filippo Ganna",
+    "nationality": "Italy",
+    "team": "Netcompany INEOS",
+    "time": "+0:08"
+  },
+  {
+    "rank": 3,
+    "bib": 1,
+    "name": "Tadej Pogacar",
+    "nationality": "Slovenia",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+0:12"
+  },
+  {
+    "rank": 4,
+    "bib": 31,
+    "name": "Juan Ayuso",
+    "nationality": "Spain",
+    "team": "Lidl-Trek",
+    "time": "+0:16"
+  },
+  {
+    "rank": 5,
+    "bib": 21,
+    "name": "Remco Evenepoel",
+    "nationality": "Belgium",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+0:19"
+  },
+  {
+    "rank": 6,
+    "bib": 2,
+    "name": "Isaac del Toro",
+    "nationality": "Mexico",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+0:26"
+  },
+  {
+    "rank": 7,
+    "bib": 18,
+    "name": "Davide Piganzoli",
+    "nationality": "Italy",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+0:28"
+  },
+  {
+    "rank": 8,
+    "bib": 25,
+    "name": "Florian Lipowitz",
+    "nationality": "Germany",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+0:35"
+  },
+  {
+    "rank": 9,
+    "bib": 83,
+    "name": "Tobias Foss",
+    "nationality": "Norway",
+    "team": "Netcompany INEOS",
+    "time": "+0:38"
+  },
+  {
+    "rank": 10,
+    "bib": 51,
+    "name": "Paul Seixas",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+0:39"
+  },
+  {
+    "rank": 11,
+    "bib": 101,
+    "name": "Mathieu van der Poel",
+    "nationality": "Netherlands",
+    "team": "Alpecin-Premier Tech",
+    "time": "s.t."
+  },
+  {
+    "rank": 12,
+    "bib": 181,
+    "name": "Romain Grégoire",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+0:41"
+  },
+  {
+    "rank": 13,
+    "bib": 77,
+    "name": "Antonio Tiberi",
+    "nationality": "Italy",
+    "team": "Bahrain Victorious",
+    "time": "+0:47"
+  },
+  {
+    "rank": 14,
+    "bib": 58,
+    "name": "Matthew Riccitello",
+    "nationality": "United States",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+0:50"
+  },
+  {
+    "rank": 15,
+    "bib": 71,
+    "name": "Lenny Martinez",
+    "nationality": "France",
+    "team": "Bahrain Victorious",
+    "time": "s.t."
+  },
+  {
+    "rank": 16,
+    "bib": 115,
+    "name": "Michael Matthews",
+    "nationality": "Australia",
+    "team": "Team Jayco-AlUla",
+    "time": "+0:51"
+  },
+  {
+    "rank": 17,
+    "bib": 43,
+    "name": "Alex Baudin",
+    "nationality": "France",
+    "team": "EF Education-EasyPost",
+    "time": "+0:57"
+  },
+  {
+    "rank": 18,
+    "bib": 171,
+    "name": "Tom Pidcock",
+    "nationality": "United Kingdom",
+    "team": "Pinarello-Q36.5 Pro Cycling Team",
+    "time": "s.t."
+  },
+  {
+    "rank": 19,
+    "bib": 97,
+    "name": "Ilan Van Wilder",
+    "nationality": "Belgium",
+    "team": "Soudal Quick-Step",
+    "time": "+0:58"
+  },
+  {
+    "rank": 20,
+    "bib": 121,
+    "name": "Tobias Halland Johannessen",
+    "nationality": "Norway",
+    "team": "Uno-X Mobility",
+    "time": "+1:00"
+  },
+  {
+    "rank": 21,
+    "bib": 82,
+    "name": "Thymen Arensman",
+    "nationality": "Netherlands",
+    "team": "Netcompany INEOS",
+    "time": "+1:01"
+  },
+  {
+    "rank": 22,
+    "bib": 201,
+    "name": "Jordan Jegat",
+    "nationality": "France",
+    "team": "Team TotalEnergies",
+    "time": "+1:02"
+  },
+  {
+    "rank": 23,
+    "bib": 37,
+    "name": "Mathias Vacek",
+    "nationality": "Czech Republic",
+    "team": "Lidl-Trek",
+    "time": "+1:12"
+  },
+  {
+    "rank": 24,
+    "bib": 224,
+    "name": "Alex Molenaar",
+    "nationality": "Netherlands",
+    "team": "Caja Rural-Seguros RGA",
+    "time": "s.t."
+  },
+  {
+    "rank": 25,
+    "bib": 198,
+    "name": "Yannis Voisard",
+    "nationality": "Switzerland",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+1:14"
+  }
+]
