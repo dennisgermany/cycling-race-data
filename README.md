@@ -1,6 +1,6 @@
-# Giro cycling data agent
+# Cycling race data agent
 
-Daily [Cursor SDK](https://cursor.com/docs/sdk/typescript) agent (local runtime on GitHub Actions) that updates **Giro d'Italia 2026** results under [`data/2026/giro-d-italia/`](data/2026/giro-d-italia/) when stages finish. Changes land on `main` via an automated pull request that the workflow merges when GitHub allows it.
+Daily [Cursor SDK](https://cursor.com/docs/sdk/typescript) agent (local runtime on GitHub Actions) that updates results for every active race listed in [`data/index.json`](data/index.json) when stages finish. Changes land on `main` via an automated pull request that the workflow merges when GitHub allows it.
 
 Race data is stored as **JSON files** under `data/`. The same files are served as a read-only REST API on GitHub Pages.
 
@@ -55,6 +55,8 @@ AGENT_PROMPT_FILE=/tmp/create-race-prompt.md npm run agent
 - **Automatic:** once daily at **18:00 UTC** (= 20:00 CEST in summer; 19:00 CET in winter), **only when** [`data/index.json`](data/index.json) lists at least one race with `status` other than `finished` (`upcoming` or `live`)
 - **Manual:** Actions → *Update cycling data* → *Run workflow* (optional prompt override; always runs, even if all races are `finished`)
 
+The agent processes each race in the index whose `status` is not `finished`, skipping races that are already complete.
+
 ## Setup
 
 1. Add repository secret **`CURSOR_API_KEY`** ([Cursor dashboard](https://cursor.com/dashboard)).
@@ -75,11 +77,11 @@ AGENT_PROMPT_FILE=/tmp/create-race-prompt.md npm run agent
 | `results.json` | Per-stage top 25, provisional GC |
 | `gc/after-stage-{n}.json` | GC snapshot after each stage |
 
-Static assets (`teams.json`, `profile-climbs.json`, `route-features.json`, GPX) are not updated by the daily bot. See [`AGENTS.md`](AGENTS.md) and [`prompts/update-giro-2026.md`](prompts/update-giro-2026.md).
+Paths above are relative to `data/{year}/{race-slug}/`. Static assets (`teams.json`, `profile-climbs.json`, `route-features.json`, GPX) are not updated by the daily bot. See [`AGENTS.md`](AGENTS.md) and [`prompts/update-cycling-data.md`](prompts/update-cycling-data.md).
 
 ## Pull requests
 
-Each run commits to `bot/giro-d-italia-2026`, opens a PR if needed, then **merges** it into the default branch and deletes the bot branch (`gh pr merge --merge --admin --delete-branch`). The next run creates a fresh branch from `main`.
+Each run commits to `bot/cycling-data-update`, opens a PR if needed, then **merges** it into the default branch and deletes the bot branch (`gh pr merge --merge --admin --delete-branch`). The next run creates a fresh branch from `main`.
 
 Pull request bodies include an **Agent costs** section (token usage, duration, cumulative totals across re-runs on the same bot branch). Dollar amounts are not provided by the Cursor SDK; optional estimates use `CURSOR_COST_PER_MTOK_INPUT` / `CURSOR_COST_PER_MTOK_OUTPUT` env vars.
 
@@ -96,7 +98,7 @@ Optional environment variables:
 | Variable | Default | Purpose |
 |----------|---------|---------|
 | `AGENT_PROMPT` | (file) | Override prompt text entirely |
-| `AGENT_PROMPT_FILE` | `prompts/update-giro-2026.md` | Read prompt from file (`AGENT_PROMPT` takes precedence) |
+| `AGENT_PROMPT_FILE` | `prompts/update-cycling-data.md` | Read prompt from file (`AGENT_PROMPT` takes precedence) |
 | `AGENT_METRICS_FILE` | `run-metrics/latest.json` | Where run-agent writes token/duration metrics |
 | `CURSOR_COST_PER_MTOK_INPUT` | (unset) | Optional USD estimate in PR (per million input tokens) |
 | `CURSOR_COST_PER_MTOK_OUTPUT` | (unset) | Optional USD estimate in PR (per million output tokens) |
@@ -105,11 +107,9 @@ Optional environment variables:
 
 Logs (thinking, tools, status, steps) go to **stderr**. Streaming text is **buffered** and printed as whole paragraphs (not one line per token). Token-level detail is available with `AGENT_LOG_LEVEL=debug`. The final agent summary is printed to **stdout** after the run completes.
 
-## Future races
-
-Data lives under `data/{year}/{race-slug}/`. [`data/index.json`](data/index.json) is the entry point for consumers that need a list of available races and each race's `status` (`upcoming`, `live`, or `finished`). Use the **Create race** workflow to scaffold new events; extend the daily update prompt when adding automated results updates for additional races.
-
 ## Data layout
+
+Data lives under `data/{year}/{race-slug}/`. [`data/index.json`](data/index.json) is the entry point for consumers that need a list of available races and each race's `status` (`upcoming`, `live`, or `finished`). Use the **Create race** workflow to scaffold new events; the daily update agent picks them up automatically once they appear in the index.
 
 ```
 data/

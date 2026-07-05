@@ -1,6 +1,6 @@
 # Cycling data agent
 
-This repository maintains **Giro d'Italia 2026** race data as static JSON files under `data/2026/giro-d-italia/`. Future races may use `data/{year}/{race-slug}/`; only Giro 2026 is in scope for automated updates today.
+This repository maintains professional cycling race data as static JSON files under `data/{year}/{race-slug}/`. The daily update agent processes every race listed in `data/index.json` whose `status` is not `finished`.
 
 The same JSON files are served as a read-only REST API on GitHub Pages (see [`openapi.yaml`](openapi.yaml) and [`README.md`](README.md)).
 
@@ -63,7 +63,7 @@ Paths above are relative to `data/{year}/{race-slug}/` (e.g. `data/2026/giro-d-i
 Prefer, in order:
 
 1. [BikeRaceInfo](https://bikeraceinfo.com) — daily stage pages and "GC after stage N"
-2. [Giro d'Italia official site](https://www.giroditalia.it/en/)
+2. **Official race website** for that event (route, start list, results)
 3. [cyclingstage.com](https://www.cyclingstage.com) — cross-check only
 
 Do not use paywalled or user-generated wikis as primary sources for numeric results.

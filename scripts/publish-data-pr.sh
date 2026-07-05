@@ -1,19 +1,19 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-BOT_BRANCH="${BOT_BRANCH:-bot/giro-d-italia-2026}"
+BOT_BRANCH="${BOT_BRANCH:-bot/cycling-data-update}"
 DATA_DIR="data"
-PR_TITLE="Giro d'Italia 2026 — data update"
+PR_TITLE="Cycling race data update"
 PR_BODY_BASE="$(cat <<'EOF'
 ## Summary
 
-Automated update of Giro d'Italia 2026 data under `data/2026/giro-d-italia/` (stages.json, results.json, gc/after-stage-{n}.json).
+Automated update of race data under `data/{year}/{race-slug}/` (stages.json, results.json, gc/after-stage-{n}.json) and `data/index.json`.
 
 ## Test plan
 
 - [ ] Review diff for newly finished stages only
-- [ ] Confirm team names match `teams.json`
-- [ ] Spot-check stage results and GC against [BikeRaceInfo](https://bikeraceinfo.com) or official Giro results
+- [ ] Confirm team names match each race's `teams.json`
+- [ ] Spot-check stage results and GC against [BikeRaceInfo](https://bikeraceinfo.com) or the official race website
 
 EOF
 )"
@@ -29,15 +29,48 @@ fi
 git config user.name "github-actions[bot]"
 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-STAGE_NOTE=""
-if [[ -f data/2026/giro-d-italia/stages.json ]]; then
-  LAST=$(grep -c '"status": "finished"' data/2026/giro-d-italia/stages.json || true)
-  if [[ -n "${LAST}" && "${LAST}" != "0" ]]; then
-    STAGE_NOTE=" through stage ${LAST}"
-  fi
-fi
+# Collect unique race paths changed under data/ (e.g. 2026/tour-de-france).
+changed_races=()
+while IFS= read -r line; do
+  [[ -n "${line}" ]] && changed_races+=("${line}")
+done < <(git diff --name-only -- "${DATA_DIR}" | grep -oE '^data/[0-9]+/[^/]+' | sed 's|^data/||' | sort -u)
 
-COMMIT_MSG="chore(data): giro 2026 results${STAGE_NOTE}"
+build_commit_msg() {
+  if [[ "${#changed_races[@]}" -eq 0 ]]; then
+    echo "chore(data): update cycling race results"
+    return
+  fi
+
+  local notes=()
+  local race_path slug year stages_file finished_count
+
+  for race_path in "${changed_races[@]}"; do
+    slug="${race_path#*/}"
+    year="${race_path%%/*}"
+
+    stages_file="data/${race_path}/stages.json"
+    if [[ -f "${stages_file}" ]]; then
+      finished_count="$(grep -c '"status": "finished"' "${stages_file}" || true)"
+      if [[ -n "${finished_count}" && "${finished_count}" != "0" ]]; then
+        notes+=("${slug} ${year} through stage ${finished_count}")
+      else
+        notes+=("${slug} ${year}")
+      fi
+    else
+      notes+=("${slug} ${year}")
+    fi
+  done
+
+  if [[ "${#changed_races[@]}" -eq 1 ]]; then
+    echo "chore(data): ${notes[0]} results"
+  else
+    local joined
+    joined="$(IFS=', '; echo "${notes[*]}")"
+    echo "chore(data): update ${joined}"
+  fi
+}
+
+COMMIT_MSG="$(build_commit_msg)"
 
 prepare_cumulative_metrics
 

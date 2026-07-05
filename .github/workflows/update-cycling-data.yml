@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       prompt:
-        description: Optional prompt override (default loads prompts/update-giro-2026.md)
+        description: Optional prompt override (default loads prompts/update-cycling-data.md)
         required: false
         default: ""
 
@@ -31,7 +31,7 @@ jobs:
             echo "All races are finished (or index empty) — scheduled run will be skipped."
           fi
 
-  update-giro-data:
+  update-cycling-data:
     needs: check-active-races
     if: needs.check-active-races.outputs.should_run == 'true' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
@@ -62,7 +62,7 @@ jobs:
 
       - name: Publish data changes as pull request
         env:
-          BOT_BRANCH: bot/giro-d-italia-2026
+          BOT_BRANCH: bot/cycling-data-update
           # GH_PR_TOKEN (optional PAT) when the repo disallows GITHUB_TOKEN from creating PRs.
           GH_TOKEN: ${{ secrets.GH_PR_TOKEN || github.token }}
           GITHUB_SERVER_URL: ${{ github.server_url }}

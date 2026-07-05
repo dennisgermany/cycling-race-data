@@ -28,7 +28,7 @@ if (!apiKey) {
 const defaultPromptPath = join(
   process.cwd(),
   "prompts",
-  "update-giro-2026.md",
+  "update-cycling-data.md",
 );
 
 function resolvePromptPath(): string {
