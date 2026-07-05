@@ -8,7 +8,7 @@
     "startLocation": "Barcelona",
     "finishLocation": "Barcelona",
     "currentStage": "Stage 1 — 20 km (Barcelona → Barcelona), TTT",
-    "status": "upcoming",
+    "status": "finished",
     "gpxUrl": "/data/2026/tour-de-france/gpx/stage-1-route.gpx"
   },
   {
@@ -20,7 +20,7 @@
     "startLocation": "Tarragona",
     "finishLocation": "Barcelona",
     "currentStage": "Stage 2 — 169 km (Tarragona → Barcelona), hilly",
-    "status": "upcoming",
+    "status": "finished",
     "gpxUrl": "/data/2026/tour-de-france/gpx/stage-2-route.gpx"
   },
   {
