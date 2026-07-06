@@ -43,12 +43,28 @@ Paths above are relative to `data/{year}/{race-slug}/` (e.g. `data/2026/giro-d-i
 
    Update status only when justified by official or reputable results pages.
 
+   Each stage must also include **`startTime`** and **`expectedFinishTime`** (ISO-8601 with offset):
+   - `startTime` — official timetable start (organiser, BikeRaceInfo, cyclingstage.com)
+   - `expectedFinishTime` — computed per [`skills/expected-finish-time.md`](skills/expected-finish-time.md) (or `node scripts/expected-finish-time.mjs`)
+
+   On daily updates, **preserve** both fields unless correcting verified errors or stage distance/type/start changed.
+
 7. **Race index** (`data/index.json`): lists every race under `data/{year}/{race-slug}/` that has a `stages.json` file. Each entry:
 
-   `{ year, slug, name, path, status }`
+   **Required:** `{ year, slug, name, path, status, startDate, endDate, country, edition, raceCategory, distanceKm, startLocation, finishLocation }`
+
+   **Optional:** `startTime`, `currentStage`, `gpxAttribution`, `startlistNotes`
 
    - `path`: relative path under `data/` (e.g. `2026/giro-d-italia`)
    - `name`: display name (set when first adding a race; keep unchanged on later updates)
+   - `startDate` / `endDate`: ISO dates from first and last stage in `stages.json`
+   - `country`: host country in English (e.g. `Italy`, `France`, `Belgium`)
+   - `edition`: edition number as published by the organiser (integer)
+   - `raceCategory`: `men` or `women`
+   - `distanceKm`: total distance in km (sum of `distanceKm` on all stages for stage races; single-stage distance for one-day races)
+   - `startLocation` / `finishLocation`: from first stage `startLocation` and last stage `finishLocation`
+   - `gpxAttribution`: credit line for map/GPX sources (set when creating the race; keep on updates)
+   - `startlistNotes`: optional caveats about the start list (sources, scratches, placeholder bibs)
    - `status`: aggregated race status derived from stage statuses in that race's `stages.json`:
      - `finished` — all stages `finished`
      - `upcoming` — all stages `upcoming`
@@ -56,7 +72,7 @@ Paths above are relative to `data/{year}/{race-slug}/` (e.g. `data/2026/giro-d-i
 
    Sort `races` by `year` descending, then `slug` alphabetically. Set top-level `updatedAt` to the ISO date of the update.
 
-   Update `index.json` when stage data changes for a race. If a new `data/{year}/{slug}/` folder with `stages.json` exists but has no index entry, add one (`name` from slug or existing context — do not invent). If the repo is already up to date, do not touch `index.json` unless the derived race `status` differs from the stored value.
+   Update `index.json` when stage data changes for a race. If a new `data/{year}/{slug}/` folder with `stages.json` exists but has no index entry, add one with **all required fields** (derive dates, locations, and `distanceKm` from `stages.json`; research `country`, `edition`, and `raceCategory` from official sources). If the repo is already up to date, do not touch `index.json` unless the derived race `status` differs from the stored value or stage edits change `startDate`, `endDate`, `distanceKm`, or start/finish locations. On daily updates, **preserve** existing `name`, `country`, `edition`, `raceCategory`, `gpxAttribution`, and `startlistNotes`; refresh derived fields when `stages.json` changes.
 
 ## Allowed sources
 

@@ -9,7 +9,9 @@
     "finishLocation": "Barcelona",
     "currentStage": "Stage 1 — 20 km (Barcelona → Barcelona), TTT",
     "status": "finished",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-1-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-1-route.gpx",
+    "startTime": "2026-07-04T16:00:00+02:00",
+    "expectedFinishTime": "2026-07-04T16:24:00+02:00"
   },
   {
     "id": "stage-2",
@@ -21,7 +23,9 @@
     "finishLocation": "Barcelona",
     "currentStage": "Stage 2 — 169 km (Tarragona → Barcelona), hilly",
     "status": "finished",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-2-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-2-route.gpx",
+    "startTime": "2026-07-05T12:15:00+02:00",
+    "expectedFinishTime": "2026-07-05T16:56:00+02:00"
   },
   {
     "id": "stage-3",
@@ -33,7 +37,9 @@
     "finishLocation": "Les Angles",
     "currentStage": "Stage 3 — 196 km (Granollers → Les Angles), mountain",
     "status": "upcoming",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-3-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-3-route.gpx",
+    "startTime": "2026-07-06T12:15:00+02:00",
+    "expectedFinishTime": "2026-07-06T18:11:00+02:00"
   },
   {
     "id": "stage-4",
@@ -45,7 +51,9 @@
     "finishLocation": "Foix",
     "currentStage": "Stage 4 — 182 km (Carcassonne → Foix), hilly",
     "status": "upcoming",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-4-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-4-route.gpx",
+    "startTime": "2026-07-07T12:15:00+02:00",
+    "expectedFinishTime": "2026-07-07T17:18:00+02:00"
   },
   {
     "id": "stage-5",
@@ -57,7 +65,9 @@
     "finishLocation": "Pau",
     "currentStage": "Stage 5 — 158 km (Lannemezan → Pau), flat",
     "status": "upcoming",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-5-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-5-route.gpx",
+    "startTime": "2026-07-08T12:15:00+02:00",
+    "expectedFinishTime": "2026-07-08T16:06:00+02:00"
   },
   {
     "id": "stage-6",
@@ -69,7 +79,9 @@
     "finishLocation": "Gavarnie-Gèdre",
     "currentStage": "Stage 6 — 186 km (Pau → Gavarnie-Gèdre), mountain",
     "status": "upcoming",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-6-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-6-route.gpx",
+    "startTime": "2026-07-09T12:15:00+02:00",
+    "expectedFinishTime": "2026-07-09T17:53:00+02:00"
   },
   {
     "id": "stage-7",
@@ -81,7 +93,9 @@
     "finishLocation": "Bordeaux",
     "currentStage": "Stage 7 — 175 km (Hagetmau → Bordeaux), flat",
     "status": "upcoming",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-7-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-7-route.gpx",
+    "startTime": "2026-07-10T12:15:00+02:00",
+    "expectedFinishTime": "2026-07-10T16:31:00+02:00"
   },
   {
     "id": "stage-8",
@@ -93,7 +107,9 @@
     "finishLocation": "Bergerac",
     "currentStage": "Stage 8 — 180 km (Périgueux → Bergerac), flat",
     "status": "upcoming",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-8-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-8-route.gpx",
+    "startTime": "2026-07-11T12:15:00+02:00",
+    "expectedFinishTime": "2026-07-11T16:38:00+02:00"
   },
   {
     "id": "stage-9",
@@ -105,7 +121,9 @@
     "finishLocation": "Ussel",
     "currentStage": "Stage 9 — 186 km (Malemort → Ussel), hilly",
     "status": "upcoming",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-9-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-9-route.gpx",
+    "startTime": "2026-07-12T12:15:00+02:00",
+    "expectedFinishTime": "2026-07-12T17:25:00+02:00"
   },
   {
     "id": "stage-10",
@@ -117,7 +135,9 @@
     "finishLocation": "Le Lioran",
     "currentStage": "Stage 10 — 167 km (Aurillac → Le Lioran), mountain",
     "status": "upcoming",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-10-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-10-route.gpx",
+    "startTime": "2026-07-14T12:15:00+02:00",
+    "expectedFinishTime": "2026-07-14T17:18:00+02:00"
   },
   {
     "id": "stage-11",
@@ -129,7 +149,9 @@
     "finishLocation": "Nevers",
     "currentStage": "Stage 11 — 161 km (Vichy → Nevers), flat",
     "status": "upcoming",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-11-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-11-route.gpx",
+    "startTime": "2026-07-15T12:15:00+02:00",
+    "expectedFinishTime": "2026-07-15T16:10:00+02:00"
   },
   {
     "id": "stage-12",
@@ -141,7 +163,9 @@
     "finishLocation": "Chalon-sur-Saône",
     "currentStage": "Stage 12 — 179 km (Circuit Nevers Magny-Cours → Chalon-sur-Saône), flat",
     "status": "upcoming",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-12-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-12-route.gpx",
+    "startTime": "2026-07-16T12:15:00+02:00",
+    "expectedFinishTime": "2026-07-16T16:36:00+02:00"
   },
   {
     "id": "stage-13",
@@ -153,7 +177,9 @@
     "finishLocation": "Belfort",
     "currentStage": "Stage 13 — 206 km (Dole → Belfort), hilly",
     "status": "upcoming",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-13-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-13-route.gpx",
+    "startTime": "2026-07-17T12:15:00+02:00",
+    "expectedFinishTime": "2026-07-17T17:58:00+02:00"
   },
   {
     "id": "stage-14",
@@ -165,7 +191,9 @@
     "finishLocation": "Le Markstein Fellering",
     "currentStage": "Stage 14 — 155 km (Mulhouse → Le Markstein Fellering), mountain",
     "status": "upcoming",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-14-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-14-route.gpx",
+    "startTime": "2026-07-18T12:15:00+02:00",
+    "expectedFinishTime": "2026-07-18T16:56:00+02:00"
   },
   {
     "id": "stage-15",
@@ -177,7 +205,9 @@
     "finishLocation": "Plateau de Solaison",
     "currentStage": "Stage 15 — 184 km (Champagnole → Plateau de Solaison), mountain",
     "status": "upcoming",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-15-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-15-route.gpx",
+    "startTime": "2026-07-19T12:15:00+02:00",
+    "expectedFinishTime": "2026-07-19T17:49:00+02:00"
   },
   {
     "id": "stage-16",
@@ -189,7 +219,9 @@
     "finishLocation": "Thonon-les-Bains",
     "currentStage": "Stage 16 — 26 km (Évian-les-Bains → Thonon-les-Bains), ITT",
     "status": "upcoming",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-16-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-16-route.gpx",
+    "startTime": "2026-07-21T16:30:00+02:00",
+    "expectedFinishTime": "2026-07-21T17:04:00+02:00"
   },
   {
     "id": "stage-17",
@@ -201,7 +233,9 @@
     "finishLocation": "Voiron",
     "currentStage": "Stage 17 — 175 km (Chambéry → Voiron), flat",
     "status": "upcoming",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-17-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-17-route.gpx",
+    "startTime": "2026-07-22T12:15:00+02:00",
+    "expectedFinishTime": "2026-07-22T16:31:00+02:00"
   },
   {
     "id": "stage-18",
@@ -213,7 +247,9 @@
     "finishLocation": "Orcières-Merlette",
     "currentStage": "Stage 18 — 185 km (Voiron → Orcières-Merlette), mountain",
     "status": "upcoming",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-18-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-18-route.gpx",
+    "startTime": "2026-07-23T12:15:00+02:00",
+    "expectedFinishTime": "2026-07-23T17:51:00+02:00"
   },
   {
     "id": "stage-19",
@@ -225,7 +261,9 @@
     "finishLocation": "Alpe d'Huez",
     "currentStage": "Stage 19 — 128 km (Gap → Alpe d'Huez), mountain",
     "status": "upcoming",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-19-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-19-route.gpx",
+    "startTime": "2026-07-24T12:15:00+02:00",
+    "expectedFinishTime": "2026-07-24T16:07:00+02:00"
   },
   {
     "id": "stage-20",
@@ -237,7 +275,9 @@
     "finishLocation": "Alpe d'Huez",
     "currentStage": "Stage 20 — 171 km (Le Bourg-d'Oisans → Alpe d'Huez), mountain",
     "status": "upcoming",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-20-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-20-route.gpx",
+    "startTime": "2026-07-25T12:15:00+02:00",
+    "expectedFinishTime": "2026-07-25T17:25:00+02:00"
   },
   {
     "id": "stage-21",
@@ -249,6 +289,8 @@
     "finishLocation": "Paris Champs-Élysées",
     "currentStage": "Stage 21 — 133 km (Thoiry → Paris Champs-Élysées), flat",
     "status": "upcoming",
-    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-21-route.gpx"
+    "gpxUrl": "/data/2026/tour-de-france/gpx/stage-21-route.gpx",
+    "startTime": "2026-07-26T12:15:00+02:00",
+    "expectedFinishTime": "2026-07-26T15:29:00+02:00"
   }
 ]

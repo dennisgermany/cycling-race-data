@@ -30,10 +30,11 @@ Files listed in `AGENTS.md`: under `data/{year}/{race-slug}/` (`stages.json`, `r
    - Write `gc/after-stage-{n}.json` with the GC after that stage
    - Refresh `results.json` → `provisionalGc` to reflect GC after the latest finished stage
 
-7. Update `data/index.json` for each race that changed (or whose derived status differs):
+7. Update `data/index.json` for each race that changed (or whose derived status or stage-derived catalog fields differ):
    - Derive race `status` from all stage statuses in that race's `stages.json` (see `AGENTS.md` rule 7)
+   - Refresh `startDate`, `endDate`, `distanceKm`, `startLocation`, and `finishLocation` from `stages.json` when stages changed
    - Set top-level `updatedAt` to today's ISO date
-   - Keep existing `name` and other fields unchanged
+   - Keep existing `name`, `country`, `edition`, `raceCategory`, `gpxAttribution`, `startlistNotes`, and index `startTime` unchanged; do not change `startTime` or `expectedFinishTime` on `stages.json` unless fixing verified errors
    - Keep `races` sorted by `year` descending, then `slug` alphabetically
 
 8. Reply with a short summary per race: last stage updated, whether files changed, races skipped, and source URLs consulted.

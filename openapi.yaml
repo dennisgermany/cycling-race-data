@@ -237,7 +237,20 @@ components:
 
     Race:
       type: object
-      required: [year, slug, name, path, status]
+      required:
+        - year
+        - slug
+        - name
+        - path
+        - status
+        - startDate
+        - endDate
+        - country
+        - edition
+        - raceCategory
+        - distanceKm
+        - startLocation
+        - finishLocation
       properties:
         year:
           type: integer
@@ -255,6 +268,54 @@ components:
         status:
           type: string
           enum: [upcoming, live, finished]
+        startDate:
+          type: string
+          format: date
+          description: First race day (ISO date)
+          example: "2026-05-08"
+        endDate:
+          type: string
+          format: date
+          description: Last race day (ISO date)
+          example: "2026-05-31"
+        country:
+          type: string
+          description: Host country (English name)
+          example: Italy
+        edition:
+          type: integer
+          minimum: 1
+          description: Edition number (e.g. 109th Giro)
+          example: 109
+        raceCategory:
+          type: string
+          enum: [men, women]
+          description: Elite gender classification
+        distanceKm:
+          type: number
+          description: Total race distance in km (sum of stage distances for stage races)
+          example: 3459.2
+        startLocation:
+          type: string
+          description: Race start town (first stage start for stage races)
+          example: Nessebar
+        finishLocation:
+          type: string
+          description: Race finish town (last stage finish for stage races)
+          example: Rome
+        startTime:
+          type: string
+          format: date-time
+          description: Optional UTC ISO-8601 instant for race or stage-1 start
+        currentStage:
+          type: string
+          description: Optional human-readable race status line for detail headers
+        gpxAttribution:
+          type: string
+          description: Optional map/GPX credit line for clients
+        startlistNotes:
+          type: string
+          description: Optional startlist caveats (sources, scratches, placeholder bibs)
 
     Stage:
       type: object
@@ -269,6 +330,8 @@ components:
         - currentStage
         - status
         - gpxUrl
+        - startTime
+        - expectedFinishTime
       properties:
         id:
           type: string
@@ -282,6 +345,16 @@ components:
         date:
           type: string
           format: date
+        startTime:
+          type: string
+          format: date-time
+          description: Official stage start (ISO-8601 with offset)
+          example: "2026-05-08T12:15:00+03:00"
+        expectedFinishTime:
+          type: string
+          format: date-time
+          description: Estimated finish from start + distance + stage type (see skills/expected-finish-time.md)
+          example: "2026-05-08T16:03:00+03:00"
         distanceKm:
           type: integer
         startLocation:

@@ -72,8 +72,8 @@ The agent processes each race in the index whose `status` is not `finished`, ski
 
 | File | Content |
 |------|---------|
-| `data/index.json` | Race catalog and aggregated race `status` |
-| `stages.json` | Stage `status` |
+| `data/index.json` | Race catalog: `status`, dates, country, edition, `raceCategory`, total `distanceKm`, start/finish, optional `gpxAttribution` / `startlistNotes` |
+| `stages.json` | Stage `status`, `startTime`, `expectedFinishTime` (see [`skills/expected-finish-time.md`](skills/expected-finish-time.md)) |
 | `results.json` | Per-stage top 25, provisional GC |
 | `gc/after-stage-{n}.json` | GC snapshot after each stage |
 
@@ -109,7 +109,7 @@ Logs (thinking, tools, status, steps) go to **stderr**. Streaming text is **buff
 
 ## Data layout
 
-Data lives under `data/{year}/{race-slug}/`. [`data/index.json`](data/index.json) is the entry point for consumers that need a list of available races and each race's `status` (`upcoming`, `live`, or `finished`). Use the **Create race** workflow to scaffold new events; the daily update agent picks them up automatically once they appear in the index.
+Data lives under `data/{year}/{race-slug}/`. [`data/index.json`](data/index.json) is the entry point for consumers: each race lists `status` (`upcoming`, `live`, or `finished`) plus catalog metadata (`startDate`, `endDate`, `country`, `edition`, `raceCategory`, `distanceKm`, `startLocation`, `finishLocation`, and optional `gpxAttribution` / `startlistNotes`). See [`openapi.yaml`](openapi.yaml) and [`AGENTS.md`](AGENTS.md) rule 7.
 
 ```
 data/

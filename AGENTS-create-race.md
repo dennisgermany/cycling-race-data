@@ -57,6 +57,8 @@ Reference implementation: `data/2026/giro-d-italia/` (Giro d'Italia 2026).
   "name": "Start — Finish",
   "date": "2026-07-05",
   "distanceKm": 185,
+  "startTime": "2026-07-05T12:15:00+02:00",
+  "expectedFinishTime": "2026-07-05T16:46:00+02:00",
   "startLocation": "Lille",
   "finishLocation": "Roubaix",
   "currentStage": "Stage 1 — 185 km (Lille → Roubaix), flat",
@@ -66,6 +68,8 @@ Reference implementation: `data/2026/giro-d-italia/` (Giro d'Italia 2026).
 ```
 
 - `id`: string `stage-{number}`
+- `startTime`: official stage start (ISO-8601 with offset)
+- `expectedFinishTime`: required — read [`skills/expected-finish-time.md`](skills/expected-finish-time.md) and verify with `node scripts/expected-finish-time.mjs`
 - `currentStage` type: flat | hilly | mountain | ITT | TTT
 - `status`: `upcoming` | `live` | `finished`
 - **Multi-stage races:** one stage per race day (skip rest days; numbering continues)
@@ -155,7 +159,7 @@ Every stage id from `stages.json` must appear (empty array if no climbs).
 
 ### `data/index.json`
 
-Add:
+Add an entry with **all required fields** (see `AGENTS.md` rule 7). Derive from `stages.json` and official sources:
 
 ```json
 {
@@ -163,11 +167,26 @@ Add:
   "slug": "tour-de-france",
   "name": "Tour de France",
   "path": "2026/tour-de-france",
-  "status": "upcoming"
+  "status": "upcoming",
+  "startDate": "2026-07-04",
+  "endDate": "2026-07-26",
+  "country": "France",
+  "edition": 113,
+  "raceCategory": "men",
+  "distanceKm": 3322,
+  "startLocation": "Barcelona",
+  "finishLocation": "Paris Champs-Élysées",
+  "gpxAttribution": "Course GPX: Tour de France 2026 stage routes from cyclingstage.com. Map tiles © OpenStreetMap contributors."
 }
 ```
 
 - `name`: use the user-supplied display name (`{{RACE_NAME}}`)
+- `startDate` / `endDate`: first and last stage `date` in `stages.json`
+- `country`, `edition`, `raceCategory`: from official race site or BikeRaceInfo (do not guess)
+- `distanceKm`: sum of all stage `distanceKm` values (round to one decimal if needed)
+- `startLocation` / `finishLocation`: first stage start and last stage finish
+- `gpxAttribution`: one-line credit for GPX/map sources used
+- `startlistNotes` (optional): start-list caveats if needed
 - `status`: derive from stage statuses (see `AGENTS.md` rule 7)
 - Sort `races` by `year` descending, then `slug` alphabetically
 - Set top-level `updatedAt` to today's ISO date
@@ -200,5 +219,5 @@ Do not use paywalled or user-generated wikis as primary sources for results, bib
 5. Research stage profiles → write `profile-climbs.json` → `route-features.json`
 6. Download GPX files → `gpx/`
 7. Write empty `results.json` and no `gc/` files (or fill for finished stages)
-8. Update `index.json`
+8. Update `index.json` with all required catalog fields (see above)
 9. Summarize: stage count, sources, missing GPX or start-list gaps

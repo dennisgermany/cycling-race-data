@@ -1,19 +1,39 @@
 {
-  "updatedAt": "2026-07-05",
+  "updatedAt": "2026-07-06",
   "races": [
     {
       "year": 2026,
       "slug": "giro-d-italia",
       "name": "Giro d'Italia",
       "path": "2026/giro-d-italia",
-      "status": "finished"
+      "status": "finished",
+      "startDate": "2026-05-08",
+      "endDate": "2026-05-31",
+      "country": "Italy",
+      "edition": 109,
+      "raceCategory": "men",
+      "distanceKm": 3459.2,
+      "startLocation": "Nessebar",
+      "finishLocation": "Rome",
+      "gpxAttribution": "Course GPX: Giro d'Italia 2026 stage routes from cyclingstage.com. Map tiles © OpenStreetMap contributors.",
+      "startTime": "2026-05-08T12:15:00+03:00"
     },
     {
       "year": 2026,
       "slug": "tour-de-france",
       "name": "Tour de France",
       "path": "2026/tour-de-france",
-      "status": "live"
+      "status": "live",
+      "startDate": "2026-07-04",
+      "endDate": "2026-07-26",
+      "country": "France",
+      "edition": 113,
+      "raceCategory": "men",
+      "distanceKm": 3322,
+      "startLocation": "Barcelona",
+      "finishLocation": "Paris Champs-Élysées",
+      "gpxAttribution": "Course GPX: Tour de France 2026 stage routes. Map tiles © OpenStreetMap contributors.",
+      "startTime": "2026-07-04T16:00:00+02:00"
     }
   ]
 }

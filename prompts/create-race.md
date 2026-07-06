@@ -30,6 +30,11 @@ Read and follow **`AGENTS-create-race.md`** for full schema rules, allowed sourc
 4. **Write `{dataDir}/stages.json`**
    - JSON array of stage objects
    - Set `gpxUrl` to `{gpxWebPrefix}/stage-N-route.gpx` for each stage
+   - Set `startTime` per stage from official timetables (ISO-8601 with offset)
+
+4b. **Set `expectedFinishTime`** on each stage
+   - Read [`skills/expected-finish-time.md`](skills/expected-finish-time.md)
+   - Compute with `node scripts/expected-finish-time.mjs` or `--stage-json` for each stage
 
 5. **Research the start list**
    - Official list, BikeRaceInfo, or cyclingstage.com
@@ -54,7 +59,7 @@ Read and follow **`AGENTS-create-race.md`** for full schema rules, allowed sourc
    - Write `{dataDir}/gc/after-stage-N.json` for each finished stage (array of top 25)
 
 10. **Update `data/index.json`**
-    - Add entry with `name: "{{RACE_NAME}}"`, derived `status`, sorted races list, `updatedAt` = today
+    - Add entry with `name: "{{RACE_NAME}}"`, **all required catalog fields** (see `AGENTS-create-race.md`), derived `status`, sorted races list, `updatedAt` = today
 
 11. **Reply with a summary**
     - Stage count and date range
