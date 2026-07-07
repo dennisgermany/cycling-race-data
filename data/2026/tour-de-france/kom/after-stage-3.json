@@ -1,0 +1,12 @@
+[
+  { "rank": 1, "bib": 43, "name": "Alex Baudin", "nationality": "France", "team": "EF Education-EasyPost", "points": 12 },
+  { "rank": 2, "bib": 57, "name": "Nicolas Prodhomme", "nationality": "France", "team": "Decathlon CMA CGM Team", "points": 9 },
+  { "rank": 3, "bib": 144, "name": "Raúl García", "nationality": "Spain", "team": "Movistar Team", "points": 6 },
+  { "rank": 4, "bib": 224, "name": "Alex Molenaar", "nationality": "Netherlands", "team": "Caja Rural-Seguros RGA", "points": 5 },
+  { "rank": 5, "bib": 4, "name": "Brandon McNulty", "nationality": "United States", "team": "UAE Team Emirates-XRG", "points": 4 },
+  { "rank": 6, "bib": 78, "name": "Vlad Van Mechelen", "nationality": "Belgium", "team": "Bahrain Victorious", "points": 4 },
+  { "rank": 7, "bib": 1, "name": "Tadej Pogacar", "nationality": "Slovenia", "team": "UAE Team Emirates-XRG", "points": 3 },
+  { "rank": 8, "bib": 121, "name": "Tobias Halland Johannessen", "nationality": "Norway", "team": "Uno-X Mobility", "points": 3 },
+  { "rank": 9, "bib": 114, "name": "Felix Engelhardt", "nationality": "Germany", "team": "Team Jayco-AlUla", "points": 2 },
+  { "rank": 10, "bib": 93, "name": "Valentin Paret-Peintre", "nationality": "France", "team": "Soudal Quick-Step", "points": 2 }
+]

@@ -1,0 +1,12 @@
+[
+  { "rank": 1, "bib": 1, "name": "Tadej Pogacar", "nationality": "Slovenia", "team": "UAE Team Emirates-XRG", "points": 55 },
+  { "rank": 2, "bib": 11, "name": "Jonas Vingegaard", "nationality": "Denmark", "team": "Team Visma | Lease a Bike", "points": 44 },
+  { "rank": 3, "bib": 2, "name": "Isaac del Toro", "nationality": "Mexico", "team": "UAE Team Emirates-XRG", "points": 39 },
+  { "rank": 4, "bib": 33, "name": "Mads Pedersen", "nationality": "Denmark", "team": "Lidl-Trek", "points": 37 },
+  { "rank": 5, "bib": 21, "name": "Remco Evenepoel", "nationality": "Belgium", "team": "Red Bull-BORA-hansgrohe", "points": 33 },
+  { "rank": 6, "bib": 121, "name": "Tobias Halland Johannessen", "nationality": "Norway", "team": "Uno-X Mobility", "points": 32 },
+  { "rank": 7, "bib": 51, "name": "Paul Seixas", "nationality": "France", "team": "Decathlon CMA CGM Team", "points": 28 },
+  { "rank": 8, "bib": 224, "name": "Alex Molenaar", "nationality": "Netherlands", "team": "Caja Rural-Seguros RGA", "points": 25 },
+  { "rank": 9, "bib": 35, "name": "Mattias Skjelmose", "nationality": "Denmark", "team": "Lidl-Trek", "points": 25 },
+  { "rank": 10, "bib": 41, "name": "Richard Carapaz", "nationality": "Ecuador", "team": "EF Education-EasyPost", "points": 23 }
+]
