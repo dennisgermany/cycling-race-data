@@ -1,0 +1,12 @@
+[
+  { "rank": 1, "bib": 226, "name": "Christian Scaroni", "nationality": "Italy", "team": "XDS Astana Team", "points": 172 },
+  { "rank": 2, "bib": 125, "name": "Giulio Pellizzari", "nationality": "Italy", "team": "Red Bull - BORA - hansgrohe", "points": 141 },
+  { "rank": 3, "bib": 181, "name": "Michael Storer", "nationality": "Australia", "team": "Tudor Pro Cycling Team", "points": 128 },
+  { "rank": 4, "bib": 88, "name": "Einer Rubio", "nationality": "Spain", "team": "Movistar Team", "points": 96 },
+  { "rank": 5, "bib": 12, "name": "Damiano Caruso", "nationality": "Italy", "team": "Bahrain Victorious", "points": 84 },
+  { "rank": 6, "bib": 91, "name": "Egan Bernal", "nationality": "Colombia", "team": "Netcompany INEOS Cycling Team", "points": 77 },
+  { "rank": 7, "bib": 102, "name": "Jan Hirt", "nationality": "Czech Republic", "team": "NSN Cycling Team", "points": 69 },
+  { "rank": 8, "bib": 207, "name": "Wout Poels", "nationality": "Netherlands", "team": "Unibet Rose Rockets", "points": 61 },
+  { "rank": 9, "bib": 14, "name": "Afonso Eulalio", "nationality": "Portugal", "team": "Bahrain Victorious", "points": 54 },
+  { "rank": 10, "bib": 61, "name": "Giulio Ciccone", "nationality": "Italy", "team": "Lidl - Trek", "points": 48 }
+]

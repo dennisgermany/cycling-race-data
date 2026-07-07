@@ -29,6 +29,8 @@ tags:
     description: Stage results and provisional GC
   - name: GC
     description: General classification snapshots
+  - name: Classifications
+    description: Jersey metadata and points/mountains/young-rider classification snapshots
   - name: Route
     description: Climbs and GPX routes
 
@@ -132,6 +134,92 @@ paths:
         "404":
           description: File not found (stage not finished or not yet published)
 
+  /data/{year}/{slug}/classifications.json:
+    get:
+      tags: [Classifications]
+      summary: Classification metadata (jersey colors/names)
+      description: |
+        Ordered list of the classifications this race awards, with race-specific
+        jersey colors and names. Optional: absent for one-day races (GC only).
+      operationId: getClassifications
+      parameters:
+        - $ref: "#/components/parameters/year"
+        - $ref: "#/components/parameters/slug"
+      responses:
+        "200":
+          description: Ordered classifications with jersey metadata
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Classification"
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /data/{year}/{slug}/points/after-stage-{stageNumber}.json:
+    get:
+      tags: [Classifications]
+      summary: Points classification after stage N
+      operationId: getPointsAfterStage
+      parameters:
+        - $ref: "#/components/parameters/year"
+        - $ref: "#/components/parameters/slug"
+        - $ref: "#/components/parameters/stageNumber"
+      responses:
+        "200":
+          description: Top 25 riders in the points classification after the given stage
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/ClassificationPointsResult"
+        "404":
+          description: File not found (stage not finished or not yet published)
+
+  /data/{year}/{slug}/kom/after-stage-{stageNumber}.json:
+    get:
+      tags: [Classifications]
+      summary: Mountains (KOM) classification after stage N
+      operationId: getKomAfterStage
+      parameters:
+        - $ref: "#/components/parameters/year"
+        - $ref: "#/components/parameters/slug"
+        - $ref: "#/components/parameters/stageNumber"
+      responses:
+        "200":
+          description: Top 25 riders in the mountains classification after the given stage
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/ClassificationPointsResult"
+        "404":
+          description: File not found (stage not finished or not yet published)
+
+  /data/{year}/{slug}/youth/after-stage-{stageNumber}.json:
+    get:
+      tags: [Classifications]
+      summary: Young rider classification after stage N
+      operationId: getYouthAfterStage
+      parameters:
+        - $ref: "#/components/parameters/year"
+        - $ref: "#/components/parameters/slug"
+        - $ref: "#/components/parameters/stageNumber"
+      responses:
+        "200":
+          description: Top 25 riders in the young rider classification after the given stage
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/RiderResult"
+        "404":
+          description: File not found (stage not finished or not yet published)
+
   /data/{year}/{slug}/profile-climbs.json:
     get:
       tags: [Route]
@@ -216,6 +304,14 @@ components:
       schema:
         type: string
         example: giro-d-italia
+    stageNumber:
+      name: stageNumber
+      in: path
+      required: true
+      schema:
+        type: integer
+        minimum: 1
+      description: Stage number (1-based)
 
   responses:
     NotFound:
@@ -439,6 +535,55 @@ components:
                 nationality: Italy
                 team: Example Team
                 time: "3:21:08"
+
+    Classification:
+      type: object
+      required: [kind, metric]
+      properties:
+        kind:
+          type: string
+          enum: [gc, points, kom, youth]
+          description: Stable classification identifier (shared across all races)
+        metric:
+          type: string
+          enum: [time, points]
+          description: >-
+            `time` for time-based classifications (gc, youth); `points` for
+            points-based classifications (points, kom). Drives the value column.
+        jerseyColor:
+          type: string
+          description: Hex color of the leader's jersey (race-specific)
+          example: "#FFDD00"
+        jerseyStyle:
+          type: string
+          description: Optional jersey pattern, e.g. `polka` for the mountains jersey
+          example: polka
+        jerseyName:
+          type: string
+          description: Optional official jersey name
+          example: Maillot Jaune
+
+    ClassificationPointsResult:
+      type: object
+      required: [rank, bib, name, nationality, team, points]
+      properties:
+        rank:
+          type: integer
+          minimum: 1
+          maximum: 25
+        bib:
+          type: integer
+        name:
+          type: string
+        nationality:
+          type: string
+        team:
+          type: string
+        points:
+          type: integer
+          minimum: 0
+          description: Total classification points
+          example: 44
 
     ProfileClimb:
       type: object

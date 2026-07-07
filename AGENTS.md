@@ -12,12 +12,18 @@ The same JSON files are served as a read-only REST API on GitHub Pages (see [`op
 | `stages.json` | Stage list and `status` per stage |
 | `results.json` | Stage results (top 25) and provisional GC |
 | `gc/after-stage-{n}.json` | GC snapshot after each finished stage (top 25) |
+| `points/after-stage-{n}.json` | Points classification snapshot after each finished stage (top 25) |
+| `kom/after-stage-{n}.json` | Mountains (KOM) classification snapshot after each finished stage (top 25) |
+| `youth/after-stage-{n}.json` | Young rider classification snapshot after each finished stage (top 25) |
+
+Only write `points/`, `kom/`, and `youth/` files for classifications that the race actually awards — i.e. those listed in `classifications.json`. One-day races and some events award GC only.
 
 Paths above are relative to `data/{year}/{race-slug}/` (e.g. `data/2026/giro-d-italia/stages.json`).
 
 ## Do not update (unless explicitly asked)
 
 - `teams.json` (start list)
+- `classifications.json` (jersey metadata; set once when the race is created)
 - `profile-climbs.json`, `route-features.json`
 - GPX files under `gpx/`
 
@@ -35,6 +41,11 @@ Paths above are relative to `data/{year}/{race-slug}/` (e.g. `data/2026/giro-d-i
 4. **Provisional GC** (`results.json` → `provisionalGc`): top 25 after the latest finished stage; same row shape as stage results.
 
 5. **GC by stage** (`gc/after-stage-{n}.json`): one file per finished stage number; top 25; same row shape.
+
+   **Other classifications by stage** (only if the race awards them per `classifications.json`): one file per finished stage number, top 25.
+   - `youth/after-stage-{n}.json` — young rider classification; **time-based**, same row shape as GC (`{ rank, bib, name, nationality, team, time }`), leader shows elapsed time, others show gaps.
+   - `points/after-stage-{n}.json` and `kom/after-stage-{n}.json` — points/mountains classifications; **points-based** rows `{ rank, bib, name, nationality, team, points }` where `points` is the integer classification total (no `time`).
+   - Rank by total points descending (points classifications) or classification time ascending (youth). Fewer than 25 riders is fine early in a race when only a handful have scored.
 
 6. **Stage status** in `stages.json`:
    - `finished` — stage complete and results published

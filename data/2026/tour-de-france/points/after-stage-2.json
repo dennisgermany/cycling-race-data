@@ -1,0 +1,17 @@
+[
+  { "rank": 1, "bib": 2, "name": "Isaac del Toro", "nationality": "Mexico", "team": "UAE Team Emirates-XRG", "points": 30 },
+  { "rank": 2, "bib": 224, "name": "Alex Molenaar", "nationality": "Netherlands", "team": "Caja Rural-Seguros RGA", "points": 25 },
+  { "rank": 3, "bib": 1, "name": "Tadej Pogacar", "nationality": "Slovenia", "team": "UAE Team Emirates-XRG", "points": 25 },
+  { "rank": 4, "bib": 21, "name": "Remco Evenepoel", "nationality": "Belgium", "team": "Red Bull-BORA-hansgrohe", "points": 22 },
+  { "rank": 5, "bib": 114, "name": "Felix Engelhardt", "nationality": "Germany", "team": "Team Jayco-AlUla", "points": 20 },
+  { "rank": 6, "bib": 11, "name": "Jonas Vingegaard", "nationality": "Denmark", "team": "Team Visma | Lease a Bike", "points": 19 },
+  { "rank": 7, "bib": 35, "name": "Mattias Skjelmose", "nationality": "Denmark", "team": "Lidl-Trek", "points": 17 },
+  { "rank": 8, "bib": 218, "name": "Frank van den Broek", "nationality": "Netherlands", "team": "Team Picnic PostNL", "points": 16 },
+  { "rank": 9, "bib": 121, "name": "Tobias Halland Johannessen", "nationality": "Norway", "team": "Uno-X Mobility", "points": 15 },
+  { "rank": 10, "bib": 131, "name": "Biniam Girmay", "nationality": "Eritrea", "team": "NSN Cycling Team", "points": 14 },
+  { "rank": 11, "bib": 181, "name": "Romain Grégoire", "nationality": "France", "team": "Groupama-FDJ United", "points": 13 },
+  { "rank": 12, "bib": 33, "name": "Mads Pedersen", "nationality": "Denmark", "team": "Lidl-Trek", "points": 12 },
+  { "rank": 13, "bib": 71, "name": "Lenny Martinez", "nationality": "France", "team": "Bahrain Victorious", "points": 11 },
+  { "rank": 14, "bib": 105, "name": "Jasper Philipsen", "nationality": "Belgium", "team": "Alpecin-Premier Tech", "points": 10 },
+  { "rank": 15, "bib": 51, "name": "Paul Seixas", "nationality": "France", "team": "Decathlon CMA CGM Team", "points": 9 }
+]

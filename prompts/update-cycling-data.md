@@ -2,7 +2,7 @@ Update cycling race data in this repository for every active race listed in `dat
 
 ## Scope
 
-Files listed in `AGENTS.md`: under `data/{year}/{race-slug}/` (`stages.json`, `results.json`, `gc/after-stage-{n}.json`) and `data/index.json`.
+Files listed in `AGENTS.md`: under `data/{year}/{race-slug}/` (`stages.json`, `results.json`, `gc/after-stage-{n}.json`, and — for classifications listed in `classifications.json` — `points/after-stage-{n}.json`, `kom/after-stage-{n}.json`, `youth/after-stage-{n}.json`) and `data/index.json`.
 
 ## Steps
 
@@ -16,6 +16,7 @@ Files listed in `AGENTS.md`: under `data/{year}/{race-slug}/` (`stages.json`, `r
    - `data/{path}/stages.json` — which stages are `finished`, `live`, or `upcoming`
    - `data/{path}/results.json` — which stage IDs exist in `stageResults` and the current `provisionalGc`
    - `data/{path}/gc/` — highest `after-stage-{n}.json` present
+   - `data/{path}/classifications.json` — which classifications the race awards (which of `points/`, `kom/`, `youth/` to maintain)
    - `data/{path}/teams.json` — for correct team labels and bibs
 
    If the race folder is missing, skip that race and note it in the summary (do not invent data).
@@ -28,6 +29,7 @@ Files listed in `AGENTS.md`: under `data/{year}/{race-slug}/` (`stages.json`, `r
    - Set `"status": "finished"` in `stages.json` (and set any prior `live` stage appropriately)
    - Add top-25 stage results to `results.json` → `stageResults` under the stage id key
    - Write `gc/after-stage-{n}.json` with the GC after that stage
+   - For each classification in `classifications.json` other than `gc`, write its `after-stage-{n}.json` (top 25): `youth/` uses the time-based GC row shape; `points/` and `kom/` use the points-based row shape `{ rank, bib, name, nationality, team, points }`
    - Refresh `results.json` → `provisionalGc` to reflect GC after the latest finished stage
 
 7. Update `data/index.json` for each race that changed (or whose derived status or stage-derived catalog fields differ):

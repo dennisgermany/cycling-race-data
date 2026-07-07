@@ -1,0 +1,14 @@
+[
+  { "rank": 1, "bib": 65, "name": "Jonathan Milan", "nationality": "Italy", "team": "Lidl - Trek", "points": 328 },
+  { "rank": 2, "bib": 1, "name": "Kaden Groves", "nationality": "Australia", "team": "Alpecin-Premier Tech", "points": 262 },
+  { "rank": 3, "bib": 158, "name": "Casper van Uden", "nationality": "Netherlands", "team": "Team Picnic PostNL", "points": 201 },
+  { "rank": 4, "bib": 142, "name": "Pascal Ackermann", "nationality": "Germany", "team": "Team Jayco AlUla", "points": 178 },
+  { "rank": 5, "bib": 201, "name": "Dylan Groenewegen", "nationality": "Netherlands", "team": "Unibet Rose Rockets", "points": 165 },
+  { "rank": 6, "bib": 131, "name": "Paul Magnier", "nationality": "France", "team": "Soudal Quick-Step", "points": 149 },
+  { "rank": 7, "bib": 109, "name": "Ethan Vernon", "nationality": "United Kingdom", "team": "NSN Cycling Team", "points": 132 },
+  { "rank": 8, "bib": 225, "name": "Matteo Malucelli", "nationality": "Italy", "team": "XDS Astana Team", "points": 121 },
+  { "rank": 9, "bib": 107, "name": "Corbin Strong", "nationality": "New Zealand", "team": "NSN Cycling Team", "points": 108 },
+  { "rank": 10, "bib": 163, "name": "Giovanni Lonardi", "nationality": "Italy", "team": "Team Polti VisitMalta", "points": 96 },
+  { "rank": 11, "bib": 185, "name": "Luca Mozzato", "nationality": "Italy", "team": "Tudor Pro Cycling Team", "points": 88 },
+  { "rank": 12, "bib": 228, "name": "Diego Ulissi", "nationality": "Italy", "team": "XDS Astana Team", "points": 77 }
+]

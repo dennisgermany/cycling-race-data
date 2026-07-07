@@ -1,0 +1,10 @@
+[
+  { "rank": 1, "bib": 31, "name": "Juan Ayuso", "nationality": "Spain", "team": "Lidl-Trek", "time": "22:03" },
+  { "rank": 2, "bib": 2, "name": "Isaac del Toro", "nationality": "Mexico", "team": "UAE Team Emirates-XRG", "time": "+0:10" },
+  { "rank": 3, "bib": 18, "name": "Davide Piganzoli", "nationality": "Italy", "team": "Team Visma | Lease a Bike", "time": "+0:12" },
+  { "rank": 4, "bib": 51, "name": "Paul Seixas", "nationality": "France", "team": "Decathlon CMA CGM Team", "time": "+0:23" },
+  { "rank": 5, "bib": 181, "name": "Romain Grégoire", "nationality": "France", "team": "Groupama-FDJ United", "time": "+0:25" },
+  { "rank": 6, "bib": 58, "name": "Matthew Riccitello", "nationality": "United States", "team": "Decathlon CMA CGM Team", "time": "+0:34" },
+  { "rank": 7, "bib": 71, "name": "Lenny Martinez", "nationality": "France", "team": "Bahrain Victorious", "time": "+0:34" },
+  { "rank": 8, "bib": 43, "name": "Alex Baudin", "nationality": "France", "team": "EF Education-EasyPost", "time": "+0:41" }
+]

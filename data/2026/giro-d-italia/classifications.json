@@ -1,0 +1,26 @@
+[
+  {
+    "kind": "gc",
+    "metric": "time",
+    "jerseyColor": "#EB0BB2",
+    "jerseyName": "Maglia Rosa"
+  },
+  {
+    "kind": "points",
+    "metric": "points",
+    "jerseyColor": "#B0138A",
+    "jerseyName": "Maglia Ciclamino"
+  },
+  {
+    "kind": "kom",
+    "metric": "points",
+    "jerseyColor": "#0087DC",
+    "jerseyName": "Maglia Azzurra"
+  },
+  {
+    "kind": "youth",
+    "metric": "time",
+    "jerseyColor": "#FFFFFF",
+    "jerseyName": "Maglia Bianca"
+  }
+]

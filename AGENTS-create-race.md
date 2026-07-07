@@ -36,8 +36,10 @@ All paths are under `{dataDir}/`:
 |------|---------|
 | `stages.json` | Array of stage objects with per-stage `status` |
 | `teams.json` | Array of teams and riders (start list) |
+| `classifications.json` | Ordered jersey metadata for the classifications the race awards |
 | `results.json` | `{ provisionalGc, stageResults }` — stage results and provisional GC |
 | `gc/after-stage-{N}.json` | GC snapshot after each finished stage (one file per stage) |
+| `points/`, `kom/`, `youth/` `after-stage-{N}.json` | Per-classification snapshots (only for classifications listed in `classifications.json`) |
 | `profile-climbs.json` | Categorised climbs per stage number |
 | `route-features.json` | Climbs keyed by stage id (derived from profile-climbs) |
 | `gpx/stage-{N}-route.gpx` | GPX route per stage (when available) |
@@ -103,6 +105,33 @@ Reference implementation: `data/2026/giro-d-italia/` (Giro d'Italia 2026).
 - Top **25** per stage and per GC snapshot
 - `time`: winner clock time (`"3:21:08"`); same time `"s.t."`; gap `"+0:27"`, `"+5:22"`, `"+1:02:10"`
 - `team` and `bib` must match `teams.json` exactly
+
+### Classifications file (`classifications.json`)
+
+Ordered array declaring which classifications the race awards, with race-specific
+jersey colors/names (Tour yellow/green/polka/white; Giro rosa/ciclamino/azzurra/bianca; etc.).
+Grand tours award all four; one-day races typically award GC only (omit the file or list only `gc`).
+
+```json
+[
+  { "kind": "gc",     "metric": "time",   "jerseyColor": "#FFDD00", "jerseyName": "Maillot Jaune" },
+  { "kind": "points", "metric": "points", "jerseyColor": "#00A94F", "jerseyName": "Maillot Vert" },
+  { "kind": "kom",    "metric": "points", "jerseyColor": "#FFFFFF", "jerseyStyle": "polka", "jerseyName": "Maillot à Pois" },
+  { "kind": "youth",  "metric": "time",   "jerseyColor": "#FFFFFF", "jerseyName": "Maillot Blanc" }
+]
+```
+
+- `kind`: `gc` | `points` | `kom` | `youth` (stable ids)
+- `metric`: `time` (gc, youth) or `points` (points, kom) — decides the row shape of the snapshot files
+- `jerseyColor`: hex leader-jersey color; `jerseyStyle` optional (e.g. `polka`); `jerseyName` optional official name
+- Research the actual jerseys the race awards; do not guess colors
+
+### Classification snapshot files (before race start)
+
+No `points/`, `kom/`, or `youth/` files until stages finish. When stages finish, write
+`{kind}/after-stage-{N}.json` (top 25) for each classification in `classifications.json` other than `gc`.
+`youth/` rows use the time-based rider result shape; `points/` and `kom/` rows use
+`{ rank, bib, name, nationality, team, points }`.
 
 ### Results file (before race start)
 
@@ -216,8 +245,9 @@ Do not use paywalled or user-generated wikis as primary sources for results, bib
 2. Check race does not already exist
 3. Research route → write `stages.json`
 4. Research start list → write `teams.json`
-5. Research stage profiles → write `profile-climbs.json` → `route-features.json`
-6. Download GPX files → `gpx/`
-7. Write empty `results.json` and no `gc/` files (or fill for finished stages)
-8. Update `index.json` with all required catalog fields (see above)
-9. Summarize: stage count, sources, missing GPX or start-list gaps
+5. Research the race's jerseys → write `classifications.json`
+6. Research stage profiles → write `profile-climbs.json` → `route-features.json`
+7. Download GPX files → `gpx/`
+8. Write empty `results.json` and no `gc/`, `points/`, `kom/`, `youth/` files (or fill for finished stages)
+9. Update `index.json` with all required catalog fields (see above)
+10. Summarize: stage count, sources, missing GPX or start-list gaps
