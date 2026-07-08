@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 37,
+    "name": "Mathias Vacek",
+    "nationality": "Czech Republic",
+    "team": "Lidl-Trek",
+    "time": "16:35:57"
+  },
+  {
+    "rank": 2,
+    "bib": 102,
+    "name": "Ramses Debruyne",
+    "nationality": "Belgium",
+    "team": "Alpecin-Premier Tech",
+    "time": "+4:16"
+  },
+  {
+    "rank": 3,
+    "bib": 2,
+    "name": "Isaac del Toro",
+    "nationality": "Mexico",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+4:27"
+  },
+  {
+    "rank": 4,
+    "bib": 31,
+    "name": "Juan Ayuso",
+    "nationality": "Spain",
+    "team": "Lidl-Trek",
+    "time": "+4:30"
+  },
+  {
+    "rank": 5,
+    "bib": 51,
+    "name": "Paul Seixas",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+4:51"
+  },
+  {
+    "rank": 6,
+    "bib": 71,
+    "name": "Lenny Martinez",
+    "nationality": "France",
+    "team": "Bahrain Victorious",
+    "time": "+5:12"
+  },
+  {
+    "rank": 7,
+    "bib": 18,
+    "name": "Davide Piganzoli",
+    "nationality": "Italy",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+6:18"
+  },
+  {
+    "rank": 8,
+    "bib": 156,
+    "name": "Lennert Van Eetvelt",
+    "nationality": "Belgium",
+    "team": "Lotto-Intermarché",
+    "time": "+6:23"
+  },
+  {
+    "rank": 9,
+    "bib": 141,
+    "name": "Cian Uijtdebroeks",
+    "nationality": "Belgium",
+    "team": "Movistar Team",
+    "time": "+7:27"
+  },
+  {
+    "rank": 10,
+    "bib": 144,
+    "name": "Raúl García",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+7:44"
+  },
+  {
+    "rank": 11,
+    "bib": 142,
+    "name": "Pablo Castrillo",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+8:54"
+  },
+  {
+    "rank": 12,
+    "bib": 77,
+    "name": "Antonio Tiberi",
+    "nationality": "Italy",
+    "team": "Bahrain Victorious",
+    "time": "+11:20"
+  },
+  {
+    "rank": 13,
+    "bib": 43,
+    "name": "Alex Baudin",
+    "nationality": "France",
+    "team": "EF Education-EasyPost",
+    "time": "+11:43"
+  },
+  {
+    "rank": 14,
+    "bib": 34,
+    "name": "Quinn Simmons",
+    "nationality": "United States",
+    "team": "Lidl-Trek",
+    "time": "+12:43"
+  },
+  {
+    "rank": 15,
+    "bib": 88,
+    "name": "Kévin Vauquelin",
+    "nationality": "France",
+    "team": "Netcompany INEOS",
+    "time": "+12:49"
+  },
+  {
+    "rank": 16,
+    "bib": 181,
+    "name": "Romain Grégoire",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+16:08"
+  },
+  {
+    "rank": 17,
+    "bib": 93,
+    "name": "Valentin Paret-Peintre",
+    "nationality": "France",
+    "team": "Soudal Quick-Step",
+    "time": "+24:22"
+  },
+  {
+    "rank": 18,
+    "bib": 78,
+    "name": "Vlad Van Mechelen",
+    "nationality": "Belgium",
+    "team": "Bahrain Victorious",
+    "time": "+27:11"
+  },
+  {
+    "rank": 19,
+    "bib": 208,
+    "name": "Mattéo Vercher",
+    "nationality": "France",
+    "team": "Team TotalEnergies",
+    "time": "+27:47"
+  },
+  {
+    "rank": 20,
+    "bib": 185,
+    "name": "Lorenzo Germani",
+    "nationality": "Italy",
+    "team": "Groupama-FDJ United",
+    "time": "+32:03"
+  },
+  {
+    "rank": 21,
+    "bib": 206,
+    "name": "Mathis Le Berre",
+    "nationality": "France",
+    "team": "Team TotalEnergies",
+    "time": "+38:39"
+  },
+  {
+    "rank": 22,
+    "bib": 184,
+    "name": "Ewen Costiou",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+39:43"
+  },
+  {
+    "rank": 23,
+    "bib": 153,
+    "name": "Jenno Berckmoes",
+    "nationality": "Belgium",
+    "team": "Lotto-Intermarché",
+    "time": "+41:18"
+  },
+  {
+    "rank": 24,
+    "bib": 108,
+    "name": "Emiel Verstrynge",
+    "nationality": "Belgium",
+    "team": "Alpecin-Premier Tech",
+    "time": "+41:51"
+  },
+  {
+    "rank": 25,
+    "bib": 154,
+    "name": "Lars Craps",
+    "nationality": "Belgium",
+    "team": "Lotto-Intermarché",
+    "time": "+42:08"
+  }
+]
