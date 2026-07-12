@@ -106,7 +106,7 @@
     "startLocation": "Périgueux",
     "finishLocation": "Bergerac",
     "currentStage": "Stage 8 — 180 km (Périgueux → Bergerac), flat",
-    "status": "upcoming",
+    "status": "finished",
     "gpxUrl": "/data/2026/tour-de-france/gpx/stage-8-route.gpx",
     "startTime": "2026-07-11T13:15:00+02:00",
     "expectedFinishTime": "2026-07-11T17:20:00+02:00"
@@ -120,7 +120,7 @@
     "startLocation": "Malemort",
     "finishLocation": "Ussel",
     "currentStage": "Stage 9 — 186 km (Malemort → Ussel), hilly",
-    "status": "upcoming",
+    "status": "finished",
     "gpxUrl": "/data/2026/tour-de-france/gpx/stage-9-route.gpx",
     "startTime": "2026-07-12T13:35:00+02:00",
     "expectedFinishTime": "2026-07-12T17:47:00+02:00"
