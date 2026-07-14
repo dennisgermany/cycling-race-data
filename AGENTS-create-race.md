@@ -64,6 +64,7 @@ Reference implementation: `data/2026/giro-d-italia/` (Giro d'Italia 2026).
   "startLocation": "Lille",
   "finishLocation": "Roubaix",
   "currentStage": "Stage 1 — 185 km (Lille → Roubaix), flat",
+  "stageType": "flat",
   "status": "upcoming",
   "gpxUrl": "/data/{dataPath}/gpx/stage-1-route.gpx"
 }
@@ -72,7 +73,8 @@ Reference implementation: `data/2026/giro-d-italia/` (Giro d'Italia 2026).
 - `id`: string `stage-{number}`
 - `startTime`: official stage start (ISO-8601 with offset)
 - `expectedFinishTime`: required — read [`skills/expected-finish-time.md`](skills/expected-finish-time.md) and verify with `node scripts/expected-finish-time.mjs`
-- `currentStage` type: flat | hilly | mountain | ITT | TTT
+- `currentStage` type suffix: flat | hilly | mountain | ITT | TTT (keep in sync with `stageType`)
+- `stageType`: required — one of `flat`, `hilly`, `mountain`, `ITT`, `TTT`; use [`scripts/stage-type.mjs`](scripts/stage-type.mjs) helpers
 - `status`: `upcoming` | `live` | `finished`
 - **Multi-stage races:** one stage per race day (skip rest days; numbering continues)
 - **One-day races:** exactly one stage (`stage-1`)

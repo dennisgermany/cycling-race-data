@@ -29,6 +29,8 @@ Read and follow **`AGENTS-create-race.md`** for full schema rules, allowed sourc
 
 4. **Write `{dataDir}/stages.json`**
    - JSON array of stage objects
+   - Set `stageType` on each stage (`flat`, `hilly`, `mountain`, `ITT`, or `TTT`) from official stage profiles / cyclingstage.com
+   - Keep `currentStage` suffix in sync (e.g. `", flat"`) via [`scripts/stage-type.mjs`](scripts/stage-type.mjs)
    - Set `gpxUrl` to `{gpxWebPrefix}/stage-N-route.gpx` for each stage
    - Set `startTime` per stage from official timetables (ISO-8601 with offset)
 

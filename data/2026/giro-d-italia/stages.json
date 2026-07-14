@@ -11,7 +11,8 @@
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-1-route.gpx",
     "startTime": "2026-05-08T12:15:00+03:00",
-    "expectedFinishTime": "2026-05-08T16:03:00+03:00"
+    "expectedFinishTime": "2026-05-08T16:03:00+03:00",
+    "stageType": "flat"
   },
   {
     "id": "stage-2",
@@ -25,7 +26,8 @@
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-2-route.gpx",
     "startTime": "2026-05-09T12:15:00+03:00",
-    "expectedFinishTime": "2026-05-09T18:21:00+03:00"
+    "expectedFinishTime": "2026-05-09T18:21:00+03:00",
+    "stageType": "hilly"
   },
   {
     "id": "stage-3",
@@ -39,7 +41,8 @@
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-3-route.gpx",
     "startTime": "2026-05-10T12:15:00+03:00",
-    "expectedFinishTime": "2026-05-10T16:29:00+03:00"
+    "expectedFinishTime": "2026-05-10T16:29:00+03:00",
+    "stageType": "flat"
   },
   {
     "id": "stage-4",
@@ -53,7 +56,8 @@
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-4-route.gpx",
     "startTime": "2026-05-12T12:15:00+02:00",
-    "expectedFinishTime": "2026-05-12T15:45:00+02:00"
+    "expectedFinishTime": "2026-05-12T15:45:00+02:00",
+    "stageType": "flat"
   },
   {
     "id": "stage-5",
@@ -67,7 +71,8 @@
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-5-route.gpx",
     "startTime": "2026-05-13T12:15:00+02:00",
-    "expectedFinishTime": "2026-05-13T17:55:00+02:00"
+    "expectedFinishTime": "2026-05-13T17:55:00+02:00",
+    "stageType": "hilly"
   },
   {
     "id": "stage-6",
@@ -81,7 +86,8 @@
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-6-route.gpx",
     "startTime": "2026-05-14T12:15:00+02:00",
-    "expectedFinishTime": "2026-05-14T16:10:00+02:00"
+    "expectedFinishTime": "2026-05-14T16:10:00+02:00",
+    "stageType": "flat"
   },
   {
     "id": "stage-7",
@@ -95,7 +101,8 @@
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-7-route.gpx",
     "startTime": "2026-05-15T12:15:00+02:00",
-    "expectedFinishTime": "2026-05-15T19:42:00+02:00"
+    "expectedFinishTime": "2026-05-15T19:42:00+02:00",
+    "stageType": "mountain"
   },
   {
     "id": "stage-8",
@@ -109,7 +116,8 @@
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-8-route.gpx",
     "startTime": "2026-05-16T12:15:00+02:00",
-    "expectedFinishTime": "2026-05-16T16:40:00+02:00"
+    "expectedFinishTime": "2026-05-16T16:40:00+02:00",
+    "stageType": "hilly"
   },
   {
     "id": "stage-9",
@@ -123,7 +131,8 @@
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-9-route.gpx",
     "startTime": "2026-05-17T12:15:00+02:00",
-    "expectedFinishTime": "2026-05-17T17:21:00+02:00"
+    "expectedFinishTime": "2026-05-17T17:21:00+02:00",
+    "stageType": "hilly"
   },
   {
     "id": "stage-10",
@@ -133,11 +142,12 @@
     "distanceKm": 40.2,
     "startLocation": "Viareggio",
     "finishLocation": "Massa",
-    "currentStage": "Stage 10 — 40.2 km (Viareggio → Massa), individual time trial",
+    "currentStage": "Stage 10 — 40.2 km (Viareggio → Massa), individual time trial, flat",
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-10-route.gpx",
     "startTime": "2026-05-19T12:15:00+02:00",
-    "expectedFinishTime": "2026-05-19T13:13:00+02:00"
+    "expectedFinishTime": "2026-05-19T13:13:00+02:00",
+    "stageType": "flat"
   },
   {
     "id": "stage-11",
@@ -151,7 +161,8 @@
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-11-route.gpx",
     "startTime": "2026-05-20T12:15:00+02:00",
-    "expectedFinishTime": "2026-05-20T17:11:00+02:00"
+    "expectedFinishTime": "2026-05-20T17:11:00+02:00",
+    "stageType": "hilly"
   },
   {
     "id": "stage-12",
@@ -165,7 +176,8 @@
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-12-route.gpx",
     "startTime": "2026-05-21T12:15:00+02:00",
-    "expectedFinishTime": "2026-05-21T16:34:00+02:00"
+    "expectedFinishTime": "2026-05-21T16:34:00+02:00",
+    "stageType": "flat"
   },
   {
     "id": "stage-13",
@@ -179,7 +191,8 @@
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-13-route.gpx",
     "startTime": "2026-05-22T12:15:00+02:00",
-    "expectedFinishTime": "2026-05-22T17:25:00+02:00"
+    "expectedFinishTime": "2026-05-22T17:25:00+02:00",
+    "stageType": "hilly"
   },
   {
     "id": "stage-14",
@@ -193,7 +206,8 @@
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-14-route.gpx",
     "startTime": "2026-05-23T12:15:00+02:00",
-    "expectedFinishTime": "2026-05-23T16:16:00+02:00"
+    "expectedFinishTime": "2026-05-23T16:16:00+02:00",
+    "stageType": "mountain"
   },
   {
     "id": "stage-15",
@@ -207,7 +221,8 @@
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-15-route.gpx",
     "startTime": "2026-05-24T12:15:00+02:00",
-    "expectedFinishTime": "2026-05-24T15:34:00+02:00"
+    "expectedFinishTime": "2026-05-24T15:34:00+02:00",
+    "stageType": "flat"
   },
   {
     "id": "stage-16",
@@ -217,11 +232,12 @@
     "distanceKm": 113,
     "startLocation": "Bellinzona",
     "finishLocation": "Carì",
-    "currentStage": "Stage 16 — 113 km (Bellinzona → Carì), mountain (Switzerland)",
+    "currentStage": "Stage 16 — 113 km (Bellinzona → Carì), mountain (Switzerland), flat",
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-16-route.gpx",
     "startTime": "2026-05-26T12:15:00+02:00",
-    "expectedFinishTime": "2026-05-26T15:00:00+02:00"
+    "expectedFinishTime": "2026-05-26T15:00:00+02:00",
+    "stageType": "flat"
   },
   {
     "id": "stage-17",
@@ -235,7 +251,8 @@
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-17-route.gpx",
     "startTime": "2026-05-27T12:15:00+02:00",
-    "expectedFinishTime": "2026-05-27T17:48:00+02:00"
+    "expectedFinishTime": "2026-05-27T17:48:00+02:00",
+    "stageType": "hilly"
   },
   {
     "id": "stage-18",
@@ -249,7 +266,8 @@
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-18-route.gpx",
     "startTime": "2026-05-28T12:15:00+02:00",
-    "expectedFinishTime": "2026-05-28T16:19:00+02:00"
+    "expectedFinishTime": "2026-05-28T16:19:00+02:00",
+    "stageType": "flat"
   },
   {
     "id": "stage-19",
@@ -263,7 +281,8 @@
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-19-route.gpx",
     "startTime": "2026-05-29T12:15:00+02:00",
-    "expectedFinishTime": "2026-05-29T16:49:00+02:00"
+    "expectedFinishTime": "2026-05-29T16:49:00+02:00",
+    "stageType": "mountain"
   },
   {
     "id": "stage-20",
@@ -277,7 +296,8 @@
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-20-route.gpx",
     "startTime": "2026-05-30T12:15:00+02:00",
-    "expectedFinishTime": "2026-05-30T18:16:00+02:00"
+    "expectedFinishTime": "2026-05-30T18:16:00+02:00",
+    "stageType": "mountain"
   },
   {
     "id": "stage-21",
@@ -291,6 +311,7 @@
     "status": "finished",
     "gpxUrl": "/data/2026/giro-d-italia/gpx/stage-21-route.gpx",
     "startTime": "2026-05-31T12:15:00+02:00",
-    "expectedFinishTime": "2026-05-31T15:26:00+02:00"
+    "expectedFinishTime": "2026-05-31T15:26:00+02:00",
+    "stageType": "flat"
   }
 ]

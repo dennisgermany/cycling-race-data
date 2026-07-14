@@ -7,6 +7,12 @@
  *   node scripts/expected-finish-time.mjs --stage-json '{"startTime":"...","distanceKm":156,"currentStage":"..., flat"}'
  */
 
+import {
+  parseStageTypeFromCurrentStage,
+  resolveStageType,
+  stageTypeSpeedKey,
+} from "./stage-type.mjs";
+
 /** @type {Record<string, number>} */
 export const AVG_SPEED_KMH = {
   flat: 41,
@@ -21,12 +27,7 @@ export const AVG_SPEED_KMH = {
  * @returns {keyof typeof AVG_SPEED_KMH}
  */
 export function parseStageType(currentStage) {
-  const m = String(currentStage ?? "").match(/,\s*(flat|hilly|mountain|ITT|TTT)\s*$/i);
-  if (!m) return "flat";
-  const t = m[1].toLowerCase();
-  if (t === "itt") return "itt";
-  if (t === "ttt") return "ttt";
-  return /** @type {keyof typeof AVG_SPEED_KMH} */ (t);
+  return stageTypeSpeedKey(parseStageTypeFromCurrentStage(currentStage));
 }
 
 /**
@@ -46,7 +47,15 @@ export function computeExpectedFinishTime(startTime, distanceKm, stageTypeOrCurr
   const typeKey =
     stageTypeOrCurrentStage.includes(",") || stageTypeOrCurrentStage.includes("—")
       ? parseStageType(stageTypeOrCurrentStage)
-      : /** @type {keyof typeof AVG_SPEED_KMH} */ (stageTypeOrCurrentStage.toLowerCase());
+      : stageTypeSpeedKey(
+          /** @type {import("./stage-type.mjs").STAGE_TYPES[number]} */ (
+            stageTypeOrCurrentStage.toUpperCase() === "ITT"
+              ? "ITT"
+              : stageTypeOrCurrentStage.toUpperCase() === "TTT"
+                ? "TTT"
+                : stageTypeOrCurrentStage.toLowerCase()
+          ),
+        );
   const avgSpeed = AVG_SPEED_KMH[typeKey] ?? AVG_SPEED_KMH.flat;
   const durationMs = (km / avgSpeed) * 3600 * 1000;
   const finish = new Date(start.getTime() + durationMs);
@@ -82,10 +91,11 @@ function formatWithSameOffset(startTimeIso, finishUtc) {
 }
 
 /**
- * @param {{ startTime: string, distanceKm: number, currentStage: string }} stage
+ * @param {{ startTime: string, distanceKm: number, currentStage?: string, stageType?: string }} stage
  */
 export function computeForStage(stage) {
-  return computeExpectedFinishTime(stage.startTime, stage.distanceKm, stage.currentStage);
+  const type = resolveStageType(stage);
+  return computeExpectedFinishTime(stage.startTime, stage.distanceKm, type);
 }
 
 function main() {

@@ -13,11 +13,12 @@ Each stage must have:
 
 - `startTime` — ISO-8601 with offset (official local start from timetable)
 - `distanceKm` — stage distance
-- `currentStage` — includes stage type suffix: `flat`, `hilly`, `mountain`, `ITT`, or `TTT`
+- `stageType` — `flat`, `hilly`, `mountain`, `ITT`, or `TTT` (required on each stage)
+- `currentStage` — human label; must end with `, {stageType}` (kept for display and legacy parsers)
 
 ## Parse stage type
 
-From the trailing token in `currentStage`:
+From `stageType`, or the trailing token in `currentStage` when `stageType` is missing:
 
 ```text
 "Stage 1 — 156 km (Nessebar → Burgas), flat"  →  flat
