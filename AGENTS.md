@@ -60,6 +60,8 @@ Paths above are relative to `data/{year}/{race-slug}/` (e.g. `data/2026/giro-d-i
 
    On daily updates, **preserve** both fields unless correcting verified errors or stage distance/type/start changed.
 
+   **Optional:** `tvLink` — absolute HTTPS URL to a live stream or VOD (e.g. Discovery+ `play.discoveryplus.com/sport/{uuid}` for German commentary). Preserve on daily updates unless the broadcast URL changes.
+
 7. **Race index** (`data/index.json`): lists every race under `data/{year}/{race-slug}/` that has a `stages.json` file. Each entry:
 
    **Required:** `{ year, slug, name, path, status, startDate, endDate, country, edition, raceCategory, distanceKm, elevationGainM, startLocation, finishLocation }`

@@ -466,6 +466,10 @@ components:
           type: string
           format: uri-reference
           example: /data/2026/giro-d-italia/gpx/stage-1-route.gpx
+        tvLink:
+          type: string
+          format: uri
+          description: Optional external live stream or VOD URL (e.g. Discovery+ German commentary)
 
     Team:
       type: object

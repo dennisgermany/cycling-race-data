@@ -67,7 +67,8 @@ Reference implementation: `data/2026/giro-d-italia/` (Giro d'Italia 2026).
   "currentStage": "Stage 1 — 185 km (Lille → Roubaix), flat",
   "stageType": "flat",
   "status": "upcoming",
-  "gpxUrl": "/data/{dataPath}/gpx/stage-1-route.gpx"
+  "gpxUrl": "/data/{dataPath}/gpx/stage-1-route.gpx",
+  "tvLink": "https://play.discoveryplus.com/sport/00000000-0000-5000-8000-000000000000"
 }
 ```
 
@@ -78,6 +79,7 @@ Reference implementation: `data/2026/giro-d-italia/` (Giro d'Italia 2026).
 - `stageType`: required — one of `flat`, `hilly`, `mountain`, `ITT`, `TTT`; use [`scripts/stage-type.mjs`](scripts/stage-type.mjs) helpers
 - `elevationGainM`: required — total metres climbed (D+); research per [`skills/elevation-gain.md`](skills/elevation-gain.md); GPX fallback only when no published value exists
 - `status`: `upcoming` | `live` | `finished`
+- `tvLink`: optional absolute HTTPS URL to live stream or VOD (external broadcaster)
 - **Multi-stage races:** one stage per race day (skip rest days; numbering continues)
 - **One-day races:** exactly one stage (`stage-1`)
 - On creation before the race: all stages `upcoming` unless already officially finished
