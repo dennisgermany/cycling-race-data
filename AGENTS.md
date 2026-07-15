@@ -62,7 +62,7 @@ Paths above are relative to `data/{year}/{race-slug}/` (e.g. `data/2026/giro-d-i
 
 7. **Race index** (`data/index.json`): lists every race under `data/{year}/{race-slug}/` that has a `stages.json` file. Each entry:
 
-   **Required:** `{ year, slug, name, path, status, startDate, endDate, country, edition, raceCategory, distanceKm, startLocation, finishLocation }`
+   **Required:** `{ year, slug, name, path, status, startDate, endDate, country, edition, raceCategory, distanceKm, elevationGainM, startLocation, finishLocation }`
 
    **Optional:** `startTime`, `currentStage`, `gpxAttribution`, `startlistNotes`
 
@@ -73,6 +73,7 @@ Paths above are relative to `data/{year}/{race-slug}/` (e.g. `data/2026/giro-d-i
    - `edition`: edition number as published by the organiser (integer)
    - `raceCategory`: `men` or `women`
    - `distanceKm`: total distance in km (sum of `distanceKm` on all stages for stage races; single-stage distance for one-day races)
+   - `elevationGainM`: total metres climbed (sum of `elevationGainM` on all stages)
    - `startLocation` / `finishLocation`: from first stage `startLocation` and last stage `finishLocation`
    - `gpxAttribution`: credit line for map/GPX sources (set when creating the race; keep on updates)
    - `startlistNotes`: optional caveats about the start list (sources, scratches, placeholder bibs)
@@ -83,7 +84,7 @@ Paths above are relative to `data/{year}/{race-slug}/` (e.g. `data/2026/giro-d-i
 
    Sort `races` by `year` descending, then `slug` alphabetically. Set top-level `updatedAt` to the ISO date of the update.
 
-   Update `index.json` when stage data changes for a race. If a new `data/{year}/{slug}/` folder with `stages.json` exists but has no index entry, add one with **all required fields** (derive dates, locations, and `distanceKm` from `stages.json`; research `country`, `edition`, and `raceCategory` from official sources). If the repo is already up to date, do not touch `index.json` unless the derived race `status` differs from the stored value or stage edits change `startDate`, `endDate`, `distanceKm`, or start/finish locations. On daily updates, **preserve** existing `name`, `country`, `edition`, `raceCategory`, `gpxAttribution`, and `startlistNotes`; refresh derived fields when `stages.json` changes.
+   Update `index.json` when stage data changes for a race. If a new `data/{year}/{slug}/` folder with `stages.json` exists but has no index entry, add one with **all required fields** (derive dates, locations, `distanceKm`, and `elevationGainM` from `stages.json`; research `country`, `edition`, and `raceCategory` from official sources). If the repo is already up to date, do not touch `index.json` unless the derived race `status` differs from the stored value or stage edits change `startDate`, `endDate`, `distanceKm`, `elevationGainM`, or start/finish locations. On daily updates, **preserve** existing `name`, `country`, `edition`, `raceCategory`, `gpxAttribution`, and `startlistNotes`; refresh derived fields when `stages.json` changes.
 
 ## Allowed sources
 

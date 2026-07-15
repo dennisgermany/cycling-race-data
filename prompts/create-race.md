@@ -22,7 +22,8 @@ Read and follow **`AGENTS-create-race.md`** for full schema rules, allowed sourc
 2. **Existence check** — if `{dataDir}/` exists or `data/index.json` already has this `year` + `slug`, stop without editing any files.
 
 3. **Research the route**
-   - Official race site and cyclingstage.com for stage list: dates, start/finish towns, distances, stage type (flat/hilly/mountain/ITT/TTT)
+   - Official race site and cyclingstage.com for stage list: dates, start/finish towns, distances, stage type (flat/hilly/mountain/ITT/TTT), **elevation gain (D+)**
+   - Read [`skills/elevation-gain.md`](skills/elevation-gain.md) for source order and GPX fallback rules
    - Multi-stage: one entry per race day (skip rest days)
    - One-day race: single `stage-1`
    - Set `status` to `upcoming` unless a stage has officially finished
@@ -30,6 +31,7 @@ Read and follow **`AGENTS-create-race.md`** for full schema rules, allowed sourc
 4. **Write `{dataDir}/stages.json`**
    - JSON array of stage objects
    - Set `stageType` on each stage (`flat`, `hilly`, `mountain`, `ITT`, or `TTT`) from official stage profiles / cyclingstage.com
+   - Set `elevationGainM` on each stage from official sources (integer metres climbed); GPX fallback only for stages without a published value — `node scripts/backfill-elevation-gain.mjs {dataDir}/stages.json`
    - Keep `currentStage` suffix in sync (e.g. `", flat"`) via [`scripts/stage-type.mjs`](scripts/stage-type.mjs)
    - Set `gpxUrl` to `{gpxWebPrefix}/stage-N-route.gpx` for each stage
    - Set `startTime` per stage from official timetables (ISO-8601 with offset)
@@ -61,7 +63,7 @@ Read and follow **`AGENTS-create-race.md`** for full schema rules, allowed sourc
    - Write `{dataDir}/gc/after-stage-N.json` for each finished stage (array of top 25)
 
 10. **Update `data/index.json`**
-    - Add entry with `name: "{{RACE_NAME}}"`, **all required catalog fields** (see `AGENTS-create-race.md`), derived `status`, sorted races list, `updatedAt` = today
+    - Add entry with `name: "{{RACE_NAME}}"`, **all required catalog fields** (include `elevationGainM` sum), derived `status`, sorted races list, `updatedAt` = today
 
 11. **Reply with a summary**
     - Stage count and date range

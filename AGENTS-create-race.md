@@ -59,6 +59,7 @@ Reference implementation: `data/2026/giro-d-italia/` (Giro d'Italia 2026).
   "name": "Start — Finish",
   "date": "2026-07-05",
   "distanceKm": 185,
+  "elevationGainM": 1200,
   "startTime": "2026-07-05T12:15:00+02:00",
   "expectedFinishTime": "2026-07-05T16:46:00+02:00",
   "startLocation": "Lille",
@@ -75,6 +76,7 @@ Reference implementation: `data/2026/giro-d-italia/` (Giro d'Italia 2026).
 - `expectedFinishTime`: required — read [`skills/expected-finish-time.md`](skills/expected-finish-time.md) and verify with `node scripts/expected-finish-time.mjs`
 - `currentStage` type suffix: flat | hilly | mountain | ITT | TTT (keep in sync with `stageType`)
 - `stageType`: required — one of `flat`, `hilly`, `mountain`, `ITT`, `TTT`; use [`scripts/stage-type.mjs`](scripts/stage-type.mjs) helpers
+- `elevationGainM`: required — total metres climbed (D+); research per [`skills/elevation-gain.md`](skills/elevation-gain.md); GPX fallback only when no published value exists
 - `status`: `upcoming` | `live` | `finished`
 - **Multi-stage races:** one stage per race day (skip rest days; numbering continues)
 - **One-day races:** exactly one stage (`stage-1`)
@@ -205,6 +207,7 @@ Add an entry with **all required fields** (see `AGENTS.md` rule 7). Derive from 
   "edition": 113,
   "raceCategory": "men",
   "distanceKm": 3322,
+  "elevationGainM": 53950,
   "startLocation": "Barcelona",
   "finishLocation": "Paris Champs-Élysées",
   "gpxAttribution": "Course GPX: Tour de France 2026 stage routes from cyclingstage.com. Map tiles © OpenStreetMap contributors."
@@ -215,6 +218,7 @@ Add an entry with **all required fields** (see `AGENTS.md` rule 7). Derive from 
 - `startDate` / `endDate`: first and last stage `date` in `stages.json`
 - `country`, `edition`, `raceCategory`: from official race site or BikeRaceInfo (do not guess)
 - `distanceKm`: sum of all stage `distanceKm` values (round to one decimal if needed)
+- `elevationGainM`: sum of all stage `elevationGainM` values
 - `startLocation` / `finishLocation`: first stage start and last stage finish
 - `gpxAttribution`: one-line credit for GPX/map sources used
 - `startlistNotes` (optional): start-list caveats if needed
@@ -245,7 +249,7 @@ Do not use paywalled or user-generated wikis as primary sources for results, bib
 
 1. Resolve IDs via `race-ids.mjs` / `{{IDS_JSON}}`
 2. Check race does not already exist
-3. Research route → write `stages.json`
+3. Research route → write `stages.json` (include `elevationGainM` per stage from official sources; see [`skills/elevation-gain.md`](skills/elevation-gain.md))
 4. Research start list → write `teams.json`
 5. Research the race's jerseys → write `classifications.json`
 6. Research stage profiles → write `profile-climbs.json` → `route-features.json`
