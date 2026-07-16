@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 1,
+    "name": "Tadej Pogacar",
+    "nationality": "Slovenia",
+    "team": "UAE Team Emirates-XRG",
+    "time": "43:04:01"
+  },
+  {
+    "rank": 2,
+    "bib": 11,
+    "name": "Jonas Vingegaard",
+    "nationality": "Denmark",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+3:36"
+  },
+  {
+    "rank": 3,
+    "bib": 21,
+    "name": "Remco Evenepoel",
+    "nationality": "Belgium",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+4:06"
+  },
+  {
+    "rank": 4,
+    "bib": 31,
+    "name": "Juan Ayuso",
+    "nationality": "Spain",
+    "team": "Lidl-Trek",
+    "time": "+4:22"
+  },
+  {
+    "rank": 5,
+    "bib": 51,
+    "name": "Paul Seixas",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+4:35"
+  },
+  {
+    "rank": 6,
+    "bib": 25,
+    "name": "Florian Lipowitz",
+    "nationality": "Germany",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+4:44"
+  },
+  {
+    "rank": 7,
+    "bib": 2,
+    "name": "Isaac del Toro",
+    "nationality": "Mexico",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+5:08"
+  },
+  {
+    "rank": 8,
+    "bib": 35,
+    "name": "Mattias Skjelmose",
+    "nationality": "Denmark",
+    "team": "Lidl-Trek",
+    "time": "+5:45"
+  },
+  {
+    "rank": 9,
+    "bib": 71,
+    "name": "Lenny Martinez",
+    "nationality": "France",
+    "team": "Bahrain Victorious",
+    "time": "+6:34"
+  },
+  {
+    "rank": 10,
+    "bib": 171,
+    "name": "Tom Pidcock",
+    "nationality": "United Kingdom",
+    "team": "Pinarello-Q36.5 Pro Cycling Team",
+    "time": "+11:49"
+  },
+  {
+    "rank": 11,
+    "bib": 81,
+    "name": "Egan Bernal",
+    "nationality": "Colombia",
+    "team": "Netcompany INEOS",
+    "time": "+12:15"
+  },
+  {
+    "rank": 12,
+    "bib": 97,
+    "name": "Ilan Van Wilder",
+    "nationality": "Belgium",
+    "team": "Soudal Quick-Step",
+    "time": "+12:43"
+  },
+  {
+    "rank": 13,
+    "bib": 18,
+    "name": "Davide Piganzoli",
+    "nationality": "Italy",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+13:38"
+  },
+  {
+    "rank": 14,
+    "bib": 121,
+    "name": "Tobias Halland Johannessen",
+    "nationality": "Norway",
+    "team": "Uno-X Mobility",
+    "time": "+14:50"
+  },
+  {
+    "rank": 15,
+    "bib": 45,
+    "name": "Sean Quinn",
+    "nationality": "United States",
+    "team": "EF Education-EasyPost",
+    "time": "+15:08"
+  },
+  {
+    "rank": 16,
+    "bib": 198,
+    "name": "Yannis Voisard",
+    "nationality": "Switzerland",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+15:36"
+  },
+  {
+    "rank": 17,
+    "bib": 102,
+    "name": "Ramses Debruyne",
+    "nationality": "Belgium",
+    "team": "Alpecin-Premier Tech",
+    "time": "+16:13"
+  },
+  {
+    "rank": 18,
+    "bib": 41,
+    "name": "Richard Carapaz",
+    "nationality": "Ecuador",
+    "team": "EF Education-EasyPost",
+    "time": "+17:43"
+  },
+  {
+    "rank": 19,
+    "bib": 201,
+    "name": "Jordan Jegat",
+    "nationality": "France",
+    "team": "Team TotalEnergies",
+    "time": "+17:56"
+  },
+  {
+    "rank": 20,
+    "bib": 8,
+    "name": "Adam Yates",
+    "nationality": "United Kingdom",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+18:26"
+  },
+  {
+    "rank": 21,
+    "bib": 142,
+    "name": "Pablo Castrillo",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+20:32"
+  },
+  {
+    "rank": 22,
+    "bib": 17,
+    "name": "Sepp Kuss",
+    "nationality": "United States",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+20:52"
+  },
+  {
+    "rank": 23,
+    "bib": 4,
+    "name": "Brandon McNulty",
+    "nationality": "United States",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+26:01"
+  },
+  {
+    "rank": 24,
+    "bib": 52,
+    "name": "Tiesj Benoot",
+    "nationality": "Belgium",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+33:17"
+  },
+  {
+    "rank": 25,
+    "bib": 156,
+    "name": "Lennert Van Eetvelt",
+    "nationality": "Belgium",
+    "team": "Lotto-Intermarch\u00e9",
+    "time": "+38:46"
+  }
+]
