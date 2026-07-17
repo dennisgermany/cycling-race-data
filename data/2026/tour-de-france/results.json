@@ -6,7 +6,7 @@
       "name": "Tadej Pogacar",
       "nationality": "Slovenia",
       "team": "UAE Team Emirates-XRG",
-      "time": "43:04:01"
+      "time": "47:18:31"
     },
     {
       "rank": 2,
@@ -26,6 +26,14 @@
     },
     {
       "rank": 4,
+      "bib": 171,
+      "name": "Tom Pidcock",
+      "nationality": "United Kingdom",
+      "team": "Pinarello-Q36.5 Pro Cycling Team",
+      "time": "+4:15"
+    },
+    {
+      "rank": 5,
       "bib": 31,
       "name": "Juan Ayuso",
       "nationality": "Spain",
@@ -33,7 +41,7 @@
       "time": "+4:22"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "bib": 51,
       "name": "Paul Seixas",
       "nationality": "France",
@@ -41,7 +49,7 @@
       "time": "+4:35"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "bib": 25,
       "name": "Florian Lipowitz",
       "nationality": "Germany",
@@ -49,7 +57,7 @@
       "time": "+4:44"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "bib": 2,
       "name": "Isaac del Toro",
       "nationality": "Mexico",
@@ -57,7 +65,7 @@
       "time": "+5:08"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "bib": 35,
       "name": "Mattias Skjelmose",
       "nationality": "Denmark",
@@ -65,7 +73,7 @@
       "time": "+5:45"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "bib": 71,
       "name": "Lenny Martinez",
       "nationality": "France",
@@ -73,15 +81,15 @@
       "time": "+6:34"
     },
     {
-      "rank": 10,
-      "bib": 171,
-      "name": "Tom Pidcock",
-      "nationality": "United Kingdom",
-      "team": "Pinarello-Q36.5 Pro Cycling Team",
-      "time": "+11:49"
+      "rank": 11,
+      "bib": 201,
+      "name": "Jordan Jegat",
+      "nationality": "France",
+      "team": "Team TotalEnergies",
+      "time": "+10:26"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "bib": 81,
       "name": "Egan Bernal",
       "nationality": "Colombia",
@@ -89,7 +97,7 @@
       "time": "+12:15"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "bib": 97,
       "name": "Ilan Van Wilder",
       "nationality": "Belgium",
@@ -97,7 +105,7 @@
       "time": "+12:43"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "bib": 18,
       "name": "Davide Piganzoli",
       "nationality": "Italy",
@@ -105,7 +113,7 @@
       "time": "+13:38"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "bib": 121,
       "name": "Tobias Halland Johannessen",
       "nationality": "Norway",
@@ -113,7 +121,7 @@
       "time": "+14:50"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "bib": 45,
       "name": "Sean Quinn",
       "nationality": "United States",
@@ -121,7 +129,7 @@
       "time": "+15:08"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "bib": 198,
       "name": "Yannis Voisard",
       "nationality": "Switzerland",
@@ -129,7 +137,7 @@
       "time": "+15:36"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "bib": 102,
       "name": "Ramses Debruyne",
       "nationality": "Belgium",
@@ -137,20 +145,12 @@
       "time": "+16:13"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "bib": 41,
       "name": "Richard Carapaz",
       "nationality": "Ecuador",
       "team": "EF Education-EasyPost",
       "time": "+17:43"
-    },
-    {
-      "rank": 19,
-      "bib": 201,
-      "name": "Jordan Jegat",
-      "nationality": "France",
-      "team": "Team TotalEnergies",
-      "time": "+17:56"
     },
     {
       "rank": 20,
@@ -162,11 +162,11 @@
     },
     {
       "rank": 21,
-      "bib": 142,
-      "name": "Pablo Castrillo",
-      "nationality": "Spain",
-      "team": "Movistar Team",
-      "time": "+20:32"
+      "bib": 4,
+      "name": "Brandon McNulty",
+      "nationality": "United States",
+      "team": "UAE Team Emirates-XRG",
+      "time": "+18:31"
     },
     {
       "rank": 22,
@@ -178,11 +178,11 @@
     },
     {
       "rank": 23,
-      "bib": 4,
-      "name": "Brandon McNulty",
-      "nationality": "United States",
-      "team": "UAE Team Emirates-XRG",
-      "time": "+26:01"
+      "bib": 142,
+      "name": "Pablo Castrillo",
+      "nationality": "Spain",
+      "team": "Movistar Team",
+      "time": "+30:19"
     },
     {
       "rank": 24,
@@ -194,11 +194,11 @@
     },
     {
       "rank": 25,
-      "bib": 156,
-      "name": "Lennert Van Eetvelt",
-      "nationality": "Belgium",
-      "team": "Lotto-Intermarch\u00e9",
-      "time": "+38:46"
+      "bib": 57,
+      "name": "Nicolas Prodhomme",
+      "nationality": "France",
+      "team": "Decathlon CMA CGM Team",
+      "time": "+42:28"
     }
   ],
   "stageResults": {
@@ -294,7 +294,7 @@
       {
         "rank": 12,
         "bib": 181,
-        "name": "Romain Gr\u00e9goire",
+        "name": "Romain Grégoire",
         "nationality": "France",
         "team": "Groupama-FDJ United",
         "time": "+0:41"
@@ -456,7 +456,7 @@
       {
         "rank": 7,
         "bib": 181,
-        "name": "Romain Gr\u00e9goire",
+        "name": "Romain Grégoire",
         "nationality": "France",
         "team": "Groupama-FDJ United",
         "time": "s.t."
@@ -490,7 +490,7 @@
         "bib": 156,
         "name": "Lennert Van Eetvelt",
         "nationality": "Belgium",
-        "team": "Lotto-Intermarch\u00e9",
+        "team": "Lotto-Intermarché",
         "time": "s.t."
       },
       {
@@ -652,7 +652,7 @@
         "bib": 156,
         "name": "Lennert Van Eetvelt",
         "nationality": "Belgium",
-        "team": "Lotto-Intermarch\u00e9",
+        "team": "Lotto-Intermarché",
         "time": "s.t."
       },
       {
@@ -828,7 +828,7 @@
       {
         "rank": 3,
         "bib": 144,
-        "name": "Ra\u00fal Garc\u00eda",
+        "name": "Raúl García",
         "nationality": "Spain",
         "team": "Movistar Team",
         "time": "s.t."
@@ -852,7 +852,7 @@
       {
         "rank": 6,
         "bib": 88,
-        "name": "K\u00e9vin Vauquelin",
+        "name": "Kévin Vauquelin",
         "nationality": "France",
         "team": "Netcompany INEOS",
         "time": "s.t."
@@ -868,7 +868,7 @@
       {
         "rank": 8,
         "bib": 127,
-        "name": "Torstein Tr\u00e6en",
+        "name": "Torstein Træen",
         "nationality": "Norway",
         "team": "Uno-X Mobility",
         "time": "s.t."
@@ -942,7 +942,7 @@
         "bib": 158,
         "name": "Georg Zimmermann",
         "nationality": "Germany",
-        "team": "Lotto-Intermarch\u00e9",
+        "team": "Lotto-Intermarché",
         "time": "+2:27"
       },
       {
@@ -980,7 +980,7 @@
       {
         "rank": 22,
         "bib": 181,
-        "name": "Romain Gr\u00e9goire",
+        "name": "Romain Grégoire",
         "nationality": "France",
         "team": "Groupama-FDJ United",
         "time": "+2:27"
@@ -1040,7 +1040,7 @@
         "bib": 152,
         "name": "Huub Artz",
         "nationality": "Netherlands",
-        "team": "Lotto-Intermarch\u00e9",
+        "team": "Lotto-Intermarché",
         "time": "s.t."
       },
       {
@@ -1086,7 +1086,7 @@
       {
         "rank": 10,
         "bib": 128,
-        "name": "S\u00f8ren W\u00e6renskjold",
+        "name": "Søren Wærenskjold",
         "nationality": "Norway",
         "team": "Uno-X Mobility",
         "time": "s.t."
@@ -1096,7 +1096,7 @@
         "bib": 153,
         "name": "Jenno Berckmoes",
         "nationality": "Belgium",
-        "team": "Lotto-Intermarch\u00e9",
+        "team": "Lotto-Intermarché",
         "time": "s.t."
       },
       {
@@ -1110,7 +1110,7 @@
       {
         "rank": 13,
         "bib": 188,
-        "name": "Cl\u00e9ment Russo",
+        "name": "Clément Russo",
         "nationality": "France",
         "team": "Groupama-FDJ United",
         "time": "s.t."
@@ -1362,7 +1362,7 @@
         "bib": 156,
         "name": "Lennert Van Eetvelt",
         "nationality": "Belgium",
-        "team": "Lotto-Intermarch\u00e9",
+        "team": "Lotto-Intermarché",
         "time": "s.t."
       },
       {
@@ -1426,7 +1426,7 @@
       {
         "rank": 2,
         "bib": 128,
-        "name": "S\u00f8ren W\u00e6renskjold",
+        "name": "Søren Wærenskjold",
         "nationality": "Norway",
         "team": "Uno-X Mobility",
         "time": "s.t."
@@ -1468,7 +1468,7 @@
         "bib": 152,
         "name": "Huub Artz",
         "nationality": "Netherlands",
-        "team": "Lotto-Intermarch\u00e9",
+        "team": "Lotto-Intermarché",
         "time": "s.t."
       },
       {
@@ -1538,7 +1538,7 @@
       {
         "rank": 16,
         "bib": 188,
-        "name": "Cl\u00e9ment Russo",
+        "name": "Clément Russo",
         "nationality": "France",
         "team": "Groupama-FDJ United",
         "time": "s.t."
@@ -1548,7 +1548,7 @@
         "bib": 153,
         "name": "Jenno Berckmoes",
         "nationality": "Belgium",
-        "team": "Lotto-Intermarch\u00e9",
+        "team": "Lotto-Intermarché",
         "time": "s.t."
       },
       {
@@ -1676,7 +1676,7 @@
       {
         "rank": 8,
         "bib": 188,
-        "name": "Cl\u00e9ment Russo",
+        "name": "Clément Russo",
         "nationality": "France",
         "team": "Groupama-FDJ United",
         "time": "s.t."
@@ -1700,7 +1700,7 @@
       {
         "rank": 11,
         "bib": 128,
-        "name": "S\u00f8ren W\u00e6renskjold",
+        "name": "Søren Wærenskjold",
         "nationality": "Norway",
         "team": "Uno-X Mobility",
         "time": "s.t."
@@ -1758,7 +1758,7 @@
         "bib": 153,
         "name": "Jenno Berckmoes",
         "nationality": "Belgium",
-        "team": "Lotto-Intermarch\u00e9",
+        "team": "Lotto-Intermarché",
         "time": "s.t."
       },
       {
@@ -1796,7 +1796,7 @@
       {
         "rank": 23,
         "bib": 216,
-        "name": "Niklas M\u00e4rkl",
+        "name": "Niklas Märkl",
         "nationality": "Germany",
         "team": "Team Picnic PostNL",
         "time": "s.t."
@@ -1804,7 +1804,7 @@
       {
         "rank": 24,
         "bib": 56,
-        "name": "Aur\u00e9lien Paret-Peintre",
+        "name": "Aurélien Paret-Peintre",
         "nationality": "France",
         "team": "Decathlon CMA CGM Team",
         "time": "s.t."
@@ -1998,7 +1998,7 @@
       {
         "rank": 23,
         "bib": 183,
-        "name": "Cl\u00e9ment Braz Afonso",
+        "name": "Clément Braz Afonso",
         "nationality": "France",
         "team": "Groupama-FDJ United",
         "time": "s.t."
@@ -2226,7 +2226,7 @@
       {
         "rank": 1,
         "bib": 128,
-        "name": "S\u00f8ren W\u00e6renskjold",
+        "name": "Søren Wærenskjold",
         "nationality": "Norway",
         "team": "Uno-X Mobility",
         "time": "3:10:06"
@@ -2260,7 +2260,7 @@
         "bib": 152,
         "name": "Huub Artz",
         "nationality": "Netherlands",
-        "team": "Lotto-Intermarch\u00e9",
+        "team": "Lotto-Intermarché",
         "time": "s.t."
       },
       {
@@ -2282,7 +2282,7 @@
       {
         "rank": 8,
         "bib": 188,
-        "name": "Cl\u00e9ment Russo",
+        "name": "Clément Russo",
         "nationality": "France",
         "team": "Groupama-FDJ United",
         "time": "s.t."
@@ -2324,7 +2324,7 @@
         "bib": 153,
         "name": "Jenno Berckmoes",
         "nationality": "Belgium",
-        "team": "Lotto-Intermarch\u00e9",
+        "team": "Lotto-Intermarché",
         "time": "s.t."
       },
       {
@@ -2396,7 +2396,7 @@
         "bib": 155,
         "name": "Liam Slock",
         "nationality": "Belgium",
-        "team": "Lotto-Intermarch\u00e9",
+        "team": "Lotto-Intermarché",
         "time": "s.t."
       },
       {
@@ -2484,7 +2484,7 @@
       {
         "rank": 8,
         "bib": 188,
-        "name": "Cl\u00e9ment Russo",
+        "name": "Clément Russo",
         "nationality": "France",
         "team": "Groupama-FDJ United",
         "time": "s.t."
@@ -2502,7 +2502,7 @@
         "bib": 152,
         "name": "Huub Artz",
         "nationality": "Netherlands",
-        "team": "Lotto-Intermarch\u00e9",
+        "team": "Lotto-Intermarché",
         "time": "s.t."
       },
       {
@@ -2588,7 +2588,7 @@
       {
         "rank": 21,
         "bib": 56,
-        "name": "Aur\u00e9lien Paret-Peintre",
+        "name": "Aurélien Paret-Peintre",
         "nationality": "France",
         "team": "Decathlon CMA CGM Team",
         "time": "s.t."
@@ -2624,6 +2624,208 @@
         "nationality": "France",
         "team": "Team TotalEnergies",
         "time": "s.t."
+      }
+    ],
+    "stage-13": [
+      {
+        "rank": 1,
+        "bib": 118,
+        "name": "Mauro Schmid",
+        "nationality": "Switzerland",
+        "team": "Team Jayco-AlUla",
+        "time": "4:06:58"
+      },
+      {
+        "rank": 2,
+        "bib": 65,
+        "name": "Harold Tejada",
+        "nationality": "Colombia",
+        "team": "XDS Astana Team",
+        "time": "s.t."
+      },
+      {
+        "rank": 3,
+        "bib": 171,
+        "name": "Tom Pidcock",
+        "nationality": "United Kingdom",
+        "team": "Pinarello-Q36.5 Pro Cycling Team",
+        "time": "+0:02"
+      },
+      {
+        "rank": 4,
+        "bib": 28,
+        "name": "Maxim Van Gils",
+        "nationality": "Belgium",
+        "team": "Red Bull-BORA-hansgrohe",
+        "time": "+0:02"
+      },
+      {
+        "rank": 5,
+        "bib": 4,
+        "name": "Brandon McNulty",
+        "nationality": "United States",
+        "team": "UAE Team Emirates-XRG",
+        "time": "+0:02"
+      },
+      {
+        "rank": 6,
+        "bib": 88,
+        "name": "Kévin Vauquelin",
+        "nationality": "France",
+        "team": "Netcompany INEOS",
+        "time": "+0:02"
+      },
+      {
+        "rank": 7,
+        "bib": 201,
+        "name": "Jordan Jegat",
+        "nationality": "France",
+        "team": "Team TotalEnergies",
+        "time": "+0:02"
+      },
+      {
+        "rank": 8,
+        "bib": 183,
+        "name": "Clément Braz Afonso",
+        "nationality": "France",
+        "team": "Groupama-FDJ United",
+        "time": "+0:02"
+      },
+      {
+        "rank": 9,
+        "bib": 7,
+        "name": "Tim Wellens",
+        "nationality": "Belgium",
+        "team": "UAE Team Emirates-XRG",
+        "time": "+0:02"
+      },
+      {
+        "rank": 10,
+        "bib": 117,
+        "name": "Luke Plapp",
+        "nationality": "Australia",
+        "team": "Team Jayco-AlUla",
+        "time": "+0:11"
+      },
+      {
+        "rank": 11,
+        "bib": 144,
+        "name": "Raúl García",
+        "nationality": "Spain",
+        "team": "Movistar Team",
+        "time": "+0:57"
+      },
+      {
+        "rank": 12,
+        "bib": 47,
+        "name": "Michael Valgren",
+        "nationality": "Denmark",
+        "team": "EF Education-EasyPost",
+        "time": "+0:59"
+      },
+      {
+        "rank": 13,
+        "bib": 115,
+        "name": "Michael Matthews",
+        "nationality": "Australia",
+        "team": "Team Jayco-AlUla",
+        "time": "+1:01"
+      },
+      {
+        "rank": 14,
+        "bib": 202,
+        "name": "Nicolas Breuillard",
+        "nationality": "France",
+        "team": "Team TotalEnergies",
+        "time": "+1:01"
+      },
+      {
+        "rank": 15,
+        "bib": 133,
+        "name": "George Bennett",
+        "nationality": "New Zealand",
+        "team": "NSN Cycling Team",
+        "time": "+1:01"
+      },
+      {
+        "rank": 16,
+        "bib": 194,
+        "name": "Marc Hirschi",
+        "nationality": "Switzerland",
+        "team": "Tudor Pro Cycling Team",
+        "time": "+1:01"
+      },
+      {
+        "rank": 17,
+        "bib": 154,
+        "name": "Lars Craps",
+        "nationality": "Belgium",
+        "team": "Lotto-Intermarché",
+        "time": "+1:01"
+      },
+      {
+        "rank": 18,
+        "bib": 161,
+        "name": "Ion Izagirre",
+        "nationality": "Spain",
+        "team": "Cofidis",
+        "time": "+1:03"
+      },
+      {
+        "rank": 19,
+        "bib": 111,
+        "name": "Ben O'Connor",
+        "nationality": "Australia",
+        "team": "Team Jayco-AlUla",
+        "time": "+1:08"
+      },
+      {
+        "rank": 20,
+        "bib": 124,
+        "name": "Magnus Cort",
+        "nationality": "Denmark",
+        "team": "Uno-X Mobility",
+        "time": "+2:23"
+      },
+      {
+        "rank": 21,
+        "bib": 163,
+        "name": "Alex Aranburu",
+        "nationality": "Spain",
+        "team": "Cofidis",
+        "time": "+2:23"
+      },
+      {
+        "rank": 22,
+        "bib": 228,
+        "name": "José Félix Parra",
+        "nationality": "Spain",
+        "team": "Caja Rural-Seguros RGA",
+        "time": "+2:23"
+      },
+      {
+        "rank": 23,
+        "bib": 195,
+        "name": "Rick Pluimers",
+        "nationality": "Netherlands",
+        "team": "Tudor Pro Cycling Team",
+        "time": "+2:23"
+      },
+      {
+        "rank": 24,
+        "bib": 108,
+        "name": "Emiel Verstrynge",
+        "nationality": "Belgium",
+        "team": "Alpecin-Premier Tech",
+        "time": "+2:25"
+      },
+      {
+        "rank": 25,
+        "bib": 215,
+        "name": "Robbe Dhondt",
+        "nationality": "Belgium",
+        "team": "Team Picnic PostNL",
+        "time": "+3:19"
       }
     ]
   }
