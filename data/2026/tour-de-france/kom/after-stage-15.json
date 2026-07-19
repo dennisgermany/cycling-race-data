@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 1,
+    "name": "Tadej Pogacar",
+    "nationality": "Slovenia",
+    "team": "UAE Team Emirates-XRG",
+    "points": 67
+  },
+  {
+    "rank": 2,
+    "bib": 93,
+    "name": "Valentin Paret-Peintre",
+    "nationality": "France",
+    "team": "Soudal Quick-Step",
+    "points": 45
+  },
+  {
+    "rank": 3,
+    "bib": 41,
+    "name": "Richard Carapaz",
+    "nationality": "Ecuador",
+    "team": "EF Education-EasyPost",
+    "points": 39
+  },
+  {
+    "rank": 4,
+    "bib": 51,
+    "name": "Paul Seixas",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "points": 34
+  },
+  {
+    "rank": 5,
+    "bib": 21,
+    "name": "Remco Evenepoel",
+    "nationality": "Belgium",
+    "team": "Red Bull-BORA-hansgrohe",
+    "points": 31
+  },
+  {
+    "rank": 6,
+    "bib": 2,
+    "name": "Isaac del Toro",
+    "nationality": "Mexico",
+    "team": "UAE Team Emirates-XRG",
+    "points": 30
+  },
+  {
+    "rank": 7,
+    "bib": 71,
+    "name": "Lenny Martinez",
+    "nationality": "France",
+    "team": "Bahrain Victorious",
+    "points": 22
+  },
+  {
+    "rank": 8,
+    "bib": 171,
+    "name": "Tom Pidcock",
+    "nationality": "United Kingdom",
+    "team": "Pinarello-Q36.5 Pro Cycling Team",
+    "points": 20
+  },
+  {
+    "rank": 9,
+    "bib": 25,
+    "name": "Florian Lipowitz",
+    "nationality": "Germany",
+    "team": "Red Bull-BORA-hansgrohe",
+    "points": 20
+  },
+  {
+    "rank": 10,
+    "bib": 57,
+    "name": "Nicolas Prodhomme",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "points": 17
+  },
+  {
+    "rank": 11,
+    "bib": 43,
+    "name": "Alex Baudin",
+    "nationality": "France",
+    "team": "EF Education-EasyPost",
+    "points": 16
+  },
+  {
+    "rank": 12,
+    "bib": 121,
+    "name": "Tobias Halland Johannessen",
+    "nationality": "Norway",
+    "team": "Uno-X Mobility",
+    "points": 16
+  },
+  {
+    "rank": 13,
+    "bib": 34,
+    "name": "Quinn Simmons",
+    "nationality": "United States",
+    "team": "Lidl-Trek",
+    "points": 14
+  },
+  {
+    "rank": 14,
+    "bib": 147,
+    "name": "Javier Romo",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "points": 10
+  },
+  {
+    "rank": 15,
+    "bib": 118,
+    "name": "Mauro Schmid",
+    "nationality": "Switzerland",
+    "team": "Team Jayco-AlUla",
+    "points": 8
+  },
+  {
+    "rank": 16,
+    "bib": 44,
+    "name": "Ben Healy",
+    "nationality": "Ireland",
+    "team": "EF Education-EasyPost",
+    "points": 8
+  },
+  {
+    "rank": 17,
+    "bib": 148,
+    "name": "Einer Rubio",
+    "nationality": "Colombia",
+    "team": "Movistar Team",
+    "points": 7
+  },
+  {
+    "rank": 18,
+    "bib": 144,
+    "name": "Ra\u00fal Garc\u00eda",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "points": 7
+  },
+  {
+    "rank": 19,
+    "bib": 4,
+    "name": "Brandon McNulty",
+    "nationality": "United States",
+    "team": "UAE Team Emirates-XRG",
+    "points": 6
+  },
+  {
+    "rank": 20,
+    "bib": 35,
+    "name": "Mattias Skjelmose",
+    "nationality": "Denmark",
+    "team": "Lidl-Trek",
+    "points": 6
+  },
+  {
+    "rank": 21,
+    "bib": 198,
+    "name": "Yannis Voisard",
+    "nationality": "Switzerland",
+    "team": "Tudor Pro Cycling Team",
+    "points": 6
+  },
+  {
+    "rank": 22,
+    "bib": 28,
+    "name": "Maxim Van Gils",
+    "nationality": "Belgium",
+    "team": "Red Bull-BORA-hansgrohe",
+    "points": 6
+  },
+  {
+    "rank": 23,
+    "bib": 7,
+    "name": "Tim Wellens",
+    "nationality": "Belgium",
+    "team": "UAE Team Emirates-XRG",
+    "points": 6
+  },
+  {
+    "rank": 24,
+    "bib": 26,
+    "name": "Jan Tratnik",
+    "nationality": "Slovenia",
+    "team": "Red Bull-BORA-hansgrohe",
+    "points": 5
+  },
+  {
+    "rank": 25,
+    "bib": 134,
+    "name": "Marco Frigo",
+    "nationality": "Italy",
+    "team": "NSN Cycling Team",
+    "points": 5
+  }
+]

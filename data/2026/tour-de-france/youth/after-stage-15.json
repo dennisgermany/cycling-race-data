@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 2,
+    "name": "Isaac del Toro",
+    "nationality": "Mexico",
+    "team": "UAE Team Emirates-XRG",
+    "time": "55:47:29"
+  },
+  {
+    "rank": 2,
+    "bib": 51,
+    "name": "Paul Seixas",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+0:25"
+  },
+  {
+    "rank": 3,
+    "bib": 31,
+    "name": "Juan Ayuso",
+    "nationality": "Spain",
+    "team": "Lidl-Trek",
+    "time": "+1:30"
+  },
+  {
+    "rank": 4,
+    "bib": 71,
+    "name": "Lenny Martinez",
+    "nationality": "France",
+    "team": "Bahrain Victorious",
+    "time": "+4:30"
+  },
+  {
+    "rank": 5,
+    "bib": 18,
+    "name": "Davide Piganzoli",
+    "nationality": "Italy",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+18:44"
+  },
+  {
+    "rank": 6,
+    "bib": 34,
+    "name": "Quinn Simmons",
+    "nationality": "United States",
+    "team": "Lidl-Trek",
+    "time": "+1:17:32"
+  },
+  {
+    "rank": 7,
+    "bib": 156,
+    "name": "Lennert Van Eetvelt",
+    "nationality": "Belgium",
+    "team": "Lotto-Intermarch\u00e9",
+    "time": "+1:27:35"
+  },
+  {
+    "rank": 8,
+    "bib": 142,
+    "name": "Pablo Castrillo",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+1:28:05"
+  },
+  {
+    "rank": 9,
+    "bib": 88,
+    "name": "K\u00e9vin Vauquelin",
+    "nationality": "France",
+    "team": "Netcompany INEOS",
+    "time": "+1:37:19"
+  },
+  {
+    "rank": 10,
+    "bib": 77,
+    "name": "Antonio Tiberi",
+    "nationality": "Italy",
+    "team": "Bahrain Victorious",
+    "time": "+1:48:28"
+  },
+  {
+    "rank": 11,
+    "bib": 58,
+    "name": "Matthew Riccitello",
+    "nationality": "United States",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+1:52:41"
+  },
+  {
+    "rank": 12,
+    "bib": 144,
+    "name": "Ra\u00fal Garc\u00eda",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+1:53:34"
+  },
+  {
+    "rank": 13,
+    "bib": 93,
+    "name": "Valentin Paret-Peintre",
+    "nationality": "France",
+    "team": "Soudal Quick-Step",
+    "time": "+1:59:29"
+  },
+  {
+    "rank": 14,
+    "bib": 43,
+    "name": "Alex Baudin",
+    "nationality": "France",
+    "team": "EF Education-EasyPost",
+    "time": "+2:01:16"
+  },
+  {
+    "rank": 15,
+    "bib": 37,
+    "name": "Mathias Vacek",
+    "nationality": "Czech Republic",
+    "team": "Lidl-Trek",
+    "time": "+2:08:37"
+  },
+  {
+    "rank": 16,
+    "bib": 181,
+    "name": "Romain Gr\u00e9goire",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+2:25:57"
+  },
+  {
+    "rank": 17,
+    "bib": 154,
+    "name": "Lars Craps",
+    "nationality": "Belgium",
+    "team": "Lotto-Intermarch\u00e9",
+    "time": "+2:33:34"
+  },
+  {
+    "rank": 18,
+    "bib": 184,
+    "name": "Ewen Costiou",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+2:43:21"
+  },
+  {
+    "rank": 19,
+    "bib": 185,
+    "name": "Lorenzo Germani",
+    "nationality": "Italy",
+    "team": "Groupama-FDJ United",
+    "time": "+2:56:33"
+  },
+  {
+    "rank": 20,
+    "bib": 78,
+    "name": "Vlad Van Mechelen",
+    "nationality": "Belgium",
+    "team": "Bahrain Victorious",
+    "time": "+3:01:51"
+  },
+  {
+    "rank": 21,
+    "bib": 208,
+    "name": "Matt\u00e9o Vercher",
+    "nationality": "France",
+    "team": "Team TotalEnergies",
+    "time": "+3:04:31"
+  },
+  {
+    "rank": 22,
+    "bib": 206,
+    "name": "Mathis Le Berre",
+    "nationality": "France",
+    "team": "Team TotalEnergies",
+    "time": "+3:06:42"
+  },
+  {
+    "rank": 23,
+    "bib": 68,
+    "name": "Nicolas Vinokurov",
+    "nationality": "Kazakhstan",
+    "team": "XDS Astana Team",
+    "time": "+3:12:47"
+  },
+  {
+    "rank": 24,
+    "bib": 108,
+    "name": "Emiel Verstrynge",
+    "nationality": "Belgium",
+    "team": "Alpecin-Premier Tech",
+    "time": "+3:20:26"
+  },
+  {
+    "rank": 25,
+    "bib": 15,
+    "name": "Per Strand Hagenes",
+    "nationality": "Norway",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+3:23:56"
+  }
+]
