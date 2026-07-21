@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19",
+  "updatedAt": "2026-07-21",
   "races": [
     {
       "year": 2026,
@@ -15,7 +15,7 @@
       "distanceKm": 3459.2,
       "startLocation": "Nessebar",
       "finishLocation": "Rome",
-      "gpxAttribution": "Course GPX: Giro d'Italia 2026 stage routes from cyclingstage.com. Map tiles \u00a9 OpenStreetMap contributors.",
+      "gpxAttribution": "Course GPX: Giro d'Italia 2026 stage routes from cyclingstage.com. Map tiles © OpenStreetMap contributors.",
       "startTime": "2026-05-08T12:15:00+03:00",
       "elevationGainM": 48700
     },
@@ -32,8 +32,8 @@
       "raceCategory": "men",
       "distanceKm": 3322,
       "startLocation": "Barcelona",
-      "finishLocation": "Paris Champs-\u00c9lys\u00e9es",
-      "gpxAttribution": "Course GPX: Tour de France 2026 stage routes. Map tiles \u00a9 OpenStreetMap contributors.",
+      "finishLocation": "Paris Champs-Élysées",
+      "gpxAttribution": "Course GPX: Tour de France 2026 stage routes. Map tiles © OpenStreetMap contributors.",
       "startTime": "2026-07-04T17:05:00+02:00",
       "elevationGainM": 53950
     }

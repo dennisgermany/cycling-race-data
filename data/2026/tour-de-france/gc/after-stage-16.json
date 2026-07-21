@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 1,
+    "name": "Tadej Pogacar",
+    "nationality": "Slovenia",
+    "team": "UAE Team Emirates-XRG",
+    "time": "56:14:18"
+  },
+  {
+    "rank": 2,
+    "bib": 21,
+    "name": "Remco Evenepoel",
+    "nationality": "Belgium",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+4:32"
+  },
+  {
+    "rank": 3,
+    "bib": 2,
+    "name": "Isaac del Toro",
+    "nationality": "Mexico",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+6:51"
+  },
+  {
+    "rank": 4,
+    "bib": 51,
+    "name": "Paul Seixas",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+7:11"
+  },
+  {
+    "rank": 5,
+    "bib": 31,
+    "name": "Juan Ayuso",
+    "nationality": "Spain",
+    "team": "Lidl-Trek",
+    "time": "+9:22"
+  },
+  {
+    "rank": 6,
+    "bib": 35,
+    "name": "Mattias Skjelmose",
+    "nationality": "Denmark",
+    "team": "Lidl-Trek",
+    "time": "+10:14"
+  },
+  {
+    "rank": 7,
+    "bib": 71,
+    "name": "Lenny Martinez",
+    "nationality": "France",
+    "team": "Bahrain Victorious",
+    "time": "+12:50"
+  },
+  {
+    "rank": 8,
+    "bib": 171,
+    "name": "Tom Pidcock",
+    "nationality": "United Kingdom",
+    "team": "Pinarello-Q36.5 Pro Cycling Team",
+    "time": "+12:58"
+  },
+  {
+    "rank": 9,
+    "bib": 201,
+    "name": "Jordan Jegat",
+    "nationality": "France",
+    "team": "Team TotalEnergies",
+    "time": "+22:50"
+  },
+  {
+    "rank": 10,
+    "bib": 198,
+    "name": "Yannis Voisard",
+    "nationality": "Switzerland",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+24:18"
+  },
+  {
+    "rank": 11,
+    "bib": 97,
+    "name": "Ilan Van Wilder",
+    "nationality": "Belgium",
+    "team": "Soudal Quick-Step",
+    "time": "+25:02"
+  },
+  {
+    "rank": 12,
+    "bib": 41,
+    "name": "Richard Carapaz",
+    "nationality": "Ecuador",
+    "team": "EF Education-EasyPost",
+    "time": "+25:45"
+  },
+  {
+    "rank": 13,
+    "bib": 18,
+    "name": "Davide Piganzoli",
+    "nationality": "Italy",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+27:28"
+  },
+  {
+    "rank": 14,
+    "bib": 8,
+    "name": "Adam Yates",
+    "nationality": "United Kingdom",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+29:14"
+  },
+  {
+    "rank": 15,
+    "bib": 81,
+    "name": "Egan Bernal",
+    "nationality": "Colombia",
+    "team": "Netcompany INEOS",
+    "time": "+45:03"
+  },
+  {
+    "rank": 16,
+    "bib": 121,
+    "name": "Tobias Halland Johannessen",
+    "nationality": "Norway",
+    "team": "Uno-X Mobility",
+    "time": "+51:19"
+  },
+  {
+    "rank": 17,
+    "bib": 17,
+    "name": "Sepp Kuss",
+    "nationality": "United States",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+51:29"
+  },
+  {
+    "rank": 18,
+    "bib": 4,
+    "name": "Brandon McNulty",
+    "nationality": "United States",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+53:04"
+  },
+  {
+    "rank": 19,
+    "bib": 45,
+    "name": "Sean Quinn",
+    "nationality": "United States",
+    "team": "EF Education-EasyPost",
+    "time": "+1:06:47"
+  },
+  {
+    "rank": 20,
+    "bib": 57,
+    "name": "Nicolas Prodhomme",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+1:07:39"
+  },
+  {
+    "rank": 21,
+    "bib": 52,
+    "name": "Tiesj Benoot",
+    "nationality": "Belgium",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+1:15:32"
+  },
+  {
+    "rank": 22,
+    "bib": 24,
+    "name": "Jai Hindley",
+    "nationality": "Australia",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+1:17:43"
+  },
+  {
+    "rank": 23,
+    "bib": 38,
+    "name": "Carlos Verona",
+    "nationality": "Spain",
+    "team": "Lidl-Trek",
+    "time": "+1:21:25"
+  },
+  {
+    "rank": 24,
+    "bib": 34,
+    "name": "Quinn Simmons",
+    "nationality": "United States",
+    "team": "Lidl-Trek",
+    "time": "+1:27:25"
+  },
+  {
+    "rank": 25,
+    "bib": 142,
+    "name": "Pablo Castrillo",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+1:35:35"
+  }
+]
