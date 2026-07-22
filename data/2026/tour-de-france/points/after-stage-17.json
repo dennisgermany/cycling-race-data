@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 33,
+    "name": "Mads Pedersen",
+    "nationality": "Denmark",
+    "team": "Lidl-Trek",
+    "points": 452
+  },
+  {
+    "rank": 2,
+    "bib": 105,
+    "name": "Jasper Philipsen",
+    "nationality": "Belgium",
+    "team": "Alpecin-Premier Tech",
+    "points": 445
+  },
+  {
+    "rank": 3,
+    "bib": 131,
+    "name": "Biniam Girmay",
+    "nationality": "Eritrea",
+    "team": "NSN Cycling Team",
+    "points": 361
+  },
+  {
+    "rank": 4,
+    "bib": 64,
+    "name": "Max Kanter",
+    "nationality": "Germany",
+    "team": "XDS Astana Team",
+    "points": 271
+  },
+  {
+    "rank": 5,
+    "bib": 55,
+    "name": "Olav Kooij",
+    "nationality": "Netherlands",
+    "team": "Decathlon CMA CGM Team",
+    "points": 230
+  },
+  {
+    "rank": 6,
+    "bib": 1,
+    "name": "Tadej Pogacar",
+    "nationality": "Slovenia",
+    "team": "UAE Team Emirates-XRG",
+    "points": 161
+  },
+  {
+    "rank": 7,
+    "bib": 128,
+    "name": "Søren Wærenskjold",
+    "nationality": "Norway",
+    "team": "Uno-X Mobility",
+    "points": 159
+  },
+  {
+    "rank": 8,
+    "bib": 207,
+    "name": "Anthony Turgis",
+    "nationality": "France",
+    "team": "Team TotalEnergies",
+    "points": 129
+  },
+  {
+    "rank": 9,
+    "bib": 2,
+    "name": "Isaac del Toro",
+    "nationality": "Mexico",
+    "team": "UAE Team Emirates-XRG",
+    "points": 123
+  },
+  {
+    "rank": 10,
+    "bib": 21,
+    "name": "Remco Evenepoel",
+    "nationality": "Belgium",
+    "team": "Red Bull-BORA-hansgrohe",
+    "points": 121
+  },
+  {
+    "rank": 11,
+    "bib": 152,
+    "name": "Huub Artz",
+    "nationality": "Netherlands",
+    "team": "Lotto-Intermarché",
+    "points": 119
+  },
+  {
+    "rank": 12,
+    "bib": 165,
+    "name": "Milan Fretin",
+    "nationality": "Belgium",
+    "team": "Cofidis",
+    "points": 117
+  },
+  {
+    "rank": 13,
+    "bib": 188,
+    "name": "Clément Russo",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "points": 101
+  },
+  {
+    "rank": 14,
+    "bib": 51,
+    "name": "Paul Seixas",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "points": 97
+  },
+  {
+    "rank": 15,
+    "bib": 34,
+    "name": "Quinn Simmons",
+    "nationality": "United States",
+    "team": "Lidl-Trek",
+    "points": 97
+  },
+  {
+    "rank": 16,
+    "bib": 118,
+    "name": "Mauro Schmid",
+    "nationality": "Switzerland",
+    "team": "Team Jayco-AlUla",
+    "points": 86
+  },
+  {
+    "rank": 17,
+    "bib": 195,
+    "name": "Rick Pluimers",
+    "nationality": "Netherlands",
+    "team": "Tudor Pro Cycling Team",
+    "points": 84
+  },
+  {
+    "rank": 18,
+    "bib": 171,
+    "name": "Tom Pidcock",
+    "nationality": "United Kingdom",
+    "team": "Pinarello-Q36.5 Pro Cycling Team",
+    "points": 82
+  },
+  {
+    "rank": 19,
+    "bib": 157,
+    "name": "Baptiste Veistroffer",
+    "nationality": "France",
+    "team": "Lotto-Intermarché",
+    "points": 78
+  },
+  {
+    "rank": 20,
+    "bib": 112,
+    "name": "Pascal Ackermann",
+    "nationality": "Germany",
+    "team": "Team Jayco-AlUla",
+    "points": 78
+  },
+  {
+    "rank": 21,
+    "bib": 101,
+    "name": "Mathieu van der Poel",
+    "nationality": "Netherlands",
+    "team": "Alpecin-Premier Tech",
+    "points": 77
+  },
+  {
+    "rank": 22,
+    "bib": 35,
+    "name": "Mattias Skjelmose",
+    "nationality": "Denmark",
+    "team": "Lidl-Trek",
+    "points": 71
+  },
+  {
+    "rank": 23,
+    "bib": 115,
+    "name": "Michael Matthews",
+    "nationality": "Australia",
+    "team": "Team Jayco-AlUla",
+    "points": 68
+  },
+  {
+    "rank": 24,
+    "bib": 106,
+    "name": "Edward Planckaert",
+    "nationality": "Belgium",
+    "team": "Alpecin-Premier Tech",
+    "points": 66
+  },
+  {
+    "rank": 25,
+    "bib": 121,
+    "name": "Tobias Halland Johannessen",
+    "nationality": "Norway",
+    "team": "Uno-X Mobility",
+    "points": 64
+  }
+]
