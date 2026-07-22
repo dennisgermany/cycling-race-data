@@ -1,10 +1,16 @@
 # Cycling data agent
 
-This repository maintains professional cycling race data as static JSON files under `data/{year}/{race-slug}/`. The daily update agent processes every race listed in `data/index.json` whose `status` is not `finished`.
+This repository maintains professional cycling race data as static JSON files under `data/{year}/{race-slug}/`. Three agents touch the data:
+
+| Agent | Trigger | Scope |
+|-------|---------|-------|
+| **Daily update** | Schedule + manual | Results, stage status, GC / classification snapshots, derived `index.json` status |
+| **Create race** | Manual (`workflow_dispatch`) | Scaffold a new race (stages, teams or empty start list, route features, GPX, stubs) |
+| **Update race metadata** | Manual (`workflow_dispatch`) | Backfill/verify teams, route features (climbs/sprints/cobbles), stage metadata, classifications, GPX |
 
 The same JSON files are served as a read-only REST API on GitHub Pages (see [`openapi.yaml`](openapi.yaml) and [`README.md`](README.md)).
 
-## Files you may update
+## Files the daily update agent may update
 
 | File | Purpose |
 |------|---------|
@@ -20,17 +26,19 @@ Only write `points/`, `kom/`, and `youth/` files for classifications that the ra
 
 Paths above are relative to `data/{year}/{race-slug}/` (e.g. `data/2026/giro-d-italia/stages.json`).
 
-## Do not update (unless explicitly asked)
+## Do not update (daily agent)
+
+Unless the **Update race metadata** (or create) agent is running:
 
 - `teams.json` (start list)
-- `classifications.json` (jersey metadata; set once when the race is created)
-- `profile-climbs.json`, `route-features.json`
+- `classifications.json` (jersey metadata)
+- `route-features.json` (climbs, intermediate sprints, cobbles)
 - GPX files under `gpx/`
 
 ## Data rules
 
 1. **Never invent results.** Use only information you can verify from allowed sources (see below). If a stage has not officially finished, do not add results or mark it `finished`.
-2. **Team names and bibs** must match `teams.json` spelling (e.g. `Team Visma | Lease a Bike`, not variants).
+2. **Team names and bibs** must match `teams.json` spelling (e.g. `Team Visma | Lease a Bike`, not variants). If `teams.json` is empty, do not invent a start list in the daily agent — leave metadata to the metadata agent.
 3. **Stage results shape** (per rider in `results.json` → `stageResults`):
 
    `{ rank, bib, name, nationality, team, time }`
@@ -78,7 +86,7 @@ Paths above are relative to `data/{year}/{race-slug}/` (e.g. `data/2026/giro-d-i
    - `elevationGainM`: total metres climbed (sum of `elevationGainM` on all stages)
    - `startLocation` / `finishLocation`: from first stage `startLocation` and last stage `finishLocation`
    - `gpxAttribution`: credit line for map/GPX sources (set when creating the race; keep on updates)
-   - `startlistNotes`: optional caveats about the start list (sources, scratches, placeholder bibs)
+   - `startlistNotes`: optional caveats about the start list (sources, scratches, placeholder bibs, or `Start list not yet published`)
    - `status`: aggregated race status derived from stage statuses in that race's `stages.json`:
      - `finished` — all stages `finished`
      - `upcoming` — all stages `upcoming`
@@ -109,4 +117,8 @@ Do not use paywalled or user-generated wikis as primary sources for numeric resu
 
 A separate **Create race** workflow scaffolds a new race for the current calendar year from a single `race_name` input. See [`AGENTS-create-race.md`](AGENTS-create-race.md), [`prompts/create-race.md`](prompts/create-race.md), and [`.github/workflows/create-race.yml`](.github/workflows/create-race.yml).
 
-The create agent may write all files under `data/{year}/{race-slug}/` (stages, teams, results stubs, climbs, route features, GPX) plus `data/index.json`. It does not modify existing races.
+The create agent may write all scaffold files under `data/{year}/{race-slug}/` (stages, teams or empty start list, results stubs, route features including sprints, GPX) plus `data/index.json`. It does not modify existing races. A missing start list is not an abort — use `teams.json: []` and `startlistNotes`.
+
+## Race metadata follow-up
+
+A separate **Update race metadata** workflow backfills start lists, route features (climbs/sprints/cobbles), stage metadata corrections, classifications, and missing GPX for an existing race. See [`AGENTS-update-race-metadata.md`](AGENTS-update-race-metadata.md), [`prompts/update-race-metadata.md`](prompts/update-race-metadata.md), and [`.github/workflows/update-race-metadata.yml`](.github/workflows/update-race-metadata.yml). Manual trigger only; does not touch results.

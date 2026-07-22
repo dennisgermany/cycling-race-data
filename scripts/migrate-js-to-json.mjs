@@ -73,7 +73,9 @@ async function migrate(raceName, year, deleteJs) {
     stageResults: resultsMod[`${exportPrefix}StageRiderResultsByStageId`],
   };
 
-  const profileClimbs = climbsMod[`${exportPrefix}ProfileClimbsByStageNum`];
+  // Legacy profile-climbs.js is still required as an input artifact; course markers
+  // are published only as route-features.json.
+  void climbsMod[`${exportPrefix}ProfileClimbsByStageNum`];
   const routeFeatures = featuresMod[`${exportPrefix}RouteFeaturesByStageId`];
 
   const gcDir = join(absDir, "gc");
@@ -97,10 +99,6 @@ async function migrate(raceName, year, deleteJs) {
   writeFileSync(join(absDir, "teams.json"), JSON.stringify(teams, null, 2) + "\n");
   writeFileSync(join(absDir, "results.json"), JSON.stringify(results, null, 2) + "\n");
   writeFileSync(
-    join(absDir, "profile-climbs.json"),
-    JSON.stringify(profileClimbs, null, 2) + "\n",
-  );
-  writeFileSync(
     join(absDir, "route-features.json"),
     JSON.stringify(routeFeatures, null, 2) + "\n",
   );
@@ -109,7 +107,7 @@ async function migrate(raceName, year, deleteJs) {
   console.log(`Wrote teams.json (${teams.length} teams)`);
   console.log(`Wrote results.json (${Object.keys(results.stageResults).length} stage results)`);
   console.log(`Wrote gc/ (${gcCount} after-stage files)`);
-  console.log(`Wrote profile-climbs.json and route-features.json`);
+  console.log(`Wrote route-features.json`);
 
   if (deleteJs) {
     for (const path of Object.values(legacy)) {

@@ -43,11 +43,11 @@ export function deriveRaceIds(raceName, year) {
     dataDir,
     gpxWebPrefix,
     botBranch: `bot/create-${slug}-${yearNum}`,
+    botMetaBranch: `bot/update-meta-${slug}-${yearNum}`,
     files: {
       stages: "stages.json",
       teams: "teams.json",
       results: "results.json",
-      profileClimbs: "profile-climbs.json",
       routeFeatures: "route-features.json",
       gcDir: "gc",
       gcAfterStage: (n) => `gc/after-stage-${n}.json`,

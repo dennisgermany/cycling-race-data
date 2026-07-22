@@ -220,28 +220,6 @@ paths:
         "404":
           description: File not found (stage not finished or not yet published)
 
-  /data/{year}/{slug}/profile-climbs.json:
-    get:
-      tags: [Route]
-      summary: Profile climbs by stage number
-      operationId: getProfileClimbs
-      parameters:
-        - $ref: "#/components/parameters/year"
-        - $ref: "#/components/parameters/slug"
-      responses:
-        "200":
-          description: Categorised climbs keyed by stage number (string keys)
-          content:
-            application/json:
-              schema:
-                type: object
-                additionalProperties:
-                  type: array
-                  items:
-                    $ref: "#/components/schemas/ProfileClimb"
-        "404":
-          $ref: "#/components/responses/NotFound"
-
   /data/{year}/{slug}/route-features.json:
     get:
       tags: [Route]
@@ -252,7 +230,9 @@ paths:
         - $ref: "#/components/parameters/slug"
       responses:
         "200":
-          description: Route features keyed by stage id (e.g. `stage-1`)
+          description: >
+            Climbs, intermediate sprints, and cobbles keyed by stage id
+            (e.g. `stage-1`). Sorted by `distanceKm` ascending within each stage.
           content:
             application/json:
               schema:
@@ -589,33 +569,23 @@ components:
           description: Total classification points
           example: 44
 
-    ProfileClimb:
-      type: object
-      required: [name, distanceKm, category]
-      properties:
-        name:
-          type: string
-        distanceKm:
-          type: number
-        category:
-          type: integer
-          minimum: 1
-          maximum: 4
-
     RouteFeature:
       type: object
-      required: [id, name, kind, distanceKm, category]
+      required: [id, name, kind, distanceKm]
       properties:
         id:
           type: string
+          description: e.g. `stage-1-climb-1`, `stage-1-sprint-1`, `stage-1-cobble-1`
         name:
           type: string
         kind:
           type: string
-          enum: [climb]
+          enum: [climb, sprint, cobble]
         distanceKm:
           type: number
+          description: Kilometres from stage start to the feature
         category:
           type: integer
           minimum: 1
           maximum: 4
+          description: UCI climb category (1 hardest – 4); required for `kind: climb`, omit for sprint/cobble

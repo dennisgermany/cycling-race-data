@@ -1,4 +1,4 @@
-name: Create race
+name: Update race metadata
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ on:
         type: string
 
 jobs:
-  create-race:
+  update-race-metadata:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -37,7 +37,7 @@ jobs:
           YEAR="$(date -u +%Y)"
           IDS="$(node scripts/race-ids.mjs "$RACE_NAME" "$YEAR")"
           SLUG="$(echo "$IDS" | jq -r .slug)"
-          BOT_BRANCH="$(echo "$IDS" | jq -r .botBranch)"
+          BOT_BRANCH="$(echo "$IDS" | jq -r .botMetaBranch)"
           echo "year=${YEAR}" >> "${GITHUB_OUTPUT}"
           echo "slug=${SLUG}" >> "${GITHUB_OUTPUT}"
           echo "bot_branch=${BOT_BRANCH}" >> "${GITHUB_OUTPUT}"
@@ -46,33 +46,33 @@ jobs:
         env:
           RACE_NAME: ${{ inputs.race_name }}
         run: |
-          node scripts/expand-create-race-prompt.mjs "$RACE_NAME" "${{ steps.ids.outputs.year }}" -o /tmp/create-race-prompt.md
+          node scripts/expand-update-race-metadata-prompt.mjs "$RACE_NAME" "${{ steps.ids.outputs.year }}" -o /tmp/update-race-metadata-prompt.md
 
       - name: Run Cursor agent (local)
         env:
           CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
-          AGENT_PROMPT_FILE: /tmp/create-race-prompt.md
+          AGENT_PROMPT_FILE: /tmp/update-race-metadata-prompt.md
           AGENT_LOG_LEVEL: info
         run: npm run agent
 
-      - name: Publish race scaffold as pull request
+      - name: Publish metadata updates as pull request
         env:
           BOT_BRANCH: ${{ steps.ids.outputs.bot_branch }}
-          PR_TITLE: "Add ${{ inputs.race_name }} ${{ steps.ids.outputs.year }} race data"
-          COMMIT_MSG: "feat(data): add ${{ steps.ids.outputs.slug }} ${{ steps.ids.outputs.year }} race scaffold"
+          PR_TITLE: "Update ${{ inputs.race_name }} ${{ steps.ids.outputs.year }} race metadata"
+          COMMIT_MSG: "chore(data): update ${{ steps.ids.outputs.slug }} ${{ steps.ids.outputs.year }} race metadata"
           PR_BODY: |
             ## Summary
 
-            Automated scaffold for **${{ inputs.race_name }}** (${{ steps.ids.outputs.year }}) under `data/${{ steps.ids.outputs.year }}/${{ steps.ids.outputs.slug }}/`.
+            Metadata follow-up for **${{ inputs.race_name }}** (${{ steps.ids.outputs.year }}) under `data/${{ steps.ids.outputs.year }}/${{ steps.ids.outputs.slug }}/`.
 
-            Includes stages, teams (or empty start list), route features (climbs/sprints/cobbles), GPX (where available), and empty results stubs.
+            May include start list backfill, route features (climbs/sprints/cobbles), stage metadata corrections, classifications, and missing GPX. Does **not** update results or stage finish status.
 
             ## Test plan
 
-            - [ ] Verify stage dates, distances, and start/finish against official route
-            - [ ] Confirm team names and bibs match official start list (or `teams.json` is `[]` with `startlistNotes`)
-            - [ ] Spot-check GPX files and route features (climbs + intermediate sprints)
-            - [ ] Confirm `data/index.json` entry and derived race status
+            - [ ] Confirm start list matches official sources (or still empty with `startlistNotes`)
+            - [ ] Spot-check route features against stage profiles
+            - [ ] Confirm no accidental edits to `results.json` / `gc/` / classification snapshots
+            - [ ] Confirm `data/index.json` still consistent
 
             **Manual merge required** — review before merging.
           GH_TOKEN: ${{ secrets.GH_PR_TOKEN || github.token }}

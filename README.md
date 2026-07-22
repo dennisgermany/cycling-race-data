@@ -39,7 +39,7 @@ Actions → **Create race** → *Run workflow* → enter the display name (e.g. 
 2. Runs the Cursor agent with [`prompts/create-race.md`](prompts/create-race.md) and [`AGENTS-create-race.md`](AGENTS-create-race.md)
 3. Opens a pull request on `bot/create-{slug}-{year}` for **manual review** (no auto-merge)
 
-Scaffolded files match the Giro layout: `stages.json`, `teams.json`, `profile-climbs.json`, `route-features.json`, GPX (when available), empty `results.json` / GC stubs, and an `index.json` entry.
+Scaffolded files: `stages.json`, `teams.json` (or `[]` if the start list is not yet published), `route-features.json` (climbs, intermediate sprints, cobbles), GPX (when available), empty `results.json` / GC stubs, and an `index.json` entry. A missing start list does **not** abort creation — set `startlistNotes` and backfill later with **Update race metadata**.
 
 Local run:
 
@@ -48,6 +48,25 @@ export CURSOR_API_KEY=...
 npm ci
 node scripts/expand-create-race-prompt.mjs "Tour de France" 2026 -o /tmp/create-race-prompt.md
 AGENT_PROMPT_FILE=/tmp/create-race-prompt.md npm run agent
+```
+
+## Update race metadata
+
+Actions → **Update race metadata** → *Run workflow* → enter the display name of an **existing** race. The workflow:
+
+1. Resolves identifiers via [`scripts/race-ids.mjs`](scripts/race-ids.mjs)
+2. Runs the agent with [`prompts/update-race-metadata.md`](prompts/update-race-metadata.md) and [`AGENTS-update-race-metadata.md`](AGENTS-update-race-metadata.md)
+3. Opens a pull request on `bot/update-meta-{slug}-{year}` for **manual review**
+
+Use this to backfill start lists, add missing climbs/sprints/cobbles in `route-features.json`, correct stage metadata, classifications, and missing GPX. It does **not** update results or stage finish status.
+
+Local run:
+
+```bash
+export CURSOR_API_KEY=...
+npm ci
+node scripts/expand-update-race-metadata-prompt.mjs "Tour de France" 2026 -o /tmp/update-race-metadata-prompt.md
+AGENT_PROMPT_FILE=/tmp/update-race-metadata-prompt.md npm run agent
 ```
 
 ## Schedule (results update)
@@ -77,11 +96,13 @@ The agent processes each race in the index whose `status` is not `finished`, ski
 | `results.json` | Per-stage top 25, provisional GC |
 | `gc/after-stage-{n}.json` | GC snapshot after each stage |
 
-Paths above are relative to `data/{year}/{race-slug}/`. Static assets (`teams.json`, `profile-climbs.json`, `route-features.json`, GPX) are not updated by the daily bot. See [`AGENTS.md`](AGENTS.md) and [`prompts/update-cycling-data.md`](prompts/update-cycling-data.md).
+Paths above are relative to `data/{year}/{race-slug}/`. Static assets (`teams.json`, `route-features.json`, GPX) are not updated by the daily bot — use **Update race metadata**. See [`AGENTS.md`](AGENTS.md) and [`prompts/update-cycling-data.md`](prompts/update-cycling-data.md).
 
 ## Pull requests
 
-Each run commits to `bot/cycling-data-update`, opens a PR if needed, then **merges** it into the default branch and deletes the bot branch (`gh pr merge --merge --admin --delete-branch`). The next run creates a fresh branch from `main`.
+Each daily run commits to `bot/cycling-data-update`, opens a PR if needed, then **merges** it into the default branch and deletes the bot branch (`gh pr merge --merge --admin --delete-branch`). The next run creates a fresh branch from `main`.
+
+Create-race and update-race-metadata PRs stay open for **manual merge**.
 
 Pull request bodies include an **Agent costs** section (token usage, duration, cumulative totals across re-runs on the same bot branch). Dollar amounts are not provided by the Cursor SDK; optional estimates use `CURSOR_COST_PER_MTOK_INPUT` / `CURSOR_COST_PER_MTOK_OUTPUT` env vars.
 
@@ -118,7 +139,7 @@ data/
     ├── stages.json
     ├── teams.json
     ├── results.json
-    ├── profile-climbs.json
+    ├── classifications.json
     ├── route-features.json
     ├── gc/
     │   └── after-stage-{n}.json

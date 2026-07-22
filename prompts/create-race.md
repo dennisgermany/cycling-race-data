@@ -42,15 +42,17 @@ Read and follow **`AGENTS-create-race.md`** for full schema rules, allowed sourc
 
 5. **Research the start list**
    - Official list, BikeRaceInfo, or cyclingstage.com
-   - If no start list is published: **stop** and explain in your summary (do not invent riders)
+   - If no start list is published: write `{dataDir}/teams.json` as `[]`, set `startlistNotes` on the index entry to `Start list not yet published`, and **continue** (do not invent riders; do not abort)
 
 6. **Write `{dataDir}/teams.json`**
-   - JSON array of team objects
+   - JSON array of team objects when a start list exists
    - Bib blocks of 10 per team; exact team name spelling
+   - Or `[]` when unpublished (step 5)
 
 7. **Research stage profiles** (cyclingstage.com profile pages or official PDFs)
-   - Write `{dataDir}/profile-climbs.json`
-   - Write `{dataDir}/route-features.json` derived from profile-climbs
+   - Write `{dataDir}/route-features.json` with climbs, intermediate sprints, and cobbles (`kind`: `climb` | `sprint` | `cobble`)
+   - Do **not** create `profile-climbs.json`
+   - Every stage id from `stages.json` must be a key (empty array if none)
 
 8. **Download GPX files**
    - Save to `{dataDir}/gpx/stage-N-route.gpx` (cyclingstage.com GPX CDN or official source)
@@ -64,10 +66,12 @@ Read and follow **`AGENTS-create-race.md`** for full schema rules, allowed sourc
 
 10. **Update `data/index.json`**
     - Add entry with `name: "{{RACE_NAME}}"`, **all required catalog fields** (include `elevationGainM` sum), derived `status`, sorted races list, `updatedAt` = today
+    - Include `startlistNotes` when `teams.json` is empty
 
 11. **Reply with a summary**
     - Stage count and date range
-    - Team and rider count
+    - Team and rider count, or explicitly **start list missing**
+    - Route-feature counts (climbs / sprints / cobbles)
     - GPX files downloaded vs missing
     - Whether results were included (race already started)
     - All source URLs consulted

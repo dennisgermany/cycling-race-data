@@ -14,6 +14,8 @@ Stop immediately (no file edits) if any of the following is true:
 
 Report why you stopped in your final summary.
 
+A missing start list is **not** an abort condition — scaffold the race with an empty `teams.json` and continue (see Teams below).
+
 ## Identifiers
 
 Run `node scripts/race-ids.mjs "{{RACE_NAME}}" {{YEAR}}` (or use the `{{IDS_JSON}}` block injected by the workflow) and use the returned values consistently:
@@ -35,14 +37,15 @@ All paths are under `{dataDir}/`:
 | File | Purpose |
 |------|---------|
 | `stages.json` | Array of stage objects with per-stage `status` |
-| `teams.json` | Array of teams and riders (start list) |
+| `teams.json` | Array of teams and riders (start list); `[]` if not yet published |
 | `classifications.json` | Ordered jersey metadata for the classifications the race awards |
 | `results.json` | `{ provisionalGc, stageResults }` — stage results and provisional GC |
 | `gc/after-stage-{N}.json` | GC snapshot after each finished stage (one file per stage) |
 | `points/`, `kom/`, `youth/` `after-stage-{N}.json` | Per-classification snapshots (only for classifications listed in `classifications.json`) |
-| `profile-climbs.json` | Categorised climbs per stage number |
-| `route-features.json` | Climbs keyed by stage id (derived from profile-climbs) |
+| `route-features.json` | Climbs, intermediate sprints, and cobbles keyed by stage id |
 | `gpx/stage-{N}-route.gpx` | GPX route per stage (when available) |
+
+Do **not** create `profile-climbs.json` — course markers live only in `route-features.json`.
 
 Also update `data/index.json` with a new race entry.
 
@@ -100,7 +103,8 @@ Reference implementation: `data/2026/giro-d-italia/` (Giro d'Italia 2026).
 - `uciCategory`: `WT` | `PRT` | `CT`
 - Bib blocks of 10 per team: 1–8, 11–18, 21–28, …
 - Nationality: full English country name (`Denmark`, not `DEN`)
-- If no official start list is published yet: **stop** and report; do not invent riders
+- If no official start list is published yet: write `teams.json` as `[]`, set `startlistNotes` on the index entry (e.g. `Start list not yet published`), continue scaffolding, and note the gap in your summary. Do not invent riders.
+- Use the **Update race metadata** agent later to backfill the start list when it appears.
 
 ### Rider result row (results + GC)
 
@@ -110,7 +114,7 @@ Reference implementation: `data/2026/giro-d-italia/` (Giro d'Italia 2026).
 
 - Top **25** per stage and per GC snapshot
 - `time`: winner clock time (`"3:21:08"`); same time `"s.t."`; gap `"+0:27"`, `"+5:22"`, `"+1:02:10"`
-- `team` and `bib` must match `teams.json` exactly
+- `team` and `bib` must match `teams.json` exactly (only when a start list exists)
 
 ### Classifications file (`classifications.json`)
 
@@ -154,36 +158,29 @@ Add entries only for stages with verified official results.
 
 No `gc/` files until stages finish. When stages have finished, write `gc/after-stage-{N}.json` (array of top 25 rider result rows) for each finished stage.
 
-### Profile climb (`profile-climbs.json`)
+### Route features (`route-features.json`)
 
-Keyed by **stage number** (string keys in JSON):
-
-```json
-{
-  "1": [{ "name": "COL NAME", "distanceKm": 61.4, "category": 4 }],
-  "10": []
-}
-```
-
-| Field | Type | Notes |
-|-------|------|-------|
-| `name` | string | UPPERCASE as on profile graphic |
-| `distanceKm` | number | km from stage start to summit |
-| `category` | number | UCI 1 (hardest) – 4 |
-
-### Route feature (`route-features.json`)
-
-Derived from profile-climbs; keyed by **stage id** string:
+Keyed by **stage id** string. Author climbs, intermediate sprints, and cobbled sectors directly here (no separate profile-climbs file).
 
 ```json
 {
   "stage-1": [
+    { "id": "stage-1-sprint-1", "name": "TOWN NAME", "kind": "sprint", "distanceKm": 42.1 },
     { "id": "stage-1-climb-1", "name": "COL NAME", "kind": "climb", "distanceKm": 61.4, "category": 4 }
   ]
 }
 ```
 
-Every stage id from `stages.json` must appear (empty array if no climbs).
+| `kind` | Required fields | Notes |
+|--------|-----------------|-------|
+| `climb` | `id`, `name`, `kind`, `distanceKm`, `category` | UCI category 1 (hardest) – 4; name UPPERCASE as on profile |
+| `sprint` | `id`, `name`, `kind`, `distanceKm` | Intermediate sprint; no `category` |
+| `cobble` | `id`, `name`, `kind`, `distanceKm` | When present on the official profile |
+
+- IDs: `stage-{n}-climb-{i}`, `stage-{n}-sprint-{i}`, `stage-{n}-cobble-{i}` (1-based per kind per stage)
+- Sort features within each stage by `distanceKm` ascending
+- Every stage id from `stages.json` must appear (empty array if none)
+- Research from cyclingstage.com profile pages or official PDFs; omit features you cannot verify
 
 ### GPX files
 
@@ -223,7 +220,7 @@ Add an entry with **all required fields** (see `AGENTS.md` rule 7). Derive from 
 - `elevationGainM`: sum of all stage `elevationGainM` values
 - `startLocation` / `finishLocation`: first stage start and last stage finish
 - `gpxAttribution`: one-line credit for GPX/map sources used
-- `startlistNotes` (optional): start-list caveats if needed
+- `startlistNotes` (optional): required when `teams.json` is empty (`Start list not yet published`) or when documenting start-list caveats
 - `status`: derive from stage statuses (see `AGENTS.md` rule 7)
 - Sort `races` by `year` descending, then `slug` alphabetically
 - Set top-level `updatedAt` to today's ISO date
@@ -234,28 +231,28 @@ Prefer, in order:
 
 1. **Official race website** (route, start list, results)
 2. [BikeRaceInfo](https://bikeraceinfo.com) — start lists, stage pages, GC tables
-3. [cyclingstage.com](https://www.cyclingstage.com) — GPX downloads, stage profiles, climbs, start lists
+3. [cyclingstage.com](https://www.cyclingstage.com) — GPX downloads, stage profiles, climbs, sprints, start lists
 4. Wikipedia — **route overview only** (not numeric results)
 
 Do not use paywalled or user-generated wikis as primary sources for results, bibs, or times.
 
 ## Rules
 
-1. **Never invent results, bibs, or rider names.** Use only verified data.
+1. **Never invent results, bibs, or rider names.** Use only verified data. Empty `teams.json` is fine when the start list is unpublished.
 2. **Never invent GPX** — download real files or omit and document.
-3. Match formatting and style of `data/2026/giro-d-italia/` (2-space JSON indent, trailing newline).
-4. Process many stages in order; write files incrementally to avoid losing work on long races.
-5. If a start list is not yet published, stop without creating partial data.
+3. **Never invent route features** — only verified climbs, sprints, and cobbles.
+4. Match formatting and style of `data/2026/giro-d-italia/` (2-space JSON indent, trailing newline).
+5. Process many stages in order; write files incrementally to avoid losing work on long races.
 
 ## Workflow summary
 
 1. Resolve IDs via `race-ids.mjs` / `{{IDS_JSON}}`
 2. Check race does not already exist
 3. Research route → write `stages.json` (include `elevationGainM` per stage from official sources; see [`skills/elevation-gain.md`](skills/elevation-gain.md))
-4. Research start list → write `teams.json`
+4. Research start list → write `teams.json` (or `[]` + `startlistNotes` if unpublished)
 5. Research the race's jerseys → write `classifications.json`
-6. Research stage profiles → write `profile-climbs.json` → `route-features.json`
+6. Research stage profiles → write `route-features.json` (climbs, intermediate sprints, cobbles)
 7. Download GPX files → `gpx/`
 8. Write empty `results.json` and no `gc/`, `points/`, `kom/`, `youth/` files (or fill for finished stages)
 9. Update `index.json` with all required catalog fields (see above)
-10. Summarize: stage count, sources, missing GPX or start-list gaps
+10. Summarize: stage count, sources, missing GPX, whether start list is missing, route-feature counts
