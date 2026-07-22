@@ -1,0 +1,292 @@
+{
+  "stage-1": [
+    {
+      "id": "stage-1-climb-1",
+      "name": "CÔTE DE CHÂBLES",
+      "kind": "climb",
+      "distanceKm": 49.1,
+      "category": 3
+    },
+    {
+      "id": "stage-1-climb-2",
+      "name": "CÔTE DE VILLARS-LE-COMTE",
+      "kind": "climb",
+      "distanceKm": 83.5,
+      "category": 3
+    },
+    {
+      "id": "stage-1-climb-3",
+      "name": "CÔTE DE VULLIENS",
+      "kind": "climb",
+      "distanceKm": 97.1,
+      "category": 3
+    },
+    {
+      "id": "stage-1-climb-4",
+      "name": "LAUSANNE - CÔTE SAINT-FRANÇOIS",
+      "kind": "climb",
+      "distanceKm": 138,
+      "category": 4
+    }
+  ],
+  "stage-2": [
+    {
+      "id": "stage-2-climb-1",
+      "name": "CÔTE DE CHEXBRES",
+      "kind": "climb",
+      "distanceKm": 31.7,
+      "category": 3
+    },
+    {
+      "id": "stage-2-climb-2",
+      "name": "CÔTE DE SAVIGNY",
+      "kind": "climb",
+      "distanceKm": 43.3,
+      "category": 4
+    },
+    {
+      "id": "stage-2-climb-3",
+      "name": "CÔTE DE COSSONAY",
+      "kind": "climb",
+      "distanceKm": 73.3,
+      "category": 4
+    },
+    {
+      "id": "stage-2-climb-4",
+      "name": "CÔTE DE BOUGY-VILLARS",
+      "kind": "climb",
+      "distanceKm": 94.7,
+      "category": 3
+    },
+    {
+      "id": "stage-2-climb-5",
+      "name": "CÔTE DE MONT-SUR-ROLLE",
+      "kind": "climb",
+      "distanceKm": 100.5,
+      "category": 3
+    }
+  ],
+  "stage-3": [
+    {
+      "id": "stage-3-climb-1",
+      "name": "COL DE LA FAUCILLE",
+      "kind": "climb",
+      "distanceKm": 23.9,
+      "category": 1
+    },
+    {
+      "id": "stage-3-climb-2",
+      "name": "CÔTE DE LAJOUX",
+      "kind": "climb",
+      "distanceKm": 36,
+      "category": 3
+    },
+    {
+      "id": "stage-3-climb-3",
+      "name": "COL DE LA SAVINE",
+      "kind": "climb",
+      "distanceKm": 73.1,
+      "category": 2
+    },
+    {
+      "id": "stage-3-climb-4",
+      "name": "CÔTE DE CHAUX-CHAMPAGNY",
+      "kind": "climb",
+      "distanceKm": 131.8,
+      "category": 4
+    }
+  ],
+  "stage-4": [],
+  "stage-5": [
+    {
+      "id": "stage-5-climb-1",
+      "name": "CÔTE DE CENVES",
+      "kind": "climb",
+      "distanceKm": 12.6,
+      "category": 2
+    },
+    {
+      "id": "stage-5-climb-2",
+      "name": "COL DE LA CROIX DE L'ORME",
+      "kind": "climb",
+      "distanceKm": 28.4,
+      "category": 4
+    },
+    {
+      "id": "stage-5-climb-3",
+      "name": "CÔTE DE SAINT-CHRISTOPHE",
+      "kind": "climb",
+      "distanceKm": 33.7,
+      "category": 4
+    },
+    {
+      "id": "stage-5-climb-4",
+      "name": "COL DE FONTMARTIN",
+      "kind": "climb",
+      "distanceKm": 54.1,
+      "category": 3
+    },
+    {
+      "id": "stage-5-climb-5",
+      "name": "COL DE GERBET (D68-D137)",
+      "kind": "climb",
+      "distanceKm": 68.7,
+      "category": 2
+    },
+    {
+      "id": "stage-5-climb-6",
+      "name": "CÔTE DE PRUZILLY",
+      "kind": "climb",
+      "distanceKm": 75.3,
+      "category": 4
+    },
+    {
+      "id": "stage-5-climb-7",
+      "name": "COL DE DURBIZE (D86-D26)",
+      "kind": "climb",
+      "distanceKm": 109.7,
+      "category": 3
+    },
+    {
+      "id": "stage-5-climb-8",
+      "name": "MONT BROUILLY",
+      "kind": "climb",
+      "distanceKm": 129.4,
+      "category": 2
+    }
+  ],
+  "stage-6": [
+    {
+      "id": "stage-6-climb-1",
+      "name": "CÔTE DE PÉRIGNEUX",
+      "kind": "climb",
+      "distanceKm": 20.2,
+      "category": 4
+    },
+    {
+      "id": "stage-6-climb-2",
+      "name": "CÔTE DE LA PRUNERIE",
+      "kind": "climb",
+      "distanceKm": 26.6,
+      "category": 4
+    },
+    {
+      "id": "stage-6-climb-3",
+      "name": "CÔTE D'AUREC",
+      "kind": "climb",
+      "distanceKm": 46.3,
+      "category": 3
+    },
+    {
+      "id": "stage-6-climb-4",
+      "name": "CÔTE DE PRANEUF",
+      "kind": "climb",
+      "distanceKm": 68,
+      "category": 4
+    },
+    {
+      "id": "stage-6-climb-5",
+      "name": "COL DE LALOUVESC",
+      "kind": "climb",
+      "distanceKm": 105.6,
+      "category": 2
+    },
+    {
+      "id": "stage-6-climb-6",
+      "name": "CÔTE DE BOUCIEU-LE-ROI (D209-D534)",
+      "kind": "climb",
+      "distanceKm": 137.5,
+      "category": 3
+    }
+  ],
+  "stage-7": [
+    {
+      "id": "stage-7-climb-1",
+      "name": "COL DE LA GRANDE LIMITE",
+      "kind": "climb",
+      "distanceKm": 13.6,
+      "category": 2
+    },
+    {
+      "id": "stage-7-climb-2",
+      "name": "COL DU COLOMBIER",
+      "kind": "climb",
+      "distanceKm": 41.1,
+      "category": 3
+    },
+    {
+      "id": "stage-7-climb-3",
+      "name": "COL DE SUZETTE",
+      "kind": "climb",
+      "distanceKm": 105.3,
+      "category": 2
+    },
+    {
+      "id": "stage-7-climb-4",
+      "name": "MONT-VENTOUX",
+      "kind": "climb",
+      "distanceKm": 146.8,
+      "category": 1
+    }
+  ],
+  "stage-8": [
+    {
+      "id": "stage-8-climb-1",
+      "name": "COL DES ROBINES",
+      "kind": "climb",
+      "distanceKm": 61,
+      "category": 4
+    },
+    {
+      "id": "stage-8-climb-2",
+      "name": "COL DE TOUTES AURES",
+      "kind": "climb",
+      "distanceKm": 76.5,
+      "category": 4
+    },
+    {
+      "id": "stage-8-climb-3",
+      "name": "CÔTE DE COLOMARS",
+      "kind": "climb",
+      "distanceKm": 154.7,
+      "category": 4
+    },
+    {
+      "id": "stage-8-climb-4",
+      "name": "CÔTE DE LA GINESTIÈRE",
+      "kind": "climb",
+      "distanceKm": 164.2,
+      "category": 4
+    }
+  ],
+  "stage-9": [
+    {
+      "id": "stage-9-climb-1",
+      "name": "COL D'ÈZE",
+      "kind": "climb",
+      "distanceKm": 7.7,
+      "category": 2
+    },
+    {
+      "id": "stage-9-climb-2",
+      "name": "COL D'ÈZE",
+      "kind": "climb",
+      "distanceKm": 33.6,
+      "category": 2
+    },
+    {
+      "id": "stage-9-climb-3",
+      "name": "COL D'ÈZE",
+      "kind": "climb",
+      "distanceKm": 59.6,
+      "category": 2
+    },
+    {
+      "id": "stage-9-climb-4",
+      "name": "COL D'ÈZE",
+      "kind": "climb",
+      "distanceKm": 83.8,
+      "category": 1
+    }
+  ]
+}
