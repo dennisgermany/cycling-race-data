@@ -1,0 +1,27 @@
+[
+  {
+    "kind": "gc",
+    "metric": "time",
+    "jerseyColor": "#FFDD00",
+    "jerseyName": "Maillot Jaune"
+  },
+  {
+    "kind": "points",
+    "metric": "points",
+    "jerseyColor": "#00A94F",
+    "jerseyName": "Maillot Vert"
+  },
+  {
+    "kind": "kom",
+    "metric": "points",
+    "jerseyColor": "#FFFFFF",
+    "jerseyStyle": "polka",
+    "jerseyName": "Maillot à Pois"
+  },
+  {
+    "kind": "youth",
+    "metric": "time",
+    "jerseyColor": "#FFFFFF",
+    "jerseyName": "Maillot Blanc"
+  }
+]
