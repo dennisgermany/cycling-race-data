@@ -86,6 +86,12 @@
   ],
   "stage-5": [
     {
+      "id": "stage-5-sprint-1",
+      "name": "VIC-EN-BIGORRE",
+      "kind": "sprint",
+      "distanceKm": 113.5
+    },
+    {
       "id": "stage-5-climb-1",
       "name": "CÔTE DE BALEIX",
       "kind": "climb",
@@ -132,6 +138,12 @@
   ],
   "stage-7": [
     {
+      "id": "stage-7-sprint-1",
+      "name": "LANDIRAS",
+      "kind": "sprint",
+      "distanceKm": 120.3
+    },
+    {
       "id": "stage-7-climb-1",
       "name": "CÔTE DE BÉGUEY",
       "kind": "climb",
@@ -148,6 +160,12 @@
       "category": 4
     },
     {
+      "id": "stage-8-sprint-1",
+      "name": "SAINT-CYPRIEN",
+      "kind": "sprint",
+      "distanceKm": 122.8
+    },
+    {
       "id": "stage-8-climb-2",
       "name": "CÔTE DU BUISSON-DE-CADOUIN",
       "kind": "climb",
@@ -157,31 +175,37 @@
   ],
   "stage-9": [
     {
+      "id": "stage-9-sprint-1",
+      "name": "BEYNAT",
+      "kind": "sprint",
+      "distanceKm": 13.9
+    },
+    {
       "id": "stage-9-climb-1",
       "name": "CÔTE DE NAVES",
       "kind": "climb",
-      "distanceKm": 77,
+      "distanceKm": 46,
       "category": 3
     },
     {
       "id": "stage-9-climb-2",
       "name": "SUC AU MAY (903 M)",
       "kind": "climb",
-      "distanceKm": 105,
+      "distanceKm": 74.1,
       "category": 2
     },
     {
       "id": "stage-9-climb-3",
       "name": "CÔTE DE LA CROIX DU PEY",
       "kind": "climb",
-      "distanceKm": 129.4,
+      "distanceKm": 98.5,
       "category": 3
     },
     {
       "id": "stage-9-climb-4",
       "name": "MONT BESSOU",
       "kind": "climb",
-      "distanceKm": 161,
+      "distanceKm": 130.1,
       "category": 4
     }
   ],
@@ -237,6 +261,12 @@
     }
   ],
   "stage-11": [
+    {
+      "id": "stage-11-sprint-1",
+      "name": "SAINT-POURÇAIN-SUR-SIOULE",
+      "kind": "sprint",
+      "distanceKm": 27.9
+    },
     {
       "id": "stage-11-climb-1",
       "name": "CÔTE DE BILLONNIÈRE",
@@ -388,6 +418,12 @@
       "kind": "climb",
       "distanceKm": 59.5,
       "category": 4
+    },
+    {
+      "id": "stage-17-sprint-1",
+      "name": "COLOMBE",
+      "kind": "sprint",
+      "distanceKm": 147.5
     }
   ],
   "stage-18": [
