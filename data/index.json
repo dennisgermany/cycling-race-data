@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21",
+  "updatedAt": "2026-07-22",
   "races": [
     {
       "year": 2026,
@@ -30,7 +30,7 @@
       "country": "France",
       "edition": 113,
       "raceCategory": "men",
-      "distanceKm": 3322,
+      "distanceKm": 3291,
       "startLocation": "Barcelona",
       "finishLocation": "Paris Champs-Élysées",
       "gpxAttribution": "Course GPX: Tour de France 2026 stage routes. Map tiles © OpenStreetMap contributors.",
