@@ -1,0 +1,409 @@
+{
+  "stage-1": [],
+  "stage-2": [
+    {
+      "id": "stage-2-climb-1",
+      "name": "COL DE SAINT ANDRIEU",
+      "kind": "climb",
+      "distanceKm": 106,
+      "category": 3
+    }
+  ],
+  "stage-3": [
+    {
+      "id": "stage-3-climb-1",
+      "name": "COL DE MONT-LOUIS",
+      "kind": "climb",
+      "distanceKm": 156.9,
+      "category": 1
+    },
+    {
+      "id": "stage-3-climb-2",
+      "name": "FONT ROMEU",
+      "kind": "climb",
+      "distanceKm": 166.7,
+      "category": 2
+    }
+  ],
+  "stage-4": [
+    {
+      "id": "stage-4-climb-1",
+      "name": "PORT DE ENVALIRA",
+      "kind": "climb",
+      "distanceKm": 25.3,
+      "category": 1
+    },
+    {
+      "id": "stage-4-climb-2",
+      "name": "COLLADA DE BEIXALIS",
+      "kind": "climb",
+      "distanceKm": 59.4,
+      "category": 1
+    },
+    {
+      "id": "stage-4-climb-3",
+      "name": "COLL D'ORDINO",
+      "kind": "climb",
+      "distanceKm": 91.6,
+      "category": 1
+    },
+    {
+      "id": "stage-4-climb-4",
+      "name": "ALTO DE LA COMELLA",
+      "kind": "climb",
+      "distanceKm": 104.9,
+      "category": 3
+    }
+  ],
+  "stage-5": [
+    {
+      "id": "stage-5-climb-1",
+      "name": "PUERTO DE PAÜLS",
+      "kind": "climb",
+      "distanceKm": 147.6,
+      "category": 3
+    }
+  ],
+  "stage-6": [
+    {
+      "id": "stage-6-climb-1",
+      "name": "PUERTO DE LA SERRATELLA",
+      "kind": "climb",
+      "distanceKm": 40.6,
+      "category": 3
+    },
+    {
+      "id": "stage-6-climb-2",
+      "name": "COLL DE LA BANDERETA",
+      "kind": "climb",
+      "distanceKm": 52,
+      "category": 3
+    },
+    {
+      "id": "stage-6-climb-3",
+      "name": "ALTO DEL DESIERTO DE LAS PALMAS",
+      "kind": "climb",
+      "distanceKm": 128.5,
+      "category": 2
+    },
+    {
+      "id": "stage-6-cobble-1",
+      "name": "TRAMO DE TIERRA",
+      "kind": "cobble",
+      "distanceKm": 155.8
+    },
+    {
+      "id": "stage-6-climb-4",
+      "name": "PUERTO EL BARTOLO",
+      "kind": "climb",
+      "distanceKm": 176.8,
+      "category": 1
+    }
+  ],
+  "stage-7": [
+    {
+      "id": "stage-7-climb-1",
+      "name": "PUERTO EL REMOLCADOR",
+      "kind": "climb",
+      "distanceKm": 52.6,
+      "category": 2
+    },
+    {
+      "id": "stage-7-climb-2",
+      "name": "ALTO DE ZUCAINA",
+      "kind": "climb",
+      "distanceKm": 66.9,
+      "category": 3
+    },
+    {
+      "id": "stage-7-climb-3",
+      "name": "ALTO FUENTE DE RUBIELOS",
+      "kind": "climb",
+      "distanceKm": 94,
+      "category": 3
+    },
+    {
+      "id": "stage-7-climb-4",
+      "name": "PUERTO DE SAN RAFAEL",
+      "kind": "climb",
+      "distanceKm": 136.7,
+      "category": 2
+    },
+    {
+      "id": "stage-7-climb-5",
+      "name": "ARAMÓN VALDELINARES",
+      "kind": "climb",
+      "distanceKm": 149.9,
+      "category": 1
+    }
+  ],
+  "stage-8": [
+    {
+      "id": "stage-8-climb-1",
+      "name": "PUERTO DE BARX",
+      "kind": "climb",
+      "distanceKm": 145.8,
+      "category": 2
+    }
+  ],
+  "stage-9": [
+    {
+      "id": "stage-9-climb-1",
+      "name": "PUERTO DE TÁRBENA",
+      "kind": "climb",
+      "distanceKm": 36.7,
+      "category": 3
+    },
+    {
+      "id": "stage-9-climb-2",
+      "name": "PUERTO DE EL MISERAT",
+      "kind": "climb",
+      "distanceKm": 56,
+      "category": 1
+    },
+    {
+      "id": "stage-9-climb-3",
+      "name": "PUERTO DE TOLLOS",
+      "kind": "climb",
+      "distanceKm": 90.8,
+      "category": 3
+    },
+    {
+      "id": "stage-9-climb-4",
+      "name": "PUERTO DE TUDONS",
+      "kind": "climb",
+      "distanceKm": 121.9,
+      "category": 2
+    },
+    {
+      "id": "stage-9-climb-5",
+      "name": "PUERTO DE BENIFALLIM",
+      "kind": "climb",
+      "distanceKm": 140.2,
+      "category": 2
+    },
+    {
+      "id": "stage-9-climb-6",
+      "name": "ALTO DE AITANA.COSTA BLANCA",
+      "kind": "climb",
+      "distanceKm": 187.5,
+      "category": 1
+    }
+  ],
+  "stage-10": [
+    {
+      "id": "stage-10-climb-1",
+      "name": "PUERTO DEL PERALEJO",
+      "kind": "climb",
+      "distanceKm": 47.6,
+      "category": 3
+    },
+    {
+      "id": "stage-10-climb-2",
+      "name": "PUERTO DE AÝNA",
+      "kind": "climb",
+      "distanceKm": 86.3,
+      "category": 3
+    },
+    {
+      "id": "stage-10-climb-3",
+      "name": "PUERTO DE SOCOVOS",
+      "kind": "climb",
+      "distanceKm": 163.3,
+      "category": 3
+    }
+  ],
+  "stage-11": [
+    {
+      "id": "stage-11-climb-1",
+      "name": "ALTO DEL MORRÓN DE TOTANA",
+      "kind": "climb",
+      "distanceKm": 126.1,
+      "category": 3
+    }
+  ],
+  "stage-12": [
+    {
+      "id": "stage-12-climb-1",
+      "name": "PUERTO LOS BARRANCOS",
+      "kind": "climb",
+      "distanceKm": 16.1,
+      "category": 3
+    },
+    {
+      "id": "stage-12-climb-2",
+      "name": "ALTO CÓBDAR",
+      "kind": "climb",
+      "distanceKm": 57.6,
+      "category": 3
+    },
+    {
+      "id": "stage-12-climb-3",
+      "name": "COLLADO GARCÍA",
+      "kind": "climb",
+      "distanceKm": 86.7,
+      "category": 3
+    },
+    {
+      "id": "stage-12-climb-4",
+      "name": "ALTO DE VELEFIQUE",
+      "kind": "climb",
+      "distanceKm": 151,
+      "category": 1
+    },
+    {
+      "id": "stage-12-climb-5",
+      "name": "CALAR ALTO",
+      "kind": "climb",
+      "distanceKm": 166.5,
+      "category": 1
+    }
+  ],
+  "stage-13": [
+    {
+      "id": "stage-13-climb-1",
+      "name": "PUERTO LOS GUÁJARES",
+      "kind": "climb",
+      "distanceKm": 62,
+      "category": 1
+    },
+    {
+      "id": "stage-13-climb-2",
+      "name": "PUERTO LAS ALBEÑUELAS",
+      "kind": "climb",
+      "distanceKm": 70,
+      "category": 3
+    },
+    {
+      "id": "stage-13-climb-3",
+      "name": "ALTO DEL LEGIONARIO",
+      "kind": "climb",
+      "distanceKm": 84,
+      "category": 2
+    },
+    {
+      "id": "stage-13-climb-4",
+      "name": "PUERTO DE GRANADA",
+      "kind": "climb",
+      "distanceKm": 142.5,
+      "category": 2
+    }
+  ],
+  "stage-14": [
+    {
+      "id": "stage-14-climb-1",
+      "name": "PUERTO DE LOS VILLARES",
+      "kind": "climb",
+      "distanceKm": 80,
+      "category": 2
+    },
+    {
+      "id": "stage-14-climb-2",
+      "name": "PUERTO DE LOCUBÍN",
+      "kind": "climb",
+      "distanceKm": 121.5,
+      "category": 2
+    },
+    {
+      "id": "stage-14-climb-3",
+      "name": "SIERRA DE LA PANDERA",
+      "kind": "climb",
+      "distanceKm": 152.7,
+      "category": 1
+    }
+  ],
+  "stage-15": [
+    {
+      "id": "stage-15-climb-1",
+      "name": "PUERTO DEL MOJÓN BLANCO",
+      "kind": "climb",
+      "distanceKm": 86,
+      "category": 3
+    },
+    {
+      "id": "stage-15-climb-2",
+      "name": "ALTO DE VILLAVICIOSA DE CÓRDOBA",
+      "kind": "climb",
+      "distanceKm": 121.5,
+      "category": 3
+    },
+    {
+      "id": "stage-15-climb-3",
+      "name": "PUERTO ARTAFI",
+      "kind": "climb",
+      "distanceKm": 153.2,
+      "category": 3
+    }
+  ],
+  "stage-16": [],
+  "stage-17": [],
+  "stage-18": [],
+  "stage-19": [
+    {
+      "id": "stage-19-climb-1",
+      "name": "PUERTO DE LAS ABEJAS",
+      "kind": "climb",
+      "distanceKm": 103.5,
+      "category": 2
+    },
+    {
+      "id": "stage-19-climb-2",
+      "name": "PUERTO DE LOS EMPEDRADOS",
+      "kind": "climb",
+      "distanceKm": 120.9,
+      "category": 3
+    },
+    {
+      "id": "stage-19-climb-3",
+      "name": "PUERTO CERRO MOJÓN",
+      "kind": "climb",
+      "distanceKm": 137,
+      "category": 3
+    },
+    {
+      "id": "stage-19-climb-4",
+      "name": "PEÑAS BLANCAS.ESTEPONA",
+      "kind": "climb",
+      "distanceKm": 205.1,
+      "category": 1
+    }
+  ],
+  "stage-20": [
+    {
+      "id": "stage-20-climb-1",
+      "name": "PUERTO DE BLANCARES",
+      "kind": "climb",
+      "distanceKm": 52.8,
+      "category": 3
+    },
+    {
+      "id": "stage-20-climb-2",
+      "name": "ALTO DE HAZALLANAS",
+      "kind": "climb",
+      "distanceKm": 90.5,
+      "category": 1
+    },
+    {
+      "id": "stage-20-climb-3",
+      "name": "PUERTO DE EL PURCHE",
+      "kind": "climb",
+      "distanceKm": 128.3,
+      "category": 1
+    },
+    {
+      "id": "stage-20-climb-4",
+      "name": "ALTO DE HAZALLANAS",
+      "kind": "climb",
+      "distanceKm": 155.6,
+      "category": 1
+    },
+    {
+      "id": "stage-20-climb-5",
+      "name": "COLLADO DEL ALGUACIL",
+      "kind": "climb",
+      "distanceKm": 187,
+      "category": 1
+    }
+  ],
+  "stage-21": []
+}
