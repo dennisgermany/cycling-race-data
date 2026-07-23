@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22",
+  "updatedAt": "2026-07-23",
   "races": [
     {
       "year": 2026,
@@ -54,6 +54,25 @@
       "finishLocation": "Nice",
       "gpxAttribution": "Course GPX: Tour de France Femmes 2026 stage routes from cyclingstage.com. Map tiles © OpenStreetMap contributors.",
       "startTime": "2026-08-01T14:15:00+02:00",
+      "startlistNotes": "Start list not yet published"
+    },
+    {
+      "year": 2026,
+      "slug": "vuelta",
+      "name": "vuelta",
+      "path": "2026/vuelta",
+      "status": "upcoming",
+      "startDate": "2026-08-22",
+      "endDate": "2026-09-13",
+      "country": "Spain",
+      "edition": 81,
+      "raceCategory": "men",
+      "distanceKm": 3290.9,
+      "elevationGainM": 44704,
+      "startLocation": "Monaco",
+      "finishLocation": "Granada",
+      "gpxAttribution": "Course GPX: Vuelta a España 2026 stage routes from cyclingstage.com. Map tiles © OpenStreetMap contributors.",
+      "startTime": "2026-08-22T16:30:00+02:00",
       "startlistNotes": "Start list not yet published"
     }
   ]
