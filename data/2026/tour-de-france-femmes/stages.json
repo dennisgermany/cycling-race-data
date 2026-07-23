@@ -13,7 +13,7 @@
     "status": "upcoming",
     "gpxUrl": "/data/2026/tour-de-france-femmes/gpx/stage-1-route.gpx",
     "startTime": "2026-08-01T14:15:00+02:00",
-    "expectedFinishTime": "2026-08-01T17:36:00+02:00"
+    "expectedFinishTime": "2026-08-01T17:44:00+02:00"
   },
   {
     "id": "stage-2",
@@ -29,7 +29,7 @@
     "status": "upcoming",
     "gpxUrl": "/data/2026/tour-de-france-femmes/gpx/stage-2-route.gpx",
     "startTime": "2026-08-02T14:20:00+02:00",
-    "expectedFinishTime": "2026-08-02T17:56:00+02:00"
+    "expectedFinishTime": "2026-08-02T17:47:00+02:00"
   },
   {
     "id": "stage-3",
@@ -45,7 +45,7 @@
     "status": "upcoming",
     "gpxUrl": "/data/2026/tour-de-france-femmes/gpx/stage-3-route.gpx",
     "startTime": "2026-08-03T13:25:00+02:00",
-    "expectedFinishTime": "2026-08-03T17:45:00+02:00"
+    "expectedFinishTime": "2026-08-03T17:40:00+02:00"
   },
   {
     "id": "stage-4",
@@ -61,7 +61,7 @@
     "status": "upcoming",
     "gpxUrl": "/data/2026/tour-de-france-femmes/gpx/stage-4-route.gpx",
     "startTime": "2026-08-04T14:34:00+02:00",
-    "expectedFinishTime": "2026-08-04T15:02:00+02:00"
+    "expectedFinishTime": "2026-08-04T17:55:00+02:00"
   },
   {
     "id": "stage-5",
@@ -77,7 +77,7 @@
     "status": "upcoming",
     "gpxUrl": "/data/2026/tour-de-france-femmes/gpx/stage-5-route.gpx",
     "startTime": "2026-08-05T13:45:00+02:00",
-    "expectedFinishTime": "2026-08-05T17:38:00+02:00"
+    "expectedFinishTime": "2026-08-05T17:41:00+02:00"
   },
   {
     "id": "stage-6",
@@ -93,7 +93,7 @@
     "status": "upcoming",
     "gpxUrl": "/data/2026/tour-de-france-femmes/gpx/stage-6-route.gpx",
     "startTime": "2026-08-06T13:35:00+02:00",
-    "expectedFinishTime": "2026-08-06T17:50:00+02:00"
+    "expectedFinishTime": "2026-08-06T17:41:00+02:00"
   },
   {
     "id": "stage-7",
@@ -109,7 +109,7 @@
     "status": "upcoming",
     "gpxUrl": "/data/2026/tour-de-france-femmes/gpx/stage-7-route.gpx",
     "startTime": "2026-08-07T12:50:00+02:00",
-    "expectedFinishTime": "2026-08-07T17:16:00+02:00"
+    "expectedFinishTime": "2026-08-07T17:17:00+02:00"
   },
   {
     "id": "stage-8",
@@ -125,7 +125,7 @@
     "status": "upcoming",
     "gpxUrl": "/data/2026/tour-de-france-femmes/gpx/stage-8-route.gpx",
     "startTime": "2026-08-08T13:40:00+02:00",
-    "expectedFinishTime": "2026-08-08T17:51:00+02:00"
+    "expectedFinishTime": "2026-08-08T17:43:00+02:00"
   },
   {
     "id": "stage-9",
@@ -141,6 +141,6 @@
     "status": "upcoming",
     "gpxUrl": "/data/2026/tour-de-france-femmes/gpx/stage-9-route.gpx",
     "startTime": "2026-08-09T16:05:00+02:00",
-    "expectedFinishTime": "2026-08-09T19:05:00+02:00"
+    "expectedFinishTime": "2026-08-09T18:51:00+02:00"
   }
 ]

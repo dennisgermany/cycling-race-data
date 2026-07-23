@@ -1,26 +1,26 @@
 {
   "runCount": 1,
-  "durationMs": 81131,
+  "durationMs": 109449,
   "usage": null,
   "lastRun": {
-    "runId": "run-18d3f31a-d6be-4720-b287-19489750ff9d",
-    "agentId": "agent-475d2853-e21c-4f55-a99c-11ecb802b2cc",
-    "durationMs": 81131,
+    "runId": "run-881ee1a6-5dc5-4fd8-b867-9403d14d927b",
+    "agentId": "agent-283a8dda-9382-406f-8bac-c3f568749e4e",
+    "durationMs": 109449,
     "usage": null,
     "model": "composer-2.5",
     "status": "finished",
-    "finishedAt": "2026-07-22T19:38:47.600Z",
-    "githubRunId": "29951718657",
-    "githubWorkflow": "Update cycling data"
+    "finishedAt": "2026-07-23T18:54:11.557Z",
+    "githubRunId": "30035565782",
+    "githubWorkflow": "Update race metadata"
   },
   "runs": [
     {
-      "runId": "run-18d3f31a-d6be-4720-b287-19489750ff9d",
-      "finishedAt": "2026-07-22T19:38:47.600Z",
-      "durationMs": 81131,
+      "runId": "run-881ee1a6-5dc5-4fd8-b867-9403d14d927b",
+      "finishedAt": "2026-07-23T18:54:11.557Z",
+      "durationMs": 109449,
       "usage": null,
       "status": "finished",
-      "githubRunId": "29951718657"
+      "githubRunId": "30035565782"
     }
   ]
 }
