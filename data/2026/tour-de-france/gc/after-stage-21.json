@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 1,
+    "name": "Tadej Pogacar",
+    "nationality": "Slovenia",
+    "team": "UAE Team Emirates-XRG",
+    "time": "73:56:26"
+  },
+  {
+    "rank": 2,
+    "bib": 21,
+    "name": "Remco Evenepoel",
+    "nationality": "Belgium",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+6:26"
+  },
+  {
+    "rank": 3,
+    "bib": 2,
+    "name": "Isaac del Toro",
+    "nationality": "Mexico",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+9:42"
+  },
+  {
+    "rank": 4,
+    "bib": 51,
+    "name": "Paul Seixas",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+11:56"
+  },
+  {
+    "rank": 5,
+    "bib": 71,
+    "name": "Lenny Martinez",
+    "nationality": "France",
+    "team": "Bahrain Victorious",
+    "time": "+13:02"
+  },
+  {
+    "rank": 6,
+    "bib": 35,
+    "name": "Mattias Skjelmose",
+    "nationality": "Denmark",
+    "team": "Lidl-Trek",
+    "time": "+14:59"
+  },
+  {
+    "rank": 7,
+    "bib": 31,
+    "name": "Juan Ayuso",
+    "nationality": "Spain",
+    "team": "Lidl-Trek",
+    "time": "+17:48"
+  },
+  {
+    "rank": 8,
+    "bib": 41,
+    "name": "Richard Carapaz",
+    "nationality": "Ecuador",
+    "team": "EF Education-EasyPost",
+    "time": "+20:00"
+  },
+  {
+    "rank": 9,
+    "bib": 171,
+    "name": "Tom Pidcock",
+    "nationality": "United Kingdom",
+    "team": "Pinarello-Q36.5 Pro Cycling Team",
+    "time": "+29:28"
+  },
+  {
+    "rank": 10,
+    "bib": 201,
+    "name": "Jordan Jegat",
+    "nationality": "France",
+    "team": "Team TotalEnergies",
+    "time": "+33:21"
+  },
+  {
+    "rank": 11,
+    "bib": 198,
+    "name": "Yannis Voisard",
+    "nationality": "Switzerland",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+38:02"
+  },
+  {
+    "rank": 12,
+    "bib": 121,
+    "name": "Tobias Halland Johannessen",
+    "nationality": "Norway",
+    "team": "Uno-X Mobility",
+    "time": "+56:37"
+  },
+  {
+    "rank": 13,
+    "bib": 17,
+    "name": "Sepp Kuss",
+    "nationality": "United States",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+1:02:23"
+  },
+  {
+    "rank": 14,
+    "bib": 18,
+    "name": "Davide Piganzoli",
+    "nationality": "Italy",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+1:03:43"
+  },
+  {
+    "rank": 15,
+    "bib": 24,
+    "name": "Jai Hindley",
+    "nationality": "Australia",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+1:23:28"
+  },
+  {
+    "rank": 16,
+    "bib": 57,
+    "name": "Nicolas Prodhomme",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+1:25:01"
+  },
+  {
+    "rank": 17,
+    "bib": 52,
+    "name": "Tiesj Benoot",
+    "nationality": "Belgium",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+1:32:56"
+  },
+  {
+    "rank": 18,
+    "bib": 34,
+    "name": "Quinn Simmons",
+    "nationality": "United States",
+    "team": "Lidl-Trek",
+    "time": "+1:35:28"
+  },
+  {
+    "rank": 19,
+    "bib": 45,
+    "name": "Sean Quinn",
+    "nationality": "United States",
+    "team": "EF Education-EasyPost",
+    "time": "+1:47:05"
+  },
+  {
+    "rank": 20,
+    "bib": 81,
+    "name": "Egan Bernal",
+    "nationality": "Colombia",
+    "team": "Netcompany INEOS",
+    "time": "+1:47:58"
+  },
+  {
+    "rank": 21,
+    "bib": 8,
+    "name": "Adam Yates",
+    "nationality": "United Kingdom",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+1:51:59"
+  },
+  {
+    "rank": 22,
+    "bib": 82,
+    "name": "Thymen Arensman",
+    "nationality": "Netherlands",
+    "team": "Netcompany INEOS",
+    "time": "+2:02:42"
+  },
+  {
+    "rank": 23,
+    "bib": 38,
+    "name": "Carlos Verona",
+    "nationality": "Spain",
+    "team": "Lidl-Trek",
+    "time": "+2:05:22"
+  },
+  {
+    "rank": 24,
+    "bib": 58,
+    "name": "Matthew Riccitello",
+    "nationality": "United States",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+2:11:09"
+  },
+  {
+    "rank": 25,
+    "bib": 32,
+    "name": "Derek Gee-West",
+    "nationality": "Canada",
+    "team": "Lidl-Trek",
+    "time": "+2:12:59"
+  }
+]
