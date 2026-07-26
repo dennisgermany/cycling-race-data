@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 2,
+    "name": "Isaac del Toro",
+    "nationality": "Mexico",
+    "team": "UAE Team Emirates-XRG",
+    "time": "68:02:42"
+  },
+  {
+    "rank": 2,
+    "bib": 51,
+    "name": "Paul Seixas",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+0:24"
+  },
+  {
+    "rank": 3,
+    "bib": 71,
+    "name": "Lenny Martinez",
+    "nationality": "France",
+    "team": "Bahrain Victorious",
+    "time": "+3:18"
+  },
+  {
+    "rank": 4,
+    "bib": 31,
+    "name": "Juan Ayuso",
+    "nationality": "Spain",
+    "team": "Lidl-Trek",
+    "time": "+6:16"
+  },
+  {
+    "rank": 5,
+    "bib": 18,
+    "name": "Davide Piganzoli",
+    "nationality": "Italy",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+46:15"
+  },
+  {
+    "rank": 6,
+    "bib": 34,
+    "name": "Quinn Simmons",
+    "nationality": "United States",
+    "team": "Lidl-Trek",
+    "time": "+1:16:49"
+  },
+  {
+    "rank": 7,
+    "bib": 142,
+    "name": "Pablo Castrillo",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+1:41:55"
+  },
+  {
+    "rank": 8,
+    "bib": 58,
+    "name": "Matthew Riccitello",
+    "nationality": "United States",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+1:55:35"
+  },
+  {
+    "rank": 9,
+    "bib": 144,
+    "name": "Raúl García",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+2:09:19"
+  },
+  {
+    "rank": 10,
+    "bib": 88,
+    "name": "Kévin Vauquelin",
+    "nationality": "France",
+    "team": "Netcompany INEOS",
+    "time": "+2:12:52"
+  },
+  {
+    "rank": 11,
+    "bib": 77,
+    "name": "Antonio Tiberi",
+    "nationality": "Italy",
+    "team": "Bahrain Victorious",
+    "time": "+2:18:39"
+  },
+  {
+    "rank": 12,
+    "bib": 43,
+    "name": "Alex Baudin",
+    "nationality": "France",
+    "team": "EF Education-EasyPost",
+    "time": "+2:26:04"
+  },
+  {
+    "rank": 13,
+    "bib": 93,
+    "name": "Valentin Paret-Peintre",
+    "nationality": "France",
+    "team": "Soudal Quick-Step",
+    "time": "+2:26:51"
+  },
+  {
+    "rank": 14,
+    "bib": 156,
+    "name": "Lennert Van Eetvelt",
+    "nationality": "Belgium",
+    "team": "Lotto-Intermarché",
+    "time": "+2:26:53"
+  },
+  {
+    "rank": 15,
+    "bib": 37,
+    "name": "Mathias Vacek",
+    "nationality": "Czech Republic",
+    "team": "Lidl-Trek",
+    "time": "+2:44:48"
+  },
+  {
+    "rank": 16,
+    "bib": 181,
+    "name": "Romain Grégoire",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+3:01:35"
+  },
+  {
+    "rank": 17,
+    "bib": 78,
+    "name": "Vlad Van Mechelen",
+    "nationality": "Belgium",
+    "team": "Bahrain Victorious",
+    "time": "+3:34:49"
+  },
+  {
+    "rank": 18,
+    "bib": 206,
+    "name": "Mathis Le Berre",
+    "nationality": "France",
+    "team": "Team TotalEnergies",
+    "time": "+3:38:24"
+  },
+  {
+    "rank": 19,
+    "bib": 184,
+    "name": "Ewen Costiou",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+3:43:58"
+  },
+  {
+    "rank": 20,
+    "bib": 208,
+    "name": "Mattéo Vercher",
+    "nationality": "France",
+    "team": "Team TotalEnergies",
+    "time": "+3:50:19"
+  },
+  {
+    "rank": 21,
+    "bib": 185,
+    "name": "Lorenzo Germani",
+    "nationality": "Italy",
+    "team": "Groupama-FDJ United",
+    "time": "+3:58:30"
+  },
+  {
+    "rank": 22,
+    "bib": 108,
+    "name": "Emiel Verstrynge",
+    "nationality": "Belgium",
+    "team": "Alpecin-Premier Tech",
+    "time": "+4:08:46"
+  },
+  {
+    "rank": 23,
+    "bib": 68,
+    "name": "Nicolas Vinokurov",
+    "nationality": "Kazakhstan",
+    "team": "XDS Astana Team",
+    "time": "+4:12:47"
+  },
+  {
+    "rank": 24,
+    "bib": 15,
+    "name": "Per Strand Hagenes",
+    "nationality": "Norway",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+4:18:15"
+  },
+  {
+    "rank": 25,
+    "bib": 48,
+    "name": "Max Walker",
+    "nationality": "United Kingdom",
+    "team": "EF Education-EasyPost",
+    "time": "+4:24:07"
+  }
+]

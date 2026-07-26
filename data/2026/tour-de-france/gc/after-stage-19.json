@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 1,
+    "name": "Tadej Pogacar",
+    "nationality": "Slovenia",
+    "team": "UAE Team Emirates-XRG",
+    "time": "67:53:00"
+  },
+  {
+    "rank": 2,
+    "bib": 21,
+    "name": "Remco Evenepoel",
+    "nationality": "Belgium",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+7:11"
+  },
+  {
+    "rank": 3,
+    "bib": 2,
+    "name": "Isaac del Toro",
+    "nationality": "Mexico",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+9:42"
+  },
+  {
+    "rank": 4,
+    "bib": 51,
+    "name": "Paul Seixas",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+10:06"
+  },
+  {
+    "rank": 5,
+    "bib": 71,
+    "name": "Lenny Martinez",
+    "nationality": "France",
+    "team": "Bahrain Victorious",
+    "time": "+13:00"
+  },
+  {
+    "rank": 6,
+    "bib": 35,
+    "name": "Mattias Skjelmose",
+    "nationality": "Denmark",
+    "team": "Lidl-Trek",
+    "time": "+13:09"
+  },
+  {
+    "rank": 7,
+    "bib": 31,
+    "name": "Juan Ayuso",
+    "nationality": "Spain",
+    "team": "Lidl-Trek",
+    "time": "+15:58"
+  },
+  {
+    "rank": 8,
+    "bib": 41,
+    "name": "Richard Carapaz",
+    "nationality": "Ecuador",
+    "team": "EF Education-EasyPost",
+    "time": "+21:15"
+  },
+  {
+    "rank": 9,
+    "bib": 171,
+    "name": "Tom Pidcock",
+    "nationality": "United Kingdom",
+    "team": "Pinarello-Q36.5 Pro Cycling Team",
+    "time": "+21:30"
+  },
+  {
+    "rank": 10,
+    "bib": 201,
+    "name": "Jordan Jegat",
+    "nationality": "France",
+    "team": "Team TotalEnergies",
+    "time": "+23:21"
+  },
+  {
+    "rank": 11,
+    "bib": 198,
+    "name": "Yannis Voisard",
+    "nationality": "Switzerland",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+30:00"
+  },
+  {
+    "rank": 12,
+    "bib": 97,
+    "name": "Ilan Van Wilder",
+    "nationality": "Belgium",
+    "team": "Soudal Quick-Step",
+    "time": "+35:47"
+  },
+  {
+    "rank": 13,
+    "bib": 121,
+    "name": "Tobias Halland Johannessen",
+    "nationality": "Norway",
+    "team": "Uno-X Mobility",
+    "time": "+50:58"
+  },
+  {
+    "rank": 14,
+    "bib": 18,
+    "name": "Davide Piganzoli",
+    "nationality": "Italy",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+55:57"
+  },
+  {
+    "rank": 15,
+    "bib": 17,
+    "name": "Sepp Kuss",
+    "nationality": "United States",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+1:02:01"
+  },
+  {
+    "rank": 16,
+    "bib": 81,
+    "name": "Egan Bernal",
+    "nationality": "Colombia",
+    "team": "Netcompany INEOS",
+    "time": "+1:17:35"
+  },
+  {
+    "rank": 17,
+    "bib": 57,
+    "name": "Nicolas Prodhomme",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+1:17:55"
+  },
+  {
+    "rank": 18,
+    "bib": 8,
+    "name": "Adam Yates",
+    "nationality": "United Kingdom",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+1:21:58"
+  },
+  {
+    "rank": 19,
+    "bib": 24,
+    "name": "Jai Hindley",
+    "nationality": "Australia",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+1:22:18"
+  },
+  {
+    "rank": 20,
+    "bib": 52,
+    "name": "Tiesj Benoot",
+    "nationality": "Belgium",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+1:25:12"
+  },
+  {
+    "rank": 21,
+    "bib": 34,
+    "name": "Quinn Simmons",
+    "nationality": "United States",
+    "team": "Lidl-Trek",
+    "time": "+1:26:31"
+  },
+  {
+    "rank": 22,
+    "bib": 45,
+    "name": "Sean Quinn",
+    "nationality": "United States",
+    "team": "EF Education-EasyPost",
+    "time": "+1:30:42"
+  },
+  {
+    "rank": 23,
+    "bib": 38,
+    "name": "Carlos Verona",
+    "nationality": "Spain",
+    "team": "Lidl-Trek",
+    "time": "+1:39:11"
+  },
+  {
+    "rank": 24,
+    "bib": 142,
+    "name": "Pablo Castrillo",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+1:51:37"
+  },
+  {
+    "rank": 25,
+    "bib": 32,
+    "name": "Derek Gee-West",
+    "nationality": "Canada",
+    "team": "Lidl-Trek",
+    "time": "+1:51:39"
+  }
+]
