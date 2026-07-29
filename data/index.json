@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26",
+  "updatedAt": "2026-07-29",
   "races": [
     {
       "year": 2026,
@@ -54,7 +54,7 @@
       "finishLocation": "Nice",
       "gpxAttribution": "Course GPX: Tour de France Femmes 2026 stage routes from cyclingstage.com. Map tiles \u00a9 OpenStreetMap contributors.",
       "startTime": "2026-08-01T14:15:00+02:00",
-      "startlistNotes": "Start list not yet published"
+      "startlistNotes": "Official start list published at letourfemmes.fr; bib-verified backfill pending"
     },
     {
       "year": 2026,
