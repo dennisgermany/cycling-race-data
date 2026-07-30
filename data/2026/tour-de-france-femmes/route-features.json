@@ -8,6 +8,12 @@
       "category": 3
     },
     {
+      "id": "stage-1-sprint-1",
+      "name": "VILLENEUVE (SURPIERRE)",
+      "kind": "sprint",
+      "distanceKm": 73.1
+    },
+    {
       "id": "stage-1-climb-2",
       "name": "CÔTE DE VILLARS-LE-COMTE",
       "kind": "climb",
@@ -52,6 +58,12 @@
       "category": 4
     },
     {
+      "id": "stage-2-sprint-1",
+      "name": "LAVIGNY",
+      "kind": "sprint",
+      "distanceKm": 88.9
+    },
+    {
       "id": "stage-2-climb-4",
       "name": "CÔTE DE BOUGY-VILLARS",
       "kind": "climb",
@@ -89,6 +101,12 @@
       "category": 2
     },
     {
+      "id": "stage-3-sprint-1",
+      "name": "CHAMPAGNOLE",
+      "kind": "sprint",
+      "distanceKm": 99.7
+    },
+    {
       "id": "stage-3-climb-4",
       "name": "CÔTE DE CHAUX-CHAMPAGNY",
       "kind": "climb",
@@ -118,6 +136,12 @@
       "kind": "climb",
       "distanceKm": 33.7,
       "category": 4
+    },
+    {
+      "id": "stage-5-sprint-1",
+      "name": "MONSOLS (DEUX-GROSNES)",
+      "kind": "sprint",
+      "distanceKm": 41.2
     },
     {
       "id": "stage-5-climb-4",
@@ -178,6 +202,12 @@
       "category": 3
     },
     {
+      "id": "stage-6-sprint-1",
+      "name": "FLAMINGES (SAINT-PAL-DE-MONS)",
+      "kind": "sprint",
+      "distanceKm": 63.5
+    },
+    {
       "id": "stage-6-climb-4",
       "name": "CÔTE DE PRANEUF",
       "kind": "climb",
@@ -215,6 +245,12 @@
       "category": 3
     },
     {
+      "id": "stage-7-sprint-1",
+      "name": "BEAUMES-DE-VENISE",
+      "kind": "sprint",
+      "distanceKm": 96.8
+    },
+    {
       "id": "stage-7-climb-3",
       "name": "COL DE SUZETTE",
       "kind": "climb",
@@ -245,6 +281,12 @@
       "category": 4
     },
     {
+      "id": "stage-8-sprint-1",
+      "name": "PUGET-THÉNIERS",
+      "kind": "sprint",
+      "distanceKm": 105.7
+    },
+    {
       "id": "stage-8-climb-3",
       "name": "CÔTE DE COLOMARS",
       "kind": "climb",
@@ -266,6 +308,12 @@
       "kind": "climb",
       "distanceKm": 7.7,
       "category": 2
+    },
+    {
+      "id": "stage-9-sprint-1",
+      "name": "NICE",
+      "kind": "sprint",
+      "distanceKm": 18.4
     },
     {
       "id": "stage-9-climb-2",
