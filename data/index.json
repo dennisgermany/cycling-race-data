@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30",
+  "updatedAt": "2026-08-01",
   "races": [
     {
       "year": 2026,
@@ -15,7 +15,7 @@
       "distanceKm": 3459.2,
       "startLocation": "Nessebar",
       "finishLocation": "Rome",
-      "gpxAttribution": "Course GPX: Giro d'Italia 2026 stage routes from cyclingstage.com. Map tiles \u00a9 OpenStreetMap contributors.",
+      "gpxAttribution": "Course GPX: Giro d'Italia 2026 stage routes from cyclingstage.com. Map tiles © OpenStreetMap contributors.",
       "startTime": "2026-05-08T12:15:00+03:00",
       "elevationGainM": 48700
     },
@@ -32,8 +32,8 @@
       "raceCategory": "men",
       "distanceKm": 3291,
       "startLocation": "Barcelona",
-      "finishLocation": "Paris Champs-\u00c9lys\u00e9es",
-      "gpxAttribution": "Course GPX: Tour de France 2026 stage routes. Map tiles \u00a9 OpenStreetMap contributors.",
+      "finishLocation": "Paris Champs-Élysées",
+      "gpxAttribution": "Course GPX: Tour de France 2026 stage routes. Map tiles © OpenStreetMap contributors.",
       "startTime": "2026-07-04T17:05:00+02:00",
       "elevationGainM": 53950
     },
@@ -42,7 +42,7 @@
       "slug": "tour-de-france-femmes",
       "name": "Tour de France Femmes",
       "path": "2026/tour-de-france-femmes",
-      "status": "upcoming",
+      "status": "live",
       "startDate": "2026-08-01",
       "endDate": "2026-08-09",
       "country": "France",
@@ -52,7 +52,7 @@
       "elevationGainM": 18795,
       "startLocation": "Lausanne",
       "finishLocation": "Nice",
-      "gpxAttribution": "Course GPX: Tour de France Femmes 2026 stage routes from cyclingstage.com. Map tiles \u00a9 OpenStreetMap contributors.",
+      "gpxAttribution": "Course GPX: Tour de France Femmes 2026 stage routes from cyclingstage.com. Map tiles © OpenStreetMap contributors.",
       "startTime": "2026-08-01T14:15:00+02:00"
     },
     {
@@ -70,7 +70,7 @@
       "elevationGainM": 44704,
       "startLocation": "Monaco",
       "finishLocation": "Granada",
-      "gpxAttribution": "Course GPX: Vuelta a Espa\u00f1a 2026 stage routes from cyclingstage.com. Map tiles \u00a9 OpenStreetMap contributors.",
+      "gpxAttribution": "Course GPX: Vuelta a España 2026 stage routes from cyclingstage.com. Map tiles © OpenStreetMap contributors.",
       "startTime": "2026-08-22T16:30:00+02:00",
       "startlistNotes": "Start list not yet published"
     }
