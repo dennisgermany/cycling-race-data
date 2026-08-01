@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 43,
+    "name": "Lorena Wiebes",
+    "nationality": "Netherlands",
+    "team": "Team SD Worx - Protime",
+    "points": 50
+  },
+  {
+    "rank": 2,
+    "bib": 64,
+    "name": "Kim Le Court Pienaar",
+    "nationality": "Mauritius",
+    "team": "AG Insurance - Soudal Team",
+    "points": 30
+  },
+  {
+    "rank": 3,
+    "bib": 139,
+    "name": "Idoia Eraso Lasa",
+    "nationality": "Spain",
+    "team": "Laboral Kutxa - Fundacion Euskadi",
+    "points": 25
+  },
+  {
+    "rank": 4,
+    "bib": 10,
+    "name": "Demi Vollering",
+    "nationality": "Netherlands",
+    "team": "FDJ United-SUEZ",
+    "points": 20
+  },
+  {
+    "rank": 5,
+    "bib": 150,
+    "name": "Maud Rijnbeek",
+    "nationality": "Netherlands",
+    "team": "VolkerWessels Cycling Team",
+    "points": 20
+  },
+  {
+    "rank": 6,
+    "bib": 82,
+    "name": "Puck Pieterse",
+    "nationality": "Netherlands",
+    "team": "Fenix-Premier Tech",
+    "points": 18
+  },
+  {
+    "rank": 7,
+    "bib": 177,
+    "name": "Océane Mahe",
+    "nationality": "France",
+    "team": "Ma Petite Entreprise",
+    "points": 17
+  },
+  {
+    "rank": 8,
+    "bib": 78,
+    "name": "Noemi Ruegg",
+    "nationality": "Switzerland",
+    "team": "EF Education - Oatly",
+    "points": 16
+  },
+  {
+    "rank": 9,
+    "bib": 77,
+    "name": "Cédrine Kerbaol",
+    "nationality": "France",
+    "team": "EF Education - Oatly",
+    "points": 15
+  },
+  {
+    "rank": 10,
+    "bib": 133,
+    "name": "Nikola Nosková",
+    "nationality": "Czechia",
+    "team": "Cofidis Women Team",
+    "points": 15
+  },
+  {
+    "rank": 11,
+    "bib": 32,
+    "name": "Elisa Longo Borghini",
+    "nationality": "Italy",
+    "team": "UAE Team L’IMAD",
+    "points": 14
+  },
+  {
+    "rank": 12,
+    "bib": 31,
+    "name": "Mavi García",
+    "nationality": "Spain",
+    "team": "UAE Team L’IMAD",
+    "points": 13
+  },
+  {
+    "rank": 13,
+    "bib": 87,
+    "name": "Charlotte Kool",
+    "nationality": "Netherlands",
+    "team": "Fenix-Premier Tech",
+    "points": 13
+  },
+  {
+    "rank": 14,
+    "bib": 19,
+    "name": "Katarzyna Niewiadoma-Phinney",
+    "nationality": "Poland",
+    "team": "Canyon//SRAM",
+    "points": 12
+  },
+  {
+    "rank": 15,
+    "bib": 1,
+    "name": "Pauline Ferrand-Prévot",
+    "nationality": "France",
+    "team": "Team Visma | Lease a Bike",
+    "points": 10
+  },
+  {
+    "rank": 16,
+    "bib": 85,
+    "name": "Millie Couzens",
+    "nationality": "Great Britain",
+    "team": "Fenix-Premier Tech",
+    "points": 10
+  },
+  {
+    "rank": 17,
+    "bib": 33,
+    "name": "Silvia Persico",
+    "nationality": "Italy",
+    "team": "UAE Team L’IMAD",
+    "points": 9
+  },
+  {
+    "rank": 18,
+    "bib": 75,
+    "name": "Henrietta Christie",
+    "nationality": "New Zealand",
+    "team": "EF Education - Oatly",
+    "points": 8
+  },
+  {
+    "rank": 19,
+    "bib": 46,
+    "name": "Marlen Reusser",
+    "nationality": "Switzerland",
+    "team": "Movistar Team",
+    "points": 7
+  },
+  {
+    "rank": 20,
+    "bib": 58,
+    "name": "Niamh Fisher-Black",
+    "nationality": "New Zealand",
+    "team": "Lidl - Trek",
+    "points": 6
+  },
+  {
+    "rank": 21,
+    "bib": 41,
+    "name": "Lotte Kopecky",
+    "nationality": "Belgium",
+    "team": "Team SD Worx - Protime",
+    "points": 6
+  },
+  {
+    "rank": 22,
+    "bib": 29,
+    "name": "Paula Blasi Cairol",
+    "nationality": "Spain",
+    "team": "UAE Team L’IMAD",
+    "points": 5
+  },
+  {
+    "rank": 23,
+    "bib": 96,
+    "name": "Marit Raaijmakers",
+    "nationality": "Netherlands",
+    "team": "Human Powered Health",
+    "points": 5
+  },
+  {
+    "rank": 24,
+    "bib": 37,
+    "name": "Anna van der Breggen",
+    "nationality": "Netherlands",
+    "team": "Team SD Worx - Protime",
+    "points": 4
+  },
+  {
+    "rank": 25,
+    "bib": 39,
+    "name": "Valentina Cavallar",
+    "nationality": "Austria",
+    "team": "Team SD Worx - Protime",
+    "points": 4
+  }
+]
