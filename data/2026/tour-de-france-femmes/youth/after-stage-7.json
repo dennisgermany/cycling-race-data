@@ -1,0 +1,170 @@
+[
+  {
+    "rank": 1,
+    "bib": 23,
+    "name": "Antonia Niedermaier",
+    "nationality": "Germany",
+    "team": "Canyon//SRAM",
+    "time": "24:10:55"
+  },
+  {
+    "rank": 2,
+    "bib": 29,
+    "name": "Paula Blasi Cairol",
+    "nationality": "Spain",
+    "team": "UAE Team L’IMAD",
+    "time": "+1:11"
+  },
+  {
+    "rank": 3,
+    "bib": 59,
+    "name": "Isabella Holmgren",
+    "nationality": "Canada",
+    "team": "Lidl - Trek",
+    "time": "+2:48"
+  },
+  {
+    "rank": 4,
+    "bib": 42,
+    "name": "Nienke Vinke",
+    "nationality": "Netherlands",
+    "team": "Team SD Worx - Protime",
+    "time": "+10:38"
+  },
+  {
+    "rank": 5,
+    "bib": 12,
+    "name": "Célia Gery",
+    "nationality": "France",
+    "team": "FDJ United-SUEZ",
+    "time": "+21:05"
+  },
+  {
+    "rank": 6,
+    "bib": 2,
+    "name": "Marion Bunel",
+    "nationality": "France",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+37:44"
+  },
+  {
+    "rank": 7,
+    "bib": 123,
+    "name": "Solène Muller",
+    "nationality": "France",
+    "team": "St Michel - Preference Home - Auber93",
+    "time": "+44:37"
+  },
+  {
+    "rank": 8,
+    "bib": 171,
+    "name": "Clémence Latimier",
+    "nationality": "France",
+    "team": "Ma Petite Entreprise",
+    "time": "+56:46"
+  },
+  {
+    "rank": 9,
+    "bib": 51,
+    "name": "Paula Ostiz",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+1:00:18"
+  },
+  {
+    "rank": 10,
+    "bib": 91,
+    "name": "Titia Ryo",
+    "nationality": "France",
+    "team": "Human Powered Health",
+    "time": "+1:04:50"
+  },
+  {
+    "rank": 11,
+    "bib": 20,
+    "name": "Zoe Jane Backstedt",
+    "nationality": "Great Britain",
+    "team": "Canyon//SRAM",
+    "time": "+1:06:14"
+  },
+  {
+    "rank": 12,
+    "bib": 129,
+    "name": "Ema Comte",
+    "nationality": "France",
+    "team": "Cofidis Women Team",
+    "time": "+1:10:29"
+  },
+  {
+    "rank": 13,
+    "bib": 68,
+    "name": "Lore de Schepper",
+    "nationality": "Belgium",
+    "team": "AG Insurance - Soudal Team",
+    "time": "+1:10:33"
+  },
+  {
+    "rank": 14,
+    "bib": 128,
+    "name": "Julie Bego",
+    "nationality": "France",
+    "team": "Cofidis Women Team",
+    "time": "+1:24:21"
+  },
+  {
+    "rank": 15,
+    "bib": 127,
+    "name": "Malwina Mul",
+    "nationality": "Poland",
+    "team": "Cofidis Women Team",
+    "time": "+1:24:38"
+  },
+  {
+    "rank": 16,
+    "bib": 47,
+    "name": "Francesca Barale",
+    "nationality": "Italy",
+    "team": "Movistar Team",
+    "time": "+1:33:42"
+  },
+  {
+    "rank": 17,
+    "bib": 85,
+    "name": "Millie Couzens",
+    "nationality": "Great Britain",
+    "team": "Fenix-Premier Tech",
+    "time": "+1:35:35"
+  },
+  {
+    "rank": 18,
+    "bib": 167,
+    "name": "Linda Riedmann",
+    "nationality": "Germany",
+    "team": "Lotto Intermarché Ladies",
+    "time": "+1:39:02"
+  },
+  {
+    "rank": 19,
+    "bib": 93,
+    "name": "Carlotta Cipressi",
+    "nationality": "Italy",
+    "team": "Human Powered Health",
+    "time": "+1:39:57"
+  },
+  {
+    "rank": 20,
+    "bib": 101,
+    "name": "Mackenzie Coupland",
+    "nationality": "Australia",
+    "team": "Liv-AlUla-Jayco",
+    "time": "+1:42:01"
+  },
+  {
+    "rank": 21,
+    "bib": 110,
+    "name": "Lene Robyn Clay",
+    "nationality": "Great Britain",
+    "team": "Team Picnic PostNL",
+    "time": "+2:15:32"
+  }
+]
