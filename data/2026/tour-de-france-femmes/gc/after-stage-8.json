@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 10,
+    "name": "Demi Vollering",
+    "nationality": "Netherlands",
+    "team": "FDJ United-SUEZ",
+    "time": "28:10:18"
+  },
+  {
+    "rank": 2,
+    "bib": 19,
+    "name": "Katarzyna Niewiadoma-Phinney",
+    "nationality": "Poland",
+    "team": "Canyon//SRAM",
+    "time": "+0:08"
+  },
+  {
+    "rank": 3,
+    "bib": 46,
+    "name": "Marlen Reusser",
+    "nationality": "Switzerland",
+    "team": "Movistar Team",
+    "time": "+1:12"
+  },
+  {
+    "rank": 4,
+    "bib": 32,
+    "name": "Elisa Longo Borghini",
+    "nationality": "Italy",
+    "team": "UAE Team L’IMAD",
+    "time": "+3:05"
+  },
+  {
+    "rank": 5,
+    "bib": 23,
+    "name": "Antonia Niedermaier",
+    "nationality": "Germany",
+    "team": "Canyon//SRAM",
+    "time": "+3:54"
+  },
+  {
+    "rank": 6,
+    "bib": 77,
+    "name": "Cédrine Kerbaol",
+    "nationality": "France",
+    "team": "EF Education - Oatly",
+    "time": "+4:34"
+  },
+  {
+    "rank": 7,
+    "bib": 29,
+    "name": "Paula Blasi Cairol",
+    "nationality": "Spain",
+    "team": "UAE Team L’IMAD",
+    "time": "+5:05"
+  },
+  {
+    "rank": 8,
+    "bib": 28,
+    "name": "Dominika Wlodarczyk",
+    "nationality": "Poland",
+    "team": "UAE Team L’IMAD",
+    "time": "+5:46"
+  },
+  {
+    "rank": 9,
+    "bib": 64,
+    "name": "Kim Le Court Pienaar",
+    "nationality": "Mauritius",
+    "team": "AG Insurance - Soudal Team",
+    "time": "+6:50"
+  },
+  {
+    "rank": 10,
+    "bib": 59,
+    "name": "Isabella Holmgren",
+    "nationality": "Canada",
+    "team": "Lidl - Trek",
+    "time": "+7:54"
+  },
+  {
+    "rank": 11,
+    "bib": 94,
+    "name": "Thalita de Jong",
+    "nationality": "Netherlands",
+    "team": "Human Powered Health",
+    "time": "+10:56"
+  },
+  {
+    "rank": 12,
+    "bib": 58,
+    "name": "Niamh Fisher-Black",
+    "nationality": "New Zealand",
+    "team": "Lidl - Trek",
+    "time": "+14:00"
+  },
+  {
+    "rank": 13,
+    "bib": 42,
+    "name": "Nienke Vinke",
+    "nationality": "Netherlands",
+    "team": "Team SD Worx - Protime",
+    "time": "+15:44"
+  },
+  {
+    "rank": 14,
+    "bib": 78,
+    "name": "Noemi Ruegg",
+    "nationality": "Switzerland",
+    "team": "EF Education - Oatly",
+    "time": "+19:35"
+  },
+  {
+    "rank": 15,
+    "bib": 92,
+    "name": "Nina Buijsman",
+    "nationality": "Netherlands",
+    "team": "Human Powered Health",
+    "time": "+21:10"
+  },
+  {
+    "rank": 16,
+    "bib": 3,
+    "name": "Femke de Vries",
+    "nationality": "Netherlands",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+22:01"
+  },
+  {
+    "rank": 17,
+    "bib": 31,
+    "name": "Mavi García",
+    "nationality": "Spain",
+    "team": "UAE Team L’IMAD",
+    "time": "+23:32"
+  },
+  {
+    "rank": 18,
+    "bib": 11,
+    "name": "Juliette Berthet",
+    "nationality": "France",
+    "team": "FDJ United-SUEZ",
+    "time": "+23:37"
+  },
+  {
+    "rank": 19,
+    "bib": 12,
+    "name": "Célia Gery",
+    "nationality": "France",
+    "team": "FDJ United-SUEZ",
+    "time": "+26:11"
+  },
+  {
+    "rank": 20,
+    "bib": 73,
+    "name": "Magdeleine Vallieres-Mill",
+    "nationality": "Canada",
+    "team": "EF Education - Oatly",
+    "time": "+29:06"
+  },
+  {
+    "rank": 21,
+    "bib": 34,
+    "name": "Maeva Squiban",
+    "nationality": "France",
+    "team": "UAE Team L’IMAD",
+    "time": "+29:21"
+  },
+  {
+    "rank": 22,
+    "bib": 118,
+    "name": "Emilie Morier",
+    "nationality": "France",
+    "team": "St Michel - Preference Home - Auber93",
+    "time": "+31:54"
+  },
+  {
+    "rank": 23,
+    "bib": 142,
+    "name": "Debora Silvestri",
+    "nationality": "Italy",
+    "team": "Laboral Kutxa - Fundacion Euskadi",
+    "time": "+32:37"
+  },
+  {
+    "rank": 24,
+    "bib": 69,
+    "name": "Justine Ghekiere",
+    "nationality": "Belgium",
+    "team": "AG Insurance - Soudal Team",
+    "time": "+33:01"
+  },
+  {
+    "rank": 25,
+    "bib": 76,
+    "name": "Kristen Faulkner",
+    "nationality": "United States",
+    "team": "EF Education - Oatly",
+    "time": "+33:48"
+  }
+]
