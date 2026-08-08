@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 82,
+    "name": "Puck Pieterse",
+    "nationality": "Netherlands",
+    "team": "Fenix-Premier Tech",
+    "points": 55
+  },
+  {
+    "rank": 2,
+    "bib": 133,
+    "name": "Nikola Nosková",
+    "nationality": "Czechia",
+    "team": "Cofidis Women Team",
+    "points": 21
+  },
+  {
+    "rank": 3,
+    "bib": 10,
+    "name": "Demi Vollering",
+    "nationality": "Netherlands",
+    "team": "FDJ United-SUEZ",
+    "points": 20
+  },
+  {
+    "rank": 4,
+    "bib": 19,
+    "name": "Katarzyna Niewiadoma-Phinney",
+    "nationality": "Poland",
+    "team": "Canyon//SRAM",
+    "points": 18
+  },
+  {
+    "rank": 5,
+    "bib": 34,
+    "name": "Maeva Squiban",
+    "nationality": "France",
+    "team": "UAE Team L’IMAD",
+    "points": 14
+  },
+  {
+    "rank": 6,
+    "bib": 32,
+    "name": "Elisa Longo Borghini",
+    "nationality": "Italy",
+    "team": "UAE Team L’IMAD",
+    "points": 12
+  },
+  {
+    "rank": 7,
+    "bib": 83,
+    "name": "Sara Casasola",
+    "nationality": "Italy",
+    "team": "Fenix-Premier Tech",
+    "points": 12
+  },
+  {
+    "rank": 8,
+    "bib": 157,
+    "name": "Sigrid Haugset",
+    "nationality": "Norway",
+    "team": "Uno-X Mobility",
+    "points": 11
+  },
+  {
+    "rank": 9,
+    "bib": 46,
+    "name": "Marlen Reusser",
+    "nationality": "Switzerland",
+    "team": "Movistar Team",
+    "points": 10
+  },
+  {
+    "rank": 10,
+    "bib": 56,
+    "name": "Loes Adegeest",
+    "nationality": "Netherlands",
+    "team": "Lidl - Trek",
+    "points": 9
+  },
+  {
+    "rank": 11,
+    "bib": 177,
+    "name": "Océane Mahe",
+    "nationality": "France",
+    "team": "Ma Petite Entreprise",
+    "points": 8
+  },
+  {
+    "rank": 12,
+    "bib": 158,
+    "name": "Anouska Koster",
+    "nationality": "Netherlands",
+    "team": "Uno-X Mobility",
+    "points": 7
+  },
+  {
+    "rank": 13,
+    "bib": 49,
+    "name": "Liane Lippert",
+    "nationality": "Germany",
+    "team": "Movistar Team",
+    "points": 7
+  },
+  {
+    "rank": 14,
+    "bib": 129,
+    "name": "Ema Comte",
+    "nationality": "France",
+    "team": "Cofidis Women Team",
+    "points": 6
+  },
+  {
+    "rank": 15,
+    "bib": 23,
+    "name": "Antonia Niedermaier",
+    "nationality": "Germany",
+    "team": "Canyon//SRAM",
+    "points": 6
+  },
+  {
+    "rank": 16,
+    "bib": 29,
+    "name": "Paula Blasi Cairol",
+    "nationality": "Spain",
+    "team": "UAE Team L’IMAD",
+    "points": 6
+  },
+  {
+    "rank": 17,
+    "bib": 105,
+    "name": "Ruby Roseman-Gannon",
+    "nationality": "Australia",
+    "team": "Liv-AlUla-Jayco",
+    "points": 5
+  },
+  {
+    "rank": 18,
+    "bib": 139,
+    "name": "Idoia Eraso Lasa",
+    "nationality": "Spain",
+    "team": "Laboral Kutxa - Fundacion Euskadi",
+    "points": 5
+  },
+  {
+    "rank": 19,
+    "bib": 13,
+    "name": "Franziska Koch",
+    "nationality": "Germany",
+    "team": "FDJ United-SUEZ",
+    "points": 4
+  },
+  {
+    "rank": 20,
+    "bib": 58,
+    "name": "Niamh Fisher-Black",
+    "nationality": "New Zealand",
+    "team": "Lidl - Trek",
+    "points": 3
+  },
+  {
+    "rank": 21,
+    "bib": 74,
+    "name": "Nina Berton",
+    "nationality": "Luxembourg",
+    "team": "EF Education - Oatly",
+    "points": 3
+  },
+  {
+    "rank": 22,
+    "bib": 12,
+    "name": "Célia Gery",
+    "nationality": "France",
+    "team": "FDJ United-SUEZ",
+    "points": 3
+  },
+  {
+    "rank": 23,
+    "bib": 77,
+    "name": "Cédrine Kerbaol",
+    "nationality": "France",
+    "team": "EF Education - Oatly",
+    "points": 3
+  },
+  {
+    "rank": 24,
+    "bib": 73,
+    "name": "Magdeleine Vallieres-Mill",
+    "nationality": "Canada",
+    "team": "EF Education - Oatly",
+    "points": 3
+  },
+  {
+    "rank": 25,
+    "bib": 171,
+    "name": "Clémence Latimier",
+    "nationality": "France",
+    "team": "Ma Petite Entreprise",
+    "points": 3
+  }
+]
