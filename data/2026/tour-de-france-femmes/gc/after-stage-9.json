@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 10,
+    "name": "Demi Vollering",
+    "nationality": "Netherlands",
+    "team": "FDJ United-SUEZ",
+    "time": "30:54:51"
+  },
+  {
+    "rank": 2,
+    "bib": 19,
+    "name": "Katarzyna Niewiadoma-Phinney",
+    "nationality": "Poland",
+    "team": "Canyon//SRAM",
+    "time": "+1:18"
+  },
+  {
+    "rank": 3,
+    "bib": 32,
+    "name": "Elisa Longo Borghini",
+    "nationality": "Italy",
+    "team": "UAE Team L’IMAD",
+    "time": "+4:19"
+  },
+  {
+    "rank": 4,
+    "bib": 23,
+    "name": "Antonia Niedermaier",
+    "nationality": "Germany",
+    "team": "Canyon//SRAM",
+    "time": "+5:10"
+  },
+  {
+    "rank": 5,
+    "bib": 29,
+    "name": "Paula Blasi Cairol",
+    "nationality": "Spain",
+    "team": "UAE Team L’IMAD",
+    "time": "+6:13"
+  },
+  {
+    "rank": 6,
+    "bib": 77,
+    "name": "Cédrine Kerbaol",
+    "nationality": "France",
+    "team": "EF Education - Oatly",
+    "time": "+6:41"
+  },
+  {
+    "rank": 7,
+    "bib": 28,
+    "name": "Dominika Wlodarczyk",
+    "nationality": "Poland",
+    "team": "UAE Team L’IMAD",
+    "time": "+7:53"
+  },
+  {
+    "rank": 8,
+    "bib": 59,
+    "name": "Isabella Holmgren",
+    "nationality": "Canada",
+    "team": "Lidl - Trek",
+    "time": "+9:12"
+  },
+  {
+    "rank": 9,
+    "bib": 64,
+    "name": "Kim Le Court Pienaar",
+    "nationality": "Mauritius",
+    "team": "AG Insurance - Soudal Team",
+    "time": "+14:04"
+  },
+  {
+    "rank": 10,
+    "bib": 58,
+    "name": "Niamh Fisher-Black",
+    "nationality": "New Zealand",
+    "team": "Lidl - Trek",
+    "time": "+15:14"
+  },
+  {
+    "rank": 11,
+    "bib": 42,
+    "name": "Nienke Vinke",
+    "nationality": "Netherlands",
+    "team": "Team SD Worx - Protime",
+    "time": "+22:56"
+  },
+  {
+    "rank": 12,
+    "bib": 3,
+    "name": "Femke de Vries",
+    "nationality": "Netherlands",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+24:08"
+  },
+  {
+    "rank": 13,
+    "bib": 94,
+    "name": "Thalita de Jong",
+    "nationality": "Netherlands",
+    "team": "Human Powered Health",
+    "time": "+24:41"
+  },
+  {
+    "rank": 14,
+    "bib": 46,
+    "name": "Marlen Reusser",
+    "nationality": "Switzerland",
+    "team": "Movistar Team",
+    "time": "+25:57"
+  },
+  {
+    "rank": 15,
+    "bib": 11,
+    "name": "Juliette Berthet",
+    "nationality": "France",
+    "team": "FDJ United-SUEZ",
+    "time": "+28:12"
+  },
+  {
+    "rank": 16,
+    "bib": 92,
+    "name": "Nina Buijsman",
+    "nationality": "Netherlands",
+    "team": "Human Powered Health",
+    "time": "+28:22"
+  },
+  {
+    "rank": 17,
+    "bib": 78,
+    "name": "Noemi Ruegg",
+    "nationality": "Switzerland",
+    "team": "EF Education - Oatly",
+    "time": "+33:20"
+  },
+  {
+    "rank": 18,
+    "bib": 73,
+    "name": "Magdeleine Vallieres-Mill",
+    "nationality": "Canada",
+    "team": "EF Education - Oatly",
+    "time": "+36:18"
+  },
+  {
+    "rank": 19,
+    "bib": 118,
+    "name": "Emilie Morier",
+    "nationality": "France",
+    "team": "St Michel - Preference Home - Auber93",
+    "time": "+39:06"
+  },
+  {
+    "rank": 20,
+    "bib": 31,
+    "name": "Mavi García",
+    "nationality": "Spain",
+    "team": "UAE Team L’IMAD",
+    "time": "+41:50"
+  },
+  {
+    "rank": 21,
+    "bib": 12,
+    "name": "Célia Gery",
+    "nationality": "France",
+    "team": "FDJ United-SUEZ",
+    "time": "+44:08"
+  },
+  {
+    "rank": 22,
+    "bib": 34,
+    "name": "Maeva Squiban",
+    "nationality": "France",
+    "team": "UAE Team L’IMAD",
+    "time": "+45:45"
+  },
+  {
+    "rank": 23,
+    "bib": 82,
+    "name": "Puck Pieterse",
+    "nationality": "Netherlands",
+    "team": "Fenix-Premier Tech",
+    "time": "+51:43"
+  },
+  {
+    "rank": 24,
+    "bib": 6,
+    "name": "Sarah van Dam",
+    "nationality": "Canada",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+53:07"
+  },
+  {
+    "rank": 25,
+    "bib": 69,
+    "name": "Justine Ghekiere",
+    "nationality": "Belgium",
+    "team": "AG Insurance - Soudal Team",
+    "time": "+53:15"
+  }
+]
