@@ -6,7 +6,7 @@
       "name": "Demi Vollering",
       "nationality": "Netherlands",
       "team": "FDJ United-SUEZ",
-      "time": "28:10:18"
+      "time": "30:54:51"
     },
     {
       "rank": 2,
@@ -14,31 +14,31 @@
       "name": "Katarzyna Niewiadoma-Phinney",
       "nationality": "Poland",
       "team": "Canyon//SRAM",
-      "time": "+0:08"
+      "time": "+1:18"
     },
     {
       "rank": 3,
-      "bib": 46,
-      "name": "Marlen Reusser",
-      "nationality": "Switzerland",
-      "team": "Movistar Team",
-      "time": "+1:12"
-    },
-    {
-      "rank": 4,
       "bib": 32,
       "name": "Elisa Longo Borghini",
       "nationality": "Italy",
       "team": "UAE Team L’IMAD",
-      "time": "+3:05"
+      "time": "+4:19"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "bib": 23,
       "name": "Antonia Niedermaier",
       "nationality": "Germany",
       "team": "Canyon//SRAM",
-      "time": "+3:54"
+      "time": "+5:10"
+    },
+    {
+      "rank": 5,
+      "bib": 29,
+      "name": "Paula Blasi Cairol",
+      "nationality": "Spain",
+      "team": "UAE Team L’IMAD",
+      "time": "+6:13"
     },
     {
       "rank": 6,
@@ -46,23 +46,23 @@
       "name": "Cédrine Kerbaol",
       "nationality": "France",
       "team": "EF Education - Oatly",
-      "time": "+4:34"
+      "time": "+6:41"
     },
     {
       "rank": 7,
-      "bib": 29,
-      "name": "Paula Blasi Cairol",
-      "nationality": "Spain",
-      "team": "UAE Team L’IMAD",
-      "time": "+5:05"
-    },
-    {
-      "rank": 8,
       "bib": 28,
       "name": "Dominika Wlodarczyk",
       "nationality": "Poland",
       "team": "UAE Team L’IMAD",
-      "time": "+5:46"
+      "time": "+7:53"
+    },
+    {
+      "rank": 8,
+      "bib": 59,
+      "name": "Isabella Holmgren",
+      "nationality": "Canada",
+      "team": "Lidl - Trek",
+      "time": "+9:12"
     },
     {
       "rank": 9,
@@ -70,135 +70,135 @@
       "name": "Kim Le Court Pienaar",
       "nationality": "Mauritius",
       "team": "AG Insurance - Soudal Team",
-      "time": "+6:50"
+      "time": "+14:04"
     },
     {
       "rank": 10,
-      "bib": 59,
-      "name": "Isabella Holmgren",
-      "nationality": "Canada",
-      "team": "Lidl - Trek",
-      "time": "+7:54"
-    },
-    {
-      "rank": 11,
-      "bib": 94,
-      "name": "Thalita de Jong",
-      "nationality": "Netherlands",
-      "team": "Human Powered Health",
-      "time": "+10:56"
-    },
-    {
-      "rank": 12,
       "bib": 58,
       "name": "Niamh Fisher-Black",
       "nationality": "New Zealand",
       "team": "Lidl - Trek",
-      "time": "+14:00"
+      "time": "+15:14"
     },
     {
-      "rank": 13,
+      "rank": 11,
       "bib": 42,
       "name": "Nienke Vinke",
       "nationality": "Netherlands",
       "team": "Team SD Worx - Protime",
-      "time": "+15:44"
+      "time": "+22:56"
     },
     {
-      "rank": 14,
-      "bib": 78,
-      "name": "Noemi Ruegg",
-      "nationality": "Switzerland",
-      "team": "EF Education - Oatly",
-      "time": "+19:35"
-    },
-    {
-      "rank": 15,
-      "bib": 92,
-      "name": "Nina Buijsman",
-      "nationality": "Netherlands",
-      "team": "Human Powered Health",
-      "time": "+21:10"
-    },
-    {
-      "rank": 16,
+      "rank": 12,
       "bib": 3,
       "name": "Femke de Vries",
       "nationality": "Netherlands",
       "team": "Team Visma | Lease a Bike",
-      "time": "+22:01"
+      "time": "+24:08"
     },
     {
-      "rank": 17,
-      "bib": 31,
-      "name": "Mavi García",
-      "nationality": "Spain",
-      "team": "UAE Team L’IMAD",
-      "time": "+23:32"
+      "rank": 13,
+      "bib": 94,
+      "name": "Thalita de Jong",
+      "nationality": "Netherlands",
+      "team": "Human Powered Health",
+      "time": "+24:41"
     },
     {
-      "rank": 18,
+      "rank": 14,
+      "bib": 46,
+      "name": "Marlen Reusser",
+      "nationality": "Switzerland",
+      "team": "Movistar Team",
+      "time": "+25:57"
+    },
+    {
+      "rank": 15,
       "bib": 11,
       "name": "Juliette Berthet",
       "nationality": "France",
       "team": "FDJ United-SUEZ",
-      "time": "+23:37"
+      "time": "+28:12"
     },
     {
-      "rank": 19,
-      "bib": 12,
-      "name": "Célia Gery",
-      "nationality": "France",
-      "team": "FDJ United-SUEZ",
-      "time": "+26:11"
+      "rank": 16,
+      "bib": 92,
+      "name": "Nina Buijsman",
+      "nationality": "Netherlands",
+      "team": "Human Powered Health",
+      "time": "+28:22"
     },
     {
-      "rank": 20,
+      "rank": 17,
+      "bib": 78,
+      "name": "Noemi Ruegg",
+      "nationality": "Switzerland",
+      "team": "EF Education - Oatly",
+      "time": "+33:20"
+    },
+    {
+      "rank": 18,
       "bib": 73,
       "name": "Magdeleine Vallieres-Mill",
       "nationality": "Canada",
       "team": "EF Education - Oatly",
-      "time": "+29:06"
+      "time": "+36:18"
     },
     {
-      "rank": 21,
-      "bib": 34,
-      "name": "Maeva Squiban",
-      "nationality": "France",
-      "team": "UAE Team L’IMAD",
-      "time": "+29:21"
-    },
-    {
-      "rank": 22,
+      "rank": 19,
       "bib": 118,
       "name": "Emilie Morier",
       "nationality": "France",
       "team": "St Michel - Preference Home - Auber93",
-      "time": "+31:54"
+      "time": "+39:06"
+    },
+    {
+      "rank": 20,
+      "bib": 31,
+      "name": "Mavi García",
+      "nationality": "Spain",
+      "team": "UAE Team L’IMAD",
+      "time": "+41:50"
+    },
+    {
+      "rank": 21,
+      "bib": 12,
+      "name": "Célia Gery",
+      "nationality": "France",
+      "team": "FDJ United-SUEZ",
+      "time": "+44:08"
+    },
+    {
+      "rank": 22,
+      "bib": 34,
+      "name": "Maeva Squiban",
+      "nationality": "France",
+      "team": "UAE Team L’IMAD",
+      "time": "+45:45"
     },
     {
       "rank": 23,
-      "bib": 142,
-      "name": "Debora Silvestri",
-      "nationality": "Italy",
-      "team": "Laboral Kutxa - Fundacion Euskadi",
-      "time": "+32:37"
+      "bib": 82,
+      "name": "Puck Pieterse",
+      "nationality": "Netherlands",
+      "team": "Fenix-Premier Tech",
+      "time": "+51:43"
     },
     {
       "rank": 24,
+      "bib": 6,
+      "name": "Sarah van Dam",
+      "nationality": "Canada",
+      "team": "Team Visma | Lease a Bike",
+      "time": "+53:07"
+    },
+    {
+      "rank": 25,
       "bib": 69,
       "name": "Justine Ghekiere",
       "nationality": "Belgium",
       "team": "AG Insurance - Soudal Team",
-      "time": "+33:01"
-    },
-    {
-      "rank": 25,
-      "bib": 76,
-      "name": "Kristen Faulkner",
-      "nationality": "United States",
-      "team": "EF Education - Oatly",
-      "time": "+33:48"
+      "time": "+53:15"
     }
   ],
   "stageResults": {
@@ -1816,6 +1816,208 @@
         "nationality": "Netherlands",
         "team": "Fenix-Premier Tech",
         "time": "+1:50"
+      }
+    ],
+    "stage-9": [
+      {
+        "rank": 1,
+        "bib": 10,
+        "name": "Demi Vollering",
+        "nationality": "Netherlands",
+        "team": "FDJ United-SUEZ",
+        "time": "2:44:43"
+      },
+      {
+        "rank": 2,
+        "bib": 29,
+        "name": "Paula Blasi Cairol",
+        "nationality": "Spain",
+        "team": "UAE Team L’IMAD",
+        "time": "+1:04"
+      },
+      {
+        "rank": 3,
+        "bib": 19,
+        "name": "Katarzyna Niewiadoma-Phinney",
+        "nationality": "Poland",
+        "team": "Canyon//SRAM",
+        "time": "+1:04"
+      },
+      {
+        "rank": 4,
+        "bib": 58,
+        "name": "Niamh Fisher-Black",
+        "nationality": "New Zealand",
+        "team": "Lidl - Trek",
+        "time": "+1:04"
+      },
+      {
+        "rank": 5,
+        "bib": 23,
+        "name": "Antonia Niedermaier",
+        "nationality": "Germany",
+        "team": "Canyon//SRAM",
+        "time": "+1:06"
+      },
+      {
+        "rank": 6,
+        "bib": 59,
+        "name": "Isabella Holmgren",
+        "nationality": "Canada",
+        "team": "Lidl - Trek",
+        "time": "+1:08"
+      },
+      {
+        "rank": 7,
+        "bib": 32,
+        "name": "Elisa Longo Borghini",
+        "nationality": "Italy",
+        "team": "UAE Team L’IMAD",
+        "time": "+1:04"
+      },
+      {
+        "rank": 8,
+        "bib": 3,
+        "name": "Femke de Vries",
+        "nationality": "Netherlands",
+        "team": "Team Visma | Lease a Bike",
+        "time": "+1:57"
+      },
+      {
+        "rank": 9,
+        "bib": 28,
+        "name": "Dominika Wlodarczyk",
+        "nationality": "Poland",
+        "team": "UAE Team L’IMAD",
+        "time": "+1:57"
+      },
+      {
+        "rank": 10,
+        "bib": 77,
+        "name": "Cédrine Kerbaol",
+        "nationality": "France",
+        "team": "EF Education - Oatly",
+        "time": "+1:57"
+      },
+      {
+        "rank": 11,
+        "bib": 11,
+        "name": "Juliette Berthet",
+        "nationality": "France",
+        "team": "FDJ United-SUEZ",
+        "time": "+4:25"
+      },
+      {
+        "rank": 12,
+        "bib": 92,
+        "name": "Nina Buijsman",
+        "nationality": "Netherlands",
+        "team": "Human Powered Health",
+        "time": "+7:02"
+      },
+      {
+        "rank": 13,
+        "bib": 42,
+        "name": "Nienke Vinke",
+        "nationality": "Netherlands",
+        "team": "Team SD Worx - Protime",
+        "time": "+7:02"
+      },
+      {
+        "rank": 14,
+        "bib": 118,
+        "name": "Emilie Morier",
+        "nationality": "France",
+        "team": "St Michel - Preference Home - Auber93",
+        "time": "+7:02"
+      },
+      {
+        "rank": 15,
+        "bib": 176,
+        "name": "Célia Le Mouël",
+        "nationality": "France",
+        "team": "Ma Petite Entreprise",
+        "time": "+7:02"
+      },
+      {
+        "rank": 16,
+        "bib": 73,
+        "name": "Magdeleine Vallieres-Mill",
+        "nationality": "Canada",
+        "team": "EF Education - Oatly",
+        "time": "+7:02"
+      },
+      {
+        "rank": 17,
+        "bib": 64,
+        "name": "Kim Le Court Pienaar",
+        "nationality": "Mauritius",
+        "team": "AG Insurance - Soudal Team",
+        "time": "+7:04"
+      },
+      {
+        "rank": 18,
+        "bib": 127,
+        "name": "Malwina Mul",
+        "nationality": "Poland",
+        "team": "Cofidis Women Team",
+        "time": "+11:28"
+      },
+      {
+        "rank": 19,
+        "bib": 70,
+        "name": "Urška Žigart",
+        "nationality": "Slovenia",
+        "team": "AG Insurance - Soudal Team",
+        "time": "+12:53"
+      },
+      {
+        "rank": 20,
+        "bib": 171,
+        "name": "Clémence Latimier",
+        "nationality": "France",
+        "team": "Ma Petite Entreprise",
+        "time": "+13:03"
+      },
+      {
+        "rank": 21,
+        "bib": 114,
+        "name": "Gaia Masetti",
+        "nationality": "Italy",
+        "team": "Team Picnic PostNL",
+        "time": "+13:05"
+      },
+      {
+        "rank": 22,
+        "bib": 123,
+        "name": "Solène Muller",
+        "nationality": "France",
+        "team": "St Michel - Preference Home - Auber93",
+        "time": "+13:35"
+      },
+      {
+        "rank": 23,
+        "bib": 94,
+        "name": "Thalita de Jong",
+        "nationality": "Netherlands",
+        "team": "Human Powered Health",
+        "time": "+13:35"
+      },
+      {
+        "rank": 24,
+        "bib": 158,
+        "name": "Anouska Koster",
+        "nationality": "Netherlands",
+        "team": "Uno-X Mobility",
+        "time": "+13:35"
+      },
+      {
+        "rank": 25,
+        "bib": 74,
+        "name": "Nina Berton",
+        "nationality": "Luxembourg",
+        "team": "EF Education - Oatly",
+        "time": "+13:35"
       }
     ]
   }
