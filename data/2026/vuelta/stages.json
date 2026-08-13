@@ -308,16 +308,16 @@
     "number": 20,
     "name": "La Calahorra — Collado del Alguacil",
     "date": "2026-09-12",
-    "distanceKm": 187,
+    "distanceKm": 186.8,
     "startLocation": "La Calahorra",
     "finishLocation": "Collado del Alguacil",
-    "currentStage": "Stage 20 — 187 km (La Calahorra → Collado del Alguacil), mountain",
+    "currentStage": "Stage 20 — 186.8 km (La Calahorra → Collado del Alguacil), mountain",
     "stageType": "mountain",
     "status": "upcoming",
     "gpxUrl": "/data/2026/vuelta/gpx/stage-20-route.gpx",
     "startTime": "2026-09-12T12:15:00+02:00",
     "elevationGainM": 5000,
-    "expectedFinishTime": "2026-09-12T17:55:00+02:00"
+    "expectedFinishTime": "2026-09-12T17:54:00+02:00"
   },
   {
     "id": "stage-21",

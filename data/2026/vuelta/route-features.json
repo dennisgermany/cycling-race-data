@@ -5,14 +5,14 @@
       "id": "stage-2-climb-1",
       "name": "ALTO CHÂTEAUNEUF-GRASSE",
       "kind": "climb",
-      "distanceKm": 44.5,
+      "distanceKm": 32.3,
       "category": 3
     },
     {
       "id": "stage-2-climb-2",
       "name": "COL DE SAINT ANDRIEU",
       "kind": "climb",
-      "distanceKm": 104.6,
+      "distanceKm": 92.4,
       "category": 3
     },
     {
@@ -212,6 +212,13 @@
     },
     {
       "id": "stage-9-climb-3",
+      "name": "PORT DE TOLLOS",
+      "kind": "climb",
+      "distanceKm": 90.7,
+      "category": 3
+    },
+    {
+      "id": "stage-9-climb-4",
       "name": "PUERTO DE TUDONS",
       "kind": "climb",
       "distanceKm": 121.8,
@@ -224,14 +231,14 @@
       "distanceKm": 134.6
     },
     {
-      "id": "stage-9-climb-4",
+      "id": "stage-9-climb-5",
       "name": "PUERTO DE BENIFALLIM",
       "kind": "climb",
       "distanceKm": 139.9,
       "category": 2
     },
     {
-      "id": "stage-9-climb-5",
+      "id": "stage-9-climb-6",
       "name": "ALTO DE AITANA.COSTA BLANCA",
       "kind": "climb",
       "distanceKm": 187.4,
@@ -461,37 +468,43 @@
   "stage-20": [
     {
       "id": "stage-20-climb-1",
-      "name": "PUERTO DE BLANCARES",
+      "name": "BLACARES",
       "kind": "climb",
-      "distanceKm": 52.8,
+      "distanceKm": 50.7,
       "category": 3
     },
     {
       "id": "stage-20-climb-2",
-      "name": "ALTO DE HAZALLANAS",
+      "name": "EL PURCHE",
       "kind": "climb",
-      "distanceKm": 90.5,
+      "distanceKm": 94.3,
       "category": 1
     },
     {
       "id": "stage-20-climb-3",
-      "name": "PUERTO DE EL PURCHE",
+      "name": "EL PURCHE",
       "kind": "climb",
-      "distanceKm": 128.3,
+      "distanceKm": 125.5,
       "category": 1
     },
     {
+      "id": "stage-20-sprint-1",
+      "name": "GÜEJAR SIERRA",
+      "kind": "sprint",
+      "distanceKm": 144
+    },
+    {
       "id": "stage-20-climb-4",
-      "name": "ALTO DE HAZALLANAS",
+      "name": "EL DUQUE",
       "kind": "climb",
-      "distanceKm": 155.6,
+      "distanceKm": 155.4,
       "category": 1
     },
     {
       "id": "stage-20-climb-5",
       "name": "COLLADO DEL ALGUACIL",
       "kind": "climb",
-      "distanceKm": 187,
+      "distanceKm": 186.8,
       "category": 1
     }
   ],
