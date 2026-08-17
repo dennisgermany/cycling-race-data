@@ -91,7 +91,7 @@
       "id": "stage-5-climb-1",
       "name": "PUERTO DE PAÜLS",
       "kind": "climb",
-      "distanceKm": 148.5,
+      "distanceKm": 148.4,
       "category": 3
     }
   ],
@@ -127,13 +127,13 @@
       "id": "stage-6-cobble-1",
       "name": "TRAMO DE TIERRA",
       "kind": "cobble",
-      "distanceKm": 155.8
+      "distanceKm": 153.8
     },
     {
       "id": "stage-6-climb-4",
       "name": "PUERTO EL BARTOLO",
       "kind": "climb",
-      "distanceKm": 156.9,
+      "distanceKm": 156.8,
       "category": 1
     }
   ],
@@ -461,7 +461,7 @@
       "id": "stage-19-climb-3",
       "name": "PEÑAS BLANCAS.ESTEPONA",
       "kind": "climb",
-      "distanceKm": 210,
+      "distanceKm": 210.8,
       "category": 1
     }
   ],
