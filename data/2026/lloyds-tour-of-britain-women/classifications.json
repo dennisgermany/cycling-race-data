@@ -1,0 +1,26 @@
+[
+  {
+    "kind": "gc",
+    "metric": "time",
+    "jerseyColor": "#006A4E",
+    "jerseyName": "Lloyds Green Jersey"
+  },
+  {
+    "kind": "points",
+    "metric": "points",
+    "jerseyColor": "#E30613",
+    "jerseyName": "Points Jersey"
+  },
+  {
+    "kind": "kom",
+    "metric": "points",
+    "jerseyColor": "#005EB8",
+    "jerseyName": "Queen of the Mountains Jersey"
+  },
+  {
+    "kind": "youth",
+    "metric": "time",
+    "jerseyColor": "#FFFFFF",
+    "jerseyName": "Best Young Rider Jersey"
+  }
+]

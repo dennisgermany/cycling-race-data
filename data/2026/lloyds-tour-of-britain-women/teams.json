@@ -1,0 +1,230 @@
+[
+  {
+    "name": "AG Insurance - Soudal Team",
+    "uciCategory": "WT",
+    "riders": [
+      { "bib": 1, "name": "Letizia Borghesi", "nationality": "Italy" },
+      { "bib": 2, "name": "Amandine Fouquenet", "nationality": "France" },
+      { "bib": 3, "name": "Marthe Goossens", "nationality": "Belgium" },
+      { "bib": 4, "name": "Kim Le Court Pienaar", "nationality": "Mauritius" },
+      { "bib": 5, "name": "Alexandra Manly", "nationality": "Australia" },
+      { "bib": 6, "name": "Gladys Verhulst-Wild", "nationality": "Netherlands" }
+    ]
+  },
+  {
+    "name": "Canyon//SRAM",
+    "uciCategory": "WT",
+    "riders": [
+      { "bib": 11, "name": "Wilma Aintila", "nationality": "Finland" },
+      { "bib": 12, "name": "Zoe Jane Backstedt", "nationality": "Great Britain" },
+      { "bib": 13, "name": "Chiara Consonni", "nationality": "Italy" },
+      { "bib": 14, "name": "Justyna Czapla", "nationality": "Poland" },
+      { "bib": 15, "name": "Soraya Paladin", "nationality": "Italy" },
+      { "bib": 16, "name": "Cecilie Uttrup Ludwig", "nationality": "Denmark" }
+    ]
+  },
+  {
+    "name": "DAS-Hutchinson",
+    "uciCategory": "CT",
+    "riders": [
+      { "bib": 21, "name": "Mieke Docx", "nationality": "Belgium" },
+      { "bib": 22, "name": "Tiffany Keep", "nationality": "South Africa" },
+      { "bib": 23, "name": "Don Micka del la Vega", "nationality": "Mexico" },
+      { "bib": 24, "name": "Lucy Lee", "nationality": "Great Britain" },
+      { "bib": 25, "name": "Katie Scott", "nationality": "Great Britain" },
+      { "bib": 26, "name": "Morven Yeoman", "nationality": "Great Britain" }
+    ]
+  },
+  {
+    "name": "FDJ United-SUEZ",
+    "uciCategory": "WT",
+    "riders": [
+      { "bib": 31, "name": "Ally Wollaston", "nationality": "New Zealand" },
+      { "bib": 32, "name": "Vittoria Guazzini", "nationality": "Italy" },
+      { "bib": 33, "name": "Eva van Agt", "nationality": "Netherlands" },
+      { "bib": 34, "name": "Lea Curinier", "nationality": "France" },
+      { "bib": 35, "name": "Lauren Dickson", "nationality": "Great Britain" },
+      { "bib": 36, "name": "Kate Courtney", "nationality": "United States" }
+    ]
+  },
+  {
+    "name": "Fenix-Premier Tech",
+    "uciCategory": "WT",
+    "riders": [
+      { "bib": 41, "name": "Millie Couzens", "nationality": "Great Britain" },
+      { "bib": 42, "name": "Flora Perkins", "nationality": "Great Britain" },
+      { "bib": 43, "name": "Sara Casasola", "nationality": "Italy" },
+      { "bib": 44, "name": "Julie De Wilde", "nationality": "Belgium" },
+      { "bib": 45, "name": "Marthe Truyen", "nationality": "Belgium" },
+      { "bib": 46, "name": "Fien van Eynde", "nationality": "Belgium" }
+    ]
+  },
+  {
+    "name": "Great Britain Cycling Team",
+    "uciCategory": "CT",
+    "riders": [
+      { "bib": 51, "name": "Alice Towers", "nationality": "Great Britain" },
+      { "bib": 52, "name": "Anna Morris", "nationality": "Great Britain" },
+      { "bib": 53, "name": "Ruby Oakes", "nationality": "Great Britain" },
+      { "bib": 54, "name": "Rebecca Gardiner", "nationality": "Great Britain" },
+      { "bib": 55, "name": "Jessica Roberts", "nationality": "Great Britain" },
+      { "bib": 56, "name": "Amalie Cooper", "nationality": "Great Britain" }
+    ]
+  },
+  {
+    "name": "Handsling Alba Development Road Team",
+    "uciCategory": "CT",
+    "riders": [
+      { "bib": 61, "name": "Madeline Cooper", "nationality": "Great Britain" },
+      { "bib": 62, "name": "Madelaine Leech", "nationality": "Great Britain" },
+      { "bib": 63, "name": "Grace Lister", "nationality": "Great Britain" },
+      { "bib": 64, "name": "Beth Morrow", "nationality": "Great Britain" },
+      { "bib": 65, "name": "Anna Flynn", "nationality": "Ireland" },
+      { "bib": 66, "name": "Arabella Rosalie Blackburn", "nationality": "Great Britain" }
+    ]
+  },
+  {
+    "name": "Hitec Products - Fluid Control",
+    "uciCategory": "CT",
+    "riders": [
+      { "bib": 71, "name": "Julia Borgström", "nationality": "Sweden" },
+      { "bib": 72, "name": "Oda Aune Gissinger", "nationality": "Norway" },
+      { "bib": 73, "name": "Kaja Rysz", "nationality": "Poland" },
+      { "bib": 74, "name": "April Tacey", "nationality": "Great Britain" },
+      { "bib": 75, "name": "Alma Walther Moller Rasmussen", "nationality": "Denmark" },
+      { "bib": 76, "name": "Stine Marie Snortheim", "nationality": "Norway" }
+    ]
+  },
+  {
+    "name": "Human Powered Health",
+    "uciCategory": "WT",
+    "riders": [
+      { "bib": 81, "name": "Lily Williams", "nationality": "United States" },
+      { "bib": 82, "name": "Marta Jaskulska", "nationality": "Poland" },
+      { "bib": 83, "name": "Iurani Blanco", "nationality": "Spain" },
+      { "bib": 84, "name": "Giada Borghesi", "nationality": "Italy" },
+      { "bib": 85, "name": "Maggie Coles-Lyster", "nationality": "Canada" },
+      { "bib": 86, "name": "Barbara Malcotti", "nationality": "Italy" }
+    ]
+  },
+  {
+    "name": "Lidl - Trek",
+    "uciCategory": "WT",
+    "riders": [
+      { "bib": 91, "name": "Ricarda Bauernfeind", "nationality": "Germany" },
+      { "bib": 92, "name": "Clara Copponi", "nationality": "France" },
+      { "bib": 93, "name": "Margot Vanpachtenbeke", "nationality": "Belgium" },
+      { "bib": 94, "name": "Riejanna Markus", "nationality": "Netherlands" },
+      { "bib": 95, "name": "Fleur Moors", "nationality": "Belgium" },
+      { "bib": 96, "name": "Shirin van Anrooij", "nationality": "Netherlands" }
+    ]
+  },
+  {
+    "name": "Liv-AlUla-Jayco",
+    "uciCategory": "WT",
+    "riders": [
+      { "bib": 101, "name": "Amber Pate", "nationality": "Australia" },
+      { "bib": 102, "name": "Caroline Andersson", "nationality": "Sweden" },
+      { "bib": 103, "name": "Quinty Ton", "nationality": "Netherlands" },
+      { "bib": 104, "name": "Noä Jansen", "nationality": "Netherlands" },
+      { "bib": 105, "name": "Josie Talbot", "nationality": "Australia" },
+      { "bib": 106, "name": "Georgia Baker", "nationality": "Australia" }
+    ]
+  },
+  {
+    "name": "Movistar Team",
+    "uciCategory": "WT",
+    "riders": [
+      { "bib": 111, "name": "Aude Biannic", "nationality": "France" },
+      { "bib": 112, "name": "Claire Steels", "nationality": "Great Britain" },
+      { "bib": 113, "name": "Francesca Barale", "nationality": "Italy" },
+      { "bib": 114, "name": "Liane Lippert", "nationality": "Germany" },
+      { "bib": 115, "name": "Lucia Ruiz Perez", "nationality": "Spain" },
+      { "bib": 116, "name": "Sara Martin Martin", "nationality": "Spain" }
+    ]
+  },
+  {
+    "name": "O'Shea Red Chilli Bikes",
+    "uciCategory": "CT",
+    "riders": [
+      { "bib": 121, "name": "Maeve Plouffe", "nationality": "Australia" },
+      { "bib": 122, "name": "Yilla Threels", "nationality": "Australia" },
+      { "bib": 123, "name": "Karlijn Koops", "nationality": "Netherlands" },
+      { "bib": 124, "name": "Matilda Mckibben", "nationality": "Australia" },
+      { "bib": 125, "name": "Connie Hayes", "nationality": "Australia" },
+      { "bib": 126, "name": "Ida Krickau Ketelsen", "nationality": "Denmark" }
+    ]
+  },
+  {
+    "name": "Team Picnic PostNL",
+    "uciCategory": "WT",
+    "riders": [
+      { "bib": 131, "name": "Pfeiffer Georgi", "nationality": "Great Britain" },
+      { "bib": 132, "name": "Daniela Hezinova", "nationality": "Czechia" },
+      { "bib": 133, "name": "Audrey de Keersmaeker", "nationality": "Belgium" },
+      { "bib": 134, "name": "Juliana Londono", "nationality": "Colombia" },
+      { "bib": 135, "name": "Dilyxine Miermont", "nationality": "France" },
+      { "bib": 136, "name": "Josie Nelson", "nationality": "Great Britain" }
+    ]
+  },
+  {
+    "name": "Team SD Worx - Protime",
+    "uciCategory": "WT",
+    "riders": [
+      { "bib": 141, "name": "Lotte Kopecky", "nationality": "Belgium" },
+      { "bib": 142, "name": "Lorena Wiebes", "nationality": "Netherlands" },
+      { "bib": 143, "name": "Steffi Haberlin", "nationality": "Switzerland" },
+      { "bib": 144, "name": "Mischa Bredewold", "nationality": "Netherlands" },
+      { "bib": 145, "name": "Femke Gerritse", "nationality": "Netherlands" },
+      { "bib": 146, "name": "Julia Kopecky", "nationality": "Belgium" }
+    ]
+  },
+  {
+    "name": "Team Visma | Lease a Bike",
+    "uciCategory": "WT",
+    "riders": [
+      { "bib": 151, "name": "Femke de Vries", "nationality": "Netherlands" },
+      { "bib": 152, "name": "Lieke Nooijen", "nationality": "Netherlands" },
+      { "bib": 153, "name": "Maud Oudeman", "nationality": "Netherlands" },
+      { "bib": 154, "name": "Nienke Veenhoven", "nationality": "Netherlands" },
+      { "bib": 155, "name": "Imogen Wolff", "nationality": "Germany" },
+      { "bib": 156, "name": "Margaux Vigie", "nationality": "France" }
+    ]
+  },
+  {
+    "name": "UAE Team L’IMAD",
+    "uciCategory": "WT",
+    "riders": [
+      { "bib": 161, "name": "Lara Gillespie", "nationality": "Ireland" },
+      { "bib": 162, "name": "Karlijn Swinkels", "nationality": "Netherlands" },
+      { "bib": 163, "name": "Erica Magnaldi", "nationality": "Italy" },
+      { "bib": 164, "name": "Eleonora Gasparrini", "nationality": "Italy" },
+      { "bib": 165, "name": "Elynor Bäckstedt", "nationality": "Great Britain" },
+      { "bib": 166, "name": "Febe Jooris", "nationality": "Belgium" }
+    ]
+  },
+  {
+    "name": "Uno-X Mobility",
+    "uciCategory": "WT",
+    "riders": [
+      { "bib": 171, "name": "Marte Berg Edseth", "nationality": "Norway" },
+      { "bib": 172, "name": "Ingvild Gaskjenn", "nationality": "Norway" },
+      { "bib": 173, "name": "Teuntje Beekhuis", "nationality": "Netherlands" },
+      { "bib": 174, "name": "Alessia Vigilia", "nationality": "Italy" },
+      { "bib": 175, "name": "Albære Greve", "nationality": "Norway" },
+      { "bib": 176, "name": "Sigrid Ytterhus Haugset", "nationality": "Norway" }
+    ]
+  },
+  {
+    "name": "Smurfit Westrock Cycling Team",
+    "uciCategory": "CT",
+    "riders": [
+      { "bib": 181, "name": "Amelia Cebak", "nationality": "Slovakia" },
+      { "bib": 182, "name": "Jo Tindley", "nationality": "Great Britain" },
+      { "bib": 183, "name": "Leila Gschwentner", "nationality": "Austria" },
+      { "bib": 184, "name": "Lidia Cusack", "nationality": "Ireland" },
+      { "bib": 185, "name": "S'Anara Grove", "nationality": "Great Britain" },
+      { "bib": 186, "name": "Teniel Campbell", "nationality": "Trinidad and Tobago" }
+    ]
+  }
+]

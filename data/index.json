@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17",
+  "updatedAt": "2026-08-19",
   "races": [
     {
       "year": 2026,
@@ -18,6 +18,24 @@
       "gpxAttribution": "Course GPX: Giro d'Italia 2026 stage routes from cyclingstage.com. Map tiles © OpenStreetMap contributors.",
       "startTime": "2026-05-08T12:15:00+03:00",
       "elevationGainM": 48700
+    },
+    {
+      "year": 2026,
+      "slug": "lloyds-tour-of-britain-women",
+      "name": "Lloyds Tour of Britain Women",
+      "path": "2026/lloyds-tour-of-britain-women",
+      "status": "upcoming",
+      "startDate": "2026-08-19",
+      "endDate": "2026-08-23",
+      "country": "United Kingdom",
+      "edition": 11,
+      "raceCategory": "women",
+      "distanceKm": 636.2,
+      "elevationGainM": 8845,
+      "startLocation": "Cockermouth",
+      "finishLocation": "Royal Leamington Spa",
+      "gpxAttribution": "Course routes: Lloyds Tour of Britain Women 2026 stage maps from British Cycling / Strava. Map tiles © OpenStreetMap contributors.",
+      "startTime": "2026-08-19T11:30:00+01:00"
     },
     {
       "year": 2026,
