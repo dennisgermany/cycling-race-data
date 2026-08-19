@@ -1,0 +1,122 @@
+[
+  {
+    "rank": 1,
+    "bib": 142,
+    "name": "Lorena Wiebes",
+    "nationality": "Netherlands",
+    "team": "Team SD Worx - Protime",
+    "points": 25
+  },
+  {
+    "rank": 2,
+    "bib": 162,
+    "name": "Karlijn Swinkels",
+    "nationality": "Netherlands",
+    "team": "UAE Team L’IMAD",
+    "points": 21
+  },
+  {
+    "rank": 3,
+    "bib": 13,
+    "name": "Chiara Consonni",
+    "nationality": "Italy",
+    "team": "Canyon//SRAM",
+    "points": 18
+  },
+  {
+    "rank": 4,
+    "bib": 144,
+    "name": "Mischa Bredewold",
+    "nationality": "Netherlands",
+    "team": "Team SD Worx - Protime",
+    "points": 12
+  },
+  {
+    "rank": 5,
+    "bib": 136,
+    "name": "Josie Nelson",
+    "nationality": "Great Britain",
+    "team": "Team Picnic PostNL",
+    "points": 12
+  },
+  {
+    "rank": 6,
+    "bib": 4,
+    "name": "Kim Le Court Pienaar",
+    "nationality": "Mauritius",
+    "team": "AG Insurance - Soudal Team",
+    "points": 10
+  },
+  {
+    "rank": 7,
+    "bib": 103,
+    "name": "Quinty Ton",
+    "nationality": "Netherlands",
+    "team": "Liv-AlUla-Jayco",
+    "points": 8
+  },
+  {
+    "rank": 8,
+    "bib": 161,
+    "name": "Lara Gillespie",
+    "nationality": "Ireland",
+    "team": "UAE Team L’IMAD",
+    "points": 7
+  },
+  {
+    "rank": 9,
+    "bib": 102,
+    "name": "Caroline Andersson",
+    "nationality": "Sweden",
+    "team": "Liv-AlUla-Jayco",
+    "points": 6
+  },
+  {
+    "rank": 10,
+    "bib": 1,
+    "name": "Letizia Borghesi",
+    "nationality": "Italy",
+    "team": "AG Insurance - Soudal Team",
+    "points": 5
+  },
+  {
+    "rank": 11,
+    "bib": 114,
+    "name": "Liane Lippert",
+    "nationality": "Germany",
+    "team": "Movistar Team",
+    "points": 3
+  },
+  {
+    "rank": 12,
+    "bib": 85,
+    "name": "Maggie Coles-Lyster",
+    "nationality": "Canada",
+    "team": "Human Powered Health",
+    "points": 3
+  },
+  {
+    "rank": 13,
+    "bib": 155,
+    "name": "Imogen Wolff",
+    "nationality": "Germany",
+    "team": "Team Visma | Lease a Bike",
+    "points": 3
+  },
+  {
+    "rank": 14,
+    "bib": 95,
+    "name": "Fleur Moors",
+    "nationality": "Belgium",
+    "team": "Lidl - Trek",
+    "points": 1
+  },
+  {
+    "rank": 15,
+    "bib": 154,
+    "name": "Nienke Veenhoven",
+    "nationality": "Netherlands",
+    "team": "Team Visma | Lease a Bike",
+    "points": 1
+  }
+]
