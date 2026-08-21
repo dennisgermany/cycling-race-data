@@ -508,5 +508,12 @@
       "category": 1
     }
   ],
-  "stage-21": []
+  "stage-21": [
+    {
+      "id": "stage-21-sprint-1",
+      "name": "PASEO DEL SALÓN",
+      "kind": "sprint",
+      "distanceKm": 92.4
+    }
+  ]
 }
