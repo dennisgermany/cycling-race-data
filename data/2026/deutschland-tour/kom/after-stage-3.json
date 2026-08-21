@@ -1,0 +1,42 @@
+[
+  {
+    "rank": 1,
+    "bib": 156,
+    "name": "Ole Theiler",
+    "nationality": "Germany",
+    "team": "REMBE | rad-net",
+    "points": 6
+  },
+  {
+    "rank": 2,
+    "bib": 155,
+    "name": "Miguel Heidemann",
+    "nationality": "Germany",
+    "team": "REMBE | rad-net",
+    "points": 5
+  },
+  {
+    "rank": 3,
+    "bib": 173,
+    "name": "Alvaro Sagrado",
+    "nationality": "Spain",
+    "team": "Team Storck - MRW Bau",
+    "points": 3
+  },
+  {
+    "rank": 4,
+    "bib": 162,
+    "name": "Ben Felix Jochum",
+    "nationality": "Germany",
+    "team": "Team Lotto Kern-Haus Outlet Montabaur",
+    "points": 2
+  },
+  {
+    "rank": 5,
+    "bib": 144,
+    "name": "Ellande Larronde",
+    "nationality": "France",
+    "team": "Caja Rural-Seguros RGA",
+    "points": 2
+  }
+]
