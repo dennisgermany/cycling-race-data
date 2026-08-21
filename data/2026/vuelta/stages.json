@@ -27,9 +27,9 @@
     "stageType": "hilly",
     "status": "upcoming",
     "gpxUrl": "/data/2026/vuelta/gpx/stage-2-route.gpx",
-    "startTime": "2026-08-23T12:16:00+02:00",
+    "startTime": "2026-08-23T12:00:00+02:00",
     "elevationGainM": 3000,
-    "expectedFinishTime": "2026-08-23T18:13:00+02:00"
+    "expectedFinishTime": "2026-08-23T17:57:00+02:00"
   },
   {
     "id": "stage-3",
@@ -283,9 +283,9 @@
     "stageType": "ITT",
     "status": "upcoming",
     "gpxUrl": "/data/2026/vuelta/gpx/stage-18-route.gpx",
-    "startTime": "2026-09-10T14:07:00+02:00",
+    "startTime": "2026-09-10T14:06:00+02:00",
     "elevationGainM": 169,
-    "expectedFinishTime": "2026-09-10T14:49:00+02:00"
+    "expectedFinishTime": "2026-09-10T14:48:00+02:00"
   },
   {
     "id": "stage-19",
@@ -299,8 +299,8 @@
     "stageType": "hilly",
     "status": "upcoming",
     "gpxUrl": "/data/2026/vuelta/gpx/stage-19-route.gpx",
-    "startTime": "2026-09-11T12:07:00+02:00",
-    "expectedFinishTime": "2026-09-11T17:57:00+02:00",
+    "startTime": "2026-09-11T12:06:00+02:00",
+    "expectedFinishTime": "2026-09-11T17:56:00+02:00",
     "elevationGainM": 2402
   },
   {
@@ -315,24 +315,24 @@
     "stageType": "mountain",
     "status": "upcoming",
     "gpxUrl": "/data/2026/vuelta/gpx/stage-20-route.gpx",
-    "startTime": "2026-09-12T12:15:00+02:00",
+    "startTime": "2026-09-12T12:36:00+02:00",
     "elevationGainM": 5000,
-    "expectedFinishTime": "2026-09-12T17:54:00+02:00"
+    "expectedFinishTime": "2026-09-12T18:15:00+02:00"
   },
   {
     "id": "stage-21",
     "number": 21,
     "name": "Carrefour Granada — Granada",
     "date": "2026-09-13",
-    "distanceKm": 99.4,
+    "distanceKm": 112,
     "startLocation": "Carrefour Granada",
     "finishLocation": "Granada",
-    "currentStage": "Stage 21 — 99.4 km (Carrefour Granada → Granada), flat",
+    "currentStage": "Stage 21 — 112 km (Carrefour Granada → Granada), flat",
     "stageType": "flat",
     "status": "upcoming",
     "gpxUrl": "/data/2026/vuelta/gpx/stage-21-route.gpx",
-    "startTime": "2026-09-13T16:05:00+02:00",
-    "expectedFinishTime": "2026-09-13T18:30:00+02:00",
+    "startTime": "2026-09-13T16:23:00+02:00",
+    "expectedFinishTime": "2026-09-13T19:06:00+02:00",
     "elevationGainM": 190
   }
 ]

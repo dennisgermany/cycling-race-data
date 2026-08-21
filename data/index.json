@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20",
+  "updatedAt": "2026-08-21",
   "races": [
     {
       "year": 2026,
@@ -84,7 +84,7 @@
       "country": "Spain",
       "edition": 81,
       "raceCategory": "men",
-      "distanceKm": 3295.4,
+      "distanceKm": 3308.0,
       "elevationGainM": 44704,
       "startLocation": "Monaco",
       "finishLocation": "Granada",
