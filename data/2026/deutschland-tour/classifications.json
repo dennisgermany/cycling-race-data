@@ -1,0 +1,27 @@
+[
+  {
+    "kind": "gc",
+    "metric": "time",
+    "jerseyColor": "#005BBB",
+    "jerseyName": "Blaues Trikot"
+  },
+  {
+    "kind": "points",
+    "metric": "points",
+    "jerseyColor": "#00A94F",
+    "jerseyName": "Grünes Trikot"
+  },
+  {
+    "kind": "kom",
+    "metric": "points",
+    "jerseyColor": "#FFFFFF",
+    "jerseyStyle": "polka",
+    "jerseyName": "Bergtrikot"
+  },
+  {
+    "kind": "youth",
+    "metric": "time",
+    "jerseyColor": "#FFFFFF",
+    "jerseyName": "Nachwuchstrikot"
+  }
+]

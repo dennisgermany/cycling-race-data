@@ -1,0 +1,645 @@
+[
+  {
+    "name": "German National Team",
+    "uciCategory": "CT",
+    "riders": [
+      {
+        "bib": 1,
+        "name": "Georg Zimmermann",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 2,
+        "name": "Felix Groß",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 3,
+        "name": "Patrick Reißig",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 4,
+        "name": "Dominik Röber",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 5,
+        "name": "Jonas Rutsch",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 6,
+        "name": "Paul Voß",
+        "nationality": "Germany"
+      }
+    ]
+  },
+  {
+    "name": "UAE Team Emirates-XRG",
+    "uciCategory": "WT",
+    "riders": [
+      {
+        "bib": 11,
+        "name": "Isaac del Toro",
+        "nationality": "Mexico"
+      },
+      {
+        "bib": 12,
+        "name": "Vegard Stake Laengen",
+        "nationality": "Norway"
+      },
+      {
+        "bib": 13,
+        "name": "Moritz Mauss",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 14,
+        "name": "Nils Politt",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 15,
+        "name": "António Morgado",
+        "nationality": "Portugal"
+      },
+      {
+        "bib": 16,
+        "name": "Matteo Vanden Wijngaert",
+        "nationality": "Belgium"
+      }
+    ]
+  },
+  {
+    "name": "Lidl-Trek",
+    "uciCategory": "WT",
+    "riders": [
+      {
+        "bib": 21,
+        "name": "Giulio Ciccone",
+        "nationality": "Italy"
+      },
+      {
+        "bib": 22,
+        "name": "Matteo Sobrero",
+        "nationality": "Italy"
+      },
+      {
+        "bib": 23,
+        "name": "Tim Torn Teutenberg",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 24,
+        "name": "Mathias Vacek",
+        "nationality": "Czech Republic"
+      },
+      {
+        "bib": 25,
+        "name": "Carlos Verona",
+        "nationality": "Spain"
+      },
+      {
+        "bib": 26,
+        "name": "Max Walscheid",
+        "nationality": "Germany"
+      }
+    ]
+  },
+  {
+    "name": "Soudal Quick-Step",
+    "uciCategory": "WT",
+    "riders": [
+      {
+        "bib": 31,
+        "name": "Paul Magnier",
+        "nationality": "France"
+      },
+      {
+        "bib": 32,
+        "name": "Pascal Eenkhoorn",
+        "nationality": "Netherlands"
+      },
+      {
+        "bib": 33,
+        "name": "Andrea Raccagni Noviero",
+        "nationality": "Italy"
+      },
+      {
+        "bib": 34,
+        "name": "Laurenz Rex",
+        "nationality": "Belgium"
+      },
+      {
+        "bib": 35,
+        "name": "Maximilian Schachmann",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 36,
+        "name": "Dries Van Gestel",
+        "nationality": "Belgium"
+      }
+    ]
+  },
+  {
+    "name": "Red Bull - BORA - hansgrohe",
+    "uciCategory": "WT",
+    "riders": [
+      {
+        "bib": 41,
+        "name": "Danny van Poppel",
+        "nationality": "Netherlands"
+      },
+      {
+        "bib": 42,
+        "name": "Giovanni Aleotti",
+        "nationality": "Italy"
+      },
+      {
+        "bib": 43,
+        "name": "Jarrad Drizners",
+        "nationality": "Australia"
+      },
+      {
+        "bib": 44,
+        "name": "Alexander Hajek",
+        "nationality": "Austria"
+      },
+      {
+        "bib": 45,
+        "name": "Alessio Magagnotti",
+        "nationality": "Italy"
+      },
+      {
+        "bib": 46,
+        "name": "Giulio Pellizzari",
+        "nationality": "Italy"
+      }
+    ]
+  },
+  {
+    "name": "Team Visma | Lease a Bike",
+    "uciCategory": "WT",
+    "riders": [
+      {
+        "bib": 51,
+        "name": "Louis Barré",
+        "nationality": "France"
+      },
+      {
+        "bib": 52,
+        "name": "Tijmen Graat",
+        "nationality": "Netherlands"
+      },
+      {
+        "bib": 53,
+        "name": "Wilco Kelderman",
+        "nationality": "Netherlands"
+      },
+      {
+        "bib": 54,
+        "name": "Ian Kings",
+        "nationality": "United Kingdom"
+      },
+      {
+        "bib": 55,
+        "name": "Bart Lemmen",
+        "nationality": "Netherlands"
+      },
+      {
+        "bib": 56,
+        "name": "William Smith",
+        "nationality": "United Kingdom"
+      }
+    ]
+  },
+  {
+    "name": "Movistar Team",
+    "uciCategory": "WT",
+    "riders": [
+      {
+        "bib": 61,
+        "name": "Michel Hessmann",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 62,
+        "name": "Juanpe López",
+        "nationality": "Spain"
+      },
+      {
+        "bib": 63,
+        "name": "Pavel Novák",
+        "nationality": "Czech Republic"
+      },
+      {
+        "bib": 64,
+        "name": "Nelson Oliveira",
+        "nationality": "Portugal"
+      },
+      {
+        "bib": 65,
+        "name": "Pelayo Sánchez",
+        "nationality": "Spain"
+      },
+      {
+        "bib": 66,
+        "name": "Natnael Tesfatsion",
+        "nationality": "Eritrea"
+      }
+    ]
+  },
+  {
+    "name": "Alpecin-Premier Tech",
+    "uciCategory": "WT",
+    "riders": [
+      {
+        "bib": 71,
+        "name": "Tibor Del Grosso",
+        "nationality": "Netherlands"
+      },
+      {
+        "bib": 72,
+        "name": "Senna Remijn",
+        "nationality": "Netherlands"
+      },
+      {
+        "bib": 73,
+        "name": "Henri Uhlig",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 74,
+        "name": "Guus van den Eijnden",
+        "nationality": "Netherlands"
+      },
+      {
+        "bib": 75,
+        "name": "Niels Vandeputte",
+        "nationality": "Belgium"
+      },
+      {
+        "bib": 76,
+        "name": "Luca Vergallito",
+        "nationality": "Italy"
+      }
+    ]
+  },
+  {
+    "name": "Bahrain Victorious",
+    "uciCategory": "WT",
+    "riders": [
+      {
+        "bib": 81,
+        "name": "Edoardo Zambanini",
+        "nationality": "Italy"
+      },
+      {
+        "bib": 82,
+        "name": "Nikias Arndt",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 83,
+        "name": "Phil Bauhaus",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 84,
+        "name": "Alberto Bruttomesso",
+        "nationality": "Italy"
+      },
+      {
+        "bib": 85,
+        "name": "Rainer Kepplinger",
+        "nationality": "Austria"
+      },
+      {
+        "bib": 86,
+        "name": "Fran Miholjević",
+        "nationality": "Croatia"
+      }
+    ]
+  },
+  {
+    "name": "Cofidis",
+    "uciCategory": "PRT",
+    "riders": [
+      {
+        "bib": 91,
+        "name": "Jenthe Biermans",
+        "nationality": "Belgium"
+      },
+      {
+        "bib": 92,
+        "name": "Lorenzo De Longhi",
+        "nationality": "Italy"
+      },
+      {
+        "bib": 93,
+        "name": "Yaël Joalland",
+        "nationality": "France"
+      },
+      {
+        "bib": 94,
+        "name": "Jan Maas",
+        "nationality": "Netherlands"
+      },
+      {
+        "bib": 95,
+        "name": "Dylan Teuns",
+        "nationality": "Belgium"
+      },
+      {
+        "bib": 96,
+        "name": "Benjamin Thomas",
+        "nationality": "France"
+      }
+    ]
+  },
+  {
+    "name": "Tudor Pro Cycling Team",
+    "uciCategory": "PRT",
+    "riders": [
+      {
+        "bib": 101,
+        "name": "Marc Hirschi",
+        "nationality": "Switzerland"
+      },
+      {
+        "bib": 102,
+        "name": "Robin Donzé",
+        "nationality": "Switzerland"
+      },
+      {
+        "bib": 103,
+        "name": "Marco Haller",
+        "nationality": "Austria"
+      },
+      {
+        "bib": 104,
+        "name": "Jesper Stiansen",
+        "nationality": "Norway"
+      },
+      {
+        "bib": 105,
+        "name": "Florian Stork",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 106,
+        "name": "Luc Wirtgen",
+        "nationality": "Luxembourg"
+      }
+    ]
+  },
+  {
+    "name": "Team Picnic PostNL",
+    "uciCategory": "WT",
+    "riders": [
+      {
+        "bib": 111,
+        "name": "John Degenkolb",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 112,
+        "name": "Roy Hoogendoorn",
+        "nationality": "Netherlands"
+      },
+      {
+        "bib": 113,
+        "name": "Niklas Märkl",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 114,
+        "name": "Ko Molenaar",
+        "nationality": "Netherlands"
+      },
+      {
+        "bib": 115,
+        "name": "Frank van den Broek",
+        "nationality": "Netherlands"
+      },
+      {
+        "bib": 116,
+        "name": "Mees Vlot",
+        "nationality": "Netherlands"
+      }
+    ]
+  },
+  {
+    "name": "TotalEnergies",
+    "uciCategory": "PRT",
+    "riders": [
+      {
+        "bib": 121,
+        "name": "Mathieu Burgaudeau",
+        "nationality": "France"
+      },
+      {
+        "bib": 122,
+        "name": "Alexys Brunel",
+        "nationality": "France"
+      },
+      {
+        "bib": 123,
+        "name": "Fabien Doubey",
+        "nationality": "France"
+      },
+      {
+        "bib": 124,
+        "name": "Théo Hébert",
+        "nationality": "France"
+      },
+      {
+        "bib": 125,
+        "name": "Alan Jousseaume",
+        "nationality": "France"
+      }
+    ]
+  },
+  {
+    "name": "Unibet Rose Rockets",
+    "uciCategory": "PRT",
+    "riders": [
+      {
+        "bib": 131,
+        "name": "Clément Venturini",
+        "nationality": "France"
+      },
+      {
+        "bib": 132,
+        "name": "Joren Bloem",
+        "nationality": "Netherlands"
+      },
+      {
+        "bib": 133,
+        "name": "Lander Loockx",
+        "nationality": "Belgium"
+      },
+      {
+        "bib": 134,
+        "name": "Tobias Müller",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 135,
+        "name": "Martijn Rasenberg",
+        "nationality": "Netherlands"
+      },
+      {
+        "bib": 136,
+        "name": "Rory Townsend",
+        "nationality": "United Kingdom"
+      }
+    ]
+  },
+  {
+    "name": "Caja Rural-Seguros RGA",
+    "uciCategory": "PRT",
+    "riders": [
+      {
+        "bib": 141,
+        "name": "Iúri Leitão",
+        "nationality": "Portugal"
+      },
+      {
+        "bib": 142,
+        "name": "Joan Bou",
+        "nationality": "Spain"
+      },
+      {
+        "bib": 143,
+        "name": "Gorka Corres",
+        "nationality": "Spain"
+      },
+      {
+        "bib": 144,
+        "name": "Ellande Larronde",
+        "nationality": "France"
+      },
+      {
+        "bib": 145,
+        "name": "Stefano Oldani",
+        "nationality": "Italy"
+      },
+      {
+        "bib": 146,
+        "name": "Gorka Sorarrain Agirrezabala",
+        "nationality": "Spain"
+      }
+    ]
+  },
+  {
+    "name": "REMBE | rad-net",
+    "uciCategory": "CT",
+    "riders": [
+      {
+        "bib": 151,
+        "name": "Johannes Adamietz",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 152,
+        "name": "Leon Arenz",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 153,
+        "name": "Benjamin Boos",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 154,
+        "name": "Julian Borresch",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 155,
+        "name": "Miguel Heidemann",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 156,
+        "name": "Ole Theiler",
+        "nationality": "Germany"
+      }
+    ]
+  },
+  {
+    "name": "Team Lotto Kern-Haus Outlet Montabaur",
+    "uciCategory": "CT",
+    "riders": [
+      {
+        "bib": 161,
+        "name": "Joshua Huppertz",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 163,
+        "name": "Alexandre Kess",
+        "nationality": "Luxembourg"
+      },
+      {
+        "bib": 164,
+        "name": "Ben Felix Jochum",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 165,
+        "name": "Jonathan Malte Rottmann",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 166,
+        "name": "Arno Wallenborn",
+        "nationality": "Luxembourg"
+      },
+      {
+        "bib": 167,
+        "name": "Mil Morang",
+        "nationality": "Luxembourg"
+      }
+    ]
+  },
+  {
+    "name": "Team Storck - MRW Bau",
+    "uciCategory": "CT",
+    "riders": [
+      {
+        "bib": 171,
+        "name": "Edgar David Cadena",
+        "nationality": "Colombia"
+      },
+      {
+        "bib": 172,
+        "name": "Jakob Neumann",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 173,
+        "name": "Alvaro Sagrado",
+        "nationality": "Spain"
+      },
+      {
+        "bib": 174,
+        "name": "Noé Ury",
+        "nationality": "Switzerland"
+      },
+      {
+        "bib": 175,
+        "name": "Lennart Voege",
+        "nationality": "Germany"
+      },
+      {
+        "bib": 176,
+        "name": "Matthew Walls",
+        "nationality": "United Kingdom"
+      }
+    ]
+  }
+]
