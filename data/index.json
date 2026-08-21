@@ -3,6 +3,24 @@
   "races": [
     {
       "year": 2026,
+      "slug": "deutschland-tour",
+      "name": "Deutschland Tour",
+      "path": "2026/deutschland-tour",
+      "status": "live",
+      "startDate": "2026-08-19",
+      "endDate": "2026-08-23",
+      "country": "Germany",
+      "edition": 40,
+      "raceCategory": "men",
+      "distanceKm": 742.2,
+      "elevationGainM": 10534,
+      "startLocation": "Bad Orb",
+      "finishLocation": "Heilbronn",
+      "gpxAttribution": "Course GPX: Lidl Deutschland Tour 2026 stage routes from deutschland-tour.com (ASO). Map tiles © OpenStreetMap contributors.",
+      "startTime": "2026-08-19T14:00:00+02:00"
+    },
+    {
+      "year": 2026,
       "slug": "giro-d-italia",
       "name": "Giro d'Italia",
       "path": "2026/giro-d-italia",

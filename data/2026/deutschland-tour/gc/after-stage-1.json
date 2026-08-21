@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 11,
+    "name": "Isaac del Toro",
+    "nationality": "Mexico",
+    "team": "UAE Team Emirates-XRG",
+    "time": "3:08"
+  },
+  {
+    "rank": 2,
+    "bib": 31,
+    "name": "Paul Magnier",
+    "nationality": "France",
+    "team": "Soudal Quick-Step",
+    "time": "+0:02"
+  },
+  {
+    "rank": 3,
+    "bib": 34,
+    "name": "Laurenz Rex",
+    "nationality": "Belgium",
+    "team": "Soudal Quick-Step",
+    "time": "+0:05"
+  },
+  {
+    "rank": 4,
+    "bib": 103,
+    "name": "Marco Haller",
+    "nationality": "Austria",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+0:05"
+  },
+  {
+    "rank": 5,
+    "bib": 33,
+    "name": "Andrea Raccagni Noviero",
+    "nationality": "Italy",
+    "team": "Soudal Quick-Step",
+    "time": "+0:06"
+  },
+  {
+    "rank": 6,
+    "bib": 96,
+    "name": "Benjamin Thomas",
+    "nationality": "France",
+    "team": "Cofidis",
+    "time": "+0:06"
+  },
+  {
+    "rank": 7,
+    "bib": 15,
+    "name": "António Morgado",
+    "nationality": "Portugal",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+0:06"
+  },
+  {
+    "rank": 8,
+    "bib": 21,
+    "name": "Giulio Ciccone",
+    "nationality": "Italy",
+    "team": "Lidl-Trek",
+    "time": "+0:07"
+  },
+  {
+    "rank": 9,
+    "bib": 71,
+    "name": "Tibor Del Grosso",
+    "nationality": "Netherlands",
+    "team": "Alpecin-Premier Tech",
+    "time": "+0:07"
+  },
+  {
+    "rank": 10,
+    "bib": 134,
+    "name": "Tobias Müller",
+    "nationality": "Germany",
+    "team": "Unibet Rose Rockets",
+    "time": "+0:07"
+  },
+  {
+    "rank": 11,
+    "bib": 132,
+    "name": "Joren Bloem",
+    "nationality": "Netherlands",
+    "team": "Unibet Rose Rockets",
+    "time": "+0:07"
+  },
+  {
+    "rank": 12,
+    "bib": 14,
+    "name": "Nils Politt",
+    "nationality": "Germany",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+0:07"
+  },
+  {
+    "rank": 13,
+    "bib": 146,
+    "name": "Gorka Sorarrain Agirrezabala",
+    "nationality": "Spain",
+    "team": "Caja Rural-Seguros RGA",
+    "time": "+0:08"
+  },
+  {
+    "rank": 14,
+    "bib": 41,
+    "name": "Danny van Poppel",
+    "nationality": "Netherlands",
+    "team": "Red Bull - BORA - hansgrohe",
+    "time": "+0:09"
+  },
+  {
+    "rank": 15,
+    "bib": 24,
+    "name": "Mathias Vacek",
+    "nationality": "Czech Republic",
+    "team": "Lidl-Trek",
+    "time": "+0:10"
+  },
+  {
+    "rank": 16,
+    "bib": 111,
+    "name": "John Degenkolb",
+    "nationality": "Germany",
+    "team": "Team Picnic PostNL",
+    "time": "+0:10"
+  },
+  {
+    "rank": 17,
+    "bib": 145,
+    "name": "Stefano Oldani",
+    "nationality": "Italy",
+    "team": "Caja Rural-Seguros RGA",
+    "time": "+0:10"
+  },
+  {
+    "rank": 18,
+    "bib": 35,
+    "name": "Maximilian Schachmann",
+    "nationality": "Germany",
+    "team": "Soudal Quick-Step",
+    "time": "+0:10"
+  },
+  {
+    "rank": 19,
+    "bib": 104,
+    "name": "Jesper Stiansen",
+    "nationality": "Norway",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+0:10"
+  },
+  {
+    "rank": 20,
+    "bib": 84,
+    "name": "Alberto Bruttomesso",
+    "nationality": "Italy",
+    "team": "Bahrain Victorious",
+    "time": "+0:11"
+  },
+  {
+    "rank": 21,
+    "bib": 153,
+    "name": "Benjamin Boos",
+    "nationality": "Germany",
+    "team": "REMBE | rad-net",
+    "time": "+0:11"
+  },
+  {
+    "rank": 22,
+    "bib": 2,
+    "name": "Felix Groß",
+    "nationality": "Germany",
+    "team": "German National Team",
+    "time": "+0:11"
+  },
+  {
+    "rank": 23,
+    "bib": 164,
+    "name": "Ben Felix Jochum",
+    "nationality": "Germany",
+    "team": "Team Lotto Kern-Haus Outlet Montabaur",
+    "time": "+0:11"
+  },
+  {
+    "rank": 24,
+    "bib": 85,
+    "name": "Rainer Kepplinger",
+    "nationality": "Austria",
+    "team": "Bahrain Victorious",
+    "time": "+0:11"
+  },
+  {
+    "rank": 25,
+    "bib": 101,
+    "name": "Marc Hirschi",
+    "nationality": "Switzerland",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+0:11"
+  }
+]

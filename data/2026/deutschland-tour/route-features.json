@@ -1,0 +1,95 @@
+{
+  "stage-1": [],
+  "stage-2": [
+    {
+      "id": "stage-2-climb-1",
+      "name": "REICHOLZHEIM",
+      "kind": "climb",
+      "distanceKm": 91.2,
+      "category": 3
+    },
+    {
+      "id": "stage-2-climb-2",
+      "name": "HERMERSBERG",
+      "kind": "climb",
+      "distanceKm": 161,
+      "category": 2
+    }
+  ],
+  "stage-3": [
+    {
+      "id": "stage-3-climb-1",
+      "name": "JUXKOPF",
+      "kind": "climb",
+      "distanceKm": 38.9,
+      "category": 2
+    }
+  ],
+  "stage-4": [
+    {
+      "id": "stage-4-climb-1",
+      "name": "LOLOSRUHE",
+      "kind": "climb",
+      "distanceKm": 37.9,
+      "category": 2
+    },
+    {
+      "id": "stage-4-climb-2",
+      "name": "KALMIT",
+      "kind": "climb",
+      "distanceKm": 56.4,
+      "category": 1
+    },
+    {
+      "id": "stage-4-climb-3",
+      "name": "KALMIT",
+      "kind": "climb",
+      "distanceKm": 70.7,
+      "category": 1
+    },
+    {
+      "id": "stage-4-climb-4",
+      "name": "ROTSTEIG",
+      "kind": "climb",
+      "distanceKm": 136.6,
+      "category": 3
+    },
+    {
+      "id": "stage-4-climb-5",
+      "name": "ANNABERG",
+      "kind": "climb",
+      "distanceKm": 154.4,
+      "category": 3
+    }
+  ],
+  "stage-5": [
+    {
+      "id": "stage-5-climb-1",
+      "name": "SCHLOSS STOCKSBERG",
+      "kind": "climb",
+      "distanceKm": 15.8,
+      "category": 3
+    },
+    {
+      "id": "stage-5-climb-2",
+      "name": "JÄGERHAUS",
+      "kind": "climb",
+      "distanceKm": 101.8,
+      "category": 3
+    },
+    {
+      "id": "stage-5-climb-3",
+      "name": "JÄGERHAUS",
+      "kind": "climb",
+      "distanceKm": 123.2,
+      "category": 3
+    },
+    {
+      "id": "stage-5-climb-4",
+      "name": "JÄGERHAUS",
+      "kind": "climb",
+      "distanceKm": 144.5,
+      "category": 3
+    }
+  ]
+}
