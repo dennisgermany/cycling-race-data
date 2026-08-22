@@ -42,7 +42,7 @@
     "finishLocation": "The Great Orme, Llandudno",
     "currentStage": "Stage 3 — 104.7 km (Mold → The Great Orme, Llandudno), mountain",
     "stageType": "mountain",
-    "status": "upcoming",
+    "status": "finished",
     "gpxUrl": "/data/2026/lloyds-tour-of-britain-women/gpx/stage-3-route.gpx",
     "startTime": "2026-08-21T11:30:00+01:00",
     "expectedFinishTime": "2026-08-21T14:40:00+01:00"
@@ -58,7 +58,7 @@
     "finishLocation": "Hay-on-Wye",
     "currentStage": "Stage 4 — 138.3 km (Llanidloes → Hay-on-Wye), hilly",
     "stageType": "hilly",
-    "status": "upcoming",
+    "status": "finished",
     "gpxUrl": "/data/2026/lloyds-tour-of-britain-women/gpx/stage-4-route.gpx",
     "startTime": "2026-08-22T11:30:00+01:00",
     "expectedFinishTime": "2026-08-22T15:20:00+01:00"

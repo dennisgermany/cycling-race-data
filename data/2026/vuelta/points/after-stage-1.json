@@ -1,0 +1,122 @@
+[
+  {
+    "rank": 1,
+    "bib": 11,
+    "name": "Tadej Pogacar",
+    "nationality": "Slovenia",
+    "team": "UAE Team Emirates-XRG",
+    "points": 20
+  },
+  {
+    "rank": 2,
+    "bib": 124,
+    "name": "Ethan Hayter",
+    "nationality": "United Kingdom",
+    "team": "Soudal Quick-Step",
+    "points": 17
+  },
+  {
+    "rank": 3,
+    "bib": 67,
+    "name": "Joshua Tarling",
+    "nationality": "United Kingdom",
+    "team": "Netcompany INEOS",
+    "points": 15
+  },
+  {
+    "rank": 4,
+    "bib": 5,
+    "name": "Callum Thornley",
+    "nationality": "United Kingdom",
+    "team": "Red Bull-BORA-hansgrohe",
+    "points": 13
+  },
+  {
+    "rank": 5,
+    "bib": 36,
+    "name": "Christophe Laporte",
+    "nationality": "France",
+    "team": "Team Visma | Lease a Bike",
+    "points": 11
+  },
+  {
+    "rank": 6,
+    "bib": 42,
+    "name": "Léo Bisiaux",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "points": 10
+  },
+  {
+    "rank": 7,
+    "bib": 43,
+    "name": "Andrew Oscar Chamberlain",
+    "nationality": "Australia",
+    "team": "Decathlon CMA CGM Team",
+    "points": 9
+  },
+  {
+    "rank": 8,
+    "bib": 31,
+    "name": "Wout van Aert",
+    "nationality": "Belgium",
+    "team": "Team Visma | Lease a Bike",
+    "points": 8
+  },
+  {
+    "rank": 9,
+    "bib": 2,
+    "name": "Finn Fisher-Black",
+    "nationality": "New Zealand",
+    "team": "Red Bull-BORA-hansgrohe",
+    "points": 7
+  },
+  {
+    "rank": 10,
+    "bib": 173,
+    "name": "Arthur Kluckers",
+    "nationality": "Luxembourg",
+    "team": "Tudor Pro Cycling Team",
+    "points": 6
+  },
+  {
+    "rank": 11,
+    "bib": 187,
+    "name": "Alessandro Romele",
+    "nationality": "Italy",
+    "team": "XDS Astana Team",
+    "points": 5
+  },
+  {
+    "rank": 12,
+    "bib": 174,
+    "name": "Stefan Küng",
+    "nationality": "Switzerland",
+    "team": "Tudor Pro Cycling Team",
+    "points": 4
+  },
+  {
+    "rank": 13,
+    "bib": 18,
+    "name": "Jay Vine",
+    "nationality": "Australia",
+    "team": "UAE Team Emirates-XRG",
+    "points": 3
+  },
+  {
+    "rank": 14,
+    "bib": 14,
+    "name": "Ivo Oliveira",
+    "nationality": "Portugal",
+    "team": "UAE Team Emirates-XRG",
+    "points": 2
+  },
+  {
+    "rank": 15,
+    "bib": 88,
+    "name": "Mads Pedersen",
+    "nationality": "Denmark",
+    "team": "Lidl-Trek",
+    "points": 1
+  }
+]

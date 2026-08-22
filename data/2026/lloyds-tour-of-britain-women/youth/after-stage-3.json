@@ -1,0 +1,194 @@
+[
+  {
+    "rank": 1,
+    "bib": 95,
+    "name": "Fleur Moors",
+    "nationality": "Belgium",
+    "team": "Lidl - Trek",
+    "time": "2:47:01"
+  },
+  {
+    "rank": 2,
+    "bib": 124,
+    "name": "Matilda Mckibben",
+    "nationality": "Australia",
+    "team": "O'Shea Red Chilli Bikes",
+    "time": "+1:58"
+  },
+  {
+    "rank": 3,
+    "bib": 45,
+    "name": "Marthe Truyen",
+    "nationality": "Belgium",
+    "team": "Fenix-Premier Tech",
+    "time": "+5:22"
+  },
+  {
+    "rank": 4,
+    "bib": 155,
+    "name": "Imogen Wolff",
+    "nationality": "Germany",
+    "team": "Team Visma | Lease a Bike",
+    "time": "s.t."
+  },
+  {
+    "rank": 5,
+    "bib": 14,
+    "name": "Justyna Czapla",
+    "nationality": "Poland",
+    "team": "Canyon//SRAM",
+    "time": "+5:37"
+  },
+  {
+    "rank": 6,
+    "bib": 26,
+    "name": "Morven Yeoman",
+    "nationality": "Great Britain",
+    "team": "DAS-Hutchinson",
+    "time": "+8:15"
+  },
+  {
+    "rank": 7,
+    "bib": 72,
+    "name": "Oda Aune Gissinger",
+    "nationality": "Norway",
+    "team": "Hitec Products - Fluid Control",
+    "time": "+10:43"
+  },
+  {
+    "rank": 8,
+    "bib": 26,
+    "name": "Morven Yeoman",
+    "nationality": "Great Britain",
+    "team": "DAS-Hutchinson",
+    "time": "+10:55"
+  },
+  {
+    "rank": 9,
+    "bib": 85,
+    "name": "Maggie Coles-Lyster",
+    "nationality": "Canada",
+    "team": "Human Powered Health",
+    "time": "+11:46"
+  },
+  {
+    "rank": 10,
+    "bib": 166,
+    "name": "Febe Jooris",
+    "nationality": "Belgium",
+    "team": "UAE Team L’IMAD",
+    "time": "s.t."
+  },
+  {
+    "rank": 11,
+    "bib": 63,
+    "name": "Grace Lister",
+    "nationality": "Great Britain",
+    "team": "Handsling Alba Development Road Team",
+    "time": "+12:52"
+  },
+  {
+    "rank": 12,
+    "bib": 136,
+    "name": "Josie Nelson",
+    "nationality": "Great Britain",
+    "team": "Team Picnic PostNL",
+    "time": "+13:01"
+  },
+  {
+    "rank": 13,
+    "bib": 56,
+    "name": "Amalie Cooper",
+    "nationality": "Great Britain",
+    "team": "Great Britain Cycling Team",
+    "time": "+13:03"
+  },
+  {
+    "rank": 14,
+    "bib": 126,
+    "name": "Ida Krickau Ketelsen",
+    "nationality": "Denmark",
+    "team": "O'Shea Red Chilli Bikes",
+    "time": "+13:10"
+  },
+  {
+    "rank": 15,
+    "bib": 122,
+    "name": "Yilla Threels",
+    "nationality": "Australia",
+    "team": "O'Shea Red Chilli Bikes",
+    "time": "+13:16"
+  },
+  {
+    "rank": 16,
+    "bib": 154,
+    "name": "Nienke Veenhoven",
+    "nationality": "Netherlands",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+13:38"
+  },
+  {
+    "rank": 17,
+    "bib": 11,
+    "name": "Wilma Aintila",
+    "nationality": "Finland",
+    "team": "Canyon//SRAM",
+    "time": "+14:17"
+  },
+  {
+    "rank": 18,
+    "bib": 66,
+    "name": "Arabella Rosalie Blackburn",
+    "nationality": "Great Britain",
+    "team": "Handsling Alba Development Road Team",
+    "time": "+17:01"
+  },
+  {
+    "rank": 19,
+    "bib": 115,
+    "name": "Lucia Ruiz Perez",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+17:09"
+  },
+  {
+    "rank": 20,
+    "bib": 122,
+    "name": "Yilla Threels",
+    "nationality": "Australia",
+    "team": "O'Shea Red Chilli Bikes",
+    "time": "+17:40"
+  },
+  {
+    "rank": 21,
+    "bib": 181,
+    "name": "Amelia Cebak",
+    "nationality": "Slovakia",
+    "team": "Smurfit Westrock Cycling Team",
+    "time": "+17:47"
+  },
+  {
+    "rank": 22,
+    "bib": 124,
+    "name": "Matilda Mckibben",
+    "nationality": "Australia",
+    "team": "O'Shea Red Chilli Bikes",
+    "time": "s.t."
+  },
+  {
+    "rank": 23,
+    "bib": 61,
+    "name": "Madeline Cooper",
+    "nationality": "Great Britain",
+    "team": "Handsling Alba Development Road Team",
+    "time": "s.t."
+  },
+  {
+    "rank": 24,
+    "bib": 53,
+    "name": "Ruby Oakes",
+    "nationality": "Great Britain",
+    "team": "Great Britain Cycling Team",
+    "time": "s.t."
+  }
+]
