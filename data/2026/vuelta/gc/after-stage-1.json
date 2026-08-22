@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 11,
+    "name": "Tadej Pogacar",
+    "nationality": "Slovenia",
+    "team": "UAE Team Emirates-XRG",
+    "time": "10:57"
+  },
+  {
+    "rank": 2,
+    "bib": 124,
+    "name": "Ethan Hayter",
+    "nationality": "United Kingdom",
+    "team": "Soudal Quick-Step",
+    "time": "s.t."
+  },
+  {
+    "rank": 3,
+    "bib": 67,
+    "name": "Joshua Tarling",
+    "nationality": "United Kingdom",
+    "team": "Netcompany INEOS",
+    "time": "+0:04"
+  },
+  {
+    "rank": 4,
+    "bib": 5,
+    "name": "Callum Thornley",
+    "nationality": "United Kingdom",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+0:05"
+  },
+  {
+    "rank": 5,
+    "bib": 36,
+    "name": "Christophe Laporte",
+    "nationality": "France",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+0:06"
+  },
+  {
+    "rank": 6,
+    "bib": 42,
+    "name": "Léo Bisiaux",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+0:08"
+  },
+  {
+    "rank": 7,
+    "bib": 43,
+    "name": "Andrew Oscar Chamberlain",
+    "nationality": "Australia",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+0:09"
+  },
+  {
+    "rank": 8,
+    "bib": 31,
+    "name": "Wout van Aert",
+    "nationality": "Belgium",
+    "team": "Team Visma | Lease a Bike",
+    "time": "s.t."
+  },
+  {
+    "rank": 9,
+    "bib": 173,
+    "name": "Arthur Kluckers",
+    "nationality": "Luxembourg",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+0:10"
+  },
+  {
+    "rank": 10,
+    "bib": 2,
+    "name": "Finn Fisher-Black",
+    "nationality": "New Zealand",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+0:11"
+  },
+  {
+    "rank": 11,
+    "bib": 187,
+    "name": "Alessandro Romele",
+    "nationality": "Italy",
+    "team": "XDS Astana Team",
+    "time": "+0:13"
+  },
+  {
+    "rank": 12,
+    "bib": 174,
+    "name": "Stefan Küng",
+    "nationality": "Switzerland",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+0:14"
+  },
+  {
+    "rank": 13,
+    "bib": 18,
+    "name": "Jay Vine",
+    "nationality": "Australia",
+    "team": "UAE Team Emirates-XRG",
+    "time": "s.t."
+  },
+  {
+    "rank": 14,
+    "bib": 14,
+    "name": "Ivo Oliveira",
+    "nationality": "Portugal",
+    "team": "UAE Team Emirates-XRG",
+    "time": "s.t."
+  },
+  {
+    "rank": 15,
+    "bib": 88,
+    "name": "Mads Pedersen",
+    "nationality": "Denmark",
+    "team": "Lidl-Trek",
+    "time": "+0:16"
+  },
+  {
+    "rank": 16,
+    "bib": 33,
+    "name": "James Matthew Brennan",
+    "nationality": "United Kingdom",
+    "team": "Team Visma | Lease a Bike",
+    "time": "s.t."
+  },
+  {
+    "rank": 17,
+    "bib": 44,
+    "name": "Sander de Pestel",
+    "nationality": "Belgium",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+0:18"
+  },
+  {
+    "rank": 18,
+    "bib": 12,
+    "name": "Joao Almeida",
+    "nationality": "Portugal",
+    "team": "UAE Team Emirates-XRG",
+    "time": "s.t."
+  },
+  {
+    "rank": 19,
+    "bib": 27,
+    "name": "Ivan Romeo Abad",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "s.t."
+  },
+  {
+    "rank": 20,
+    "bib": 137,
+    "name": "Rasmus Tiller",
+    "nationality": "Norway",
+    "team": "Uno-X Mobility",
+    "time": "+0:20"
+  },
+  {
+    "rank": 21,
+    "bib": 83,
+    "name": "Lennard Kämna",
+    "nationality": "Germany",
+    "team": "Lidl-Trek",
+    "time": "+0:21"
+  },
+  {
+    "rank": 22,
+    "bib": 6,
+    "name": "Luke Tuckwell",
+    "nationality": "Australia",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "s.t."
+  },
+  {
+    "rank": 23,
+    "bib": 68,
+    "name": "Ben Turner",
+    "nationality": "United Kingdom",
+    "team": "Netcompany INEOS",
+    "time": "s.t."
+  },
+  {
+    "rank": 24,
+    "bib": 1,
+    "name": "Primoz Roglic",
+    "nationality": "Slovenia",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+0:22"
+  },
+  {
+    "rank": 25,
+    "bib": 45,
+    "name": "Jordan Labrosse",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+0:23"
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "rank": 1,
+    "bib": 35,
+    "name": "Lauren Dickson",
+    "nationality": "Great Britain",
+    "team": "FDJ United-SUEZ",
+    "points": 27
+  },
+  {
+    "rank": 2,
+    "bib": 102,
+    "name": "Caroline Andersson",
+    "nationality": "Sweden",
+    "team": "Liv-AlUla-Jayco",
+    "points": 15
+  },
+  {
+    "rank": 3,
+    "bib": 4,
+    "name": "Kim Le Court Pienaar",
+    "nationality": "Mauritius",
+    "team": "AG Insurance - Soudal Team",
+    "points": 11
+  },
+  {
+    "rank": 4,
+    "bib": 36,
+    "name": "Kate Courtney",
+    "nationality": "United States",
+    "team": "FDJ United-SUEZ",
+    "points": 11
+  },
+  {
+    "rank": 5,
+    "bib": 133,
+    "name": "Audrey de Keersmaeker",
+    "nationality": "Belgium",
+    "team": "Team Picnic PostNL",
+    "points": 10
+  },
+  {
+    "rank": 6,
+    "bib": 82,
+    "name": "Marta Jaskulska",
+    "nationality": "Poland",
+    "team": "Human Powered Health",
+    "points": 10
+  },
+  {
+    "rank": 7,
+    "bib": 114,
+    "name": "Liane Lippert",
+    "nationality": "Germany",
+    "team": "Movistar Team",
+    "points": 9
+  },
+  {
+    "rank": 8,
+    "bib": 144,
+    "name": "Mischa Bredewold",
+    "nationality": "Netherlands",
+    "team": "Team SD Worx - Protime",
+    "points": 9
+  },
+  {
+    "rank": 9,
+    "bib": 151,
+    "name": "Femke de Vries",
+    "nationality": "Netherlands",
+    "team": "Team Visma | Lease a Bike",
+    "points": 6
+  },
+  {
+    "rank": 10,
+    "bib": 16,
+    "name": "Cecilie Uttrup Ludwig",
+    "nationality": "Denmark",
+    "team": "Canyon//SRAM",
+    "points": 5
+  },
+  {
+    "rank": 11,
+    "bib": 66,
+    "name": "Arabella Rosalie Blackburn",
+    "nationality": "Great Britain",
+    "team": "Handsling Alba Development Road Team",
+    "points": 5
+  },
+  {
+    "rank": 12,
+    "bib": 142,
+    "name": "Lorena Wiebes",
+    "nationality": "Netherlands",
+    "team": "Team SD Worx - Protime",
+    "points": 4
+  },
+  {
+    "rank": 13,
+    "bib": 163,
+    "name": "Erica Magnaldi",
+    "nationality": "Italy",
+    "team": "UAE Team L’IMAD",
+    "points": 4
+  },
+  {
+    "rank": 14,
+    "bib": 164,
+    "name": "Eleonora Gasparrini",
+    "nationality": "Italy",
+    "team": "UAE Team L’IMAD",
+    "points": 3
+  },
+  {
+    "rank": 15,
+    "bib": 95,
+    "name": "Fleur Moors",
+    "nationality": "Belgium",
+    "team": "Lidl - Trek",
+    "points": 3
+  },
+  {
+    "rank": 16,
+    "bib": 135,
+    "name": "Dilyxine Miermont",
+    "nationality": "France",
+    "team": "Team Picnic PostNL",
+    "points": 3
+  },
+  {
+    "rank": 17,
+    "bib": 165,
+    "name": "Elynor Bäckstedt",
+    "nationality": "Great Britain",
+    "team": "UAE Team L’IMAD",
+    "points": 3
+  },
+  {
+    "rank": 18,
+    "bib": 162,
+    "name": "Karlijn Swinkels",
+    "nationality": "Netherlands",
+    "team": "UAE Team L’IMAD",
+    "points": 2
+  },
+  {
+    "rank": 19,
+    "bib": 33,
+    "name": "Eva van Agt",
+    "nationality": "Netherlands",
+    "team": "FDJ United-SUEZ",
+    "points": 1
+  },
+  {
+    "rank": 20,
+    "bib": 41,
+    "name": "Millie Couzens",
+    "nationality": "Great Britain",
+    "team": "Fenix-Premier Tech",
+    "points": 1
+  },
+  {
+    "rank": 21,
+    "bib": 45,
+    "name": "Marthe Truyen",
+    "nationality": "Belgium",
+    "team": "Fenix-Premier Tech",
+    "points": 1
+  },
+  {
+    "rank": 22,
+    "bib": 115,
+    "name": "Lucia Ruiz Perez",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "points": 1
+  }
+]

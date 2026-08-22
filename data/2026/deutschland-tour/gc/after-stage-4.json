@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 11,
+    "name": "Isaac del Toro",
+    "nationality": "Mexico",
+    "team": "UAE Team Emirates-XRG",
+    "time": "14:02:12"
+  },
+  {
+    "rank": 2,
+    "bib": 51,
+    "name": "Louis Barré",
+    "nationality": "France",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+0:52"
+  },
+  {
+    "rank": 3,
+    "bib": 101,
+    "name": "Marc Hirschi",
+    "nationality": "Switzerland",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+1:05"
+  },
+  {
+    "rank": 4,
+    "bib": 33,
+    "name": "Andrea Raccagni Noviero",
+    "nationality": "Italy",
+    "team": "Soudal Quick-Step",
+    "time": "+1:21"
+  },
+  {
+    "rank": 5,
+    "bib": 66,
+    "name": "Natnael Tesfatsion",
+    "nationality": "Eritrea",
+    "team": "Movistar Team",
+    "time": "+1:22"
+  },
+  {
+    "rank": 6,
+    "bib": 24,
+    "name": "Mathias Vacek",
+    "nationality": "Czech Republic",
+    "team": "Lidl-Trek",
+    "time": "+1:23"
+  },
+  {
+    "rank": 7,
+    "bib": 146,
+    "name": "Gorka Sorarrain Agirrezabala",
+    "nationality": "Spain",
+    "team": "Caja Rural-Seguros RGA",
+    "time": "s.t."
+  },
+  {
+    "rank": 8,
+    "bib": 35,
+    "name": "Maximilian Schachmann",
+    "nationality": "Germany",
+    "team": "Soudal Quick-Step",
+    "time": "+1:25"
+  },
+  {
+    "rank": 9,
+    "bib": 145,
+    "name": "Stefano Oldani",
+    "nationality": "Italy",
+    "team": "Caja Rural-Seguros RGA",
+    "time": "s.t."
+  },
+  {
+    "rank": 10,
+    "bib": 46,
+    "name": "Giulio Pellizzari",
+    "nationality": "Italy",
+    "team": "Red Bull - BORA - hansgrohe",
+    "time": "+1:26"
+  },
+  {
+    "rank": 11,
+    "bib": 171,
+    "name": "Edgar David Cadena",
+    "nationality": "Colombia",
+    "team": "Team Storck - MRW Bau",
+    "time": "+1:30"
+  },
+  {
+    "rank": 12,
+    "bib": 105,
+    "name": "Florian Stork",
+    "nationality": "Germany",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+1:32"
+  },
+  {
+    "rank": 13,
+    "bib": 95,
+    "name": "Dylan Teuns",
+    "nationality": "Belgium",
+    "team": "Cofidis",
+    "time": "+1:33"
+  },
+  {
+    "rank": 14,
+    "bib": 133,
+    "name": "Lander Loockx",
+    "nationality": "Belgium",
+    "team": "Unibet Rose Rockets",
+    "time": "+1:35"
+  },
+  {
+    "rank": 15,
+    "bib": 121,
+    "name": "Mathieu Burgaudeau",
+    "nationality": "France",
+    "team": "TotalEnergies",
+    "time": "+1:36"
+  },
+  {
+    "rank": 16,
+    "bib": 1,
+    "name": "Georg Zimmermann",
+    "nationality": "Germany",
+    "team": "German National Team",
+    "time": "+1:39"
+  },
+  {
+    "rank": 17,
+    "bib": 72,
+    "name": "Senna Remijn",
+    "nationality": "Netherlands",
+    "team": "Alpecin-Premier Tech",
+    "time": "+1:55"
+  },
+  {
+    "rank": 18,
+    "bib": 96,
+    "name": "Benjamin Thomas",
+    "nationality": "France",
+    "team": "Cofidis",
+    "time": "+1:56"
+  },
+  {
+    "rank": 19,
+    "bib": 5,
+    "name": "Jonas Rutsch",
+    "nationality": "Germany",
+    "team": "German National Team",
+    "time": "+2:14"
+  },
+  {
+    "rank": 20,
+    "bib": 15,
+    "name": "António Morgado",
+    "nationality": "Portugal",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+2:20"
+  },
+  {
+    "rank": 21,
+    "bib": 151,
+    "name": "Johannes Adamietz",
+    "nationality": "Germany",
+    "team": "REMBE | rad-net",
+    "time": "s.t."
+  },
+  {
+    "rank": 22,
+    "bib": 64,
+    "name": "Nelson Oliveira",
+    "nationality": "Portugal",
+    "team": "Movistar Team",
+    "time": "+2:22"
+  },
+  {
+    "rank": 23,
+    "bib": 74,
+    "name": "Guus van den Eijnden",
+    "nationality": "Netherlands",
+    "team": "Alpecin-Premier Tech",
+    "time": "+2:24"
+  },
+  {
+    "rank": 24,
+    "bib": 62,
+    "name": "Juanpe López",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+2:26"
+  },
+  {
+    "rank": 25,
+    "bib": 76,
+    "name": "Luca Vergallito",
+    "nationality": "Italy",
+    "team": "Alpecin-Premier Tech",
+    "time": "+2:29"
+  }
+]

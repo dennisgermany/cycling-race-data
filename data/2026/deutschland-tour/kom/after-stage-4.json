@@ -1,0 +1,90 @@
+[
+  {
+    "rank": 1,
+    "bib": 155,
+    "name": "Miguel Heidemann",
+    "nationality": "Germany",
+    "team": "REMBE | rad-net",
+    "points": 11
+  },
+  {
+    "rank": 2,
+    "bib": 156,
+    "name": "Ole Theiler",
+    "nationality": "Germany",
+    "team": "REMBE | rad-net",
+    "points": 6
+  },
+  {
+    "rank": 3,
+    "bib": 164,
+    "name": "Ben Felix Jochum",
+    "nationality": "Germany",
+    "team": "Team Lotto Kern-Haus Outlet Montabaur",
+    "points": 6
+  },
+  {
+    "rank": 4,
+    "bib": 11,
+    "name": "Isaac del Toro",
+    "nationality": "Mexico",
+    "team": "UAE Team Emirates-XRG",
+    "points": 5
+  },
+  {
+    "rank": 5,
+    "bib": 64,
+    "name": "Nelson Oliveira",
+    "nationality": "Portugal",
+    "team": "Movistar Team",
+    "points": 4
+  },
+  {
+    "rank": 6,
+    "bib": 124,
+    "name": "Théo Hébert",
+    "nationality": "France",
+    "team": "TotalEnergies",
+    "points": 3
+  },
+  {
+    "rank": 7,
+    "bib": 173,
+    "name": "Alvaro Sagrado",
+    "nationality": "Spain",
+    "team": "Team Storck - MRW Bau",
+    "points": 3
+  },
+  {
+    "rank": 8,
+    "bib": 46,
+    "name": "Giulio Pellizzari",
+    "nationality": "Italy",
+    "team": "Red Bull - BORA - hansgrohe",
+    "points": 3
+  },
+  {
+    "rank": 9,
+    "bib": 144,
+    "name": "Ellande Larronde",
+    "nationality": "France",
+    "team": "Caja Rural-Seguros RGA",
+    "points": 3
+  },
+  {
+    "rank": 10,
+    "bib": 62,
+    "name": "Juanpe López",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "points": 2
+  },
+  {
+    "rank": 11,
+    "bib": 25,
+    "name": "Carlos Verona",
+    "nationality": "Spain",
+    "team": "Lidl-Trek",
+    "points": 2
+  }
+]

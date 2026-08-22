@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 67,
+    "name": "Joshua Tarling",
+    "nationality": "United Kingdom",
+    "team": "Netcompany INEOS",
+    "time": "11:01"
+  },
+  {
+    "rank": 2,
+    "bib": 5,
+    "name": "Callum Thornley",
+    "nationality": "United Kingdom",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+0:01"
+  },
+  {
+    "rank": 3,
+    "bib": 43,
+    "name": "Andrew Oscar Chamberlain",
+    "nationality": "Australia",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+0:04"
+  },
+  {
+    "rank": 4,
+    "bib": 42,
+    "name": "Léo Bisiaux",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+0:05"
+  },
+  {
+    "rank": 5,
+    "bib": 2,
+    "name": "Finn Fisher-Black",
+    "nationality": "New Zealand",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+0:06"
+  },
+  {
+    "rank": 6,
+    "bib": 187,
+    "name": "Alessandro Romele",
+    "nationality": "Italy",
+    "team": "XDS Astana Team",
+    "time": "+0:09"
+  },
+  {
+    "rank": 7,
+    "bib": 33,
+    "name": "James Matthew Brennan",
+    "nationality": "United Kingdom",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+0:12"
+  },
+  {
+    "rank": 8,
+    "bib": 27,
+    "name": "Ivan Romeo Abad",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+0:14"
+  },
+  {
+    "rank": 9,
+    "bib": 6,
+    "name": "Luke Tuckwell",
+    "nationality": "Australia",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+0:17"
+  },
+  {
+    "rank": 10,
+    "bib": 45,
+    "name": "Jordan Labrosse",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+0:19"
+  },
+  {
+    "rank": 11,
+    "bib": 64,
+    "name": "Axel Laurance",
+    "nationality": "France",
+    "team": "Netcompany INEOS",
+    "time": "+0:22"
+  },
+  {
+    "rank": 12,
+    "bib": 104,
+    "name": "Ramses Debruyne",
+    "nationality": "Belgium",
+    "team": "Alpecin-Premier Tech",
+    "time": "+0:23"
+  },
+  {
+    "rank": 13,
+    "bib": 96,
+    "name": "Enzo Paleni",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+0:23"
+  },
+  {
+    "rank": 14,
+    "bib": 16,
+    "name": "Pablo Torres Arias",
+    "nationality": "Spain",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+0:23"
+  },
+  {
+    "rank": 15,
+    "bib": 65,
+    "name": "Carlos Rodriguez",
+    "nationality": "Spain",
+    "team": "Netcompany INEOS",
+    "time": "+0:23"
+  },
+  {
+    "rank": 16,
+    "bib": 126,
+    "name": "Fabio Van den Bossche",
+    "nationality": "Belgium",
+    "team": "Soudal Quick-Step",
+    "time": "+0:24"
+  },
+  {
+    "rank": 17,
+    "bib": 171,
+    "name": "Marco Brenner",
+    "nationality": "Germany",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+0:24"
+  },
+  {
+    "rank": 18,
+    "bib": 168,
+    "name": "Georg Steinhauser",
+    "nationality": "Germany",
+    "team": "EF Education-EasyPost",
+    "time": "+0:24"
+  },
+  {
+    "rank": 19,
+    "bib": 81,
+    "name": "Mattias Skjelmose",
+    "nationality": "Denmark",
+    "team": "Lidl-Trek",
+    "time": "+0:25"
+  },
+  {
+    "rank": 20,
+    "bib": 164,
+    "name": "Alastair Mackellar",
+    "nationality": "Australia",
+    "team": "EF Education-EasyPost",
+    "time": "+0:25"
+  },
+  {
+    "rank": 21,
+    "bib": 98,
+    "name": "Bastien Tronchon",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+0:27"
+  },
+  {
+    "rank": 22,
+    "bib": 115,
+    "name": "Moritz Kretschy",
+    "nationality": "Germany",
+    "team": "NSN Cycling Team",
+    "time": "+0:29"
+  },
+  {
+    "rank": 23,
+    "bib": 116,
+    "name": "Pau Marti Soriano",
+    "nationality": "Spain",
+    "team": "NSN Cycling Team",
+    "time": "+0:29"
+  },
+  {
+    "rank": 24,
+    "bib": 177,
+    "name": "Fabian Weiss",
+    "nationality": "Switzerland",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+0:29"
+  },
+  {
+    "rank": 25,
+    "bib": 25,
+    "name": "Pablo Castrillo",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+0:30"
+  }
+]
