@@ -1,0 +1,186 @@
+[
+  {
+    "rank": 1,
+    "bib": 5,
+    "name": "Alexandra Manly",
+    "nationality": "Australia",
+    "team": "AG Insurance - Soudal Team",
+    "points": 36
+  },
+  {
+    "rank": 2,
+    "bib": 4,
+    "name": "Kim Le Court Pienaar",
+    "nationality": "Mauritius",
+    "team": "AG Insurance - Soudal Team",
+    "points": 27
+  },
+  {
+    "rank": 3,
+    "bib": 6,
+    "name": "Gladys Verhulst-Wild",
+    "nationality": "Netherlands",
+    "team": "AG Insurance - Soudal Team",
+    "points": 21
+  },
+  {
+    "rank": 4,
+    "bib": 55,
+    "name": "Jessica Roberts",
+    "nationality": "Great Britain",
+    "team": "Great Britain Cycling Team",
+    "points": 19
+  },
+  {
+    "rank": 5,
+    "bib": 3,
+    "name": "Marthe Goossens",
+    "nationality": "Belgium",
+    "team": "AG Insurance - Soudal Team",
+    "points": 16
+  },
+  {
+    "rank": 6,
+    "bib": 144,
+    "name": "Mischa Bredewold",
+    "nationality": "Netherlands",
+    "team": "Team SD Worx - Protime",
+    "points": 16
+  },
+  {
+    "rank": 7,
+    "bib": 84,
+    "name": "Giada Borghesi",
+    "nationality": "Italy",
+    "team": "Human Powered Health",
+    "points": 15
+  },
+  {
+    "rank": 8,
+    "bib": 92,
+    "name": "Clara Copponi",
+    "nationality": "France",
+    "team": "Lidl - Trek",
+    "points": 15
+  },
+  {
+    "rank": 9,
+    "bib": 123,
+    "name": "Karlijn Koops",
+    "nationality": "Netherlands",
+    "team": "O'Shea Red Chilli Bikes",
+    "points": 10
+  },
+  {
+    "rank": 10,
+    "bib": 136,
+    "name": "Josie Nelson",
+    "nationality": "Great Britain",
+    "team": "Team Picnic PostNL",
+    "points": 9
+  },
+  {
+    "rank": 11,
+    "bib": 142,
+    "name": "Lorena Wiebes",
+    "nationality": "Netherlands",
+    "team": "Team SD Worx - Protime",
+    "points": 8
+  },
+  {
+    "rank": 12,
+    "bib": 11,
+    "name": "Wilma Aintila",
+    "nationality": "Finland",
+    "team": "Canyon//SRAM",
+    "points": 6
+  },
+  {
+    "rank": 13,
+    "bib": 86,
+    "name": "Barbara Malcotti",
+    "nationality": "Italy",
+    "team": "Human Powered Health",
+    "points": 6
+  },
+  {
+    "rank": 14,
+    "bib": 184,
+    "name": "Lidia Cusack",
+    "nationality": "Ireland",
+    "team": "Smurfit Westrock Cycling Team",
+    "points": 5
+  },
+  {
+    "rank": 15,
+    "bib": 151,
+    "name": "Femke de Vries",
+    "nationality": "Netherlands",
+    "team": "Team Visma | Lease a Bike",
+    "points": 5
+  },
+  {
+    "rank": 16,
+    "bib": 161,
+    "name": "Lara Gillespie",
+    "nationality": "Ireland",
+    "team": "UAE Team L’IMAD",
+    "points": 3
+  },
+  {
+    "rank": 17,
+    "bib": 13,
+    "name": "Chiara Consonni",
+    "nationality": "Italy",
+    "team": "Canyon//SRAM",
+    "points": 2
+  },
+  {
+    "rank": 18,
+    "bib": 131,
+    "name": "Pfeiffer Georgi",
+    "nationality": "Great Britain",
+    "team": "Team Picnic PostNL",
+    "points": 2
+  },
+  {
+    "rank": 19,
+    "bib": 71,
+    "name": "Julia Borgström",
+    "nationality": "Sweden",
+    "team": "Hitec Products - Fluid Control",
+    "points": 2
+  },
+  {
+    "rank": 20,
+    "bib": 114,
+    "name": "Liane Lippert",
+    "nationality": "Germany",
+    "team": "Movistar Team",
+    "points": 1
+  },
+  {
+    "rank": 21,
+    "bib": 95,
+    "name": "Fleur Moors",
+    "nationality": "Belgium",
+    "team": "Lidl - Trek",
+    "points": 1
+  },
+  {
+    "rank": 22,
+    "bib": 102,
+    "name": "Caroline Andersson",
+    "nationality": "Sweden",
+    "team": "Liv-AlUla-Jayco",
+    "points": 1
+  },
+  {
+    "rank": 23,
+    "bib": 61,
+    "name": "Madeline Cooper",
+    "nationality": "Great Britain",
+    "team": "Handsling Alba Development Road Team",
+    "points": 1
+  }
+]
