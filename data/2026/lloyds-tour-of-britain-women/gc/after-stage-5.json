@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 4,
+    "name": "Kim Le Court Pienaar",
+    "nationality": "Mauritius",
+    "team": "AG Insurance - Soudal Team",
+    "time": "17:02:04"
+  },
+  {
+    "rank": 2,
+    "bib": 142,
+    "name": "Lorena Wiebes",
+    "nationality": "Netherlands",
+    "team": "Team SD Worx - Protime",
+    "time": "+0:19"
+  },
+  {
+    "rank": 3,
+    "bib": 114,
+    "name": "Liane Lippert",
+    "nationality": "Germany",
+    "team": "Movistar Team",
+    "time": "+0:24"
+  },
+  {
+    "rank": 4,
+    "bib": 92,
+    "name": "Clara Copponi",
+    "nationality": "France",
+    "team": "Lidl - Trek",
+    "time": "+0:39"
+  },
+  {
+    "rank": 5,
+    "bib": 151,
+    "name": "Femke de Vries",
+    "nationality": "Netherlands",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+0:44"
+  },
+  {
+    "rank": 6,
+    "bib": 11,
+    "name": "Wilma Aintila",
+    "nationality": "Finland",
+    "team": "Canyon//SRAM",
+    "time": "+0:46"
+  },
+  {
+    "rank": 7,
+    "bib": 144,
+    "name": "Mischa Bredewold",
+    "nationality": "Netherlands",
+    "team": "Team SD Worx - Protime",
+    "time": "+0:46"
+  },
+  {
+    "rank": 8,
+    "bib": 42,
+    "name": "Flora Perkins",
+    "nationality": "Great Britain",
+    "team": "Fenix-Premier Tech",
+    "time": "+0:46"
+  },
+  {
+    "rank": 9,
+    "bib": 136,
+    "name": "Josie Nelson",
+    "nationality": "Great Britain",
+    "team": "Team Picnic PostNL",
+    "time": "+0:56"
+  },
+  {
+    "rank": 10,
+    "bib": 54,
+    "name": "Rebecca Gardiner",
+    "nationality": "Great Britain",
+    "team": "Great Britain Cycling Team",
+    "time": "+1:06"
+  },
+  {
+    "rank": 11,
+    "bib": 6,
+    "name": "Gladys Verhulst-Wild",
+    "nationality": "Netherlands",
+    "team": "AG Insurance - Soudal Team",
+    "time": "+1:12"
+  },
+  {
+    "rank": 12,
+    "bib": 55,
+    "name": "Jessica Roberts",
+    "nationality": "Great Britain",
+    "team": "Great Britain Cycling Team",
+    "time": "+1:14"
+  },
+  {
+    "rank": 13,
+    "bib": 56,
+    "name": "Amalie Cooper",
+    "nationality": "Great Britain",
+    "team": "Great Britain Cycling Team",
+    "time": "+1:18"
+  },
+  {
+    "rank": 14,
+    "bib": 153,
+    "name": "Maud Oudeman",
+    "nationality": "Netherlands",
+    "team": "Team Visma | Lease a Bike",
+    "time": "s.t."
+  },
+  {
+    "rank": 15,
+    "bib": 131,
+    "name": "Pfeiffer Georgi",
+    "nationality": "Great Britain",
+    "team": "Team Picnic PostNL",
+    "time": "+1:22"
+  },
+  {
+    "rank": 16,
+    "bib": 111,
+    "name": "Aude Biannic",
+    "nationality": "France",
+    "team": "Movistar Team",
+    "time": "+1:25"
+  },
+  {
+    "rank": 17,
+    "bib": 53,
+    "name": "Ruby Oakes",
+    "nationality": "Great Britain",
+    "team": "Great Britain Cycling Team",
+    "time": "s.t."
+  },
+  {
+    "rank": 18,
+    "bib": 51,
+    "name": "Alice Towers",
+    "nationality": "Great Britain",
+    "team": "Great Britain Cycling Team",
+    "time": "+1:34"
+  },
+  {
+    "rank": 19,
+    "bib": 33,
+    "name": "Eva van Agt",
+    "nationality": "Netherlands",
+    "team": "FDJ United-SUEZ",
+    "time": "+2:29"
+  },
+  {
+    "rank": 20,
+    "bib": 61,
+    "name": "Madeline Cooper",
+    "nationality": "Great Britain",
+    "team": "Handsling Alba Development Road Team",
+    "time": "+3:42"
+  },
+  {
+    "rank": 21,
+    "bib": 12,
+    "name": "Zoe Jane Backstedt",
+    "nationality": "Great Britain",
+    "team": "Canyon//SRAM",
+    "time": "+3:46"
+  },
+  {
+    "rank": 22,
+    "bib": 5,
+    "name": "Alexandra Manly",
+    "nationality": "Australia",
+    "team": "AG Insurance - Soudal Team",
+    "time": "+3:55"
+  },
+  {
+    "rank": 23,
+    "bib": 13,
+    "name": "Chiara Consonni",
+    "nationality": "Italy",
+    "team": "Canyon//SRAM",
+    "time": "+4:01"
+  },
+  {
+    "rank": 24,
+    "bib": 184,
+    "name": "Lidia Cusack",
+    "nationality": "Ireland",
+    "team": "Smurfit Westrock Cycling Team",
+    "time": "+5:24"
+  },
+  {
+    "rank": 25,
+    "bib": 81,
+    "name": "Lily Williams",
+    "nationality": "United States",
+    "team": "Human Powered Health",
+    "time": "+5:29"
+  }
+]
