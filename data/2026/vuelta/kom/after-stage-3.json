@@ -1,0 +1,34 @@
+[
+  {
+    "rank": 1,
+    "bib": 152,
+    "name": "Koen Bouwman",
+    "nationality": "Netherlands",
+    "team": "Team Jayco-AlUla",
+    "points": 6
+  },
+  {
+    "rank": 2,
+    "bib": 227,
+    "name": "Diego Uriarte Belzunegi",
+    "nationality": "Spain",
+    "team": "Equipo Kern Pharma",
+    "points": 4
+  },
+  {
+    "rank": 3,
+    "bib": 124,
+    "name": "Ethan Hayter",
+    "nationality": "United Kingdom",
+    "team": "Soudal Quick-Step",
+    "points": 1
+  },
+  {
+    "rank": 4,
+    "bib": 197,
+    "name": "Sinuhe Fernandez Rodriguez",
+    "nationality": "Spain",
+    "team": "Burgos-Burpellet-BH",
+    "points": 1
+  }
+]

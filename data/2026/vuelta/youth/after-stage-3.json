@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 33,
+    "name": "James Matthew Brennan",
+    "nationality": "United Kingdom",
+    "team": "Team Visma | Lease a Bike",
+    "time": "4:58:50"
+  },
+  {
+    "rank": 2,
+    "bib": 42,
+    "name": "Léo Bisiaux",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+0:02"
+  },
+  {
+    "rank": 3,
+    "bib": 2,
+    "name": "Finn Fisher-Black",
+    "nationality": "New Zealand",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+0:04"
+  },
+  {
+    "rank": 4,
+    "bib": 45,
+    "name": "Jordan Labrosse",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+0:17"
+  },
+  {
+    "rank": 5,
+    "bib": 64,
+    "name": "Axel Laurance",
+    "nationality": "France",
+    "team": "Netcompany INEOS",
+    "time": "+0:20"
+  },
+  {
+    "rank": 6,
+    "bib": 104,
+    "name": "Ramses Debruyne",
+    "nationality": "Belgium",
+    "team": "Alpecin-Premier Tech",
+    "time": "+0:21"
+  },
+  {
+    "rank": 7,
+    "bib": 16,
+    "name": "Pablo Torres Arias",
+    "nationality": "Spain",
+    "team": "UAE Team Emirates-XRG",
+    "time": "s.t."
+  },
+  {
+    "rank": 8,
+    "bib": 65,
+    "name": "Carlos Rodriguez",
+    "nationality": "Spain",
+    "team": "Netcompany INEOS",
+    "time": "s.t."
+  },
+  {
+    "rank": 9,
+    "bib": 171,
+    "name": "Marco Brenner",
+    "nationality": "Germany",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+0:22"
+  },
+  {
+    "rank": 10,
+    "bib": 98,
+    "name": "Bastien Tronchon",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+0:25"
+  },
+  {
+    "rank": 11,
+    "bib": 27,
+    "name": "Ivan Romeo Abad",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+0:30"
+  },
+  {
+    "rank": 12,
+    "bib": 38,
+    "name": "Ben Tulett",
+    "nationality": "United Kingdom",
+    "team": "Team Visma | Lease a Bike",
+    "time": "s.t."
+  },
+  {
+    "rank": 13,
+    "bib": 24,
+    "name": "Carlos Canal Blanco",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+0:31"
+  },
+  {
+    "rank": 14,
+    "bib": 6,
+    "name": "Luke Tuckwell",
+    "nationality": "Australia",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+0:33"
+  },
+  {
+    "rank": 15,
+    "bib": 96,
+    "name": "Enzo Paleni",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+0:39"
+  },
+  {
+    "rank": 16,
+    "bib": 61,
+    "name": "Oscar Onley",
+    "nationality": "United Kingdom",
+    "team": "Netcompany INEOS",
+    "time": "+0:44"
+  },
+  {
+    "rank": 17,
+    "bib": 37,
+    "name": "Jørgen Nordhagen",
+    "nationality": "Norway",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+0:47"
+  },
+  {
+    "rank": 18,
+    "bib": 102,
+    "name": "Francesco Busatto",
+    "nationality": "Italy",
+    "team": "Alpecin-Premier Tech",
+    "time": "+0:48"
+  },
+  {
+    "rank": 19,
+    "bib": 76,
+    "name": "Jakob Omrzel",
+    "nationality": "Slovenia",
+    "team": "Bahrain Victorious",
+    "time": "+0:52"
+  },
+  {
+    "rank": 20,
+    "bib": 47,
+    "name": "Matthew Riccitello",
+    "nationality": "United States",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+0:58"
+  },
+  {
+    "rank": 21,
+    "bib": 203,
+    "name": "Lars Craps",
+    "nationality": "Belgium",
+    "team": "Lotto-Intermarché",
+    "time": "+1:02"
+  },
+  {
+    "rank": 22,
+    "bib": 217,
+    "name": "Henri François Renard Haquin",
+    "nationality": "France",
+    "team": "Team Picnic PostNL",
+    "time": "+1:03"
+  },
+  {
+    "rank": 23,
+    "bib": 187,
+    "name": "Alessandro Romele",
+    "nationality": "Italy",
+    "team": "XDS Astana Team",
+    "time": "s.t."
+  },
+  {
+    "rank": 24,
+    "bib": 132,
+    "name": "Simon Dalby",
+    "nationality": "Denmark",
+    "team": "Uno-X Mobility",
+    "time": "+1:05"
+  },
+  {
+    "rank": 25,
+    "bib": 123,
+    "name": "Gianmarco Garofoli",
+    "nationality": "Italy",
+    "team": "Soudal Quick-Step",
+    "time": "+1:06"
+  }
+]
