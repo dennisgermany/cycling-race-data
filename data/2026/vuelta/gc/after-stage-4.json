@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 11,
+    "name": "Tadej Pogacar",
+    "nationality": "Slovenia",
+    "team": "UAE Team Emirates-XRG",
+    "time": "7:38:59"
+  },
+  {
+    "rank": 2,
+    "bib": 1,
+    "name": "Primoz Roglic",
+    "nationality": "Slovenia",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+3:21"
+  },
+  {
+    "rank": 3,
+    "bib": 21,
+    "name": "Enric Mas",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+3:32"
+  },
+  {
+    "rank": 4,
+    "bib": 35,
+    "name": "Sepp Kuss",
+    "nationality": "United States",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+3:44"
+  },
+  {
+    "rank": 5,
+    "bib": 61,
+    "name": "Oscar Onley",
+    "nationality": "United Kingdom",
+    "team": "Netcompany INEOS",
+    "time": "+3:45"
+  },
+  {
+    "rank": 6,
+    "bib": 161,
+    "name": "Richard Carapaz",
+    "nationality": "Ecuador",
+    "team": "EF Education-EasyPost",
+    "time": "+3:50"
+  },
+  {
+    "rank": 7,
+    "bib": 41,
+    "name": "Félix Gall",
+    "nationality": "Austria",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+3:57"
+  },
+  {
+    "rank": 8,
+    "bib": 81,
+    "name": "Mattias Skjelmose",
+    "nationality": "Denmark",
+    "team": "Lidl-Trek",
+    "time": "+4:06"
+  },
+  {
+    "rank": 9,
+    "bib": 201,
+    "name": "Jarno Widar",
+    "nationality": "Belgium",
+    "team": "Lotto-Intermarché",
+    "time": "+4:06"
+  },
+  {
+    "rank": 10,
+    "bib": 18,
+    "name": "Jay Vine",
+    "nationality": "Australia",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+4:11"
+  },
+  {
+    "rank": 11,
+    "bib": 46,
+    "name": "Gregor Mühlberger",
+    "nationality": "Austria",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+4:34"
+  },
+  {
+    "rank": 12,
+    "bib": 103,
+    "name": "Lindsay de Vylder",
+    "nationality": "Belgium",
+    "team": "Alpecin-Premier Tech",
+    "time": "+4:44"
+  },
+  {
+    "rank": 13,
+    "bib": 16,
+    "name": "Pablo Torres Arias",
+    "nationality": "Spain",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+5:27"
+  },
+  {
+    "rank": 14,
+    "bib": 181,
+    "name": "Harold Tejada",
+    "nationality": "Colombia",
+    "team": "XDS Astana Team",
+    "time": "+5:30"
+  },
+  {
+    "rank": 15,
+    "bib": 171,
+    "name": "Marco Brenner",
+    "nationality": "Germany",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+6:02"
+  },
+  {
+    "rank": 16,
+    "bib": 91,
+    "name": "Clément Berthet",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+7:32"
+  },
+  {
+    "rank": 17,
+    "bib": 225,
+    "name": "Ibon Ruiz Sedano",
+    "nationality": "Spain",
+    "team": "Equipo Kern Pharma",
+    "time": "+8:37"
+  },
+  {
+    "rank": 18,
+    "bib": 42,
+    "name": "Léo Bisiaux",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+8:44"
+  },
+  {
+    "rank": 19,
+    "bib": 38,
+    "name": "Ben Tulett",
+    "nationality": "United Kingdom",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+8:44"
+  },
+  {
+    "rank": 20,
+    "bib": 76,
+    "name": "Jakob Omrzel",
+    "nationality": "Slovenia",
+    "team": "Bahrain Victorious",
+    "time": "+9:17"
+  },
+  {
+    "rank": 21,
+    "bib": 94,
+    "name": "Guillaume Martin-Guyonnet",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+9:25"
+  },
+  {
+    "rank": 22,
+    "bib": 37,
+    "name": "Jørgen Nordhagen",
+    "nationality": "Norway",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+9:26"
+  },
+  {
+    "rank": 23,
+    "bib": 113,
+    "name": "Jan Hirt",
+    "nationality": "Czech Republic",
+    "team": "NSN Cycling Team",
+    "time": "+9:47"
+  },
+  {
+    "rank": 24,
+    "bib": 186,
+    "name": "Cristian Rodriguez",
+    "nationality": "Spain",
+    "team": "XDS Astana Team",
+    "time": "+9:51"
+  },
+  {
+    "rank": 25,
+    "bib": 156,
+    "name": "Xavier Finlay Pickering",
+    "nationality": "United Kingdom",
+    "team": "Team Jayco-AlUla",
+    "time": "+9:54"
+  }
+]

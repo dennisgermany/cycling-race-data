@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 61,
+    "name": "Oscar Onley",
+    "nationality": "United Kingdom",
+    "team": "Netcompany INEOS",
+    "time": "7:42:44"
+  },
+  {
+    "rank": 2,
+    "bib": 201,
+    "name": "Jarno Widar",
+    "nationality": "Belgium",
+    "team": "Lotto-Intermarché",
+    "time": "+0:21"
+  },
+  {
+    "rank": 3,
+    "bib": 103,
+    "name": "Lindsay de Vylder",
+    "nationality": "Belgium",
+    "team": "Alpecin-Premier Tech",
+    "time": "+0:59"
+  },
+  {
+    "rank": 4,
+    "bib": 16,
+    "name": "Pablo Torres Arias",
+    "nationality": "Spain",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+1:42"
+  },
+  {
+    "rank": 5,
+    "bib": 171,
+    "name": "Marco Brenner",
+    "nationality": "Germany",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+2:17"
+  },
+  {
+    "rank": 6,
+    "bib": 42,
+    "name": "Léo Bisiaux",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+4:59"
+  },
+  {
+    "rank": 7,
+    "bib": 38,
+    "name": "Ben Tulett",
+    "nationality": "United Kingdom",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+4:59"
+  },
+  {
+    "rank": 8,
+    "bib": 76,
+    "name": "Jakob Omrzel",
+    "nationality": "Slovenia",
+    "team": "Bahrain Victorious",
+    "time": "+5:32"
+  },
+  {
+    "rank": 9,
+    "bib": 37,
+    "name": "Jørgen Nordhagen",
+    "nationality": "Norway",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+5:41"
+  },
+  {
+    "rank": 10,
+    "bib": 156,
+    "name": "Xavier Finlay Pickering",
+    "nationality": "United Kingdom",
+    "team": "Team Jayco-AlUla",
+    "time": "+6:09"
+  },
+  {
+    "rank": 11,
+    "bib": 66,
+    "name": "Embret Svestad-Bårdseng",
+    "nationality": "Norway",
+    "team": "Netcompany INEOS",
+    "time": "+7:07"
+  },
+  {
+    "rank": 12,
+    "bib": 47,
+    "name": "Matthew Riccitello",
+    "nationality": "United States",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+8:24"
+  },
+  {
+    "rank": 13,
+    "bib": 166,
+    "name": "Juan Felipe Rodriguez Contreras",
+    "nationality": "Colombia",
+    "team": "EF Education-EasyPost",
+    "time": "+9:04"
+  },
+  {
+    "rank": 14,
+    "bib": 56,
+    "name": "Thomas Gloag",
+    "nationality": "United Kingdom",
+    "team": "Pinarello-Q36.5 Pro Cycling Team",
+    "time": "+11:32"
+  },
+  {
+    "rank": 15,
+    "bib": 26,
+    "name": "Raul Garcia",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+13:34"
+  },
+  {
+    "rank": 16,
+    "bib": 6,
+    "name": "Luke Tuckwell",
+    "nationality": "Australia",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+15:50"
+  },
+  {
+    "rank": 17,
+    "bib": 132,
+    "name": "Simon Dalby",
+    "nationality": "Denmark",
+    "team": "Uno-X Mobility",
+    "time": "+19:16"
+  },
+  {
+    "rank": 18,
+    "bib": 45,
+    "name": "Jordan Labrosse",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+19:43"
+  },
+  {
+    "rank": 19,
+    "bib": 2,
+    "name": "Finn Fisher-Black",
+    "nationality": "New Zealand",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+19:45"
+  },
+  {
+    "rank": 20,
+    "bib": 64,
+    "name": "Axel Laurance",
+    "nationality": "France",
+    "team": "Netcompany INEOS",
+    "time": "+19:46"
+  },
+  {
+    "rank": 21,
+    "bib": 65,
+    "name": "Carlos Rodriguez",
+    "nationality": "Spain",
+    "team": "Netcompany INEOS",
+    "time": "+19:47"
+  },
+  {
+    "rank": 22,
+    "bib": 98,
+    "name": "Bastien Tronchon",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+19:51"
+  },
+  {
+    "rank": 23,
+    "bib": 27,
+    "name": "Ivan Romeo Abad",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+19:56"
+  },
+  {
+    "rank": 24,
+    "bib": 24,
+    "name": "Carlos Canal Blanco",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+19:57"
+  },
+  {
+    "rank": 25,
+    "bib": 96,
+    "name": "Enzo Paleni",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+20:05"
+  }
+]
