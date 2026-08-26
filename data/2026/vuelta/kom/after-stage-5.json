@@ -1,0 +1,130 @@
+[
+  {
+    "rank": 1,
+    "bib": 11,
+    "name": "Tadej Pogacar",
+    "nationality": "Slovenia",
+    "team": "UAE Team Emirates-XRG",
+    "points": 23
+  },
+  {
+    "rank": 2,
+    "bib": 183,
+    "name": "Lorenzo Fortunato",
+    "nationality": "Italy",
+    "team": "XDS Astana Team",
+    "points": 10
+  },
+  {
+    "rank": 3,
+    "bib": 152,
+    "name": "Koen Bouwman",
+    "nationality": "Netherlands",
+    "team": "Team Jayco-AlUla",
+    "points": 6
+  },
+  {
+    "rank": 4,
+    "bib": 35,
+    "name": "Sepp Kuss",
+    "nationality": "United States",
+    "team": "Team Visma | Lease a Bike",
+    "points": 6
+  },
+  {
+    "rank": 5,
+    "bib": 161,
+    "name": "Richard Carapaz",
+    "nationality": "Ecuador",
+    "team": "EF Education-EasyPost",
+    "points": 6
+  },
+  {
+    "rank": 6,
+    "bib": 153,
+    "name": "Paul Double",
+    "nationality": "United Kingdom",
+    "team": "Team Jayco-AlUla",
+    "points": 6
+  },
+  {
+    "rank": 7,
+    "bib": 41,
+    "name": "F\u00e9lix Gall",
+    "nationality": "Austria",
+    "team": "Decathlon CMA CGM Team",
+    "points": 5
+  },
+  {
+    "rank": 8,
+    "bib": 21,
+    "name": "Enric Mas",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "points": 4
+  },
+  {
+    "rank": 9,
+    "bib": 61,
+    "name": "Oscar Onley",
+    "nationality": "United Kingdom",
+    "team": "Netcompany INEOS",
+    "points": 4
+  },
+  {
+    "rank": 10,
+    "bib": 66,
+    "name": "Embret Svestad-B\u00e5rdseng",
+    "nationality": "Norway",
+    "team": "Netcompany INEOS",
+    "points": 4
+  },
+  {
+    "rank": 11,
+    "bib": 226,
+    "name": "Ivan Sosa",
+    "nationality": "Colombia",
+    "team": "Equipo Kern Pharma",
+    "points": 4
+  },
+  {
+    "rank": 12,
+    "bib": 227,
+    "name": "Diego Uriarte Belzunegi",
+    "nationality": "Spain",
+    "team": "Equipo Kern Pharma",
+    "points": 4
+  },
+  {
+    "rank": 13,
+    "bib": 25,
+    "name": "Pablo Castrillo",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "points": 2
+  },
+  {
+    "rank": 14,
+    "bib": 38,
+    "name": "Ben Tulett",
+    "nationality": "United Kingdom",
+    "team": "Team Visma | Lease a Bike",
+    "points": 1
+  },
+  {
+    "rank": 15,
+    "bib": 124,
+    "name": "Ethan Hayter",
+    "nationality": "United Kingdom",
+    "team": "Soudal Quick-Step",
+    "points": 1
+  },
+  {
+    "rank": 16,
+    "bib": 197,
+    "name": "Sinuhe Fernandez Rodriguez",
+    "nationality": "Spain",
+    "team": "Burgos-Burpellet-BH",
+    "points": 1
+  }
+]
