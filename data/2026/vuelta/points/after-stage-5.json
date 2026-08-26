@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 11,
+    "name": "Tadej Pogacar",
+    "nationality": "Slovenia",
+    "team": "UAE Team Emirates-XRG",
+    "points": 82
+  },
+  {
+    "rank": 2,
+    "bib": 33,
+    "name": "James Matthew Brennan",
+    "nationality": "United Kingdom",
+    "team": "Team Visma | Lease a Bike",
+    "points": 60
+  },
+  {
+    "rank": 3,
+    "bib": 124,
+    "name": "Ethan Hayter",
+    "nationality": "United Kingdom",
+    "team": "Soudal Quick-Step",
+    "points": 57
+  },
+  {
+    "rank": 4,
+    "bib": 31,
+    "name": "Wout van Aert",
+    "nationality": "Belgium",
+    "team": "Team Visma | Lease a Bike",
+    "points": 49
+  },
+  {
+    "rank": 5,
+    "bib": 36,
+    "name": "Christophe Laporte",
+    "nationality": "France",
+    "team": "Team Visma | Lease a Bike",
+    "points": 39
+  },
+  {
+    "rank": 6,
+    "bib": 64,
+    "name": "Axel Laurance",
+    "nationality": "France",
+    "team": "Netcompany INEOS",
+    "points": 28
+  },
+  {
+    "rank": 7,
+    "bib": 3,
+    "name": "Jordi Meeus",
+    "nationality": "Belgium",
+    "team": "Red Bull-BORA-hansgrohe",
+    "points": 25
+  },
+  {
+    "rank": 8,
+    "bib": 42,
+    "name": "L\u00e9o Bisiaux",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "points": 25
+  },
+  {
+    "rank": 9,
+    "bib": 67,
+    "name": "Joshua Tarling",
+    "nationality": "United Kingdom",
+    "team": "Netcompany INEOS",
+    "points": 25
+  },
+  {
+    "rank": 10,
+    "bib": 75,
+    "name": "Pau Miquel Delgado",
+    "nationality": "Spain",
+    "team": "Bahrain Victorious",
+    "points": 25
+  },
+  {
+    "rank": 11,
+    "bib": 61,
+    "name": "Oscar Onley",
+    "nationality": "United Kingdom",
+    "team": "Netcompany INEOS",
+    "points": 22
+  },
+  {
+    "rank": 12,
+    "bib": 162,
+    "name": "Vincenzo Albanese",
+    "nationality": "Italy",
+    "team": "EF Education-EasyPost",
+    "points": 22
+  },
+  {
+    "rank": 13,
+    "bib": 46,
+    "name": "Gregor M\u00fchlberger",
+    "nationality": "Austria",
+    "team": "Decathlon CMA CGM Team",
+    "points": 21
+  },
+  {
+    "rank": 14,
+    "bib": 103,
+    "name": "Lindsay de Vylder",
+    "nationality": "Belgium",
+    "team": "Alpecin-Premier Tech",
+    "points": 21
+  },
+  {
+    "rank": 15,
+    "bib": 2,
+    "name": "Finn Fisher-Black",
+    "nationality": "New Zealand",
+    "team": "Red Bull-BORA-hansgrohe",
+    "points": 20
+  },
+  {
+    "rank": 16,
+    "bib": 88,
+    "name": "Mads Pedersen",
+    "nationality": "Denmark",
+    "team": "Lidl-Trek",
+    "points": 20
+  },
+  {
+    "rank": 17,
+    "bib": 187,
+    "name": "Alessandro Romele",
+    "nationality": "Italy",
+    "team": "XDS Astana Team",
+    "points": 19
+  },
+  {
+    "rank": 18,
+    "bib": 114,
+    "name": "Hugo Hofstetter",
+    "nationality": "France",
+    "team": "NSN Cycling Team",
+    "points": 17
+  },
+  {
+    "rank": 19,
+    "bib": 142,
+    "name": "Bryan Coquard",
+    "nationality": "France",
+    "team": "Cofidis",
+    "points": 17
+  },
+  {
+    "rank": 20,
+    "bib": 201,
+    "name": "Jarno Widar",
+    "nationality": "Belgium",
+    "team": "Lotto-Intermarch\u00e9",
+    "points": 17
+  },
+  {
+    "rank": 21,
+    "bib": 32,
+    "name": "Bruno Armirail",
+    "nationality": "France",
+    "team": "Team Visma | Lease a Bike",
+    "points": 15
+  },
+  {
+    "rank": 22,
+    "bib": 41,
+    "name": "F\u00e9lix Gall",
+    "nationality": "Austria",
+    "team": "Decathlon CMA CGM Team",
+    "points": 15
+  },
+  {
+    "rank": 23,
+    "bib": 134,
+    "name": "Tobias Johannessen",
+    "nationality": "Norway",
+    "team": "Uno-X Mobility",
+    "points": 15
+  },
+  {
+    "rank": 24,
+    "bib": 5,
+    "name": "Callum Thornley",
+    "nationality": "United Kingdom",
+    "team": "Red Bull-BORA-hansgrohe",
+    "points": 13
+  },
+  {
+    "rank": 25,
+    "bib": 66,
+    "name": "Embret Svestad-B\u00e5rdseng",
+    "nationality": "Norway",
+    "team": "Netcompany INEOS",
+    "points": 13
+  }
+]
