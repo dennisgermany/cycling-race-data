@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 61,
+    "name": "Oscar Onley",
+    "nationality": "United Kingdom",
+    "team": "Netcompany INEOS",
+    "time": "23:25:49"
+  },
+  {
+    "rank": 2,
+    "bib": 76,
+    "name": "Jakob Omrzel",
+    "nationality": "Slovenia",
+    "team": "Bahrain Victorious",
+    "time": "+3:48"
+  },
+  {
+    "rank": 3,
+    "bib": 42,
+    "name": "Léo Bisiaux",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+6:07"
+  },
+  {
+    "rank": 4,
+    "bib": 201,
+    "name": "Jarno Widar",
+    "nationality": "Belgium",
+    "team": "Lotto-Intermarché",
+    "time": "+6:43"
+  },
+  {
+    "rank": 5,
+    "bib": 156,
+    "name": "Xavier Finlay Pickering",
+    "nationality": "United Kingdom",
+    "team": "Team Jayco-AlUla",
+    "time": "+8:48"
+  },
+  {
+    "rank": 6,
+    "bib": 47,
+    "name": "Matthew Riccitello",
+    "nationality": "United States",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+10:58"
+  },
+  {
+    "rank": 7,
+    "bib": 166,
+    "name": "Juan Felipe Rodriguez Contreras",
+    "nationality": "Colombia",
+    "team": "EF Education-EasyPost",
+    "time": "+11:06"
+  },
+  {
+    "rank": 8,
+    "bib": 66,
+    "name": "Embret Svestad-Bårdseng",
+    "nationality": "Norway",
+    "team": "Netcompany INEOS",
+    "time": "+11:31"
+  },
+  {
+    "rank": 9,
+    "bib": 104,
+    "name": "Ramses Debruyne",
+    "nationality": "Belgium",
+    "team": "Alpecin-Premier Tech",
+    "time": "+12:40"
+  },
+  {
+    "rank": 10,
+    "bib": 16,
+    "name": "Pablo Torres Arias",
+    "nationality": "Spain",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+21:14"
+  },
+  {
+    "rank": 11,
+    "bib": 26,
+    "name": "Raul Garcia",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+26:34"
+  },
+  {
+    "rank": 12,
+    "bib": 37,
+    "name": "Jørgen Nordhagen",
+    "nationality": "Norway",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+29:47"
+  },
+  {
+    "rank": 13,
+    "bib": 123,
+    "name": "Gianmarco Garofoli",
+    "nationality": "Italy",
+    "team": "Soudal Quick-Step",
+    "time": "+32:22"
+  },
+  {
+    "rank": 14,
+    "bib": 65,
+    "name": "Carlos Rodriguez",
+    "nationality": "Spain",
+    "team": "Netcompany INEOS",
+    "time": "+32:58"
+  },
+  {
+    "rank": 15,
+    "bib": 56,
+    "name": "Thomas Gloag",
+    "nationality": "United Kingdom",
+    "team": "Pinarello-Q36.5 Pro Cycling Team",
+    "time": "+35:32"
+  },
+  {
+    "rank": 16,
+    "bib": 125,
+    "name": "Valentin Paret-Peintre",
+    "nationality": "France",
+    "team": "Soudal Quick-Step",
+    "time": "+35:43"
+  },
+  {
+    "rank": 17,
+    "bib": 178,
+    "name": "Hannes Wilksch",
+    "nationality": "Germany",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+36:13"
+  },
+  {
+    "rank": 18,
+    "bib": 6,
+    "name": "Luke Tuckwell",
+    "nationality": "Australia",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+37:03"
+  },
+  {
+    "rank": 19,
+    "bib": 38,
+    "name": "Ben Tulett",
+    "nationality": "United Kingdom",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+38:57"
+  },
+  {
+    "rank": 20,
+    "bib": 171,
+    "name": "Marco Brenner",
+    "nationality": "Germany",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+39:14"
+  },
+  {
+    "rank": 21,
+    "bib": 96,
+    "name": "Enzo Paleni",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+41:25"
+  },
+  {
+    "rank": 22,
+    "bib": 203,
+    "name": "Lars Craps",
+    "nationality": "Belgium",
+    "team": "Lotto-Intermarché",
+    "time": "+41:42"
+  },
+  {
+    "rank": 23,
+    "bib": 54,
+    "name": "Marcel Camprubi Pijuan",
+    "nationality": "Spain",
+    "team": "Pinarello-Q36.5 Pro Cycling Team",
+    "time": "+42:46"
+  },
+  {
+    "rank": 24,
+    "bib": 24,
+    "name": "Carlos Canal Blanco",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+43:23"
+  },
+  {
+    "rank": 25,
+    "bib": 177,
+    "name": "Fabian Weiss",
+    "nationality": "Switzerland",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+43:49"
+  }
+]
