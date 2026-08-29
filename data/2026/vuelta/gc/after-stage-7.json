@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 11,
+    "name": "Tadej Pogacar",
+    "nationality": "Slovenia",
+    "team": "UAE Team Emirates-XRG",
+    "time": "19:32:37"
+  },
+  {
+    "rank": 2,
+    "bib": 21,
+    "name": "Enric Mas",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+3:50"
+  },
+  {
+    "rank": 3,
+    "bib": 1,
+    "name": "Primoz Roglic",
+    "nationality": "Slovenia",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+4:50"
+  },
+  {
+    "rank": 4,
+    "bib": 41,
+    "name": "Félix Gall",
+    "nationality": "Austria",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+5:01"
+  },
+  {
+    "rank": 5,
+    "bib": 35,
+    "name": "Sepp Kuss",
+    "nationality": "United States",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+6:05"
+  },
+  {
+    "rank": 6,
+    "bib": 61,
+    "name": "Oscar Onley",
+    "nationality": "United Kingdom",
+    "team": "Netcompany INEOS",
+    "time": "+6:06"
+  },
+  {
+    "rank": 7,
+    "bib": 161,
+    "name": "Richard Carapaz",
+    "nationality": "Ecuador",
+    "team": "EF Education-EasyPost",
+    "time": "+6:12"
+  },
+  {
+    "rank": 8,
+    "bib": 81,
+    "name": "Mattias Skjelmose",
+    "nationality": "Denmark",
+    "team": "Lidl-Trek",
+    "time": "+7:17"
+  },
+  {
+    "rank": 9,
+    "bib": 181,
+    "name": "Harold Tejada",
+    "nationality": "Colombia",
+    "team": "XDS Astana Team",
+    "time": "+7:46"
+  },
+  {
+    "rank": 10,
+    "bib": 46,
+    "name": "Gregor Mühlberger",
+    "nationality": "Austria",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+9:29"
+  },
+  {
+    "rank": 11,
+    "bib": 76,
+    "name": "Jakob Omrzel",
+    "nationality": "Slovenia",
+    "team": "Bahrain Victorious",
+    "time": "+9:54"
+  },
+  {
+    "rank": 12,
+    "bib": 91,
+    "name": "Clément Berthet",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+11:21"
+  },
+  {
+    "rank": 13,
+    "bib": 94,
+    "name": "Guillaume Martin-Guyonnet",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+12:01"
+  },
+  {
+    "rank": 14,
+    "bib": 42,
+    "name": "Léo Bisiaux",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+12:13"
+  },
+  {
+    "rank": 15,
+    "bib": 201,
+    "name": "Jarno Widar",
+    "nationality": "Belgium",
+    "team": "Lotto-Intermarché",
+    "time": "+12:49"
+  },
+  {
+    "rank": 16,
+    "bib": 186,
+    "name": "Cristian Rodriguez",
+    "nationality": "Spain",
+    "team": "XDS Astana Team",
+    "time": "+13:02"
+  },
+  {
+    "rank": 17,
+    "bib": 156,
+    "name": "Xavier Finlay Pickering",
+    "nationality": "United Kingdom",
+    "team": "Team Jayco-AlUla",
+    "time": "+14:54"
+  },
+  {
+    "rank": 18,
+    "bib": 104,
+    "name": "Ramses Debruyne",
+    "nationality": "Belgium",
+    "team": "Alpecin-Premier Tech",
+    "time": "+15:24"
+  },
+  {
+    "rank": 19,
+    "bib": 16,
+    "name": "Pablo Torres Arias",
+    "nationality": "Spain",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+15:47"
+  },
+  {
+    "rank": 20,
+    "bib": 47,
+    "name": "Matthew Riccitello",
+    "nationality": "United States",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+17:04"
+  },
+  {
+    "rank": 21,
+    "bib": 166,
+    "name": "Juan Felipe Rodriguez Contreras",
+    "nationality": "Colombia",
+    "team": "EF Education-EasyPost",
+    "time": "+17:12"
+  },
+  {
+    "rank": 22,
+    "bib": 134,
+    "name": "Tobias Johannessen",
+    "nationality": "Norway",
+    "team": "Uno-X Mobility",
+    "time": "+17:21"
+  },
+  {
+    "rank": 23,
+    "bib": 66,
+    "name": "Embret Svestad-Bårdseng",
+    "nationality": "Norway",
+    "team": "Netcompany INEOS",
+    "time": "+17:37"
+  },
+  {
+    "rank": 24,
+    "bib": 113,
+    "name": "Jan Hirt",
+    "nationality": "Czech Republic",
+    "team": "NSN Cycling Team",
+    "time": "+20:42"
+  },
+  {
+    "rank": 25,
+    "bib": 128,
+    "name": "Filippo Zana",
+    "nationality": "Italy",
+    "team": "Soudal Quick-Step",
+    "time": "+24:26"
+  }
+]
