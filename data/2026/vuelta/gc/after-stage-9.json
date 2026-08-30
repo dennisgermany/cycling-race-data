@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 21,
+    "name": "Enric Mas",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "28:34:03"
+  },
+  {
+    "rank": 2,
+    "bib": 1,
+    "name": "Primoz Roglic",
+    "nationality": "Slovenia",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+1:18"
+  },
+  {
+    "rank": 3,
+    "bib": 41,
+    "name": "Félix Gall",
+    "nationality": "Austria",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+1:39"
+  },
+  {
+    "rank": 4,
+    "bib": 61,
+    "name": "Oscar Onley",
+    "nationality": "United Kingdom",
+    "team": "Netcompany INEOS",
+    "time": "+2:20"
+  },
+  {
+    "rank": 5,
+    "bib": 161,
+    "name": "Richard Carapaz",
+    "nationality": "Ecuador",
+    "team": "EF Education-EasyPost",
+    "time": "+3:26"
+  },
+  {
+    "rank": 6,
+    "bib": 81,
+    "name": "Mattias Skjelmose",
+    "nationality": "Denmark",
+    "team": "Lidl-Trek",
+    "time": "+3:55"
+  },
+  {
+    "rank": 7,
+    "bib": 35,
+    "name": "Sepp Kuss",
+    "nationality": "United States",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+4:09"
+  },
+  {
+    "rank": 8,
+    "bib": 181,
+    "name": "Harold Tejada",
+    "nationality": "Colombia",
+    "team": "XDS Astana Team",
+    "time": "+4:39"
+  },
+  {
+    "rank": 9,
+    "bib": 46,
+    "name": "Gregor Mühlberger",
+    "nationality": "Austria",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+7:33"
+  },
+  {
+    "rank": 10,
+    "bib": 76,
+    "name": "Jakob Omrzel",
+    "nationality": "Slovenia",
+    "team": "Bahrain Victorious",
+    "time": "+8:05"
+  },
+  {
+    "rank": 11,
+    "bib": 91,
+    "name": "Clément Berthet",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+9:32"
+  },
+  {
+    "rank": 12,
+    "bib": 201,
+    "name": "Jarno Widar",
+    "nationality": "Belgium",
+    "team": "Lotto-Intermarché",
+    "time": "+9:34"
+  },
+  {
+    "rank": 13,
+    "bib": 186,
+    "name": "Cristian Rodriguez",
+    "nationality": "Spain",
+    "team": "XDS Astana Team",
+    "time": "+9:42"
+  },
+  {
+    "rank": 14,
+    "bib": 94,
+    "name": "Guillaume Martin-Guyonnet",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+12:58"
+  },
+  {
+    "rank": 15,
+    "bib": 42,
+    "name": "Léo Bisiaux",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+13:51"
+  },
+  {
+    "rank": 16,
+    "bib": 47,
+    "name": "Matthew Riccitello",
+    "nationality": "United States",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+15:36"
+  },
+  {
+    "rank": 17,
+    "bib": 166,
+    "name": "Juan Felipe Rodriguez Contreras",
+    "nationality": "Colombia",
+    "team": "EF Education-EasyPost",
+    "time": "+16:54"
+  },
+  {
+    "rank": 18,
+    "bib": 104,
+    "name": "Ramses Debruyne",
+    "nationality": "Belgium",
+    "team": "Alpecin-Premier Tech",
+    "time": "+16:57"
+  },
+  {
+    "rank": 19,
+    "bib": 128,
+    "name": "Filippo Zana",
+    "nationality": "Italy",
+    "team": "Soudal Quick-Step",
+    "time": "+24:01"
+  },
+  {
+    "rank": 20,
+    "bib": 193,
+    "name": "Mario Aparicio Muñoz",
+    "nationality": "Spain",
+    "team": "Burgos-Burpellet-BH",
+    "time": "+31:28"
+  },
+  {
+    "rank": 21,
+    "bib": 26,
+    "name": "Raul Garcia",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+35:20"
+  },
+  {
+    "rank": 22,
+    "bib": 141,
+    "name": "Emanuel Buchmann",
+    "nationality": "Germany",
+    "team": "Cofidis",
+    "time": "+40:17"
+  },
+  {
+    "rank": 23,
+    "bib": 72,
+    "name": "Santiago Buitrago",
+    "nationality": "Colombia",
+    "team": "Bahrain Victorious",
+    "time": "+41:12"
+  },
+  {
+    "rank": 24,
+    "bib": 15,
+    "name": "Pavel Sivakov",
+    "nationality": "France",
+    "team": "UAE Team Emirates-XRG",
+    "time": "+41:48"
+  },
+  {
+    "rank": 25,
+    "bib": 214,
+    "name": "Gijs Leemreize",
+    "nationality": "Netherlands",
+    "team": "Team Picnic PostNL",
+    "time": "+48:09"
+  }
+]
