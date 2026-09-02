@@ -6,7 +6,7 @@
       "name": "Enric Mas",
       "nationality": "Spain",
       "team": "Movistar Team",
-      "time": "32:41:44"
+      "time": "35:59:02"
     },
     {
       "rank": 2,
@@ -198,7 +198,7 @@
       "name": "Raul Garcia",
       "nationality": "Spain",
       "team": "Movistar Team",
-      "time": "+38:02"
+      "time": "+39:10"
     }
   ],
   "stageResults": {
@@ -2017,6 +2017,208 @@
         "name": "Rémy Rochas",
         "nationality": "France",
         "team": "Groupama-FDJ United",
+        "time": "s.t."
+      }
+    ],
+    "stage-11": [
+      {
+        "rank": 1,
+        "bib": 33,
+        "name": "James Matthew Brennan",
+        "nationality": "United Kingdom",
+        "team": "Team Visma | Lease a Bike",
+        "time": "3:17:18"
+      },
+      {
+        "rank": 2,
+        "bib": 142,
+        "name": "Bryan Coquard",
+        "nationality": "France",
+        "team": "Cofidis",
+        "time": "s.t."
+      },
+      {
+        "rank": 3,
+        "bib": 3,
+        "name": "Jordi Meeus",
+        "nationality": "Belgium",
+        "team": "Red Bull-BORA-hansgrohe",
+        "time": "s.t."
+      },
+      {
+        "rank": 4,
+        "bib": 131,
+        "name": "Magnus Cort",
+        "nationality": "Denmark",
+        "team": "Uno-X Mobility",
+        "time": "s.t."
+      },
+      {
+        "rank": 5,
+        "bib": 31,
+        "name": "Wout van Aert",
+        "nationality": "Belgium",
+        "team": "Team Visma | Lease a Bike",
+        "time": "s.t."
+      },
+      {
+        "rank": 6,
+        "bib": 114,
+        "name": "Hugo Hofstetter",
+        "nationality": "France",
+        "team": "NSN Cycling Team",
+        "time": "s.t."
+      },
+      {
+        "rank": 7,
+        "bib": 98,
+        "name": "Bastien Tronchon",
+        "nationality": "France",
+        "team": "Groupama-FDJ United",
+        "time": "s.t."
+      },
+      {
+        "rank": 8,
+        "bib": 74,
+        "name": "Matevz Govekar",
+        "nationality": "Slovenia",
+        "team": "Bahrain Victorious",
+        "time": "s.t."
+      },
+      {
+        "rank": 9,
+        "bib": 187,
+        "name": "Alessandro Romele",
+        "nationality": "Italy",
+        "team": "XDS Astana Team",
+        "time": "s.t."
+      },
+      {
+        "rank": 10,
+        "bib": 23,
+        "name": "Orluis Alberto Aular",
+        "nationality": "Venezuela",
+        "team": "Movistar Team",
+        "time": "s.t."
+      },
+      {
+        "rank": 11,
+        "bib": 202,
+        "name": "Vito Braet",
+        "nationality": "Belgium",
+        "team": "Lotto-Intermarché",
+        "time": "s.t."
+      },
+      {
+        "rank": 12,
+        "bib": 222,
+        "name": "Marc Brustenga Masague",
+        "nationality": "Spain",
+        "team": "Equipo Kern Pharma",
+        "time": "s.t."
+      },
+      {
+        "rank": 13,
+        "bib": 185,
+        "name": "Henok Mulueberhan",
+        "nationality": "Eritrea",
+        "team": "XDS Astana Team",
+        "time": "s.t."
+      },
+      {
+        "rank": 14,
+        "bib": 162,
+        "name": "Vincenzo Albanese",
+        "nationality": "Italy",
+        "team": "EF Education-EasyPost",
+        "time": "s.t."
+      },
+      {
+        "rank": 15,
+        "bib": 45,
+        "name": "Jordan Labrosse",
+        "nationality": "France",
+        "team": "Decathlon CMA CGM Team",
+        "time": "s.t."
+      },
+      {
+        "rank": 16,
+        "bib": 224,
+        "name": "Iñigo Elosegui Momeñe",
+        "nationality": "Spain",
+        "team": "Equipo Kern Pharma",
+        "time": "s.t."
+      },
+      {
+        "rank": 17,
+        "bib": 192,
+        "name": "Clement Alleno",
+        "nationality": "France",
+        "team": "Burgos-Burpellet-BH",
+        "time": "s.t."
+      },
+      {
+        "rank": 18,
+        "bib": 57,
+        "name": "David Gonzalez Lopez",
+        "nationality": "Spain",
+        "team": "Pinarello-Q36.5 Pro Cycling Team",
+        "time": "s.t."
+      },
+      {
+        "rank": 19,
+        "bib": 87,
+        "name": "Thibau Nys",
+        "nationality": "Belgium",
+        "team": "Lidl-Trek",
+        "time": "s.t."
+      },
+      {
+        "rank": 20,
+        "bib": 157,
+        "name": "Rudy Porter",
+        "nationality": "Australia",
+        "team": "Team Jayco-AlUla",
+        "time": "s.t."
+      },
+      {
+        "rank": 21,
+        "bib": 212,
+        "name": "Timo de Jong",
+        "nationality": "Netherlands",
+        "team": "Team Picnic PostNL",
+        "time": "s.t."
+      },
+      {
+        "rank": 22,
+        "bib": 91,
+        "name": "Clément Berthet",
+        "nationality": "France",
+        "team": "Groupama-FDJ United",
+        "time": "s.t."
+      },
+      {
+        "rank": 23,
+        "bib": 84,
+        "name": "Patrick Konrad",
+        "nationality": "Austria",
+        "team": "Lidl-Trek",
+        "time": "s.t."
+      },
+      {
+        "rank": 24,
+        "bib": 181,
+        "name": "Harold Tejada",
+        "nationality": "Colombia",
+        "team": "XDS Astana Team",
+        "time": "s.t."
+      },
+      {
+        "rank": 25,
+        "bib": 58,
+        "name": "Milan Vader",
+        "nationality": "Netherlands",
+        "team": "Pinarello-Q36.5 Pro Cycling Team",
         "time": "s.t."
       }
     ]
