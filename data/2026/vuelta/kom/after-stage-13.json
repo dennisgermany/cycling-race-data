@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 72,
+    "name": "Santiago Buitrago",
+    "nationality": "Colombia",
+    "team": "Bahrain Victorious",
+    "points": 58
+  },
+  {
+    "rank": 2,
+    "bib": 31,
+    "name": "Wout van Aert",
+    "nationality": "Belgium",
+    "team": "Team Visma | Lease a Bike",
+    "points": 40
+  },
+  {
+    "rank": 3,
+    "bib": 21,
+    "name": "Enric Mas",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "points": 24
+  },
+  {
+    "rank": 4,
+    "bib": 136,
+    "name": "Andreas Leknessund",
+    "nationality": "Norway",
+    "team": "Uno-X Mobility",
+    "points": 19
+  },
+  {
+    "rank": 5,
+    "bib": 183,
+    "name": "Lorenzo Fortunato",
+    "nationality": "Italy",
+    "team": "XDS Astana Team",
+    "points": 18
+  },
+  {
+    "rank": 6,
+    "bib": 76,
+    "name": "Jakob Omrzel",
+    "nationality": "Slovenia",
+    "team": "Bahrain Victorious",
+    "points": 12
+  },
+  {
+    "rank": 7,
+    "bib": 41,
+    "name": "Félix Gall",
+    "nationality": "Austria",
+    "team": "Decathlon CMA CGM Team",
+    "points": 11
+  },
+  {
+    "rank": 8,
+    "bib": 61,
+    "name": "Oscar Onley",
+    "nationality": "United Kingdom",
+    "team": "Netcompany INEOS",
+    "points": 10
+  },
+  {
+    "rank": 9,
+    "bib": 135,
+    "name": "Andreas Kron",
+    "nationality": "Denmark",
+    "team": "Uno-X Mobility",
+    "points": 9
+  },
+  {
+    "rank": 10,
+    "bib": 187,
+    "name": "Alessandro Romele",
+    "nationality": "Italy",
+    "team": "XDS Astana Team",
+    "points": 9
+  },
+  {
+    "rank": 11,
+    "bib": 134,
+    "name": "Tobias Johannessen",
+    "nationality": "Norway",
+    "team": "Uno-X Mobility",
+    "points": 9
+  },
+  {
+    "rank": 12,
+    "bib": 53,
+    "name": "Walter Calzoni",
+    "nationality": "Italy",
+    "team": "Pinarello-Q36.5 Pro Cycling Team",
+    "points": 7
+  },
+  {
+    "rank": 13,
+    "bib": 152,
+    "name": "Koen Bouwman",
+    "nationality": "Netherlands",
+    "team": "Team Jayco-AlUla",
+    "points": 6
+  },
+  {
+    "rank": 14,
+    "bib": 1,
+    "name": "Primoz Roglic",
+    "nationality": "Slovenia",
+    "team": "Red Bull-BORA-hansgrohe",
+    "points": 6
+  },
+  {
+    "rank": 15,
+    "bib": 161,
+    "name": "Richard Carapaz",
+    "nationality": "Ecuador",
+    "team": "EF Education-EasyPost",
+    "points": 6
+  },
+  {
+    "rank": 16,
+    "bib": 35,
+    "name": "Sepp Kuss",
+    "nationality": "United States",
+    "team": "Team Visma | Lease a Bike",
+    "points": 6
+  },
+  {
+    "rank": 17,
+    "bib": 221,
+    "name": "Urko Berrade Fernandez",
+    "nationality": "Spain",
+    "team": "Equipo Kern Pharma",
+    "points": 6
+  },
+  {
+    "rank": 18,
+    "bib": 214,
+    "name": "Gijs Leemreize",
+    "nationality": "Netherlands",
+    "team": "Team Picnic PostNL",
+    "points": 6
+  },
+  {
+    "rank": 19,
+    "bib": 153,
+    "name": "Paul Double",
+    "nationality": "United Kingdom",
+    "team": "Team Jayco-AlUla",
+    "points": 6
+  },
+  {
+    "rank": 20,
+    "bib": 195,
+    "name": "Jose Manuel Diaz Gallego",
+    "nationality": "Spain",
+    "team": "Burgos-Burpellet-BH",
+    "points": 5
+  },
+  {
+    "rank": 21,
+    "bib": 162,
+    "name": "Vincenzo Albanese",
+    "nationality": "Italy",
+    "team": "EF Education-EasyPost",
+    "points": 5
+  },
+  {
+    "rank": 22,
+    "bib": 17,
+    "name": "Kevin Vermaerke",
+    "nationality": "United States",
+    "team": "UAE Team Emirates-XRG",
+    "points": 5
+  },
+  {
+    "rank": 23,
+    "bib": 177,
+    "name": "Fabian Weiss",
+    "nationality": "Switzerland",
+    "team": "Tudor Pro Cycling Team",
+    "points": 5
+  },
+  {
+    "rank": 24,
+    "bib": 66,
+    "name": "Embret Svestad-Bårdseng",
+    "nationality": "Norway",
+    "team": "Netcompany INEOS",
+    "points": 4
+  },
+  {
+    "rank": 25,
+    "bib": 6,
+    "name": "Luke Tuckwell",
+    "nationality": "Australia",
+    "team": "Red Bull-BORA-hansgrohe",
+    "points": 4
+  }
+]
