@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 21,
+    "name": "Enric Mas",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "45:08:51"
+  },
+  {
+    "rank": 2,
+    "bib": 1,
+    "name": "Primoz Roglic",
+    "nationality": "Slovenia",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+1:45"
+  },
+  {
+    "rank": 3,
+    "bib": 41,
+    "name": "Félix Gall",
+    "nationality": "Austria",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+2:06"
+  },
+  {
+    "rank": 4,
+    "bib": 161,
+    "name": "Richard Carapaz",
+    "nationality": "Ecuador",
+    "team": "EF Education-EasyPost",
+    "time": "+3:53"
+  },
+  {
+    "rank": 5,
+    "bib": 61,
+    "name": "Oscar Onley",
+    "nationality": "United Kingdom",
+    "team": "Netcompany INEOS",
+    "time": "+4:29"
+  },
+  {
+    "rank": 6,
+    "bib": 76,
+    "name": "Jakob Omrzel",
+    "nationality": "Slovenia",
+    "team": "Bahrain Victorious",
+    "time": "+4:59"
+  },
+  {
+    "rank": 7,
+    "bib": 81,
+    "name": "Mattias Skjelmose",
+    "nationality": "Denmark",
+    "team": "Lidl-Trek",
+    "time": "+5:32"
+  },
+  {
+    "rank": 8,
+    "bib": 35,
+    "name": "Sepp Kuss",
+    "nationality": "United States",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+7:58"
+  },
+  {
+    "rank": 9,
+    "bib": 181,
+    "name": "Harold Tejada",
+    "nationality": "Colombia",
+    "team": "XDS Astana Team",
+    "time": "+8:33"
+  },
+  {
+    "rank": 10,
+    "bib": 91,
+    "name": "Clément Berthet",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+11:06"
+  },
+  {
+    "rank": 11,
+    "bib": 186,
+    "name": "Cristian Rodriguez",
+    "nationality": "Spain",
+    "team": "XDS Astana Team",
+    "time": "+11:10"
+  },
+  {
+    "rank": 12,
+    "bib": 42,
+    "name": "Léo Bisiaux",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+13:36"
+  },
+  {
+    "rank": 13,
+    "bib": 47,
+    "name": "Matthew Riccitello",
+    "nationality": "United States",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+17:15"
+  },
+  {
+    "rank": 14,
+    "bib": 201,
+    "name": "Jarno Widar",
+    "nationality": "Belgium",
+    "team": "Lotto-Intermarché",
+    "time": "+17:45"
+  },
+  {
+    "rank": 15,
+    "bib": 94,
+    "name": "Guillaume Martin-Guyonnet",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+22:08"
+  },
+  {
+    "rank": 16,
+    "bib": 166,
+    "name": "Juan Felipe Rodriguez Contreras",
+    "nationality": "Colombia",
+    "team": "EF Education-EasyPost",
+    "time": "+25:56"
+  },
+  {
+    "rank": 17,
+    "bib": 156,
+    "name": "Xavier Finlay Pickering",
+    "nationality": "United Kingdom",
+    "team": "Team Jayco-AlUla",
+    "time": "+30:34"
+  },
+  {
+    "rank": 18,
+    "bib": 72,
+    "name": "Santiago Buitrago",
+    "nationality": "Colombia",
+    "team": "Bahrain Victorious",
+    "time": "+38:09"
+  },
+  {
+    "rank": 19,
+    "bib": 113,
+    "name": "Jan Hirt",
+    "nationality": "Czech Republic",
+    "team": "NSN Cycling Team",
+    "time": "+39:42"
+  },
+  {
+    "rank": 20,
+    "bib": 193,
+    "name": "Mario Aparicio Muñoz",
+    "nationality": "Spain",
+    "team": "Burgos-Burpellet-BH",
+    "time": "+40:38"
+  },
+  {
+    "rank": 21,
+    "bib": 26,
+    "name": "Raul Garcia",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+44:01"
+  },
+  {
+    "rank": 22,
+    "bib": 128,
+    "name": "Filippo Zana",
+    "nationality": "Italy",
+    "team": "Soudal Quick-Step",
+    "time": "+44:44"
+  },
+  {
+    "rank": 23,
+    "bib": 66,
+    "name": "Embret Svestad-Bårdseng",
+    "nationality": "Norway",
+    "team": "Netcompany INEOS",
+    "time": "+48:15"
+  },
+  {
+    "rank": 24,
+    "bib": 221,
+    "name": "Urko Berrade Fernandez",
+    "nationality": "Spain",
+    "team": "Equipo Kern Pharma",
+    "time": "+48:26"
+  },
+  {
+    "rank": 25,
+    "bib": 134,
+    "name": "Tobias Johannessen",
+    "nationality": "Norway",
+    "team": "Uno-X Mobility",
+    "time": "+50:41"
+  }
+]

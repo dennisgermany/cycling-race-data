@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 61,
+    "name": "Oscar Onley",
+    "nationality": "United Kingdom",
+    "team": "Netcompany INEOS",
+    "time": "45:13:20"
+  },
+  {
+    "rank": 2,
+    "bib": 76,
+    "name": "Jakob Omrzel",
+    "nationality": "Slovenia",
+    "team": "Bahrain Victorious",
+    "time": "+0:30"
+  },
+  {
+    "rank": 3,
+    "bib": 42,
+    "name": "Léo Bisiaux",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+9:07"
+  },
+  {
+    "rank": 4,
+    "bib": 47,
+    "name": "Matthew Riccitello",
+    "nationality": "United States",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+12:46"
+  },
+  {
+    "rank": 5,
+    "bib": 201,
+    "name": "Jarno Widar",
+    "nationality": "Belgium",
+    "team": "Lotto-Intermarché",
+    "time": "+13:16"
+  },
+  {
+    "rank": 6,
+    "bib": 166,
+    "name": "Juan Felipe Rodriguez Contreras",
+    "nationality": "Colombia",
+    "team": "EF Education-EasyPost",
+    "time": "+21:27"
+  },
+  {
+    "rank": 7,
+    "bib": 156,
+    "name": "Xavier Finlay Pickering",
+    "nationality": "United Kingdom",
+    "team": "Team Jayco-AlUla",
+    "time": "+26:05"
+  },
+  {
+    "rank": 8,
+    "bib": 26,
+    "name": "Raul Garcia",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+39:32"
+  },
+  {
+    "rank": 9,
+    "bib": 66,
+    "name": "Embret Svestad-Bårdseng",
+    "nationality": "Norway",
+    "team": "Netcompany INEOS",
+    "time": "+43:46"
+  },
+  {
+    "rank": 10,
+    "bib": 103,
+    "name": "Lindsay de Vylder",
+    "nationality": "Belgium",
+    "team": "Alpecin-Premier Tech",
+    "time": "+57:37"
+  },
+  {
+    "rank": 11,
+    "bib": 65,
+    "name": "Carlos Rodriguez",
+    "nationality": "Spain",
+    "team": "Netcompany INEOS",
+    "time": "+1:12:32"
+  },
+  {
+    "rank": 12,
+    "bib": 6,
+    "name": "Luke Tuckwell",
+    "nationality": "Australia",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+1:12:51"
+  },
+  {
+    "rank": 13,
+    "bib": 171,
+    "name": "Marco Brenner",
+    "nationality": "Germany",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+1:16:32"
+  },
+  {
+    "rank": 14,
+    "bib": 125,
+    "name": "Valentin Paret-Peintre",
+    "nationality": "France",
+    "team": "Soudal Quick-Step",
+    "time": "+1:18:20"
+  },
+  {
+    "rank": 15,
+    "bib": 64,
+    "name": "Axel Laurance",
+    "nationality": "France",
+    "team": "Netcompany INEOS",
+    "time": "+1:25:00"
+  },
+  {
+    "rank": 16,
+    "bib": 178,
+    "name": "Hannes Wilksch",
+    "nationality": "Germany",
+    "team": "Tudor Pro Cycling Team",
+    "time": "+1:29:28"
+  },
+  {
+    "rank": 17,
+    "bib": 37,
+    "name": "Jørgen Nordhagen",
+    "nationality": "Norway",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+1:31:16"
+  },
+  {
+    "rank": 18,
+    "bib": 96,
+    "name": "Enzo Paleni",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+1:33:00"
+  },
+  {
+    "rank": 19,
+    "bib": 206,
+    "name": "Reuben Thompson",
+    "nationality": "New Zealand",
+    "team": "Lotto-Intermarché",
+    "time": "+1:34:58"
+  },
+  {
+    "rank": 20,
+    "bib": 54,
+    "name": "Marcel Camprubi Pijuan",
+    "nationality": "Spain",
+    "team": "Pinarello-Q36.5 Pro Cycling Team",
+    "time": "+1:38:17"
+  },
+  {
+    "rank": 21,
+    "bib": 132,
+    "name": "Simon Dalby",
+    "nationality": "Denmark",
+    "team": "Uno-X Mobility",
+    "time": "+1:39:42"
+  },
+  {
+    "rank": 22,
+    "bib": 56,
+    "name": "Thomas Gloag",
+    "nationality": "United Kingdom",
+    "team": "Pinarello-Q36.5 Pro Cycling Team",
+    "time": "+1:40:05"
+  },
+  {
+    "rank": 23,
+    "bib": 45,
+    "name": "Jordan Labrosse",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+1:43:05"
+  },
+  {
+    "rank": 24,
+    "bib": 98,
+    "name": "Bastien Tronchon",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+1:44:14"
+  },
+  {
+    "rank": 25,
+    "bib": 123,
+    "name": "Gianmarco Garofoli",
+    "nationality": "Italy",
+    "team": "Soudal Quick-Step",
+    "time": "+1:45:43"
+  }
+]
