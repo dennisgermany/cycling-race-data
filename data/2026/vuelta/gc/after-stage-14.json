@@ -1,0 +1,202 @@
+[
+  {
+    "rank": 1,
+    "bib": 21,
+    "name": "Enric Mas",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "49:28:12"
+  },
+  {
+    "rank": 2,
+    "bib": 41,
+    "name": "Félix Gall",
+    "nationality": "Austria",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+2:06"
+  },
+  {
+    "rank": 3,
+    "bib": 1,
+    "name": "Primoz Roglic",
+    "nationality": "Slovenia",
+    "team": "Red Bull-BORA-hansgrohe",
+    "time": "+2:10"
+  },
+  {
+    "rank": 4,
+    "bib": 161,
+    "name": "Richard Carapaz",
+    "nationality": "Ecuador",
+    "team": "EF Education-EasyPost",
+    "time": "+4:24"
+  },
+  {
+    "rank": 5,
+    "bib": 61,
+    "name": "Oscar Onley",
+    "nationality": "United Kingdom",
+    "team": "Netcompany INEOS",
+    "time": "+5:44"
+  },
+  {
+    "rank": 6,
+    "bib": 76,
+    "name": "Jakob Omrzel",
+    "nationality": "Slovenia",
+    "team": "Bahrain Victorious",
+    "time": "+6:14"
+  },
+  {
+    "rank": 7,
+    "bib": 81,
+    "name": "Mattias Skjelmose",
+    "nationality": "Denmark",
+    "team": "Lidl-Trek",
+    "time": "+6:49"
+  },
+  {
+    "rank": 8,
+    "bib": 186,
+    "name": "Cristian Rodriguez",
+    "nationality": "Spain",
+    "team": "XDS Astana Team",
+    "time": "+7:01"
+  },
+  {
+    "rank": 9,
+    "bib": 91,
+    "name": "Clément Berthet",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+7:19"
+  },
+  {
+    "rank": 10,
+    "bib": 35,
+    "name": "Sepp Kuss",
+    "nationality": "United States",
+    "team": "Team Visma | Lease a Bike",
+    "time": "+8:55"
+  },
+  {
+    "rank": 11,
+    "bib": 181,
+    "name": "Harold Tejada",
+    "nationality": "Colombia",
+    "team": "XDS Astana Team",
+    "time": "+9:48"
+  },
+  {
+    "rank": 12,
+    "bib": 42,
+    "name": "Léo Bisiaux",
+    "nationality": "France",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+16:25"
+  },
+  {
+    "rank": 13,
+    "bib": 47,
+    "name": "Matthew Riccitello",
+    "nationality": "United States",
+    "team": "Decathlon CMA CGM Team",
+    "time": "+19:07"
+  },
+  {
+    "rank": 14,
+    "bib": 94,
+    "name": "Guillaume Martin-Guyonnet",
+    "nationality": "France",
+    "team": "Groupama-FDJ United",
+    "time": "+19:39"
+  },
+  {
+    "rank": 15,
+    "bib": 166,
+    "name": "Juan Felipe Rodriguez Contreras",
+    "nationality": "Colombia",
+    "team": "EF Education-EasyPost",
+    "time": "+29:46"
+  },
+  {
+    "rank": 16,
+    "bib": 156,
+    "name": "Xavier Finlay Pickering",
+    "nationality": "United Kingdom",
+    "team": "Team Jayco-AlUla",
+    "time": "+32:34"
+  },
+  {
+    "rank": 17,
+    "bib": 72,
+    "name": "Santiago Buitrago",
+    "nationality": "Colombia",
+    "team": "Bahrain Victorious",
+    "time": "+33:52"
+  },
+  {
+    "rank": 18,
+    "bib": 201,
+    "name": "Jarno Widar",
+    "nationality": "Belgium",
+    "team": "Lotto-Intermarché",
+    "time": "+37:00"
+  },
+  {
+    "rank": 19,
+    "bib": 193,
+    "name": "Mario Aparicio Muñoz",
+    "nationality": "Spain",
+    "team": "Burgos-Burpellet-BH",
+    "time": "+38:30"
+  },
+  {
+    "rank": 20,
+    "bib": 128,
+    "name": "Filippo Zana",
+    "nationality": "Italy",
+    "team": "Soudal Quick-Step",
+    "time": "+41:15"
+  },
+  {
+    "rank": 21,
+    "bib": 113,
+    "name": "Jan Hirt",
+    "nationality": "Czech Republic",
+    "team": "NSN Cycling Team",
+    "time": "+43:32"
+  },
+  {
+    "rank": 22,
+    "bib": 26,
+    "name": "Raul Garcia",
+    "nationality": "Spain",
+    "team": "Movistar Team",
+    "time": "+44:09"
+  },
+  {
+    "rank": 23,
+    "bib": 66,
+    "name": "Embret Svestad-Bårdseng",
+    "nationality": "Norway",
+    "team": "Netcompany INEOS",
+    "time": "+49:30"
+  },
+  {
+    "rank": 24,
+    "bib": 152,
+    "name": "Koen Bouwman",
+    "nationality": "Netherlands",
+    "team": "Team Jayco-AlUla",
+    "time": "+56:47"
+  },
+  {
+    "rank": 25,
+    "bib": 141,
+    "name": "Emanuel Buchmann",
+    "nationality": "Germany",
+    "team": "Cofidis",
+    "time": "+1:00:08"
+  }
+]
