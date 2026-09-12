@@ -6,7 +6,7 @@
       "name": "Enric Mas",
       "nationality": "Spain",
       "team": "Movistar Team",
-      "time": "65:52:03"
+      "time": "70:56:58"
     },
     {
       "rank": 2,
@@ -14,7 +14,7 @@
       "name": "Primoz Roglic",
       "nationality": "Slovenia",
       "team": "Red Bull-BORA-hansgrohe",
-      "time": "+1:37"
+      "time": "+2:15"
     },
     {
       "rank": 3,
@@ -22,7 +22,7 @@
       "name": "Félix Gall",
       "nationality": "Austria",
       "team": "Decathlon CMA CGM Team",
-      "time": "+3:01"
+      "time": "+2:44"
     },
     {
       "rank": 4,
@@ -30,47 +30,47 @@
       "name": "Richard Carapaz",
       "nationality": "Ecuador",
       "team": "EF Education-EasyPost",
-      "time": "+5:17"
+      "time": "+6:54"
     },
     {
       "rank": 5,
+      "bib": 35,
+      "name": "Sepp Kuss",
+      "nationality": "United States",
+      "team": "Team Visma | Lease a Bike",
+      "time": "+8:45"
+    },
+    {
+      "rank": 6,
       "bib": 61,
       "name": "Oscar Onley",
       "nationality": "United Kingdom",
       "team": "Netcompany INEOS",
-      "time": "+6:03"
+      "time": "+9:28"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "bib": 76,
       "name": "Jakob Omrzel",
       "nationality": "Slovenia",
       "team": "Bahrain Victorious",
-      "time": "+7:06"
+      "time": "+10:38"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "bib": 91,
       "name": "Clément Berthet",
       "nationality": "France",
       "team": "Groupama-FDJ United",
-      "time": "+7:57"
+      "time": "+11:41"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "bib": 186,
       "name": "Cristian Rodriguez",
       "nationality": "Spain",
       "team": "XDS Astana Team",
-      "time": "+8:21"
-    },
-    {
-      "rank": 9,
-      "bib": 81,
-      "name": "Mattias Skjelmose",
-      "nationality": "Denmark",
-      "team": "Lidl-Trek",
-      "time": "+9:06"
+      "time": "+11:59"
     },
     {
       "rank": 10,
@@ -78,55 +78,55 @@
       "name": "Harold Tejada",
       "nationality": "Colombia",
       "team": "XDS Astana Team",
-      "time": "+10:27"
+      "time": "+14:40"
     },
     {
       "rank": 11,
-      "bib": 35,
-      "name": "Sepp Kuss",
-      "nationality": "United States",
-      "team": "Team Visma | Lease a Bike",
-      "time": "+11:04"
-    },
-    {
-      "rank": 12,
       "bib": 94,
       "name": "Guillaume Martin-Guyonnet",
       "nationality": "France",
       "team": "Groupama-FDJ United",
-      "time": "+18:19"
+      "time": "+22:03"
     },
     {
-      "rank": 13,
+      "rank": 12,
       "bib": 42,
       "name": "Léo Bisiaux",
       "nationality": "France",
       "team": "Decathlon CMA CGM Team",
-      "time": "+19:17"
+      "time": "+26:52"
+    },
+    {
+      "rank": 13,
+      "bib": 81,
+      "name": "Mattias Skjelmose",
+      "nationality": "Denmark",
+      "team": "Lidl-Trek",
+      "time": "+27:32"
     },
     {
       "rank": 14,
-      "bib": 47,
-      "name": "Matthew Riccitello",
-      "nationality": "United States",
-      "team": "Decathlon CMA CGM Team",
-      "time": "+27:52"
-    },
-    {
-      "rank": 15,
-      "bib": 166,
-      "name": "Juan Felipe Rodriguez Contreras",
-      "nationality": "Colombia",
-      "team": "EF Education-EasyPost",
-      "time": "+36:18"
-    },
-    {
-      "rank": 16,
       "bib": 193,
       "name": "Mario Aparicio Muñoz",
       "nationality": "Spain",
       "team": "Burgos-Burpellet-BH",
-      "time": "+40:49"
+      "time": "+42:17"
+    },
+    {
+      "rank": 15,
+      "bib": 113,
+      "name": "Jan Hirt",
+      "nationality": "Czech Republic",
+      "team": "NSN Cycling Team",
+      "time": "+45:09"
+    },
+    {
+      "rank": 16,
+      "bib": 166,
+      "name": "Juan Felipe Rodriguez Contreras",
+      "nationality": "Colombia",
+      "team": "EF Education-EasyPost",
+      "time": "+47:56"
     },
     {
       "rank": 17,
@@ -134,55 +134,55 @@
       "name": "Santiago Buitrago",
       "nationality": "Colombia",
       "team": "Bahrain Victorious",
-      "time": "+42:34"
+      "time": "+52:45"
     },
     {
       "rank": 18,
-      "bib": 113,
-      "name": "Jan Hirt",
-      "nationality": "Czech Republic",
-      "team": "NSN Cycling Team",
-      "time": "+47:45"
-    },
-    {
-      "rank": 19,
       "bib": 128,
       "name": "Filippo Zana",
       "nationality": "Italy",
       "team": "Soudal Quick-Step",
-      "time": "+48:58"
+      "time": "+58:44"
     },
     {
-      "rank": 20,
-      "bib": 26,
-      "name": "Raul Garcia",
-      "nationality": "Spain",
-      "team": "Movistar Team",
-      "time": "+1:00:13"
-    },
-    {
-      "rank": 21,
+      "rank": 19,
       "bib": 221,
       "name": "Urko Berrade Fernandez",
       "nationality": "Spain",
       "team": "Equipo Kern Pharma",
-      "time": "+1:03:51"
+      "time": "+1:01:09"
     },
     {
-      "rank": 22,
-      "bib": 152,
-      "name": "Koen Bouwman",
-      "nationality": "Netherlands",
-      "team": "Team Jayco-AlUla",
-      "time": "+1:04:40"
-    },
-    {
-      "rank": 23,
+      "rank": 20,
       "bib": 66,
       "name": "Embret Svestad-Bårdseng",
       "nationality": "Norway",
       "team": "Netcompany INEOS",
-      "time": "+1:05:00"
+      "time": "+1:12:35"
+    },
+    {
+      "rank": 21,
+      "bib": 152,
+      "name": "Koen Bouwman",
+      "nationality": "Netherlands",
+      "team": "Team Jayco-AlUla",
+      "time": "+1:14:26"
+    },
+    {
+      "rank": 22,
+      "bib": 26,
+      "name": "Raul Garcia",
+      "nationality": "Spain",
+      "team": "Movistar Team",
+      "time": "+1:16:45"
+    },
+    {
+      "rank": 23,
+      "bib": 201,
+      "name": "Jarno Widar",
+      "nationality": "Belgium",
+      "team": "Lotto-Intermarché",
+      "time": "+1:20:41"
     },
     {
       "rank": 24,
@@ -190,15 +190,15 @@
       "name": "Jack Haig",
       "nationality": "Australia",
       "team": "Netcompany INEOS",
-      "time": "+1:09:31"
+      "time": "+1:21:35"
     },
     {
       "rank": 25,
-      "bib": 156,
-      "name": "Xavier Finlay Pickering",
-      "nationality": "United Kingdom",
-      "team": "Team Jayco-AlUla",
-      "time": "+1:10:54"
+      "bib": 141,
+      "name": "Emanuel Buchmann",
+      "nationality": "Germany",
+      "team": "Cofidis",
+      "time": "+1:24:50"
     }
   ],
   "stageResults": {
@@ -3836,6 +3836,208 @@
         "nationality": "Czech Republic",
         "team": "NSN Cycling Team",
         "time": "s.t."
+      }
+    ],
+    "stage-20": [
+      {
+        "rank": 1,
+        "bib": 121,
+        "name": "Mikel Landa",
+        "nationality": "Spain",
+        "team": "Soudal Quick-Step",
+        "time": "4:58:01"
+      },
+      {
+        "rank": 2,
+        "bib": 134,
+        "name": "Tobias Johannessen",
+        "nationality": "Norway",
+        "team": "Uno-X Mobility",
+        "time": "+0:47"
+      },
+      {
+        "rank": 3,
+        "bib": 104,
+        "name": "Ramses Debruyne",
+        "nationality": "Belgium",
+        "team": "Alpecin-Premier Tech",
+        "time": "+1:27"
+      },
+      {
+        "rank": 4,
+        "bib": 75,
+        "name": "Pau Miquel Delgado",
+        "nationality": "Spain",
+        "team": "Bahrain Victorious",
+        "time": "+3:00"
+      },
+      {
+        "rank": 5,
+        "bib": 221,
+        "name": "Urko Berrade Fernandez",
+        "nationality": "Spain",
+        "team": "Equipo Kern Pharma",
+        "time": "+4:12"
+      },
+      {
+        "rank": 6,
+        "bib": 113,
+        "name": "Jan Hirt",
+        "nationality": "Czech Republic",
+        "team": "NSN Cycling Team",
+        "time": "+4:18"
+      },
+      {
+        "rank": 7,
+        "bib": 37,
+        "name": "Jørgen Nordhagen",
+        "nationality": "Norway",
+        "team": "Team Visma | Lease a Bike",
+        "time": "+4:35"
+      },
+      {
+        "rank": 8,
+        "bib": 35,
+        "name": "Sepp Kuss",
+        "nationality": "United States",
+        "team": "Team Visma | Lease a Bike",
+        "time": "s.t."
+      },
+      {
+        "rank": 9,
+        "bib": 53,
+        "name": "Walter Calzoni",
+        "nationality": "Italy",
+        "team": "Pinarello-Q36.5 Pro Cycling Team",
+        "time": "+4:48"
+      },
+      {
+        "rank": 10,
+        "bib": 183,
+        "name": "Lorenzo Fortunato",
+        "nationality": "Italy",
+        "team": "XDS Astana Team",
+        "time": "+4:53"
+      },
+      {
+        "rank": 11,
+        "bib": 17,
+        "name": "Kevin Vermaerke",
+        "nationality": "United States",
+        "team": "UAE Team Emirates-XRG",
+        "time": "+5:26"
+      },
+      {
+        "rank": 12,
+        "bib": 201,
+        "name": "Jarno Widar",
+        "nationality": "Belgium",
+        "team": "Lotto-Intermarché",
+        "time": "+6:35"
+      },
+      {
+        "rank": 13,
+        "bib": 41,
+        "name": "Félix Gall",
+        "nationality": "Austria",
+        "team": "Decathlon CMA CGM Team",
+        "time": "+6:37"
+      },
+      {
+        "rank": 14,
+        "bib": 21,
+        "name": "Enric Mas",
+        "nationality": "Spain",
+        "team": "Movistar Team",
+        "time": "+6:54"
+      },
+      {
+        "rank": 15,
+        "bib": 1,
+        "name": "Primoz Roglic",
+        "nationality": "Slovenia",
+        "team": "Red Bull-BORA-hansgrohe",
+        "time": "+7:32"
+      },
+      {
+        "rank": 16,
+        "bib": 193,
+        "name": "Mario Aparicio Muñoz",
+        "nationality": "Spain",
+        "team": "Burgos-Burpellet-BH",
+        "time": "+8:22"
+      },
+      {
+        "rank": 17,
+        "bib": 226,
+        "name": "Ivan Sosa",
+        "nationality": "Colombia",
+        "team": "Equipo Kern Pharma",
+        "time": "+8:31"
+      },
+      {
+        "rank": 18,
+        "bib": 161,
+        "name": "Richard Carapaz",
+        "nationality": "Ecuador",
+        "team": "EF Education-EasyPost",
+        "time": "s.t."
+      },
+      {
+        "rank": 19,
+        "bib": 61,
+        "name": "Oscar Onley",
+        "nationality": "United Kingdom",
+        "team": "Netcompany INEOS",
+        "time": "+10:19"
+      },
+      {
+        "rank": 20,
+        "bib": 76,
+        "name": "Jakob Omrzel",
+        "nationality": "Slovenia",
+        "team": "Bahrain Victorious",
+        "time": "+10:26"
+      },
+      {
+        "rank": 21,
+        "bib": 186,
+        "name": "Cristian Rodriguez",
+        "nationality": "Spain",
+        "team": "XDS Astana Team",
+        "time": "+10:32"
+      },
+      {
+        "rank": 22,
+        "bib": 94,
+        "name": "Guillaume Martin-Guyonnet",
+        "nationality": "France",
+        "team": "Groupama-FDJ United",
+        "time": "+10:38"
+      },
+      {
+        "rank": 23,
+        "bib": 91,
+        "name": "Clément Berthet",
+        "nationality": "France",
+        "team": "Groupama-FDJ United",
+        "time": "s.t."
+      },
+      {
+        "rank": 24,
+        "bib": 181,
+        "name": "Harold Tejada",
+        "nationality": "Colombia",
+        "team": "XDS Astana Team",
+        "time": "+11:07"
+      },
+      {
+        "rank": 25,
+        "bib": 172,
+        "name": "William Barta",
+        "nationality": "United States",
+        "team": "Tudor Pro Cycling Team",
+        "time": "+11:15"
       }
     ]
   }
